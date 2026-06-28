@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
+    <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
+        <api_name>x_1295779_metpo.Get MP Dashboard Data</api_name>
+        <api_url>/api/x_1295779_metpo/metrics/dashboard/{{key}}</api_url>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <http_method>GET</http_method>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get MP Dashboard Data</name>
+        <output_schema/>
+        <parameters/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "key",&#13;
+  "label": "Dashboard key",&#13;
+  "description": "Which dashboard to load?",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": "sales-overview"&#13;
+}&#13;
+]</props>
+        <request_body/>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_rest</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 17:54:56</sys_created_on>
+        <sys_id>536c9c7e9321075051d7b1dcebba104c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get MP Dashboard Data</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_data_broker_rest_536c9c7e9321075051d7b1dcebba104c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 18:08:44</sys_updated_on>
+    </sys_ux_data_broker_rest>
+    <sys_translated_text action="delete_multiple" query="documentkey=536c9c7e9321075051d7b1dcebba104c"/>
+</record_update>
