@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:069a6e8e-ace3-4f41-9771-d03d427c06ff",
+  "metadata": {
+    "timestamp": "2026-06-28T03:21:38.519Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.6.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-1295779-met-po",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-1295779-met-po@1.0.0?sys_scope_id=63deb6d19334031051d7b1dcebba103c",
+      "description": "[BUILD AGENT GENERATED]:  Configurable portal for displaying enterprise metrics for all parts of the organization",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-1295779-met-po@1.0.0?sys_scope_id=63deb6d19334031051d7b1dcebba103c"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-1295779-met-po@1.0.0?sys_scope_id=63deb6d19334031051d7b1dcebba103c"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1295779_metpo/x-1295779-met-po/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:20</sys_created_on>
+        <sys_id>3861e269f5424cf3bc2467130bc09b99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo/x-1295779-met-po/1.0.0/bom.json</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_module_3861e269f5424cf3bc2467130bc09b99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:20</sys_updated_on>
+    </sys_module>
+</record_update>

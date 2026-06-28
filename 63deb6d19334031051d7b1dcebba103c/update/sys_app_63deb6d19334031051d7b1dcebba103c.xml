@@ -2,7 +2,7 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>true</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <ide_created>IDE</ide_created>
@@ -16,7 +16,7 @@
         <logo/>
         <menu/>
         <name>MetPo</name>
-        <package_json/>
+        <package_json display_value="x_1295779_metpo/x-1295779-met-po/1.0.0/package.json" path="x_1295779_metpo/x-1295779-met-po/1.0.0/package.json">x_1295779_metpo/x-1295779-met-po/1.0.0/package.json</package_json>
         <package_resolver_version>1.0.0</package_resolver_version>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -33,7 +33,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-11 07:05:42</sys_created_on>
         <sys_id>63deb6d19334031051d7b1dcebba103c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-05-11 07:05:42</sys_updated_on>
         <template/>

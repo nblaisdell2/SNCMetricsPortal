@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Metrics Portal List Configuration">655b3b8ab9774be588396dcd2b717354</configuration>
+        <description/>
+        <order>40</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72caa49eaf024c56a0b2bbe4c45d649f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filters</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_list_category_72caa49eaf024c56a0b2bbe4c45d649f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:21</sys_updated_on>
+        <title>Filters</title>
+    </sys_ux_list_category>
+</record_update>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="713cabd49efd48d6bb36ca523ddc59fc" sys_domain="global" table="x_1295779_metpo_viz_choropleth" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0e90b0f9bbf4883b07d0814e13478ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Identity" display_value="Identity" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">dde8e1bf28504a9abaef3ed054fd3438</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e0213618b504da4bf77ec9503740ae2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Map" display_value="Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0400dbc41410492db8589f152417b23b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00932693ace6463abe48a93d4af8104b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Color Scale" display_value="Color Scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2bf67beed1474c71800afdaef9a93bea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>973b494231fd40858ef5b1d56d5af709</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Data Source" display_value="Data Source" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">7cdbcf56b71c4de897a7c0e8710be491</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3babddf8abc8466fa37e9e5a1d200718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">62eda6ea96524034978cf0f98d55cda9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6b11f67c9f644aab945482363b7f9d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b60cd2c8e9f47bcbf57b7868c7371fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">28e20587ab604e35a675344eeb289bc7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb0d8ee220c94591b43d88020d13af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">7e045f7ddb79465cb5ebdc4a945d294f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1295779_metpo_viz_choropleth</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>713cabd49efd48d6bb36ca523ddc59fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_choropleth</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_713cabd49efd48d6bb36ca523ddc59fc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

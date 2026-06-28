@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1295779_metpo.MetricsResolver</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Orchestrates metric resolution for the Metrics Portal. Loads a dashboard by key, iterates its active metric definitions, dispatches each to the appropriate source handler, and returns a hydrated payload.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>MetricsResolver</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MetricsResolver = Class.create();
+MetricsResolver.prototype = {
+    initialize: function() {},
+
+    /**
+     * Resolves a dashboard by key, loading sections with their metrics
+     * and hydrating each metric with data from the appropriate handler.
+     * Optionally accepts filter parameters to narrow metric queries.
+     *
+     * @param {string} dashboardKey - The unique key of the dashboard
+     * @param {Object} filters - Optional filter values (field: value pairs from the UI)
+     * @returns {Object|null} Hydrated dashboard payload or null if not found
+     */
+    resolve: function(dashboardKey, filters) {
+        filters = filters || {};
+
+        // Load dashboard
+        var dashGr = new GlideRecord('x_1295779_metpo_dashboard');
+        dashGr.addQuery('key', dashboardKey);
+        dashGr.addQuery('active', true);
+        dashGr.query();
+
+        if (!dashGr.next()) {
+            return null;
+        }
+
+        var dashSysId = dashGr.getUniqueValue();
+
+        var dashboardPayload = {
+            key: dashGr.getValue('key'),
+            title: dashGr.getValue('name'),
+            nav_group: dashGr.getValue('nav_group') || ''
+        };
+
+        // Load filter definitions for this dashboard
+        var filterDefs = this._loadFilterDefinitions(dashSysId);
+
+        // Build the filter encoded query string from submitted filter values
+        var filterQuery = this._buildFilterQuery(filters, filterDefs);
+
+        // Load active sections ordered by order
+        var sectionGr = new GlideRecord('x_1295779_metpo_section');
+        sectionGr.addQuery('dashboard', dashSysId);
+        sectionGr.addQuery('active', true);
+        sectionGr.orderBy('order');
+        sectionGr.query();
+
+        var sections = [];
+        while (sectionGr.next()) {
+            var sectionSysId = sectionGr.getUniqueValue();
+
+            // Load active metrics for this section
+            var metrics = this._loadSectionMetrics(sectionSysId, filterQuery);
+
+            sections.push({
+                id: sectionSysId,
+                name: sectionGr.getValue('name'),
+                help_text: sectionGr.getValue('help_text') || '',
+                order: parseInt(sectionGr.getValue('order'), 10) || 0,
+                metrics: metrics
+            });
+        }
+
+        return {
+            dashboard: dashboardPayload,
+            filters: filterDefs,
+            sections: sections
+        };
+    },
+
+    /**
+     * Loads active metric definitions for a section and hydrates each with data.
+     *
+     * @param {string} sectionSysId - The section sys_id
+     * @param {string} filterQuery - Additional encoded query to apply to table_aggregate sources
+     * @returns {Array} Array of hydrated metric objects
+     */
+    _loadSectionMetrics: function(sectionSysId, filterQuery) {
+        var metricGr = new GlideRecord('x_1295779_metpo_metric');
+        metricGr.addQuery('section', sectionSysId);
+        metricGr.addQuery('active', true);
+        metricGr.orderBy('order');
+        metricGr.query();
+
+        var metrics = [];
+        while (metricGr.next()) {
+            var sourceType = metricGr.getValue('source_type') || '';
+            var vizType = metricGr.getValue('viz_type') || '';
+            var sourceConfigStr = metricGr.getValue('source_config') || '{}';
+            var displayConfigStr = metricGr.getValue('display_config') || '{}';
+
+            var sourceConfig = {};
+            var displayConfig = {};
+
+            try {
+                sourceConfig = JSON.parse(sourceConfigStr);
+            } catch (e) {
+                sourceConfig = {};
+            }
+
+            try {
+                displayConfig = JSON.parse(displayConfigStr);
+            } catch (e) {
+                displayConfig = {};
+            }
+
+            // Append user-applied filters to source_config filter for table_aggregate
+            if (filterQuery && sourceType === 'table_aggregate' && sourceConfig.filter !== undefined) {
+                if (sourceConfig.filter) {
+                    sourceConfig.filter = sourceConfig.filter + '^' + filterQuery;
+                } else {
+                    sourceConfig.filter = filterQuery;
+                }
+            }
+
+            // Dispatch to the appropriate handler
+            var data = this._dispatch(sourceType, sourceConfig, vizType);
+
+            // Merge visualization table config into display_config (table fields override JSON)
+            var vizConfig = this._resolveVisualizationConfig(metricGr.getValue('visualization'));
+            if (vizConfig) {
+                for (var key in vizConfig) {
+                    if (vizConfig.hasOwnProperty(key)) {
+                        displayConfig[key] = vizConfig[key];
+                    }
+                }
+            }
+
+            metrics.push({
+                id: metricGr.getUniqueValue(),
+                title: metricGr.getValue('title'),
+                order: parseInt(metricGr.getValue('order'), 10) || 0,
+                width: parseInt(metricGr.getValue('width'), 10) || 50,
+                viz_type: vizType,
+                display_config: displayConfig,
+                data: data
+            });
+        }
+
+        return metrics;
+    },
+
+    /**
+     * Loads filter definitions for a dashboard.
+     *
+     * @param {string} dashboardSysId - The dashboard sys_id
+     * @returns {Array} Array of filter definition objects
+     */
+    _loadFilterDefinitions: function(dashboardSysId) {
+        var filterGr = new GlideRecord('x_1295779_metpo_filter');
+        filterGr.addQuery('dashboard', dashboardSysId);
+        filterGr.addQuery('active', true);
+        filterGr.orderBy('order');
+        filterGr.query();
+
+        var defs = [];
+        while (filterGr.next()) {
+            defs.push({
+                id: filterGr.getUniqueValue(),
+                label: filterGr.getValue('label'),
+                table: filterGr.getValue('table'),
+                field: filterGr.getValue('field'),
+                filter_type: filterGr.getValue('filter_type'),
+                default_value: filterGr.getValue('default_value') || ''
+            });
+        }
+
+        return defs;
+    },
+
+    /**
+     * Builds an encoded query string from user-submitted filter values
+     * matched against filter definitions.
+     *
+     * @param {Object} filters - { field_name: value } from the request
+     * @param {Array} filterDefs - The filter definitions for this dashboard
+     * @returns {string} ServiceNow encoded query string
+     */
+    _buildFilterQuery: function(filters, filterDefs) {
+        var parts = [];
+        for (var i = 0; i < filterDefs.length; i++) {
+            var def = filterDefs[i];
+            var value = filters[def.field];
+            if (value !== undefined && value !== null && value !== '') {
+                if (def.filter_type === 'condition') {
+                    // Condition builder returns a full encoded query
+                    parts.push(value);
+                } else if (def.filter_type === 'boolean') {
+                    parts.push(def.field + '=' + value);
+                } else if (def.filter_type === 'date_range') {
+                    // Expect value as "start,end"
+                    var dates = value.split(',');
+                    if (dates.length === 2) {
+                        parts.push(def.field + '>=' + dates[0] + '^' + def.field + '<=' + dates[1]);
+                    }
+                } else {
+                    // choice, reference - simple equality
+                    parts.push(def.field + '=' + value);
+                }
+            }
+        }
+        return parts.join('^');
+    },
+
+    /**
+     * Resolves a visualization config record into a flat key-value object.
+     * Reads the actual child table (via sys_class_name) to get all fields
+     * including viz-type-specific ones. Excludes system fields.
+     *
+     * @param {string} vizSysId - sys_id of the visualization record
+     * @returns {Object|null} Key-value pairs of visualization properties, or null
+     */
+    _resolveVisualizationConfig: function(vizSysId) {
+        if (!vizSysId) return null;
+
+        // System fields to skip when building the config object
+        var SKIP_FIELDS = {
+            sys_id: true, sys_created_on: true, sys_created_by: true,
+            sys_updated_on: true, sys_updated_by: true, sys_mod_count: true,
+            sys_tags: true, sys_class_name: true, sys_update_name: true,
+            sys_scope: true, sys_policy: true, sys_package: true,
+            sys_domain: true, sys_domain_path: true,
+            name: true, viz_type: true // identity fields, not display props
+        };
+
+        // First get the actual table from the parent to handle inheritance
+        var parentGr = new GlideRecord('x_1295779_metpo_visualization');
+        if (!parentGr.get(vizSysId)) return null;
+
+        var actualTable = parentGr.getValue('sys_class_name') || 'x_1295779_metpo_visualization';
+
+        // Now query the actual child table to get all fields including child-specific ones
+        var vizGr = new GlideRecord(actualTable);
+        if (!vizGr.get(vizSysId)) return null;
+
+        var config = {};
+        var fields = vizGr.getFields();
+        for (var i = 0; i < fields.size(); i++) {
+            var field = fields.get(i);
+            var fieldName = field.getName();
+
+            if (SKIP_FIELDS[fieldName]) continue;
+            if (fieldName.indexOf('sys_') === 0) continue;
+
+            var value = vizGr.getValue(fieldName);
+            if (value === null || value === '') continue;
+
+            // Convert to camelCase for the JSON output (snake_case → camelCase)
+            var camelKey = fieldName.replace(/_([a-z])/g, function(m, c) { return c.toUpperCase(); });
+
+            // Auto-convert booleans and numbers
+            if (value === 'true' || value === '1') {
+                config[camelKey] = true;
+            } else if (value === 'false' || value === '0' && field.getED().getInternalType() === 'boolean') {
+                config[camelKey] = false;
+            } else if (!isNaN(value) && value.trim() !== '' && field.getED().getInternalType() === 'integer') {
+                config[camelKey] = parseInt(value, 10);
+            } else {
+                config[camelKey] = value;
+            }
+        }
+
+        return Object.keys(config).length > 0 ? config : null;
+    },
+
+    /**
+     * Dispatches to the appropriate handler based on source_type.
+     */
+    _dispatch: function(sourceType, sourceConfig, vizType) {
+        switch (sourceType) {
+            case 'table_aggregate':
+                var tableHandler = new MetricsTableAggregateHandler();
+                return tableHandler.execute(sourceConfig, vizType);
+            case 'pa_indicator':
+                var paHandler = new MetricsPaIndicatorHandler();
+                return paHandler.execute(sourceConfig, vizType);
+            case 'staged_external':
+                var stagedHandler = new MetricsStagedExternalHandler();
+                return stagedHandler.execute(sourceConfig, vizType);
+            case 'scripted':
+                var scriptedHandler = new MetricsScriptedHandler();
+                return scriptedHandler.execute(sourceConfig, vizType);
+            default:
+                return { error: 'Unknown source_type: ' + sourceType };
+        }
+    },
+
+    /**
+     * Returns active dashboards as a hierarchical nav structure.
+     */
+    getNavItems: function() {
+        var dashGr = new GlideRecord('x_1295779_metpo_dashboard');
+        dashGr.addQuery('active', true);
+        dashGr.orderBy('nav_order');
+        dashGr.query();
+
+        var allItems = [];
+        var byId = {};
+
+        while (dashGr.next()) {
+            var item = {
+                sys_id: dashGr.getUniqueValue(),
+                key: dashGr.getValue('key'),
+                title: dashGr.getValue('name'),
+                nav_group: dashGr.getValue('nav_group') || '',
+                nav_order: parseInt(dashGr.getValue('nav_order'), 10) || 0,
+                icon: dashGr.getValue('icon') || '',
+                parent: dashGr.getValue('parent') || '',
+                children: []
+            };
+            allItems.push(item);
+            byId[item.sys_id] = item;
+        }
+
+        var roots = [];
+        for (var i = 0; i < allItems.length; i++) {
+            var current = allItems[i];
+            if (current.parent && byId[current.parent]) {
+                byId[current.parent].children.push({
+                    key: current.key,
+                    title: current.title,
+                    nav_order: current.nav_order,
+                    icon: current.icon
+                });
+            } else {
+                roots.push(current);
+            }
+        }
+
+        var result = [];
+        for (var j = 0; j < roots.length; j++) {
+            var root = roots[j];
+            result.push({
+                key: root.key,
+                title: root.title,
+                nav_group: root.nav_group,
+                nav_order: root.nav_order,
+                icon: root.icon,
+                children: root.children
+            });
+        }
+
+        return result;
+    },
+
+    type: 'MetricsResolver'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:40</sys_created_on>
+        <sys_id>cdfa09ae5d9b400f99467b031e87634b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MetricsResolver</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_script_include_cdfa09ae5d9b400f99467b031e87634b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

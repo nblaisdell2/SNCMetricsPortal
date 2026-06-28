@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c3ba7898925c4e3a8d9e55f7e3a5e786" sys_domain="global" table="x_1295779_metpo_viz_gauge" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6773e03fca3b49b89ae6066e1baa3043</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Identity" display_value="Identity" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">8da9b147df614bc09eb8da76fc974f9f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c0f535b04454c6e9ee0ad16f0f11e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Range" display_value="Range" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">8e65d91e478548d6bb094d9d63619cfc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6a160e9f2da4c1da0f84662651c7ad3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Arc &amp; Needle" display_value="Arc &amp; Needle" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">aa9eb371c91b4953b014d7e653d4b765</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c228d2ae3ecf4bf4aa4bcd0bcb772dde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Zones" display_value="Zones" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">d6a6236815554dc4bf7a58ee1dbcc55a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be69b09265d74ac0b48f7501629b77c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c66069f92f354622acc861bf9a236301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">69c3037d01eb4a5d8fd5407cd791341b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8123bd733fb74e0698277318ffbcd656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">05749c69ced947db9ba5122e79863fe9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05574f12e2ac4e35b9f4fe1a4b0cd150</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gauge" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">c3ba7898925c4e3a8d9e55f7e3a5e786</sys_ui_form>
+            <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">0885d4201d5f4fbbb496862d6613057e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1295779_metpo_viz_gauge</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3ba7898925c4e3a8d9e55f7e3a5e786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_gauge</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c3ba7898925c4e3a8d9e55f7e3a5e786</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

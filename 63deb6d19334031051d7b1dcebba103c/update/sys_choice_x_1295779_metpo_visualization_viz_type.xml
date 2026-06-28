@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="viz_type" table="x_1295779_metpo_visualization" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>viz_type</element>
+            <name>x_1295779_metpo_visualization</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 02:33:38</sys_created_on>
+            <sys_id>ceec4d7493bdc39051d7b1dcebba100a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>viz_type</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_choice_x_1295779_metpo_visualization_viz_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 02:33:38</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Column Chart</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cf9a056bbea49e288c5e077a67752c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>column_chart</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Line Chart</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19d2fda76d164bd3b6d05521523195f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>line_chart</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pie Chart</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3130b01a36bf4a289b5e6ef0ffc5dacf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>pie_chart</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scatter Chart</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>655a16cee8534aa19a093068c0e446a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>scatter_chart</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Heatmap</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c85aee547de44908b11cb6716822b7d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>heatmap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sankey Diagram</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9912be536194bbf85c6af0e9933bf8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>sankey</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Treemap</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d2c392e30334110b720374285117928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>treemap</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Word Cloud</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8638c5d2466b4182b82eab1301239305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>wordcloud</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gauge</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f706f073131a4a799e1f00748496ac14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>gauge</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choropleth Map</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ecb5c7a297a4f2f99fa1f5ee9362a46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>choropleth</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network Graph</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c41e139ec7a4036aee18c18d2d5dee4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Radar Chart</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b6a14df2ed6455e83f19974c869885a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>radar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calendar Heatmap</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5bd9c269fa847ec95f5a2fe49f4d909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>calendar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gantt Chart</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a5a017ce72d4491b72b42ba7b467706</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>gantt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>viz_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Box Plot</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbc66b7eb19a4ecbbf5160f4c504235f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
+            <value>boxplot</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

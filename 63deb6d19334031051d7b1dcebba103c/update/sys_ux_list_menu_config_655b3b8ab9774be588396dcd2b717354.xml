@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>List Menu Configuration for Metrics Portal Workspace</description>
+        <name>Metrics Portal List Configuration</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:21</sys_created_on>
+        <sys_id>655b3b8ab9774be588396dcd2b717354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metrics Portal List Configuration</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_655b3b8ab9774be588396dcd2b717354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:21</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

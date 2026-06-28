@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:41</sys_created_on>
+        <sys_id>6f57d8aaa8084a01b6b17646944906e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo.metrics.</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_security_acl display_value="x_1295779_metpo.metrics">caa595942e3b40f7896aaa563ef5cf5a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6f57d8aaa8084a01b6b17646944906e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:41</sys_updated_on>
+        <sys_user_role display_value="x_1295779_metpo.viewer" name="x_1295779_metpo.viewer">1789ddc4bca9402ca275f7ac99070adc</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

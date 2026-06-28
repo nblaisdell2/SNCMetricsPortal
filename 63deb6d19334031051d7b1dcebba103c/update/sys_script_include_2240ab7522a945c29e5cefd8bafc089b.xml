@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1295779_metpo.MetricsStagedExternalHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Handles staged_external source type for metrics. Reads pre-imported external data (e.g. Databricks) from a ServiceNow staging table. Does NOT call external APIs live.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>MetricsStagedExternalHandler</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MetricsStagedExternalHandler = Class.create();
+MetricsStagedExternalHandler.prototype = {
+    initialize: function() {},
+
+    /**
+     * Reads pre-staged external data (e.g. from Databricks) from a ServiceNow staging table.
+     * Does NOT call external APIs live per render - reads from the staged table.
+     *
+     * @param {Object} sourceConfig - Parsed source_config JSON
+     * @param {string} vizType - The visualization type
+     * @returns {Object} Normalized data envelope per viz_type
+     */
+    execute: function(sourceConfig, vizType) {
+        var table = sourceConfig.table || '';
+        var filter = sourceConfig.filter || '';
+        var labelField = sourceConfig.label_field || '';
+        var valueField = sourceConfig.value_field || '';
+
+        if (!table) {
+            return { error: 'source_config.table is required for staged_external' };
+        }
+        if (!labelField || !valueField) {
+            return { error: 'source_config.label_field and value_field are required for staged_external' };
+        }
+
+        var gr = new GlideRecord(table);
+        if (filter) {
+            gr.addEncodedQuery(filter);
+        }
+        gr.query();
+
+        var categories = [];
+        var values = [];
+        var rows = [];
+
+        while (gr.next()) {
+            var label = gr.getDisplayValue(labelField) || gr.getValue(labelField) || '';
+            var val = parseFloat(gr.getValue(valueField)) || 0;
+            categories.push(label);
+            values.push(val);
+            var row = {};
+            row[labelField] = label;
+            row[valueField] = val;
+            rows.push(row);
+        }
+
+        // Return based on viz_type
+        if (vizType === 'single_score') {
+            // Sum all values for a single score
+            var total = 0;
+            for (var i = 0; i < values.length; i++) {
+                total += values[i];
+            }
+            return {
+                value: total,
+                trend: { direction: 'flat', delta: 0 }
+            };
+        }
+
+        if (vizType === 'table') {
+            return {
+                columns: [
+                    { field: labelField, label: labelField },
+                    { field: valueField, label: valueField }
+                ],
+                rows: rows
+            };
+        }
+
+        // Default: chart data (column_chart, line_chart)
+        return {
+            categories: categories,
+            series: [{ name: valueField, values: values }]
+        };
+    },
+
+    type: 'MetricsStagedExternalHandler'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:40</sys_created_on>
+        <sys_id>2240ab7522a945c29e5cefd8bafc089b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MetricsStagedExternalHandler</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_script_include_2240ab7522a945c29e5cefd8bafc089b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

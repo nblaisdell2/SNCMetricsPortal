@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1295779_metpo.MetricsScriptedHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Escape hatch handler for metrics. Calls a named Script Include method that returns a ready-made data envelope for metrics that do not fit the other handlers.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>MetricsScriptedHandler</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MetricsScriptedHandler = Class.create();
+MetricsScriptedHandler.prototype = {
+    initialize: function() {},
+
+    /**
+     * Escape hatch handler: calls a named Script Include method
+     * that returns a ready-made data envelope.
+     *
+     * @param {Object} sourceConfig - Parsed source_config JSON
+     * @param {string} vizType - The visualization type
+     * @returns {Object} Data envelope returned by the custom script include
+     */
+    execute: function(sourceConfig, vizType) {
+        var scriptIncludeName = sourceConfig.script_include || '';
+        var method = sourceConfig.method || 'execute';
+        var params = sourceConfig.params || {};
+
+        if (!scriptIncludeName) {
+            return { error: 'source_config.script_include is required for scripted source_type' };
+        }
+
+        try {
+            // Dynamically instantiate the script include
+            var handler = new global[scriptIncludeName]();
+            if (typeof handler[method] !== 'function') {
+                return { error: 'Method "' + method + '" not found on Script Include "' + scriptIncludeName + '"' };
+            }
+
+            // Call the method with params and vizType
+            var result = handler[method](params, vizType);
+            return result || { error: 'No data returned from ' + scriptIncludeName + '.' + method };
+        } catch (e) {
+            return { error: 'Error executing scripted handler: ' + e.message };
+        }
+    },
+
+    type: 'MetricsScriptedHandler'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:39</sys_created_on>
+        <sys_id>21a60f18e86841cab60e0fc46dd35b62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MetricsScriptedHandler</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_script_include_21a60f18e86841cab60e0fc46dd35b62</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

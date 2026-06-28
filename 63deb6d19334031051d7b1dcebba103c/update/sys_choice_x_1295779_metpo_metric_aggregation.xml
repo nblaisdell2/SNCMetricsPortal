@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="aggregation" table="x_1295779_metpo_metric" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>aggregation</element>
+            <name>x_1295779_metpo_metric</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 07:15:18</sys_created_on>
+            <sys_id>d011cfd59334031051d7b1dcebba10b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>aggregation</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_choice_x_1295779_metpo_metric_aggregation</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 07:15:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>aggregation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Count</label>
+            <language>en</language>
+            <name>x_1295779_metpo_metric</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 07:15:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>004e92c15cca47cf96675a0dc88d080c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 07:15:20</sys_updated_on>
+            <value>count</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>aggregation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sum</label>
+            <language>en</language>
+            <name>x_1295779_metpo_metric</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 07:15:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b92c9c7b57a40a2ac709bc59e0f4606</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 07:15:20</sys_updated_on>
+            <value>sum</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>aggregation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Average</label>
+            <language>en</language>
+            <name>x_1295779_metpo_metric</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 07:15:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74e668662a5d4aa7baaa3ca5a5c02614</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 07:15:20</sys_updated_on>
+            <value>avg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>aggregation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minimum</label>
+            <language>en</language>
+            <name>x_1295779_metpo_metric</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 07:15:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>815bc64ea45a48fc86c209e1a6d790bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 07:15:20</sys_updated_on>
+            <value>min</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>aggregation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maximum</label>
+            <language>en</language>
+            <name>x_1295779_metpo_metric</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 07:15:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4637d47d0b2f4c61a25d560f7b6ad1c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 07:15:20</sys_updated_on>
+            <value>max</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
