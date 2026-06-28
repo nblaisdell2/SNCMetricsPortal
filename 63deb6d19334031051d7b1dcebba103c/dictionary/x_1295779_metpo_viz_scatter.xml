@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d6ec4d7493bdc39051d7b1dcebba1055" extends="x_1295779_metpo_visualization" label="Viz: Scatter Chart" max_length="40" name="x_1295779_metpo_viz_scatter" type="collection">
+        <element default="5" label="Point Size" max_length="40" name="point_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="circle" label="Point Shape" max_length="20" name="point_shape" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0.7" label="Point Opacity" max_length="10" name="point_opacity" type="string"/>
+        <element label="Show Regression Line" max_length="40" name="show_regression" type="boolean"/>
+        <element default="12" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element label="Enable Zoom" max_length="40" name="zoom_enabled" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="linear" label="Regression Type" max_length="20" name="regression_type" type="string"/>
+        <element default="true" label="Show Grid" max_length="40" name="grid_show" type="boolean"/>
+    </element>
+</database>

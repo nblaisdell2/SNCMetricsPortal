@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Box Plot" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
+        <element default="4" label="Outlier Point Radius" max_length="40" name="outlier_radius" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element default="true" label="Show Outliers" max_length="40" name="show_outliers" type="boolean"/>
+        <element label="Horizontal" max_length="40" name="horizontal" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="0.7" label="Box Fill Opacity" max_length="10" name="box_fill_opacity" type="string"/>
+        <element label="Show Mean Line" max_length="40" name="show_mean" type="boolean"/>
+        <element default="12" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="line" label="Whisker Style" max_length="20" name="whisker_style" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0.6" label="Box Width" max_length="20" name="box_width" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="92ec4d7493bdc39051d7b1dcebba1017" extends="x_1295779_metpo_visualization" label="Viz: Gantt Chart" max_length="40" name="x_1295779_metpo_viz_gantt" type="collection">
+        <element default="24" label="Bar Height (px)" max_length="40" name="bar_height" type="integer"/>
+        <element default="4" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>
+        <element default="true" label="Show Today Line" max_length="40" name="show_today_line" type="boolean"/>
+        <element default="true" label="Show Progress" max_length="40" name="show_progress" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="day" label="Time Scale" max_length="20" name="time_scale" type="string"/>
+        <element default="true" label="Show Dependencies" max_length="40" name="show_dependencies" type="boolean"/>
+        <element default="40" label="Header Height (px)" max_length="40" name="header_height" type="integer"/>
+        <element default="6" label="Row Padding (px)" max_length="40" name="row_padding" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="#ef4444" label="Today Line Color" max_length="40" name="today_line_color" type="string"/>
+    </element>
+</database>

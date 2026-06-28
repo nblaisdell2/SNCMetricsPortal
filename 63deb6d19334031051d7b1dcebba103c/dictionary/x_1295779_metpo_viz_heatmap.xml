@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9beccd7493bdc39051d7b1dcebba100e" extends="x_1295779_metpo_visualization" label="Viz: Heatmap" max_length="40" name="x_1295779_metpo_viz_heatmap" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="#ffffff" label="Cell Border Color" max_length="40" name="cell_border_color" type="string"/>
+        <element default="12" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="#166534" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
+        <element default="true" label="Show Values in Cells" max_length="40" name="show_values" type="boolean"/>
+        <element default="2" label="Cell Corner Radius" max_length="40" name="cell_radius" type="integer"/>
+        <element default="1" label="Cell Border Width" max_length="40" name="cell_border_width" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="#f0fdf4" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
+        <element default="11" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
+    </element>
+</database>

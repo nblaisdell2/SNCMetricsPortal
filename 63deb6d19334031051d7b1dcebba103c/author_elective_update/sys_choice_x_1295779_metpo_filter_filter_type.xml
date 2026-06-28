@@ -1,100 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="source_type" table="x_1295779_metpo_metric" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="filter_type" table="x_1295779_metpo_filter" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>source_type</element>
-            <name>x_1295779_metpo_metric</name>
+            <element>filter_type</element>
+            <name>x_1295779_metpo_filter</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-21 16:15:37</sys_created_on>
-            <sys_id>f6e504b693adc35051d7b1dcebba1095</sys_id>
+            <sys_created_on>2026-05-11 07:15:17</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>source_type</sys_name>
+            <sys_name>filter_type</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
-            <sys_update_name>sys_choice_x_1295779_metpo_metric_source_type</sys_update_name>
+            <sys_update_name>sys_choice_x_1295779_metpo_filter_filter_type</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-21 16:15:37</sys_updated_on>
+            <sys_updated_on>2026-05-11 07:15:17</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>source_type</element>
+            <element>filter_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Table Aggregate</label>
+            <label>Choice List</label>
             <language>en</language>
-            <name>x_1295779_metpo_metric</name>
+            <name>x_1295779_metpo_filter</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>448fc6747bd14433890cbaf5872f6178</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
-            <value>table_aggregate</value>
+            <value>choice</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>source_type</element>
+            <element>filter_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PA Indicator</label>
+            <label>Reference Picker</label>
             <language>en</language>
-            <name>x_1295779_metpo_metric</name>
+            <name>x_1295779_metpo_filter</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c059cb9d390448429a6bafe2a519fa13</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
-            <value>pa_indicator</value>
+            <value>reference</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>source_type</element>
+            <element>filter_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Staged External</label>
+            <label>Date Range</label>
             <language>en</language>
-            <name>x_1295779_metpo_metric</name>
+            <name>x_1295779_metpo_filter</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7246c97ef8a74ec99235bc14d5f208e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
-            <value>staged_external</value>
+            <value>date_range</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>source_type</element>
+            <element>filter_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Scripted</label>
+            <label>Condition Builder</label>
             <language>en</language>
-            <name>x_1295779_metpo_metric</name>
+            <name>x_1295779_metpo_filter</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bc47ed052fb240e3abcce25b96974407</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
-            <value>scripted</value>
+            <value>condition</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>filter_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Boolean Toggle</label>
+            <language>en</language>
+            <name>x_1295779_metpo_filter</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
+            <value>boolean</value>
         </sys_choice>
     </sys_choice>
 </record_update>

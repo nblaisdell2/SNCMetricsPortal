@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8fec8d7493bdc39051d7b1dcebba10c3" extends="x_1295779_metpo_visualization" label="Viz: Radar Chart" max_length="40" name="x_1295779_metpo_viz_radar" type="collection">
+        <element default="100" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element default="15" label="Label Offset" max_length="40" name="label_offset" type="integer"/>
+        <element default="4" label="Point Size" max_length="40" name="point_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="polygon" label="Grid Shape" max_length="20" name="grid_shape" type="string"/>
+        <element default="2" label="Stroke Width" max_length="40" name="stroke_width" type="integer"/>
+        <element default="true" label="Show Grid" max_length="40" name="show_grid" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="0.25" label="Fill Opacity" max_length="10" name="fill_opacity" type="string"/>
+        <element default="11" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+        <element default="5" label="Number of Levels" max_length="40" name="levels" type="integer"/>
+    </element>
+</database>

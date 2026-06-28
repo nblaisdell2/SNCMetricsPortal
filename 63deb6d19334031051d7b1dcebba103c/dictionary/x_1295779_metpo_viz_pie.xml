@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="80fc41b493bdc39051d7b1dcebba105e" extends="x_1295779_metpo_visualization" label="Viz: Pie Chart" max_length="40" name="x_1295779_metpo_viz_pie" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="0.02" label="Pad Angle" max_length="10" name="pad_angle" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="percent" label="Label Format" max_length="40" name="label_format" type="string"/>
+        <element default="1" label="Slice Stroke Width" max_length="40" name="stroke_width" type="integer"/>
+        <element default="true" label="Show Slice Labels" max_length="40" name="show_labels" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="#374151" label="Center Label Color" max_length="40" name="center_label_color" type="string"/>
+        <element default="true" label="Sort Slices by Value" max_length="40" name="sort_slices" type="boolean"/>
+        <element default="22" label="Center Label Font Size" max_length="40" name="center_label_font_size" type="integer"/>
+        <element default="0" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Center Label (donut)" max_length="100" name="center_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="#ffffff" label="Slice Stroke Color" max_length="40" name="stroke_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Inner Radius (donut)" max_length="20" name="inner_radius" type="string"/>
+    </element>
+</database>

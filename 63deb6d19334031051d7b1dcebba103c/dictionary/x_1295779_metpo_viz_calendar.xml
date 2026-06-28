@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="88fc41b493bdc39051d7b1dcebba10bd" extends="x_1295779_metpo_visualization" label="Viz: Calendar Heatmap" max_length="40" name="x_1295779_metpo_viz_calendar" type="collection">
+        <element default="2" label="Cell Corner Radius" max_length="40" name="cell_radius" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="#ebedf0" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
+        <element default="4" label="Month Gap (px)" max_length="40" name="month_gap" type="integer"/>
+        <element default="1" label="Week Start (0=Sun, 1=Mon)" max_length="40" name="week_start" type="integer"/>
+        <element default="2" label="Cell Gap (px)" max_length="40" name="cell_gap" type="integer"/>
+        <element default="true" label="Show Day Labels" max_length="40" name="show_day_labels" type="boolean"/>
+        <element default="true" label="Show Month Labels" max_length="40" name="show_month_labels" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="#216e39" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
+        <element default="14" label="Cell Size (px)" max_length="40" name="cell_size" type="integer"/>
+    </element>
+</database>

@@ -1,120 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="width" table="x_1295779_metpo_metric" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="source_type" table="x_1295779_metpo_metric" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>width</element>
+            <element>source_type</element>
             <name>x_1295779_metpo_metric</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-21 16:15:37</sys_created_on>
-            <sys_id>b2e504b693adc35051d7b1dcebba1090</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>width</sys_name>
+            <sys_name>source_type</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
-            <sys_update_name>sys_choice_x_1295779_metpo_metric_width</sys_update_name>
+            <sys_update_name>sys_choice_x_1295779_metpo_metric_source_type</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-21 16:15:37</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>width</element>
+            <element>source_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>25% (3 cols)</label>
+            <label>Table Aggregate</label>
             <language>en</language>
             <name>x_1295779_metpo_metric</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f4c0f5c3f9114b73a96c8fc3728e153e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
-            <value>25</value>
+            <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
+            <value>table_aggregate</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>width</element>
+            <element>source_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>33% (4 cols)</label>
+            <label>PA Indicator</label>
             <language>en</language>
             <name>x_1295779_metpo_metric</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6e23fd4f710d4b7cbbacb090d01862b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
-            <value>33</value>
+            <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
+            <value>pa_indicator</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>width</element>
+            <element>source_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>50% (6 cols)</label>
+            <label>Staged External</label>
             <language>en</language>
             <name>x_1295779_metpo_metric</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>952c1283c0d746d591bd33c54f14dc72</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
-            <value>50</value>
+            <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
+            <value>staged_external</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>width</element>
+            <element>source_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>75% (9 cols)</label>
+            <label>Scripted</label>
             <language>en</language>
             <name>x_1295779_metpo_metric</name>
             <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
+            <sys_created_on>2026-06-28 03:22:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>68440f5d2c754b4c82186c148cbc9f21</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
-            <value>75</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>width</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>100% (12 cols)</label>
-            <language>en</language>
-            <name>x_1295779_metpo_metric</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:19</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>61b7c42b38b64aa09fe40efc2c952972</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:19</sys_updated_on>
-            <value>100</value>
+            <sys_updated_on>2026-06-28 03:22:18</sys_updated_on>
+            <value>scripted</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b9ecc97493bdc39051d7b1dcebba10b8" label="Visualization Config" max_length="40" name="x_1295779_metpo_visualization" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="cubicOut" label="Animation Easing" max_length="40" name="animation_easing" type="string"/>
+        <element default="50" label="Margin Left" max_length="40" name="margin_left" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Border Radius" max_length="20" name="border_radius" type="string"/>
+        <element default="true" label="Show Tooltip" max_length="40" name="tooltip_show" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="100%" label="Width" max_length="40" name="component_width" type="string"/>
+        <element default="true" label="Show Legend" max_length="40" name="legend_show" type="boolean"/>
+        <element choice="3" default="column_chart" label="Visualization Type" mandatory="true" max_length="40" name="viz_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Radar Chart" sequence="11" value="radar"/>
+                <element inactive_on_update="false" label="Line Chart" sequence="1" value="line_chart"/>
+                <element inactive_on_update="false" label="Treemap" sequence="6" value="treemap"/>
+                <element inactive_on_update="false" label="Choropleth Map" sequence="9" value="choropleth"/>
+                <element inactive_on_update="false" label="Pie Chart" sequence="2" value="pie_chart"/>
+                <element inactive_on_update="false" label="Network Graph" sequence="10" value="network"/>
+                <element inactive_on_update="false" label="Scatter Chart" sequence="3" value="scatter_chart"/>
+                <element inactive_on_update="false" label="Word Cloud" sequence="7" value="wordcloud"/>
+                <element inactive_on_update="false" label="Gantt Chart" sequence="13" value="gantt"/>
+                <element inactive_on_update="false" label="Column Chart" sequence="0" value="column_chart"/>
+                <element inactive_on_update="false" label="Sankey Diagram" sequence="5" value="sankey"/>
+                <element inactive_on_update="false" label="Calendar Heatmap" sequence="12" value="calendar"/>
+                <element inactive_on_update="false" label="Heatmap" sequence="4" value="heatmap"/>
+                <element inactive_on_update="false" label="Box Plot" sequence="14" value="boxplot"/>
+                <element inactive_on_update="false" label="Gauge" sequence="8" value="gauge"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="categorical" label="Color Scheme" max_length="255" name="color_scheme" type="string"/>
+        <element default="800" label="Animation Duration (ms)" max_length="40" name="animation_duration" type="integer"/>
+        <element default="40" label="Margin Bottom" max_length="40" name="margin_bottom" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Border Color" max_length="40" name="border_color" type="string"/>
+        <element label="Legend Interactive" max_length="40" name="legend_interactive" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="transparent" label="Background Color" max_length="40" name="background_color" type="string"/>
+        <element default="12" label="Legend Font Size" max_length="40" name="legend_font_size" type="integer"/>
+        <element default="true" label="Animate" max_length="40" name="animate" type="boolean"/>
+        <element default="20" label="Margin Right" max_length="40" name="margin_right" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Border Width" max_length="20" name="border_width" type="string"/>
+        <element default="20" label="Margin Top" max_length="40" name="margin_top" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="400px" label="Height" max_length="40" name="component_height" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="bottom" label="Legend Position" max_length="40" name="legend_position" type="string"/>
+        <element default="true" label="Hover Highlight" max_length="40" name="hover_highlight" type="boolean"/>
+    </element>
+</database>

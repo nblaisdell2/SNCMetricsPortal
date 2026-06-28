@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b7ec01b493bdc39051d7b1dcebba1040" extends="x_1295779_metpo_visualization" label="Viz: Line Chart" max_length="40" name="x_1295779_metpo_viz_line" type="collection">
+        <element default="4" label="Point Size" max_length="40" name="point_size" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="#ef4444" label="Reference Line Color" max_length="40" name="reference_line_color" type="string"/>
+        <element default="true" label="Show Points" max_length="40" name="point_show" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Reference Line Value" max_length="40" name="reference_line_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="linear" label="Curve Type" max_length="40" name="curve_type" type="string"/>
+        <element default="12" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+        <element default="true" label="Show Grid Lines" max_length="40" name="grid_show" type="boolean"/>
+        <element default="2" label="Line Width (px)" max_length="40" name="line_width" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Format" max_length="40" name="y_axis_format" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0.25" label="Area Opacity" max_length="10" name="area_opacity" type="string"/>
+        <element label="Area Fill" max_length="40" name="area_fill" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="gradient" label="Area Fill Style" max_length="20" name="area_fill_style" type="string"/>
+    </element>
+</database>

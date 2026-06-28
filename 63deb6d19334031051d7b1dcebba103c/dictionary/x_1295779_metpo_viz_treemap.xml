@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7bec41b493bdc39051d7b1dcebba1003" extends="x_1295779_metpo_visualization" label="Viz: Treemap" max_length="40" name="x_1295779_metpo_viz_treemap" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="#ffffff" label="Tile Border Color" max_length="40" name="tile_border_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="squarify" label="Tiling Method" max_length="20" name="tiling_method" type="string"/>
+        <element default="12" label="Label Font Size" max_length="40" name="label_font_size" type="integer"/>
+        <element default="true" label="Show Labels" max_length="40" name="show_labels" type="boolean"/>
+        <element default="2" label="Tile Corner Radius" max_length="40" name="tile_radius" type="integer"/>
+        <element default="1" label="Tile Border Width" max_length="40" name="tile_border_width" type="integer"/>
+        <element default="2" label="Tile Padding" max_length="40" name="tile_padding" type="integer"/>
+    </element>
+</database>

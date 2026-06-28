@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cc11cfd59334031051d7b1dcebba1045" label="Metric Widget" max_length="40" name="x_1295779_metpo_metric" type="collection">
+        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="1" default="count" label="Aggregation" max_length="40" name="aggregation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Count" sequence="0" value="count"/>
+                <element inactive_on_update="false" label="Maximum" sequence="4" value="max"/>
+                <element inactive_on_update="false" label="Average" sequence="2" value="avg"/>
+                <element inactive_on_update="false" label="Minimum" sequence="3" value="min"/>
+                <element inactive_on_update="false" label="Sum" sequence="1" value="sum"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Section" mandatory="true" max_length="32" name="section" reference="x_1295779_metpo_section" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Source Configuration" max_length="8000" name="source_config" type="string"/>
+        <element choice="3" default="table_aggregate" label="Source Type" mandatory="true" max_length="40" name="source_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Table Aggregate" sequence="0" value="table_aggregate"/>
+                <element inactive_on_update="false" label="Staged External" sequence="2" value="staged_external"/>
+                <element inactive_on_update="false" label="Scripted" sequence="3" value="scripted"/>
+                <element inactive_on_update="false" label="PA Indicator" sequence="1" value="pa_indicator"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="200" name="title" type="string"/>
+        <element choice="3" default="column_chart" label="Visualization Type" mandatory="true" max_length="40" name="viz_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Choropleth Map" sequence="9" value="choropleth"/>
+                <element inactive_on_update="false" label="Radar Chart" sequence="11" value="radar"/>
+                <element inactive_on_update="false" label="Gantt Chart" sequence="13" value="gantt"/>
+                <element inactive_on_update="false" label="Heatmap" sequence="4" value="heatmap"/>
+                <element inactive_on_update="false" label="Word Cloud" sequence="7" value="wordcloud"/>
+                <element inactive_on_update="false" label="Line Chart" sequence="1" value="line_chart"/>
+                <element inactive_on_update="false" label="Pie Chart" sequence="2" value="pie_chart"/>
+                <element inactive_on_update="false" label="Column Chart" sequence="0" value="column_chart"/>
+                <element inactive_on_update="false" label="Network Graph" sequence="10" value="network"/>
+                <element inactive_on_update="false" label="Scatter Chart" sequence="3" value="scatter_chart"/>
+                <element inactive_on_update="false" label="Gauge" sequence="8" value="gauge"/>
+                <element inactive_on_update="false" label="Calendar Heatmap" sequence="12" value="calendar"/>
+                <element inactive_on_update="false" label="Sankey Diagram" sequence="5" value="sankey"/>
+                <element inactive_on_update="false" label="Treemap" sequence="6" value="treemap"/>
+                <element inactive_on_update="false" label="Box Plot" sequence="14" value="boxplot"/>
+            </choice>
+        </element>
+        <element choice="3" default="50" label="Width" mandatory="true" max_length="40" name="width" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="100% (12 cols)" sequence="4" value="100"/>
+                <element inactive_on_update="false" label="75% (9 cols)" sequence="3" value="75"/>
+                <element inactive_on_update="false" label="33% (4 cols)" sequence="1" value="33"/>
+                <element inactive_on_update="false" label="50% (6 cols)" sequence="2" value="50"/>
+                <element inactive_on_update="false" label="25% (3 cols)" sequence="0" value="25"/>
+            </choice>
+        </element>
+        <element label="Additional Configuration" max_length="4000" name="config" type="json"/>
+        <element attributes="edge_encryption_enabled=true" label="Data Source Table" max_length="80" name="data_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Display Configuration" max_length="8000" name="display_config" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Filter Conditions" max_length="4000" name="conditions" type="string"/>
+        <element choice="3" default="bar_chart" label="Visualization Type" mandatory="true" max_length="40" name="visualization_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Donut Chart" sequence="3" value="donut_chart"/>
+                <element inactive_on_update="false" label="Pie Chart" sequence="2" value="pie_chart"/>
+                <element inactive_on_update="false" label="Trend" sequence="7" value="trend"/>
+                <element inactive_on_update="false" label="Single Score" sequence="4" value="single_score"/>
+                <element inactive_on_update="false" label="Line Chart" sequence="1" value="line_chart"/>
+                <element inactive_on_update="false" label="Bar Chart" sequence="0" value="bar_chart"/>
+                <element inactive_on_update="false" label="List" sequence="6" value="list"/>
+                <element inactive_on_update="false" label="Gauge" sequence="5" value="gauge"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Dashboard" mandatory="true" max_length="32" name="dashboard" reference="x_1295779_metpo_dashboard" type="reference"/>
+        <element attributes="encode_utf8=false" label="Visualization Config" max_length="32" name="visualization" reference="x_1295779_metpo_visualization" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Group By Field" max_length="80" name="group_by" type="string"/>
+        <index name="index">
+            <element name="section"/>
+        </index>
+        <index name="index2">
+            <element name="visualization"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="62ec4d7493bdc39051d7b1dcebba10fd" extends="x_1295779_metpo_visualization" label="Viz: Column Chart" max_length="40" name="x_1295779_metpo_viz_column" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="0.2" label="Bar Gap" max_length="20" name="bar_gap" type="string"/>
+        <element default="0" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>
+        <element default="true" label="3D Columns" max_length="40" name="bar_3d" type="boolean"/>
+        <element label="Stacked" max_length="40" name="stacked" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Format" max_length="40" name="y_axis_format" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reference Line Label" max_length="100" name="reference_line_label" type="string"/>
+        <element label="Horizontal Bars" max_length="40" name="horizontal" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="#ef4444" label="Reference Line Color" max_length="40" name="reference_line_color" type="string"/>
+        <element label="Show Values on Bars" max_length="40" name="show_values" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reference Line Value" max_length="40" name="reference_line_value" type="string"/>
+        <element default="0" label="Minimum Bar Height (px)" max_length="40" name="min_bar_height" type="integer"/>
+        <element default="true" label="Show Grid Lines" max_length="40" name="grid_show" type="boolean"/>
+        <element default="12" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+    </element>
+</database>

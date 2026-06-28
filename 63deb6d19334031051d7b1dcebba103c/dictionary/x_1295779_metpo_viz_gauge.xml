@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="54fc41b493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Gauge" max_length="40" name="x_1295779_metpo_viz_gauge" type="collection">
+        <element default="135" label="End Angle (degrees)" max_length="40" name="end_angle" type="integer"/>
+        <element default="28" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
+        <element default="-135" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
+        <element default="true" label="Show Value" max_length="40" name="show_value" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="#374151" label="Needle Color" max_length="40" name="needle_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Units Label" max_length="40" name="units" type="string"/>
+        <element default="20" label="Arc Width" max_length="40" name="arc_width" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Zones Config (JSON)" max_length="4000" name="zones_config" type="string"/>
+        <element default="100" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element default="0" label="Min Value" max_length="40" name="min_value" type="integer"/>
+    </element>
+</database>
