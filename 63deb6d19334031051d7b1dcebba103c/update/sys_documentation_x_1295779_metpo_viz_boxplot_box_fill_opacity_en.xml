@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>box_fill_opacity</element>
             <help/>
-            <hint/>
+            <hint>Opacity of the box fill color (0-1)</hint>
             <label>Box Fill Opacity</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
-            <plural>Box Fill Opacities</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:43</sys_created_on>

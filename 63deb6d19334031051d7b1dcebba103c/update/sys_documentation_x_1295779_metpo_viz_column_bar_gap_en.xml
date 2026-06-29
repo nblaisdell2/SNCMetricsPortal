@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>bar_gap</element>
             <help/>
-            <hint/>
+            <hint>Proportional gap between bars (0-1, where 0.2 means 20% gap)</hint>
             <label>Bar Gap</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_column</name>
-            <plural>Bar Gaps</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:40</sys_created_on>

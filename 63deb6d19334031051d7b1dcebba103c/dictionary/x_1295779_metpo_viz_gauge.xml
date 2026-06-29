@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="54fc41b493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Gauge" max_length="40" name="x_1295779_metpo_viz_gauge" type="collection">
-        <element default="135" label="End Angle (degrees)" max_length="40" name="end_angle" type="integer"/>
-        <element default="28" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
-        <element default="-135" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
-        <element default="true" label="Show Value" max_length="40" name="show_value" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" default="#374151" label="Needle Color" max_length="40" name="needle_color" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Units Label" max_length="40" name="units" type="string"/>
-        <element default="20" label="Arc Width" max_length="40" name="arc_width" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Zones Config (JSON)" max_length="4000" name="zones_config" type="string"/>
-        <element default="100" label="Max Value" max_length="40" name="max_value" type="integer"/>
-        <element default="0" label="Min Value" max_length="40" name="min_value" type="integer"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="54fc41b493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Gauge" max_length="40" name="x_1295779_metpo_viz_gauge" type="collection">
+        <element default="100" hint="Maximum value on the gauge scale" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element default="20" hint="Thickness of the gauge arc band in pixels" label="Arc Width" max_length="40" name="arc_width" type="integer"/>
+        <element default="28" hint="Font size of the displayed value in pixels" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
+        <element default="#374151" hint="Color of the gauge needle" label="Needle Color" max_length="40" name="needle_color" type="string"/>
+        <element default="-135" hint="Starting angle of the gauge arc in degrees" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
+        <element default="true" hint="Display the current numeric value below the gauge" label="Show Value" max_length="40" name="show_value" type="boolean"/>
+        <element default="0" hint="Minimum value on the gauge scale" label="Min Value" max_length="40" name="min_value" type="integer"/>
+        <element hint="JSON array defining color zones [{min, max, color}] on the arc" label="Zones Config (JSON)" max_length="4000" name="zones_config" type="string"/>
+        <element hint="Unit label shown after the value (e.g., %, ms, GB)" label="Units Label" max_length="40" name="units" type="string"/>
+        <element default="135" hint="Ending angle of the gauge arc in degrees" label="End Angle (degrees)" max_length="40" name="end_angle" type="integer"/>
     </element>
 </database>

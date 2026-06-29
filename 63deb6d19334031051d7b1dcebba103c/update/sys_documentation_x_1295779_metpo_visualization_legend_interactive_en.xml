@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>legend_interactive</element>
             <help/>
-            <hint/>
+            <hint>Allow clicking legend items to toggle data series visibility</hint>
             <label>Legend Interactive</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
-            <plural>Legend Interactives</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:37</sys_created_on>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
     <sys_wizard_answer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <answer>Viz: Sankey Diagram</answer>
+        <answer>Sankey Diagram</answer>
         <button_label/>
         <dependent_value/>
         <element/>
-        <name>Viz: Sankey Diagram</name>
+        <name>Sankey Diagram</name>
         <next_question/>
         <order>100</order>
         <payload_name/>

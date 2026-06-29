@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Viz: Box Plot" language="en" table="x_1295779_metpo_viz_boxplot">
+    <sys_documentation element="" label="Box Plot" language="en" table="x_1295779_metpo_viz_boxplot">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Viz: Box Plot</label>
+            <label>Box Plot</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
-            <plural>Viz: Box Plots</plural>
+            <plural>Box Plots</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:43</sys_created_on>

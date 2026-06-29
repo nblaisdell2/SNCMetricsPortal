@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>margin_left</element>
             <help/>
-            <hint/>
+            <hint>Left margin inside the chart container in pixels</hint>
             <label>Margin Left</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
-            <plural>Margin Lefts</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:37</sys_created_on>

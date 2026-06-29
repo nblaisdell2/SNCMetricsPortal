@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>reference_line_color</element>
             <help/>
-            <hint/>
+            <hint>Color of the reference line (hex or CSS color)</hint>
             <label>Reference Line Color</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_line</name>
-            <plural>Reference Line Colors</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:44</sys_created_on>

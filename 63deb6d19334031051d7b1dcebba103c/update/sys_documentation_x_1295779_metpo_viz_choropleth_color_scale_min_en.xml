@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>color_scale_min</element>
             <help/>
-            <hint/>
+            <hint>Color representing the minimum data value</hint>
             <label>Color Scale Min</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_choropleth</name>
-            <plural>Color Scale Mins</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:41</sys_created_on>

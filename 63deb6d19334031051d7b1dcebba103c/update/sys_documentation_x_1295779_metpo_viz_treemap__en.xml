@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Viz: Treemap" language="en" table="x_1295779_metpo_viz_treemap">
+    <sys_documentation element="" label="Treemap" language="en" table="x_1295779_metpo_viz_treemap">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Viz: Treemap</label>
+            <label>Treemap</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_treemap</name>
-            <plural>Viz: Treemaps</plural>
+            <plural>Treemaps</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:45</sys_created_on>

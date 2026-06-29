@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>label_offset</element>
             <help/>
-            <hint/>
+            <hint>Distance of axis labels from the outermost grid line in pixels</hint>
             <label>Label Offset</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_radar</name>
-            <plural>Label Offsets</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:41</sys_created_on>

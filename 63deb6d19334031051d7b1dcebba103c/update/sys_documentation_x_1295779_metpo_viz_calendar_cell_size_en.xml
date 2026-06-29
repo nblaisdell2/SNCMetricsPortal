@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>cell_size</element>
             <help/>
-            <hint/>
+            <hint>Size of each day cell in pixels (square)</hint>
             <label>Cell Size (px)</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_calendar</name>
-            <plural>Cell Size (px)</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:46</sys_created_on>

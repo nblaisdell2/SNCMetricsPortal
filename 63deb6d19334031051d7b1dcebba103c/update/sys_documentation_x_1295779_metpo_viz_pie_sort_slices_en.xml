@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>sort_slices</element>
             <help/>
-            <hint/>
+            <hint>Sort slices by value in descending order</hint>
             <label>Sort Slices by Value</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_pie</name>
-            <plural>Sort Slices by Values</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:45</sys_created_on>

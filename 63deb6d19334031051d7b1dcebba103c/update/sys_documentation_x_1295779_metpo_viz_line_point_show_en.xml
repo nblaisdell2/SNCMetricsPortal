@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>point_show</element>
             <help/>
-            <hint/>
+            <hint>Show circular markers at each data point on the line</hint>
             <label>Show Points</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_line</name>
-            <plural>Show Points</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:44</sys_created_on>

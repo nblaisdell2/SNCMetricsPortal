@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>time_scale</element>
             <help/>
-            <hint/>
+            <hint>Time granularity for the header: hour, day, week, month</hint>
             <label>Time Scale</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_gantt</name>
-            <plural>Time Scales</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:38</sys_created_on>

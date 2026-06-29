@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Viz: Word Cloud" language="en" table="x_1295779_metpo_viz_wordcloud">
+    <sys_documentation element="" label="Word Cloud" language="en" table="x_1295779_metpo_viz_wordcloud">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Viz: Word Cloud</label>
+            <label>Word Cloud</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_wordcloud</name>
-            <plural>Viz: Word Clouds</plural>
+            <plural>Word Clouds</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:39</sys_created_on>

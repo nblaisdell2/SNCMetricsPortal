@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>show_outliers</element>
             <help/>
-            <hint/>
+            <hint>Display outlier points beyond the whiskers</hint>
             <label>Show Outliers</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
-            <plural>Show Outliers</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:43</sys_created_on>

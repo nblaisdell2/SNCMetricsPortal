@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>show_grid</element>
             <help/>
-            <hint/>
+            <hint>Show the concentric grid lines</hint>
             <label>Show Grid</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_radar</name>
-            <plural>Show Grids</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:41</sys_created_on>

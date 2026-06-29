@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>point_size</element>
             <help/>
-            <hint/>
+            <hint>Radius of data points on the line in pixels</hint>
             <label>Point Size</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_line</name>
-            <plural>Point Sizes</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:44</sys_created_on>

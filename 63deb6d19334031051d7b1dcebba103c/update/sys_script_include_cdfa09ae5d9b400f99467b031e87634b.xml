@@ -97,17 +97,10 @@ MetricsResolver.prototype = {
         while (metricGr.next()) {
             var sourceType = metricGr.getValue('source_type') || '';
             var vizType = metricGr.getValue('viz_type') || '';
-            var sourceConfigStr = metricGr.getValue('source_config') || '{}';
             var displayConfigStr = metricGr.getValue('display_config') || '{}';
 
-            var sourceConfig = {};
+            var sourceConfig = this._buildSourceConfig(metricGr, sourceType);
             var displayConfig = {};
-
-            try {
-                sourceConfig = JSON.parse(sourceConfigStr);
-            } catch (e) {
-                sourceConfig = {};
-            }
 
             try {
                 displayConfig = JSON.parse(displayConfigStr);
@@ -149,6 +142,57 @@ MetricsResolver.prototype = {
         }
 
         return metrics;
+    },
+
+    /**
+     * Builds a sourceConfig object from the dedicated fields on the metric record
+     * based on the source type.
+     *
+     * @param {GlideRecord} metricGr - The metric GlideRecord
+     * @param {string} sourceType - The source_type value
+     * @returns {Object} The assembled source configuration object
+     */
+    _buildSourceConfig: function(metricGr, sourceType) {
+        var config = {};
+        switch (sourceType) {
+            case 'table_aggregate':
+                config.table = metricGr.getValue('src_table') || '';
+                config.filter = metricGr.getValue('src_filter') || '';
+                config.aggregate = metricGr.getValue('src_aggregate') || '';
+                config.aggregate_field = metricGr.getValue('src_aggregate_field') || '';
+                config.group_by = metricGr.getValue('src_group_by') || '';
+                config.group_by_2 = metricGr.getValue('src_group_by_2') || '';
+                config.order_by = metricGr.getValue('src_order_by') || '';
+                config.limit = parseInt(metricGr.getValue('src_limit'), 10) || 0;
+                config.x_field = metricGr.getValue('src_x_field') || '';
+                config.y_field = metricGr.getValue('src_y_field') || '';
+                config.source_field = metricGr.getValue('src_source_field') || '';
+                config.target_field = metricGr.getValue('src_target_field') || '';
+                break;
+            case 'pa_indicator':
+                config.indicator = metricGr.getValue('src_indicator') || '';
+                config.breakdown = metricGr.getValue('src_breakdown') || '';
+                config.elements = metricGr.getValue('src_elements') || '';
+                config.lookback_days = parseInt(metricGr.getValue('src_lookback_days'), 10) || 30;
+                break;
+            case 'staged_external':
+                config.table = metricGr.getValue('src_staged_table') || '';
+                config.filter = metricGr.getValue('src_staged_filter') || '';
+                config.label_field = metricGr.getValue('src_label_field') || '';
+                config.value_field = metricGr.getValue('src_value_field') || '';
+                break;
+            case 'scripted':
+                config.script_include = metricGr.getValue('src_script_include') || '';
+                config.method = metricGr.getValue('src_method') || '';
+                var paramsStr = metricGr.getValue('src_params') || '{}';
+                try {
+                    config.params = JSON.parse(paramsStr);
+                } catch (e) {
+                    config.params = {};
+                }
+                break;
+        }
+        return config;
     },
 
     /**

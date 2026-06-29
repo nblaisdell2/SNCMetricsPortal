@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>show_mean</element>
             <help/>
-            <hint/>
+            <hint>Show a line or marker indicating the mean value</hint>
             <label>Show Mean Line</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
-            <plural>Show Mean Lines</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:43</sys_created_on>

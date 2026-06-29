@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>regression_type</element>
             <help/>
-            <hint/>
+            <hint>Type of regression curve: linear, polynomial, exponential</hint>
             <label>Regression Type</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_scatter</name>
-            <plural>Regression Types</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:39</sys_created_on>

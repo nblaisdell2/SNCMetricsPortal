@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>tiling_method</element>
             <help/>
-            <hint/>
+            <hint>Layout algorithm: squarify, binary, slice, dice</hint>
             <label>Tiling Method</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_treemap</name>
-            <plural>Tiling Methods</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:45</sys_created_on>

@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>outlier_radius</element>
             <help/>
-            <hint/>
+            <hint>Radius of outlier point markers in pixels</hint>
             <label>Outlier Point Radius</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
-            <plural>Outlier Point Radius</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:43</sys_created_on>

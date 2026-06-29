@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>axis_font_size</element>
             <help/>
-            <hint/>
+            <hint>Font size for axis labels in pixels</hint>
             <label>Axis Font Size</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_radar</name>
-            <plural>Axis Font Sizes</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:41</sys_created_on>

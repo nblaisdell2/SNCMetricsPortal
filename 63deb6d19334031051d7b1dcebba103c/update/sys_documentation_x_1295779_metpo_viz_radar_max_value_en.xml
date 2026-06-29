@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>max_value</element>
             <help/>
-            <hint/>
+            <hint>Maximum value for the radar axis scale</hint>
             <label>Max Value</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_radar</name>
-            <plural>Max Values</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:41</sys_created_on>

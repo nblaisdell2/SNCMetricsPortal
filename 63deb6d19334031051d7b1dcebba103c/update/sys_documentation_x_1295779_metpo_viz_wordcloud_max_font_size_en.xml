@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>max_font_size</element>
             <help/>
-            <hint/>
+            <hint>Maximum font size in pixels for the most frequent words</hint>
             <label>Maximum Font Size</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_wordcloud</name>
-            <plural>Maximum Font Sizes</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:39</sys_created_on>

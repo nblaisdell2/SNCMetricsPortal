@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Viz: Pie Chart" language="en" table="x_1295779_metpo_viz_pie">
+    <sys_documentation element="" label="Pie Chart" language="en" table="x_1295779_metpo_viz_pie">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Viz: Pie Chart</label>
+            <label>Pie Chart</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_pie</name>
-            <plural>Viz: Pie Charts</plural>
+            <plural>Pie Charts</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:45</sys_created_on>

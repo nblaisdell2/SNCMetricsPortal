@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>component_height</element>
             <help/>
-            <hint/>
+            <hint>CSS height of the visualization container (e.g., 400px, 50vh)</hint>
             <label>Height</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
-            <plural>Heights</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:37</sys_created_on>

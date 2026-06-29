@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>node_padding</element>
             <help/>
-            <hint/>
+            <hint>Vertical spacing between nodes in the same column in pixels</hint>
             <label>Node Padding</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_sankey</name>
-            <plural>Node Paddings</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:47</sys_created_on>

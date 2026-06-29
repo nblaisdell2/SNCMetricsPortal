@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>cell_border_width</element>
             <help/>
-            <hint/>
+            <hint>Width of the border around each cell in pixels</hint>
             <label>Cell Border Width</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_heatmap</name>
-            <plural>Cell Border Widths</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:42</sys_created_on>

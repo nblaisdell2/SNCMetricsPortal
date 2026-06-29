@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>line_width</element>
             <help/>
-            <hint/>
+            <hint>Thickness of the line stroke in pixels</hint>
             <label>Line Width (px)</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_line</name>
-            <plural>Line Width (px)</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:44</sys_created_on>

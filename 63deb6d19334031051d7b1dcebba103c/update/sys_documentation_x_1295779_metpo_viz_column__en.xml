@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Viz: Column Chart" language="en" table="x_1295779_metpo_viz_column">
+    <sys_documentation element="" label="Column Chart" language="en" table="x_1295779_metpo_viz_column">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Viz: Column Chart</label>
+            <label>Column Chart</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_column</name>
-            <plural>Viz: Column Charts</plural>
+            <plural>Column Charts</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:40</sys_created_on>

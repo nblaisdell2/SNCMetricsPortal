@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>area_fill</element>
             <help/>
-            <hint/>
+            <hint>Fill the area between the line and the X-axis</hint>
             <label>Area Fill</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_line</name>
-            <plural>Area Fills</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:44</sys_created_on>

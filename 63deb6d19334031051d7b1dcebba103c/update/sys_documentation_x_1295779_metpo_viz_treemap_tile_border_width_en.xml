@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>tile_border_width</element>
             <help/>
-            <hint/>
+            <hint>Width of the border around each tile in pixels</hint>
             <label>Tile Border Width</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_treemap</name>
-            <plural>Tile Border Widths</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:45</sys_created_on>

@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>link_color_mode</element>
             <help/>
-            <hint/>
+            <hint>How links are colored: source node color, target node color, or gradient</hint>
             <label>Link Color Mode</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_sankey</name>
-            <plural>Link Color Modes</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:47</sys_created_on>

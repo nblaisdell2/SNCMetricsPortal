@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>stacked</element>
             <help/>
-            <hint/>
+            <hint>Stack bars on top of each other instead of side by side for grouped data</hint>
             <label>Stacked</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_column</name>
-            <plural>Stacked</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:40</sys_created_on>

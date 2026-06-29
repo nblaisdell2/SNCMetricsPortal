@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>charge_strength</element>
             <help/>
-            <hint/>
+            <hint>Force simulation charge (negative = repel, higher magnitude = stronger)</hint>
             <label>Charge Strength</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_network</name>
-            <plural>Charge Strengths</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:43</sys_created_on>

@@ -3,11 +3,11 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>animate</element>
             <help/>
-            <hint/>
+            <hint>Enable or disable entrance animations when the chart first renders</hint>
             <label>Animate</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
-            <plural>Animates</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:37</sys_created_on>
