@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_tab</name>
+        <page display_value="Metrics Portal">3872623bb5424a1797f92ee54b7ccc28</page>
+        <required_translations/>
+        <route/>
+        <suffix>chrome_tab</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7fc28b087cf2483e84939354e867f86d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_page_property_7fc28b087cf2483e84939354e867f86d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:43</sys_updated_on>
+        <type>json</type>
+        <unique_name/>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New x_1295779_metpo_dashboard"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_dashboard","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_dashboard","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_section"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_section","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_section","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_metric"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_metric","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_metric","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_filter"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_filter","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_filter","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=7fc28b087cf2483e84939354e867f86d"/>
+</record_update>

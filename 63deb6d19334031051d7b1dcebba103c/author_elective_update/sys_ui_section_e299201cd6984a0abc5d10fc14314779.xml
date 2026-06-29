@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Source Configuration" section_id="e299201cd6984a0abc5d10fc14314779" sys_domain="global" table="x_1295779_metpo_metric" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>90be302b703747e1b2edc01ec3ac0000</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_table</element>
+      <position>1</position>
+      <sys_id>73e96faa45eb43b5b5285fd8dd06d90a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_aggregate</element>
+      <position>2</position>
+      <sys_id>98c49a305345413f94e11f00ef4b6c88</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_aggregate_field</element>
+      <position>3</position>
+      <sys_id>cfde70ef0bfa4f589b7d476702a426b1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_group_by</element>
+      <position>4</position>
+      <sys_id>3e42f00c20ae489a91cae380e0a80396</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_group_by_2</element>
+      <position>5</position>
+      <sys_id>06c41fb1483b4b1490f48ce7f6ad5be9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_order_by</element>
+      <position>6</position>
+      <sys_id>d6809c5ae093452c8866efdc96a3360b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_limit</element>
+      <position>7</position>
+      <sys_id>9633395eb3944010ba187806fa9dd0ed</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_indicator</element>
+      <position>8</position>
+      <sys_id>38733de6bcee4017b20cc3b868cf7225</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_breakdown</element>
+      <position>9</position>
+      <sys_id>7fc3e0d992d840a1b6469fd2283f493d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_elements</element>
+      <position>10</position>
+      <sys_id>2819944cab7a4bb497626fac10eda4ae</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_lookback_days</element>
+      <position>11</position>
+      <sys_id>65450e0ec35e4cb29b261c3d039afc8f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_staged_table</element>
+      <position>12</position>
+      <sys_id>25d2d63eedc5425bb3c30ceed15f9ec1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_label_field</element>
+      <position>13</position>
+      <sys_id>a7e017d067d64ea984f6cccf16cc464e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_value_field</element>
+      <position>14</position>
+      <sys_id>35774989c69f4023bfe9455cb8a238f6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_script_include</element>
+      <position>15</position>
+      <sys_id>5c78e0ede00b4a428dd147a9b16d6b89</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_method</element>
+      <position>16</position>
+      <sys_id>4da6ece9e586438ab644e392025fab61</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>17</position>
+      <sys_id>99d2a9ea1452414a9a1bd5007cecc4df</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_filter</element>
+      <position>18</position>
+      <sys_id>1036545badfa4f56ac3d4c1b7dba9f86</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_x_field</element>
+      <position>19</position>
+      <sys_id>5d5c825289f34a98a4fc76e3689d4a6a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_y_field</element>
+      <position>20</position>
+      <sys_id>0201e56484274f9fb0b9abb38460eef7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_source_field</element>
+      <position>21</position>
+      <sys_id>016bfd6b6bdc4231bff3cfea5df0444e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_target_field</element>
+      <position>22</position>
+      <sys_id>800f9f0815b849ff8f96de504f8883f6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_staged_filter</element>
+      <position>23</position>
+      <sys_id>1ecb7d0df678438e83f03c7a7493b020</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_params</element>
+      <position>24</position>
+      <sys_id>422bfa4cc14b4afca65988e3c98d4625</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>25</position>
+      <sys_id>c0acef0bc3254f2d948d052b2e50031b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE">
+      <caption>Source Configuration</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_metric</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>e299201cd6984a0abc5d10fc14314779</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>f67518b73bad0b90986d048aa4e45ac3</instance_id>
+        <instance_name>dev414212</instance_name>
+        <name>sys_ui_section_e299201cd6984a0abc5d10fc14314779</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Source Configuration" section_id="e299201cd6984a0abc5d10fc14314779" sys_domain="global" table="x_1295779_metpo_metric" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>90be302b703747e1b2edc01ec3ac0000</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_table</element>
+      <position>1</position>
+      <sys_id>73e96faa45eb43b5b5285fd8dd06d90a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_aggregate</element>
+      <position>2</position>
+      <sys_id>98c49a305345413f94e11f00ef4b6c88</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_aggregate_field</element>
+      <position>3</position>
+      <sys_id>cfde70ef0bfa4f589b7d476702a426b1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_group_by</element>
+      <position>4</position>
+      <sys_id>3e42f00c20ae489a91cae380e0a80396</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_group_by_2</element>
+      <position>5</position>
+      <sys_id>06c41fb1483b4b1490f48ce7f6ad5be9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_order_by</element>
+      <position>6</position>
+      <sys_id>d6809c5ae093452c8866efdc96a3360b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_limit</element>
+      <position>7</position>
+      <sys_id>9633395eb3944010ba187806fa9dd0ed</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_indicator</element>
+      <position>8</position>
+      <sys_id>38733de6bcee4017b20cc3b868cf7225</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_breakdown</element>
+      <position>9</position>
+      <sys_id>7fc3e0d992d840a1b6469fd2283f493d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_elements</element>
+      <position>10</position>
+      <sys_id>2819944cab7a4bb497626fac10eda4ae</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_lookback_days</element>
+      <position>11</position>
+      <sys_id>65450e0ec35e4cb29b261c3d039afc8f</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_staged_table</element>
+      <position>12</position>
+      <sys_id>25d2d63eedc5425bb3c30ceed15f9ec1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_label_field</element>
+      <position>13</position>
+      <sys_id>a7e017d067d64ea984f6cccf16cc464e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_value_field</element>
+      <position>14</position>
+      <sys_id>35774989c69f4023bfe9455cb8a238f6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_script_include</element>
+      <position>15</position>
+      <sys_id>5c78e0ede00b4a428dd147a9b16d6b89</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_method</element>
+      <position>16</position>
+      <sys_id>4da6ece9e586438ab644e392025fab61</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>17</position>
+      <sys_id>99d2a9ea1452414a9a1bd5007cecc4df</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_filter</element>
+      <position>18</position>
+      <sys_id>1036545badfa4f56ac3d4c1b7dba9f86</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_x_field</element>
+      <position>19</position>
+      <sys_id>5d5c825289f34a98a4fc76e3689d4a6a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_y_field</element>
+      <position>20</position>
+      <sys_id>0201e56484274f9fb0b9abb38460eef7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_source_field</element>
+      <position>21</position>
+      <sys_id>016bfd6b6bdc4231bff3cfea5df0444e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_target_field</element>
+      <position>22</position>
+      <sys_id>800f9f0815b849ff8f96de504f8883f6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_staged_filter</element>
+      <position>23</position>
+      <sys_id>1ecb7d0df678438e83f03c7a7493b020</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>src_params</element>
+      <position>24</position>
+      <sys_id>422bfa4cc14b4afca65988e3c98d4625</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>25</position>
+      <sys_id>c0acef0bc3254f2d948d052b2e50031b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">e299201cd6984a0abc5d10fc14314779</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Source Configuration</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_metric</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>e299201cd6984a0abc5d10fc14314779</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>30162485</payload_hash>
+        <record_name>Metric Widget</record_name>
+        <reverted_from/>
+        <source>f4f5bdc583b98b10a8d6c829feaad3ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-29 00:12:35</sys_created_on>
+        <sys_id>3936358983b98b10a8d6c829feaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f10b882db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-29 00:12:35</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a1363589afb98b100706636a0706b662</update_guid>
+        <update_guid_history>a1363589afb98b100706636a0706b662:30162485</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-29 00:44:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1ecaa4c190ad4a24982b2ec26887e561</sys_id>
+        <sys_metadata>e299201cd6984a0abc5d10fc14314779</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Source Configuration</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Metric Widget">cc11cfd59334031051d7b1dcebba1045</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e299201cd6984a0abc5d10fc14314779</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e299201cd6984a0abc5d10fc14314779">3936358983b98b10a8d6c829feaad36f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-29 00:44:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

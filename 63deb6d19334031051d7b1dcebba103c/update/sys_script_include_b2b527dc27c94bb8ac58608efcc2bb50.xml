@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1295779_metpo.MetricsTableAggregateHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Handles table_aggregate source type for metrics. Uses GlideAggregate to execute aggregate queries and returns normalized data envelopes suitable for column_chart, line_chart, single_score, and table visualizations.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>MetricsTableAggregateHandler</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MetricsTableAggregateHandler = Class.create();
+MetricsTableAggregateHandler.prototype = {
+    initialize: function() {},
+
+    execute: function(sourceConfig, vizType) {
+        var table = sourceConfig.table || '';
+        var filter = sourceConfig.filter || '';
+        var aggregate = (sourceConfig.aggregate || 'COUNT').toUpperCase();
+        var aggregateField = sourceConfig.aggregate_field || '';
+        var groupBy = sourceConfig.group_by || '';
+        var groupBy2 = sourceConfig.group_by_2 || '';
+        var orderBy = sourceConfig.order_by || '';
+        var limit = parseInt(sourceConfig.limit, 10) || 20;
+
+        if (!table) {
+            return { error: 'source_config.table is required for table_aggregate' };
+        }
+
+        try {
+            switch (vizType) {
+                case 'column_chart':
+                case 'line_chart':
+                    return this._executeChart(table, filter, aggregate, aggregateField, groupBy, orderBy, limit);
+                case 'pie_chart':
+                    return this._executePie(table, filter, aggregate, aggregateField, groupBy, orderBy, limit);
+                case 'scatter_chart':
+                    return this._executeScatter(table, filter, sourceConfig);
+                case 'heatmap':
+                    return this._executeHeatmap(table, filter, aggregate, aggregateField, groupBy, groupBy2, limit);
+                case 'sankey':
+                    return this._executeSankey(table, filter, aggregate, aggregateField, sourceConfig);
+                case 'treemap':
+                    return this._executeTreemap(table, filter, aggregate, aggregateField, groupBy, groupBy2, limit);
+                case 'wordcloud':
+                    return this._executeWordcloud(table, filter, aggregate, aggregateField, groupBy, limit);
+                default:
+                    return this._executeChart(table, filter, aggregate, aggregateField, groupBy, orderBy, limit);
+            }
+        } catch (e) {
+            gs.error('MetricsTableAggregateHandler error: ' + e.message + ' | table=' + table + ' vizType=' + vizType);
+            return { error: 'Handler error: ' + e.message, categories: [], series: [] };
+        }
+    },
+
+    /**
+     * Column chart / Line chart: { categories, series }
+     */
+    _executeChart: function(table, filter, aggregate, aggregateField, groupBy, orderBy, limit) {
+        if (!groupBy) {
+            var singleVal = this._getSingleValue(table, filter, aggregate, aggregateField);
+            return { categories: ['Total'], series: [{ name: aggregate, values: [singleVal] }] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        if (orderBy) ga.orderBy(orderBy);
+        ga.setLimit(limit);
+        ga.query();
+
+        var categories = [];
+        var values = [];
+        while (ga.next()) {
+            categories.push(this._getGroupLabel(ga, groupBy));
+            values.push(this._getAggregateValue(ga, aggregate, aggregateField));
+        }
+
+        return {
+            categories: categories,
+            series: [{ name: aggregate, values: values }]
+        };
+    },
+
+    /**
+     * Pie chart: { slices: [{ label, value }] }
+     */
+    _executePie: function(table, filter, aggregate, aggregateField, groupBy, orderBy, limit) {
+        if (!groupBy) {
+            var singleVal = this._getSingleValue(table, filter, aggregate, aggregateField);
+            return { slices: [{ label: 'Total', value: singleVal }] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        if (orderBy) ga.orderBy(orderBy);
+        ga.setLimit(limit);
+        ga.query();
+
+        var slices = [];
+        while (ga.next()) {
+            slices.push({
+                label: this._getGroupLabel(ga, groupBy),
+                value: this._getAggregateValue(ga, aggregate, aggregateField)
+            });
+        }
+
+        return { slices: slices };
+    },
+
+    /**
+     * Scatter chart: { series: [{ name, points: [{ x, y }] }] }
+     */
+    _executeScatter: function(table, filter, sourceConfig) {
+        var xField = sourceConfig.x_field || '';
+        var yField = sourceConfig.y_field || '';
+        var groupBy = sourceConfig.group_by || '';
+        var limit = parseInt(sourceConfig.limit, 10) || 100;
+
+        if (!xField || !yField) {
+            return { error: 'source_config.x_field and y_field are required for scatter_chart', series: [] };
+        }
+
+        var gr = new GlideRecord(table);
+        if (filter) gr.addEncodedQuery(filter);
+        gr.setLimit(limit);
+        gr.query();
+
+        var seriesMap = {};
+        while (gr.next()) {
+            var seriesName = groupBy ? (gr.getDisplayValue(groupBy) || gr.getValue(groupBy) || 'Data') : 'Data';
+            var x = parseFloat(gr.getValue(xField)) || 0;
+            var y = parseFloat(gr.getValue(yField)) || 0;
+
+            if (!seriesMap[seriesName]) {
+                seriesMap[seriesName] = [];
+            }
+            seriesMap[seriesName].push({ x: x, y: y });
+        }
+
+        var series = [];
+        for (var name in seriesMap) {
+            if (seriesMap.hasOwnProperty(name)) {
+                series.push({ name: name, points: seriesMap[name] });
+            }
+        }
+
+        return { series: series };
+    },
+
+    /**
+     * Heatmap: { x_labels, y_labels, values: [[row][row]] }
+     */
+    _executeHeatmap: function(table, filter, aggregate, aggregateField, groupBy, groupBy2, limit) {
+        if (!groupBy || !groupBy2) {
+            return { error: 'source_config.group_by and group_by_2 are required for heatmap', x_labels: [], y_labels: [], values: [] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        ga.groupBy(groupBy2);
+        ga.setLimit(limit * limit);
+        ga.query();
+
+        var xSet = {};
+        var ySet = {};
+        var dataMap = {};
+
+        while (ga.next()) {
+            var xVal = this._getGroupLabel(ga, groupBy);
+            var yVal = this._getGroupLabel(ga, groupBy2);
+            var val = this._getAggregateValue(ga, aggregate, aggregateField);
+
+            xSet[xVal] = true;
+            ySet[yVal] = true;
+            dataMap[xVal + '|||' + yVal] = val;
+        }
+
+        var xLabels = Object.keys(xSet);
+        var yLabels = Object.keys(ySet);
+        var values = [];
+
+        for (var yi = 0; yi < yLabels.length; yi++) {
+            var row = [];
+            for (var xi = 0; xi < xLabels.length; xi++) {
+                row.push(dataMap[xLabels[xi] + '|||' + yLabels[yi]] || 0);
+            }
+            values.push(row);
+        }
+
+        return { x_labels: xLabels, y_labels: yLabels, values: values };
+    },
+
+    /**
+     * Sankey: { nodes: [{ name }], links: [{ source, target, value }] }
+     */
+    _executeSankey: function(table, filter, aggregate, aggregateField, sourceConfig) {
+        var sourceField = sourceConfig.source_field || sourceConfig.group_by || '';
+        var targetField = sourceConfig.target_field || sourceConfig.group_by_2 || '';
+        var limit = parseInt(sourceConfig.limit, 10) || 50;
+
+        if (!sourceField || !targetField) {
+            return { error: 'source_field and target_field required for sankey', nodes: [], links: [] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(sourceField);
+        ga.groupBy(targetField);
+        ga.setLimit(limit);
+        ga.query();
+
+        var nodeSet = {};
+        var links = [];
+
+        while (ga.next()) {
+            var src = this._getGroupLabel(ga, sourceField);
+            var tgt = this._getGroupLabel(ga, targetField);
+            var val = this._getAggregateValue(ga, aggregate, aggregateField);
+
+            nodeSet[src] = true;
+            nodeSet[tgt] = true;
+            links.push({ source: src, target: tgt, value: val });
+        }
+
+        var nodes = [];
+        for (var name in nodeSet) {
+            if (nodeSet.hasOwnProperty(name)) {
+                nodes.push({ name: name });
+            }
+        }
+
+        return { nodes: nodes, links: links };
+    },
+
+    /**
+     * Treemap: { name, children: [{ name, value, children? }] }
+     */
+    _executeTreemap: function(table, filter, aggregate, aggregateField, groupBy, groupBy2, limit) {
+        if (!groupBy) {
+            return { error: 'group_by is required for treemap', name: 'root', children: [] };
+        }
+
+        if (groupBy2) {
+            var ga2 = new GlideAggregate(table);
+            if (filter) ga2.addEncodedQuery(filter);
+            this._addAggregate(ga2, aggregate, aggregateField);
+            ga2.groupBy(groupBy);
+            ga2.groupBy(groupBy2);
+            ga2.setLimit(limit * limit);
+            ga2.query();
+
+            var treeMap = {};
+            while (ga2.next()) {
+                var parentLabel = this._getGroupLabel(ga2, groupBy);
+                var childLabel = this._getGroupLabel(ga2, groupBy2);
+                var val2 = this._getAggregateValue(ga2, aggregate, aggregateField);
+
+                if (!treeMap[parentLabel]) treeMap[parentLabel] = [];
+                treeMap[parentLabel].push({ name: childLabel, value: val2 });
+            }
+
+            var children = [];
+            for (var p in treeMap) {
+                if (treeMap.hasOwnProperty(p)) {
+                    children.push({ name: p, children: treeMap[p] });
+                }
+            }
+            return { name: 'root', children: children };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        ga.setLimit(limit);
+        ga.query();
+
+        var flatChildren = [];
+        while (ga.next()) {
+            flatChildren.push({
+                name: this._getGroupLabel(ga, groupBy),
+                value: this._getAggregateValue(ga, aggregate, aggregateField)
+            });
+        }
+
+        return { name: 'root', children: flatChildren };
+    },
+
+    /**
+     * Word cloud: { words: [{ text, size }] }
+     */
+    _executeWordcloud: function(table, filter, aggregate, aggregateField, groupBy, limit) {
+        if (!groupBy) {
+            return { error: 'group_by is required for wordcloud', words: [] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        ga.setLimit(limit);
+        ga.query();
+
+        var words = [];
+        while (ga.next()) {
+            words.push({
+                text: this._getGroupLabel(ga, groupBy),
+                size: this._getAggregateValue(ga, aggregate, aggregateField)
+            });
+        }
+
+        return { words: words };
+    },
+
+    // ===== HELPER METHODS (scoped-app safe) =====
+
+    /**
+     * Adds an aggregate to a GlideAggregate. Handles empty aggregateField properly.
+     */
+    _addAggregate: function(ga, aggregate, aggregateField) {
+        if (aggregateField) {
+            ga.addAggregate(aggregate, aggregateField);
+        } else {
+            ga.addAggregate(aggregate);
+        }
+    },
+
+    /**
+     * Gets the aggregate value from a GlideAggregate row. Handles empty field properly.
+     */
+    _getAggregateValue: function(ga, aggregate, aggregateField) {
+        var raw;
+        if (aggregateField) {
+            raw = ga.getAggregate(aggregate, aggregateField);
+        } else {
+            raw = ga.getAggregate(aggregate);
+        }
+        return parseInt(raw, 10) || 0;
+    },
+
+    /**
+     * Gets the display label for a grouped field. Uses getDisplayValue for reference fields,
+     * falls back to getValue. Works reliably in scoped apps.
+     */
+    _getGroupLabel: function(ga, field) {
+        var display = ga.getDisplayValue(field);
+        if (display) return display;
+        var value = ga.getValue(field);
+        return value || '(empty)';
+    },
+
+    /**
+     * Gets a single aggregate value (no grouping).
+     */
+    _getSingleValue: function(table, filter, aggregate, aggregateField) {
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.query();
+        if (ga.next()) {
+            return this._getAggregateValue(ga, aggregate, aggregateField);
+        }
+        return 0;
+    },
+
+    type: 'MetricsTableAggregateHandler'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:40</sys_created_on>
+        <sys_id>b2b527dc27c94bb8ac58608efcc2bb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MetricsTableAggregateHandler</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_script_include_b2b527dc27c94bb8ac58608efcc2bb50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

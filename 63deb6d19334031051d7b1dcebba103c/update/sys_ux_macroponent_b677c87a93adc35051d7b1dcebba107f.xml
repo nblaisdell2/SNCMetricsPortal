@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "84e91aabda03d762a26872fa41f12d02",
+            "type": "MACROPONENT"
+        },
+        "elementId": "metrics_nav_2",
+        "elementLabel": "Metrics Nav 2",
+        "eventMappings": [
+            {
+                "eventMappingId": "yyqiiOeehhnhhDkggIjjlkLnGvtLihhy",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "x_2114311_nav_0.NAVIGATE",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "x_2114311_nav_0.NAVIGATE",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "clientTransformScript": "",
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1295779_metpo.NAV_ITEM_SELECTED_RELAY_b677c87a93adc35051d7b1dcebba107f",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "container": {
+                                            "key": {
+                                                "binding": {
+                                                    "address": [
+                                                        "key"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "home"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "13bbd4be9321075051d7b1dcebba108f"
+                        },
+                        "operation": null,
+                        "targetId": "xjhFggPxxBUuAeeddHgLneevzsKbb",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "activeBackgroundColor": {
+                "type": "JSON_LITERAL",
+                "value": "#2E93fA"
+            },
+            "activeTextColor": {
+                "type": "JSON_LITERAL",
+                "value": "#ffffff"
+            },
+            "ariaLabel": {
+                "type": "JSON_LITERAL",
+                "value": "Metrics navigation"
+            },
+            "backgroundColor": {
+                "type": "JSON_LITERAL",
+                "value": "transparent"
+            },
+            "borderBottomColor": {
+                "type": "JSON_LITERAL",
+                "value": "transparent"
+            },
+            "borderBottomWidth": {
+                "type": "JSON_LITERAL",
+                "value": "1px"
+            },
+            "brandLabel": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "childDisplayMode": {
+                "type": "JSON_LITERAL",
+                "value": "inline"
+            },
+            "childLineColor": {
+                "type": "JSON_LITERAL",
+                "value": "#d1d5db"
+            },
+            "currentKey": {
+                "binding": {
+                    "address": [
+                        "key"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "dashboards": {
+                "binding": {
+                    "address": [
+                        "get_metrics_portal_navigation_1",
+                        "output",
+                        "result"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "emptyMessage": {
+                "type": "JSON_LITERAL",
+                "value": "No dashboards configured."
+            },
+            "fontFamily": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fontSize": {
+                "type": "JSON_LITERAL",
+                "value": "14px"
+            },
+            "fontWeight": {
+                "type": "JSON_LITERAL",
+                "value": "normal"
+            },
+            "inlineColumnSize": {
+                "type": "JSON_LITERAL",
+                "value": "8"
+            },
+            "itemAlignment": {
+                "type": "JSON_LITERAL",
+                "value": "center"
+            },
+            "itemGap": {
+                "type": "JSON_LITERAL",
+                "value": "4px"
+            },
+            "itemPadding": {
+                "type": "JSON_LITERAL",
+                "value": "8px 12px"
+            },
+            "itemRadius": {
+                "type": "JSON_LITERAL",
+                "value": "6px"
+            },
+            "letterSpacing": {
+                "type": "JSON_LITERAL",
+                "value": "normal"
+            },
+            "logoImageAlt": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "logoImageHeight": {
+                "type": "JSON_LITERAL",
+                "value": "24px"
+            },
+            "logoImageUrl": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "logoText": {
+                "type": "JSON_LITERAL",
+                "value": "Metrics Portal"
+            },
+            "navPadding": {
+                "type": "JSON_LITERAL",
+                "value": "0"
+            },
+            "orientation": {
+                "type": "JSON_LITERAL",
+                "value": "horizontal"
+            },
+            "popupBackgroundColor": {
+                "type": "JSON_LITERAL",
+                "value": "#ffffff"
+            },
+            "showLogo": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "textColor": {
+                "type": "JSON_LITERAL",
+                "value": "#374151"
+            },
+            "textTransform": {
+                "type": "JSON_LITERAL",
+                "value": "none"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "eb8b8392a27b00bfbb108bd924698c43",
+            "type": "MACROPONENT"
+        },
+        "elementId": "metrics_nav_1",
+        "elementLabel": "Metrics Nav 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "VxaaFjjvMVAaafOjjoaaKXpajQAvu",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "x_1295779_nav_0.NAVIGATE",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "x_1295779_nav_0.NAVIGATE",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "clientTransformScript": "",
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_1295779_metpo.NAV_ITEM_SELECTED_RELAY_b677c87a93adc35051d7b1dcebba107f",
+                            "payload": {
+                                "container": {
+                                    "external": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "fields": {
+                                        "container": {
+                                            "key": {
+                                                "binding": {
+                                                    "address": [
+                                                        "key"
+                                                    ]
+                                                },
+                                                "type": "EVENT_PAYLOAD_BINDING"
+                                            }
+                                        },
+                                        "type": "MAP_CONTAINER"
+                                    },
+                                    "multiInstField": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "navigationOptions": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "params": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "passiveNavigation": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "redirect": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "route": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "home"
+                                    },
+                                    "targetRoute": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "title": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "13bbd4be9321075051d7b1dcebba108f"
+                        },
+                        "operation": null,
+                        "targetId": "ddhhCjjXvVKCUlBeeddJIBeehhZNDHKNR",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "activeBackgroundColor": {
+                "type": "JSON_LITERAL",
+                "value": "#e95327"
+            },
+            "activeTextColor": {
+                "type": "JSON_LITERAL",
+                "value": "#ffffff"
+            },
+            "ariaLabel": {
+                "type": "JSON_LITERAL",
+                "value": "Metrics navigation"
+            },
+            "backgroundColor": {
+                "type": "JSON_LITERAL",
+                "value": "#faf6f2"
+            },
+            "borderBottomColor": {
+                "type": "JSON_LITERAL",
+                "value": "#cfc48f"
+            },
+            "brandLabel": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "childDisplayMode": {
+                "type": "JSON_LITERAL",
+                "value": "inline"
+            },
+            "childLineColor": {
+                "type": "JSON_LITERAL",
+                "value": "#e95327"
+            },
+            "currentKey": {
+                "binding": {
+                    "address": [
+                        "key"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "dashboards": {
+                "binding": {
+                    "address": [
+                        "get_metrics_portal_navigation_1",
+                        "output",
+                        "result"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "emptyMessage": {
+                "type": "JSON_LITERAL",
+                "value": "No dashboards configured."
+            },
+            "fontFamily": {
+                "type": "JSON_LITERAL",
+                "value": "Tahoma"
+            },
+            "fontSize": {
+                "type": "JSON_LITERAL",
+                "value": "20px"
+            },
+            "fontWeight": {
+                "type": "JSON_LITERAL",
+                "value": "800"
+            },
+            "groupByCategory": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "inlineColumnSize": {
+                "type": "JSON_LITERAL",
+                "value": "4"
+            },
+            "itemAlignment": {
+                "type": "JSON_LITERAL",
+                "value": "center"
+            },
+            "itemGap": {
+                "type": "JSON_LITERAL",
+                "value": "4px"
+            },
+            "itemPadding": {
+                "type": "JSON_LITERAL",
+                "value": "8px 12px"
+            },
+            "itemRadius": {
+                "type": "JSON_LITERAL",
+                "value": "6px"
+            },
+            "letterSpacing": {
+                "type": "JSON_LITERAL",
+                "value": "normal"
+            },
+            "logoImageHeight": {
+                "type": "JSON_LITERAL",
+                "value": "32px"
+            },
+            "logoImageUrl": {
+                "type": "JSON_LITERAL",
+                "value": "servicenow-now-logo.svg"
+            },
+            "logoText": {
+                "type": "JSON_LITERAL",
+                "value": "Metrics Portal"
+            },
+            "navPadding": {
+                "type": "JSON_LITERAL",
+                "value": "8px 12px"
+            },
+            "orientation": {
+                "type": "JSON_LITERAL",
+                "value": "horizontal"
+            },
+            "popupBackgroundColor": {
+                "type": "JSON_LITERAL",
+                "value": "#ffffff"
+            },
+            "showGroupLabels": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showIcons": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "showLogo": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "textColor": {
+                "type": "JSON_LITERAL",
+                "value": "#0b3e5e"
+            },
+            "textTransform": {
+                "type": "JSON_LITERAL",
+                "value": "capitalize"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "margin-bottom": "0",
+                "padding": "0",
+                "padding-bottom": "0",
+                "padding-left": "0",
+                "padding-right": "0",
+                "padding-top": "0"
+            }
+        }
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "container_2",
+        "elementLabel": "Container 2",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "e0e7e1c480fea615b22e2433462e9c84",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "metrics_grid_2",
+                    "elementLabel": "Metrics Grid 2",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "animateSections": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "cardBackground": {
+                            "type": "JSON_LITERAL",
+                            "value": "#ffffff"
+                        },
+                        "cardBorderColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e5e7eb"
+                        },
+                        "cardBorderWidth": {
+                            "type": "JSON_LITERAL",
+                            "value": 1
+                        },
+                        "cardMinHeight": {
+                            "type": "JSON_LITERAL",
+                            "value": "120px"
+                        },
+                        "cardPadding": {
+                            "type": "JSON_LITERAL",
+                            "value": "16px"
+                        },
+                        "cardRadius": {
+                            "type": "JSON_LITERAL",
+                            "value": "8px"
+                        },
+                        "cardShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "collapseBelow": {
+                            "type": "JSON_LITERAL",
+                            "value": 900
+                        },
+                        "columns": {
+                            "type": "JSON_LITERAL",
+                            "value": 12
+                        },
+                        "defaultCollapsed": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "emptyMessage": {
+                            "type": "JSON_LITERAL",
+                            "value": "No metrics to display."
+                        },
+                        "gap": {
+                            "type": "JSON_LITERAL",
+                            "value": "16px"
+                        },
+                        "helpDefaultVisible": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "helpIconColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#9ca3af"
+                        },
+                        "metrics": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "ruleColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e5e7eb"
+                        },
+                        "ruleThickness": {
+                            "type": "JSON_LITERAL",
+                            "value": 1
+                        },
+                        "sectionAnimationMs": {
+                            "type": "JSON_LITERAL",
+                            "value": 250
+                        },
+                        "sectionHelpColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#6b7280"
+                        },
+                        "sectionHelpFontSize": {
+                            "type": "JSON_LITERAL",
+                            "value": "12px"
+                        },
+                        "sectionNameColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#111827"
+                        },
+                        "sectionNameFontFamily": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "sectionNameFontSize": {
+                            "type": "JSON_LITERAL",
+                            "value": "16px"
+                        },
+                        "sectionNameFontWeight": {
+                            "type": "JSON_LITERAL",
+                            "value": "600"
+                        },
+                        "sectionSpacing": {
+                            "type": "JSON_LITERAL",
+                            "value": "24px"
+                        },
+                        "sections": {
+                            "binding": {
+                                "address": [
+                                    "get_mp_dashboard_data_1",
+                                    "output",
+                                    "result",
+                                    "sections"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        },
+                        "sectionsCollapsible": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showCardChrome": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showCardTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showSectionHelpToggle": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "vizMap": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "a45ca7327b24fc819dbeec9a9781e279",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "metrics_grid_1",
+                    "elementLabel": "Metrics Grid 1",
+                    "eventMappings": [],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": []
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "cardBackground": {
+                            "type": "JSON_LITERAL",
+                            "value": "#ffffff"
+                        },
+                        "cardBorderColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e5e7eb"
+                        },
+                        "cardBorderWidth": {
+                            "type": "JSON_LITERAL",
+                            "value": 1
+                        },
+                        "cardMinHeight": {
+                            "type": "JSON_LITERAL",
+                            "value": "120px"
+                        },
+                        "cardPadding": {
+                            "type": "JSON_LITERAL",
+                            "value": "16px"
+                        },
+                        "cardRadius": {
+                            "type": "JSON_LITERAL",
+                            "value": "8px"
+                        },
+                        "cardShadow": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "collapseBelow": {
+                            "type": "JSON_LITERAL",
+                            "value": 900
+                        },
+                        "columns": {
+                            "type": "JSON_LITERAL",
+                            "value": 12
+                        },
+                        "defaultCollapsed": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "dispatcherTag": {
+                            "type": "JSON_LITERAL",
+                            "value": "x-1295779-metric-dispatcher-uic"
+                        },
+                        "emptyMessage": {
+                            "type": "JSON_LITERAL",
+                            "value": "No metrics to display."
+                        },
+                        "gap": {
+                            "type": "JSON_LITERAL",
+                            "value": "16px"
+                        },
+                        "helpIconColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e95327"
+                        },
+                        "metrics": {
+                            "binding": {
+                                "address": [
+                                    "get_mp_dashboard_data_1",
+                                    "output",
+                                    "result",
+                                    "sections",
+                                    "0",
+                                    "metrics"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        },
+                        "ruleColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e95327"
+                        },
+                        "ruleThickness": {
+                            "type": "JSON_LITERAL",
+                            "value": 3
+                        },
+                        "sectionAnimationMs": {
+                            "type": "JSON_LITERAL",
+                            "value": 600
+                        },
+                        "sectionHelpColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e95327"
+                        },
+                        "sectionHelpFontSize": {
+                            "type": "JSON_LITERAL",
+                            "value": "18px"
+                        },
+                        "sectionNameColor": {
+                            "type": "JSON_LITERAL",
+                            "value": "#e95327"
+                        },
+                        "sectionNameFontFamily": {
+                            "type": "JSON_LITERAL",
+                            "value": "Tahoma"
+                        },
+                        "sectionNameFontSize": {
+                            "type": "JSON_LITERAL",
+                            "value": "28px"
+                        },
+                        "sectionSpacing": {
+                            "type": "JSON_LITERAL",
+                            "value": "60px"
+                        },
+                        "sections": {
+                            "binding": {
+                                "address": [
+                                    "get_mp_dashboard_data_1",
+                                    "output",
+                                    "result",
+                                    "sections"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        },
+                        "showCardChrome": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showCardTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "vizMap": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        }
+                    },
+                    "slot": null,
+                    "styles": {
+                        "default": {
+                            "margin-top": "var(--now-scalable-space--xl)"
+                        }
+                    }
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "metrics_grid_2"
+                        },
+                        {
+                            "element_id": "metrics_grid_1"
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "flex",
+                        "flex-direction": "column"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "items": [],
+                            "styles": {
+                                "height": "auto"
+                            },
+                            "type": "flex"
+                        },
+                        "queryId": "custom_ff_1"
+                    }
+                ],
+                "version": "3.1.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "ariaRegionHeadingLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "ariaRegionName": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "ariaRole": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideEmptyStateUi": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "includeAriaHeading": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "fullheight"
+            },
+            "type": {
+                "type": "JSON_LITERAL",
+                "value": "section"
+            }
+        },
+        "slot": null,
+        "styles": {
+            "default": {
+                "margin-bottom": "var(--now-scalable-space--lg)",
+                "margin-top": "var(--now-scalable-space--lg)",
+                "padding-left": "5%",
+                "padding-right": "5%"
+            },
+            "queries": [
+                {
+                    "queryId": "custom_ff_1",
+                    "value": {
+                        "height": "auto"
+                    }
+                }
+            ]
+        }
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "dcda5cf29361075051d7b1dcebba1091",
+            "type": "REST"
+        },
+        "elementId": "get_metrics_portal_navigation_1",
+        "elementLabel": "Get Metrics Portal Navigation 1",
+        "eventMappings": [],
+        "inputValues": {},
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "536c9c7e9321075051d7b1dcebba104c",
+            "type": "REST"
+        },
+        "elementId": "get_mp_dashboard_data_1",
+        "elementLabel": "Get MP Dashboard Data 1",
+        "eventMappings": [],
+        "inputValues": {
+            "key": {
+                "binding": {
+                    "address": [
+                        "key"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>13bbd4be9321075051d7b1dcebba108f</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{
+    "custom_ff_1": {
+        "max-width": 640,
+        "reference": "macroponent"
+    }
+}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "metrics_nav_2"
+            },
+            {
+                "element_id": "metrics_nav_1"
+            },
+            {
+                "element_id": "container_2"
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "background": "#FAF6F2",
+            "display": "flex",
+            "flex-direction": "column",
+            "height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "queries": [
+        {
+            "layout": {
+                "items": [],
+                "styles": {
+                    "flex-direction": "column",
+                    "height": "auto",
+                    "min-width": null
+                },
+                "type": "flex"
+            },
+            "queryId": "custom_ff_1"
+        }
+    ],
+    "version": "3.1.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "tccffupeehhUQBEdCjjdEBHjLiYZOY",
+        "inherited": false,
+        "label": "Key",
+        "mandatory": false,
+        "name": "key",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_sys_props/>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:22:27</sys_created_on>
+        <sys_id>b677c87a93adc35051d7b1dcebba107f</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Home default</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b677c87a93adc35051d7b1dcebba107f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 22:36:25</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=b677c87a93adc35051d7b1dcebba107f"/>
+</record_update>

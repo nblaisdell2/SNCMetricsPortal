@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="outlier_radius" label="Outlier Point Radius" language="en" table="x_1295779_metpo_viz_boxplot">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>outlier_radius</element>
+            <help/>
+            <hint>Radius of outlier point markers in pixels</hint>
+            <label>Outlier Point Radius</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_boxplot</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 02:33:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Outlier Point Radius</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_documentation_x_1295779_metpo_viz_boxplot_outlier_radius_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 02:33:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

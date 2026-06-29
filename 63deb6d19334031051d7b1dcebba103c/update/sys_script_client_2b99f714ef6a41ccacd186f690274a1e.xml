@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Clears all source configuration fields when the Source Type is changed, ensuring a clean slate for the new source type configuration.</description>
+        <field>source_type</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Clear Source Fields on Type Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) return;
+    if (oldValue === newValue) return;
+
+    // Table Aggregate fields
+    g_form.setValue('src_table', '');
+    g_form.setValue('src_filter', '');
+    g_form.setValue('src_aggregate', '');
+    g_form.setValue('src_aggregate_field', '');
+    g_form.setValue('src_group_by', '');
+    g_form.setValue('src_group_by_2', '');
+    g_form.setValue('src_order_by', '');
+    g_form.setValue('src_limit', '');
+    g_form.setValue('src_x_field', '');
+    g_form.setValue('src_y_field', '');
+    g_form.setValue('src_source_field', '');
+    g_form.setValue('src_target_field', '');
+
+    // PA Indicator fields
+    g_form.setValue('src_indicator', '');
+    g_form.setValue('src_breakdown', '');
+    g_form.setValue('src_elements', '');
+    g_form.setValue('src_lookback_days', '');
+
+    // Staged External fields
+    g_form.setValue('src_staged_table', '');
+    g_form.setValue('src_staged_filter', '');
+    g_form.setValue('src_label_field', '');
+    g_form.setValue('src_value_field', '');
+
+    // Scripted fields
+    g_form.setValue('src_script_include', '');
+    g_form.setValue('src_method', '');
+    g_form.setValue('src_params', '');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-29 00:12:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b99f714ef6a41ccacd186f690274a1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clear Source Fields on Type Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_script_client_2b99f714ef6a41ccacd186f690274a1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-29 00:12:31</sys_updated_on>
+        <table>x_1295779_metpo_source_config</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

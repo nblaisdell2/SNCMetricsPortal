@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard">
+    <sys_wizard action="INSERT_OR_UPDATE">
+        <back_panel/>
+        <intercepts>x_1295779_metpo_visualization.do</intercepts>
+        <name>MP Visualization Type</name>
+        <next_panel/>
+        <question>What type of visualization do you want to create?</question>
+        <sys_class_name>sys_wizard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 03:09:32</sys_created_on>
+        <sys_id>10b4197893fdc39051d7b1dcebba101d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MP Visualization Type</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_wizard_10b4197893fdc39051d7b1dcebba101d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 03:13:17</sys_updated_on>
+    </sys_wizard>
+</record_update>

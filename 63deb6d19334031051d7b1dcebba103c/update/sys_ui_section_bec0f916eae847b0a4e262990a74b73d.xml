@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Source Configuration" section_id="bec0f916eae847b0a4e262990a74b73d" sys_domain="global" table="x_1295779_metpo_source_config" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>aa9a22a0bed64a3e9296bb640dbf457d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_table</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>ded4ca4ab14843198fe2902cde635b1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_aggregate</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>6ed9f39f00914c649d81abcc3d670537</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_aggregate_field</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>c1bfd7e5cafe433594b63f89ab486ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_group_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>b5c0f2d092174e8096b23f766a0bc253</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_group_by_2</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>75d9551d60734e1cb4d4eed591b832a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_order_by</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>df30f822e5a3406d8e8446d1f9b7d520</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_limit</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>8546e6eaf1684b3baca253045e8321f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_indicator</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>a22d40dbb58c496d8bf3d29e87f91b72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_breakdown</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>4bde5b276b5a4451b8cfe438806b72b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_elements</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:10</sys_created_on>
+            <sys_id>2bcfb40a9f2749749b2f8ae193b44ec5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_lookback_days</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>3cdb90e10dce457788ff6aff6825fa5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_staged_table</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>b38f8465e1084ea59514b42be6be91ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_label_field</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>ea77eb35391c4f74b628beff69cc23bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_value_field</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>a7d660a383e84d84bae4cef88fb4424e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_script_include</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>6f40fff9ddee4599bbc877a4ce42712f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_method</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>1b7953cee4464034b6478598ed24c3f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>b56e8e34279e4d90b2ddb5ec1ab565f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_filter</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>ff063dded67c4df7a65d993b267b2c50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_x_field</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>481c94f86a0448d7883b7484753966c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_y_field</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>84040193e3744ed4b4a135c4e3b91745</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_source_field</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>64731d3a320543739efa733e39e9008c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_target_field</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>dc8ffeaf00c34f59853667ab8539b858</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_staged_filter</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>aee03c653bca4e468d7475b2845943c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>src_params</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>6b98e0c617744c858a26c2468089f32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_id>f6c43f3114044016baab9460b9753dac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Source Configuration" display_value="Source Configuration" name="x_1295779_metpo_source_config" sys_domain="global" view="Default view">bec0f916eae847b0a4e262990a74b73d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Source Configuration</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_source_config</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-29 01:33:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bec0f916eae847b0a4e262990a74b73d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_source_config</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_bec0f916eae847b0a4e262990a74b73d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-29 01:33:11</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

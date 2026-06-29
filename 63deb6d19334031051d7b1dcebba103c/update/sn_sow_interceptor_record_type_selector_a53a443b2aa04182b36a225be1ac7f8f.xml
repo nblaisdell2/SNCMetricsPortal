@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_sow_interceptor_record_type_selector">
+    <sn_sow_interceptor_record_type_selector action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_to>x_1295779_metpo_visualization</applies_to>
+        <condition/>
+        <description>Radial gauge showing a single value against a min/max range with configurable zones.</description>
+        <order>900</order>
+        <sys_class_name>sn_sow_interceptor_record_type_selector</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 02:49:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a53a443b2aa04182b36a225be1ac7f8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sn_sow_interceptor_record_type_selector_a53a443b2aa04182b36a225be1ac7f8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 02:49:21</sys_updated_on>
+        <target_table>x_1295779_metpo_viz_gauge</target_table>
+        <title>Gauge</title>
+        <values/>
+    </sn_sow_interceptor_record_type_selector>
+</record_update>

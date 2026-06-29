@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="dcfc81b493bdc39051d7b1dcebba1049" extends="x_1295779_metpo_visualization" label="Sankey Diagram" max_length="40" name="x_1295779_metpo_viz_sankey" type="collection">
+        <element default="0.5" hint="Opacity of flow links between nodes (0-1)" label="Link Opacity" max_length="10" name="link_opacity" type="string"/>
+        <element default="true" hint="Display text labels on each node" label="Show Node Labels" max_length="40" name="show_labels" type="boolean"/>
+        <element default="justify" hint="Alignment strategy for nodes: left, right, center, justify" label="Node Alignment" max_length="20" name="node_alignment" type="string"/>
+        <element default="source" hint="How links are colored: source node color, target node color, or gradient" label="Link Color Mode" max_length="20" name="link_color_mode" type="string"/>
+        <element default="20" hint="Width of each node bar in pixels" label="Node Width" max_length="40" name="node_width" type="integer"/>
+        <element default="12" hint="Font size for node labels in pixels" label="Label Font Size" max_length="40" name="label_font_size" type="integer"/>
+        <element default="10" hint="Vertical spacing between nodes in the same column in pixels" label="Node Padding" max_length="40" name="node_padding" type="integer"/>
+    </element>
+</database>

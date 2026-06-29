@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="8fec8d7493bdc39051d7b1dcebba10c3" extends="x_1295779_metpo_visualization" label="Radar Chart" max_length="40" name="x_1295779_metpo_viz_radar" type="collection">
+        <element default="100" hint="Maximum value for the radar axis scale" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element default="polygon" hint="Shape of the grid: polygon (angular) or circle (smooth)" label="Grid Shape" max_length="20" name="grid_shape" type="string"/>
+        <element default="15" hint="Distance of axis labels from the outermost grid line in pixels" label="Label Offset" max_length="40" name="label_offset" type="integer"/>
+        <element default="0.25" hint="Opacity of the filled data area (0-1)" label="Fill Opacity" max_length="10" name="fill_opacity" type="string"/>
+        <element default="5" hint="Number of concentric grid rings from center to edge" label="Number of Levels" max_length="40" name="levels" type="integer"/>
+        <element default="4" hint="Radius of data points at each axis in pixels" label="Point Size" max_length="40" name="point_size" type="integer"/>
+        <element default="2" hint="Width of the data area outline stroke in pixels" label="Stroke Width" max_length="40" name="stroke_width" type="integer"/>
+        <element default="11" hint="Font size for axis labels in pixels" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+        <element default="true" hint="Show the concentric grid lines" label="Show Grid" max_length="40" name="show_grid" type="boolean"/>
+    </element>
+</database>

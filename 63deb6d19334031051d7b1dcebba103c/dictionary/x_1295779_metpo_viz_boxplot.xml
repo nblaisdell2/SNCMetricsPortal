@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Box Plot" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
+        <element hint="Render box plots horizontally instead of vertically" label="Horizontal" max_length="40" name="horizontal" type="boolean"/>
+        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element default="line" hint="Style of whisker lines: line (simple) or cap (with end caps)" label="Whisker Style" max_length="20" name="whisker_style" type="string"/>
+        <element hint="Show a line or marker indicating the mean value" label="Show Mean Line" max_length="40" name="show_mean" type="boolean"/>
+        <element default="0.6" hint="Proportional width of boxes (0-1, where 0.6 means 60% of available space)" label="Box Width" max_length="20" name="box_width" type="string"/>
+        <element default="0.7" hint="Opacity of the box fill color (0-1)" label="Box Fill Opacity" max_length="10" name="box_fill_opacity" type="string"/>
+        <element default="true" hint="Display outlier points beyond the whiskers" label="Show Outliers" max_length="40" name="show_outliers" type="boolean"/>
+        <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier Point Radius" max_length="40" name="outlier_radius" type="integer"/>
+        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element default="12" hint="Font size in pixels for axis tick labels" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+    </element>
+</database>
