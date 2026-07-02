@@ -37,7 +37,7 @@
                 <element inactive_on_update="false" label="Calendar Heatmap" sequence="12" value="calendar"/>
             </choice>
         </element>
-        <element hint="Border color of the chart container (CSS color value)" label="Border Color" max_length="40" name="border_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Border color of the chart container (CSS color value)" label="Border Color" max_length="40" name="border_color" type="color"/>
         <element default="true" hint="Enable or disable entrance animations when the chart first renders" label="Animate" max_length="40" name="animate" type="boolean"/>
         <element display="true" hint="A unique name to identify this visualization configuration" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
         <element default="true" hint="Show tooltips on hover over data points" label="Tooltip - Show Tooltip" max_length="40" name="show_tooltip" type="boolean"/>
@@ -57,7 +57,7 @@
         <element default="20" hint="Right margin inside the chart container in pixels" label="Margin Right" max_length="40" name="margin_right" type="integer"/>
         <element default="400px" hint="CSS height of the visualization container (e.g., 400px, 50vh)" label="Height" max_length="40" name="component_height" type="string"/>
         <element default="800" hint="Duration of entrance animation in milliseconds" label="Animation Duration (ms)" max_length="40" name="animation_duration" type="integer"/>
-        <element default="transparent" hint="Background color of the chart container (CSS color value or transparent)" label="Background Color" max_length="40" name="background_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="transparent" hint="Background color of the chart container (CSS color value or transparent)" label="Background Color" max_length="40" name="background_color" type="color"/>
         <element default="0" hint="Border width around the chart container in pixels" label="Border Width" max_length="20" name="border_width" type="string"/>
         <element choice="3" default="bottom" hint="Position of the chart legend relative to the visualization" label="Legend - Position" max_length="40" name="legend_position" type="choice">
             <choice>
@@ -72,6 +72,7 @@
         <element default="12" hint="Font size for legend text in pixels" label="Legend Font Size" max_length="40" name="legend_font_size" type="integer"/>
         <element default="20" hint="Top margin inside the chart container in pixels" label="Margin Top" max_length="40" name="margin_top" type="integer"/>
         <element default="true" hint="Highlight data elements when the user hovers over them" label="Hover Highlight" max_length="40" name="hover_highlight" type="boolean"/>
+        <element label="Test Color" max_length="40" name="test_color" type="color"/>
         <element default="100%" hint="CSS width of the visualization container (e.g., 100%, 600px)" label="Width" max_length="40" name="component_width" type="string"/>
         <element default="50" hint="Left margin inside the chart container in pixels" label="Margin Left" max_length="40" name="margin_left" type="integer"/>
         <element default="0" hint="Corner rounding of the chart container in pixels" label="Border Radius" max_length="20" name="border_radius" type="string"/>
