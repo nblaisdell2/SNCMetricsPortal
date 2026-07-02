@@ -10,16 +10,16 @@
         <output_schema/>
         <parameters/>
         <private>false</private>
-        <props>[
-{
-  "name": "key",
-  "label": "Dashboard key",
-  "description": "Which dashboard to load?",
-  "readOnly": false,
-  "fieldType": "string",
-  "mandatory": true,
-  "defaultValue": "sales-overview"
-}
+        <props>[&#13;
+{&#13;
+  "name": "key",&#13;
+  "label": "Dashboard key",&#13;
+  "description": "Which dashboard to load?",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": "sales-overview"&#13;
+}&#13;
 ]</props>
         <request_body/>
         <required_translations/>

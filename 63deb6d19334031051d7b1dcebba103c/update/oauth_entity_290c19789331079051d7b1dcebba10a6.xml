@@ -7,6 +7,7 @@
         <auth_cimd_client>false</auth_cimd_client>
         <auth_code_lifespan>0</auth_code_lifespan>
         <auth_url>https://github.com/login/oauth/authorize</auth_url>
+        <bff_cookie_exchange_allowed>false</bff_cookie_exchange_allowed>
         <bind_token_to_session>false</bind_token_to_session>
         <certificate_url/>
         <client_id>Ov23li5C8GC1XNB1BRUP</client_id>
