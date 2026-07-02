@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Sankey Diagram" language="en" table="x_1295779_metpo_viz_sankey">
+    <sys_documentation element="" label="" language="en" table="x_1295779_metpo_viz_sankey">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Sankey Diagram</label>
+            <label/>
             <language>en</language>
             <name>x_1295779_metpo_viz_sankey</name>
-            <plural>Sankey Diagrams</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:47</sys_created_on>

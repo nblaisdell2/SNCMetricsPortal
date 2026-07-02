@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="point_shape" label="Point Shape" language="en" table="x_1295779_metpo_viz_scatter">
+    <sys_documentation element="point_shape" label="Points - Shape" language="en" table="x_1295779_metpo_viz_scatter">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>point_shape</element>
             <help/>
-            <hint>Shape of data points: circle, square, triangle, diamond</hint>
-            <label>Point Shape</label>
+            <hint>Shape of data point markers in the scatter plot</hint>
+            <label>Points - Shape</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_scatter</name>
             <plural/>

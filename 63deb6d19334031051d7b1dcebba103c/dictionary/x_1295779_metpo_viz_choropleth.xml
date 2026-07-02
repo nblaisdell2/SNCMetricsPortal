@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f2ec8d7493bdc39051d7b1dcebba1079" extends="x_1295779_metpo_visualization" label="Choropleth Map" max_length="40" name="x_1295779_metpo_viz_choropleth" type="collection">
+    <element db_object_id="f2ec8d7493bdc39051d7b1dcebba1079" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_choropleth" type="collection">
         <element default="0.5" hint="Width of region boundary lines" label="Stroke Width" max_length="10" name="stroke_width" type="string"/>
         <element default="#dbeafe" hint="Color representing the minimum data value" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
+        <element hint="Color of the region labels on the map" label="Labels - Color" max_length="40" name="label_color" type="color"/>
         <element default="#e5e7eb" hint="Fill color for regions with no data" label="Default Fill Color" max_length="40" name="default_color" type="string"/>
+        <element hint="Margin around the color legend in pixels" label="Color Legend - Margin (px)" max_length="40" name="color_legend_margin" type="integer"/>
         <element hint="URL or path to the GeoJSON file defining map regions" label="GeoJSON Source" max_length="500" name="geo_json_source" type="string"/>
-        <element default="mercator" hint="Map projection type: mercator, equalEarth, naturalEarth" label="Map Projection" max_length="40" name="map_projection" type="string"/>
+        <element choice="3" default="geoMercator" hint="Geographic map projection used to render the choropleth" label="Map - Projection" max_length="40" name="map_projection" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mercator" sequence="0" value="geoMercator"/>
+                <element inactive_on_update="false" label="Albers USA" sequence="1" value="geoAlbersUsa"/>
+                <element inactive_on_update="false" label="Equal Earth" sequence="2" value="geoEqualEarth"/>
+                <element inactive_on_update="false" label="Natural Earth" sequence="3" value="geoNaturalEarth1"/>
+            </choice>
+        </element>
         <element default="#9ca3af" hint="Color of region boundary lines" label="Stroke Color" max_length="40" name="stroke_color" type="string"/>
         <element default="#1e40af" hint="Color representing the maximum data value" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
         <element hint="Display region name labels on the map" label="Show Region Labels" max_length="40" name="show_labels" type="boolean"/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="map_projection" label="Map Projection" language="en" table="x_1295779_metpo_viz_choropleth">
+    <sys_documentation element="map_projection" label="Map - Projection" language="en" table="x_1295779_metpo_viz_choropleth">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>map_projection</element>
             <help/>
-            <hint>Map projection type: mercator, equalEarth, naturalEarth</hint>
-            <label>Map Projection</label>
+            <hint>Geographic map projection used to render the choropleth</hint>
+            <label>Map - Projection</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_choropleth</name>
             <plural/>

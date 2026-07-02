@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b9ecc97493bdc39051d7b1dcebba10b8" label="Visualization Config" max_length="40" name="x_1295779_metpo_visualization" type="collection">
-        <element default="cubicOut" hint="Easing function for animations (e.g., cubicOut, linear, elasticOut)" label="Animation Easing" max_length="40" name="animation_easing" type="string"/>
+    <element db_object_id="b9ecc97493bdc39051d7b1dcebba10b8" max_length="40" name="x_1295779_metpo_visualization" type="collection">
+        <element default="100%" hint="CSS width of the visualization container (e.g., 100%, 600px)" label="Chart Width" max_length="20" name="chart_width" type="string"/>
+        <element default="true" hint="Show or hide the chart legend" label="Legend - Show Legend" max_length="40" name="show_legend" type="boolean"/>
+        <element default="400px" hint="CSS height of the visualization container (e.g., 400px, 50vh)" label="Chart Height" max_length="20" name="chart_height" type="string"/>
+        <element hint="Title text displayed above the chart" label="Header &amp; Border - Chart Title" max_length="100" name="chart_title" type="string"/>
+        <element choice="3" default="cubicOut" hint="Easing function used for chart animations" label="Display - Animation Easing" max_length="40" name="animation_easing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bounce Out" sequence="5" value="bounceOut"/>
+                <element inactive_on_update="false" label="Cubic Out" sequence="0" value="cubicOut"/>
+                <element inactive_on_update="false" label="Elastic Out" sequence="6" value="elasticOut"/>
+                <element inactive_on_update="false" label="Ease In Out" sequence="4" value="easeInOut"/>
+                <element inactive_on_update="false" label="Ease In" sequence="2" value="easeIn"/>
+                <element inactive_on_update="false" label="Ease Out" sequence="3" value="easeOut"/>
+                <element inactive_on_update="false" label="Linear" sequence="1" value="linear"/>
+            </choice>
+        </element>
+        <element hint="Color of the chart title text" label="Header &amp; Border - Title Color" max_length="40" name="title_color" type="color"/>
+        <element default="12px" hint="Padding inside the chart container (CSS value)" label="Header &amp; Border - Padding" max_length="20" name="component_padding" type="string"/>
+        <element hint="Font size of the chart title in pixels" label="Header &amp; Border - Title Font Size" max_length="40" name="title_font_size" type="integer"/>
         <element choice="3" default="column_chart" hint="The chart type to render for this metric" label="Visualization Type" mandatory="true" max_length="40" name="viz_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Line Chart" sequence="1" value="line_chart"/>
@@ -23,14 +40,33 @@
         <element hint="Border color of the chart container (CSS color value)" label="Border Color" max_length="40" name="border_color" type="string"/>
         <element default="true" hint="Enable or disable entrance animations when the chart first renders" label="Animate" max_length="40" name="animate" type="boolean"/>
         <element display="true" hint="A unique name to identify this visualization configuration" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
-        <element default="categorical" hint="Color palette name or comma-separated hex values for data series" label="Color Scheme" max_length="255" name="color_scheme" type="string"/>
+        <element default="true" hint="Show tooltips on hover over data points" label="Tooltip - Show Tooltip" max_length="40" name="show_tooltip" type="boolean"/>
+        <element choice="3" default="category10" hint="Color scheme used for data series in the chart" label="Colors - Color Scheme" max_length="40" name="color_scheme" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Set2" sequence="5" value="set2"/>
+                <element inactive_on_update="false" label="Set1" sequence="4" value="set1"/>
+                <element inactive_on_update="false" label="Category10" sequence="0" value="category10"/>
+                <element inactive_on_update="false" label="Accent" sequence="1" value="accent"/>
+                <element inactive_on_update="false" label="Paired" sequence="3" value="paired"/>
+                <element inactive_on_update="false" label="Tableau10" sequence="7" value="tableau10"/>
+                <element inactive_on_update="false" label="Dark2" sequence="2" value="dark2"/>
+                <element inactive_on_update="false" label="Set3" sequence="6" value="set3"/>
+            </choice>
+        </element>
         <element hint="Allow clicking legend items to toggle data series visibility" label="Legend Interactive" max_length="40" name="legend_interactive" type="boolean"/>
         <element default="20" hint="Right margin inside the chart container in pixels" label="Margin Right" max_length="40" name="margin_right" type="integer"/>
         <element default="400px" hint="CSS height of the visualization container (e.g., 400px, 50vh)" label="Height" max_length="40" name="component_height" type="string"/>
         <element default="800" hint="Duration of entrance animation in milliseconds" label="Animation Duration (ms)" max_length="40" name="animation_duration" type="integer"/>
         <element default="transparent" hint="Background color of the chart container (CSS color value or transparent)" label="Background Color" max_length="40" name="background_color" type="string"/>
         <element default="0" hint="Border width around the chart container in pixels" label="Border Width" max_length="20" name="border_width" type="string"/>
-        <element default="bottom" hint="Position of the legend relative to the chart (top, bottom, left, right)" label="Legend Position" max_length="40" name="legend_position" type="string"/>
+        <element choice="3" default="bottom" hint="Position of the chart legend relative to the visualization" label="Legend - Position" max_length="40" name="legend_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Left" sequence="2" value="left"/>
+                <element inactive_on_update="false" label="Bottom" sequence="1" value="bottom"/>
+                <element inactive_on_update="false" label="Top" sequence="0" value="top"/>
+                <element inactive_on_update="false" label="Right" sequence="3" value="right"/>
+            </choice>
+        </element>
         <element default="true" hint="Show or hide the chart legend" label="Show Legend" max_length="40" name="legend_show" type="boolean"/>
         <element default="40" hint="Bottom margin inside the chart container in pixels" label="Margin Bottom" max_length="40" name="margin_bottom" type="integer"/>
         <element default="12" hint="Font size for legend text in pixels" label="Legend Font Size" max_length="40" name="legend_font_size" type="integer"/>

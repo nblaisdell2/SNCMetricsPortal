@@ -81,6 +81,8 @@ MetricsResolver.prototype = {
 
     /**
      * Loads active metric definitions for a section and hydrates each with data.
+     * Follows the source_config reference to load source type and fields from
+     * the dedicated x_1295779_metpo_source_config table.
      *
      * @param {string} sectionSysId - The section sys_id
      * @param {string} filterQuery - Additional encoded query to apply to table_aggregate sources
@@ -95,17 +97,27 @@ MetricsResolver.prototype = {
 
         var metrics = [];
         while (metricGr.next()) {
-            var sourceType = metricGr.getValue('source_type') || '';
-            var vizType = metricGr.getValue('viz_type') || '';
-            var displayConfigStr = metricGr.getValue('display_config') || '{}';
+            // Load source configuration from the referenced source_config table
+            var sourceConfigSysId = metricGr.getValue('source_config') || '';
+            var sourceType = '';
+            var sourceConfig = {};
 
-            var sourceConfig = this._buildSourceConfig(metricGr, sourceType);
-            var displayConfig = {};
+            if (sourceConfigSysId) {
+                var srcGr = new GlideRecord('x_1295779_metpo_source_config');
+                if (srcGr.get(sourceConfigSysId)) {
+                    sourceType = srcGr.getValue('source_type') || '';
+                    sourceConfig = this._buildSourceConfig(srcGr, sourceType);
+                }
+            }
 
-            try {
-                displayConfig = JSON.parse(displayConfigStr);
-            } catch (e) {
-                displayConfig = {};
+            // Resolve viz_type from the visualization reference
+            var vizSysId = metricGr.getValue('visualization') || '';
+            var vizType = '';
+            if (vizSysId) {
+                var vizGr = new GlideRecord('x_1295779_metpo_visualization');
+                if (vizGr.get(vizSysId)) {
+                    vizType = vizGr.getValue('viz_type') || '';
+                }
             }
 
             // Append user-applied filters to source_config filter for table_aggregate
@@ -120,8 +132,9 @@ MetricsResolver.prototype = {
             // Dispatch to the appropriate handler
             var data = this._dispatch(sourceType, sourceConfig, vizType);
 
-            // Merge visualization table config into display_config (table fields override JSON)
-            var vizConfig = this._resolveVisualizationConfig(metricGr.getValue('visualization'));
+            // Build display_config from the visualization table config
+            var displayConfig = {};
+            var vizConfig = this._resolveVisualizationConfig(vizSysId);
             if (vizConfig) {
                 for (var key in vizConfig) {
                     if (vizConfig.hasOwnProperty(key)) {
@@ -145,46 +158,46 @@ MetricsResolver.prototype = {
     },
 
     /**
-     * Builds a sourceConfig object from the dedicated fields on the metric record
+     * Builds a sourceConfig object from the dedicated source_config record
      * based on the source type.
      *
-     * @param {GlideRecord} metricGr - The metric GlideRecord
+     * @param {GlideRecord} srcGr - The source_config GlideRecord
      * @param {string} sourceType - The source_type value
      * @returns {Object} The assembled source configuration object
      */
-    _buildSourceConfig: function(metricGr, sourceType) {
+    _buildSourceConfig: function(srcGr, sourceType) {
         var config = {};
         switch (sourceType) {
             case 'table_aggregate':
-                config.table = metricGr.getValue('src_table') || '';
-                config.filter = metricGr.getValue('src_filter') || '';
-                config.aggregate = metricGr.getValue('src_aggregate') || '';
-                config.aggregate_field = metricGr.getValue('src_aggregate_field') || '';
-                config.group_by = metricGr.getValue('src_group_by') || '';
-                config.group_by_2 = metricGr.getValue('src_group_by_2') || '';
-                config.order_by = metricGr.getValue('src_order_by') || '';
-                config.limit = parseInt(metricGr.getValue('src_limit'), 10) || 0;
-                config.x_field = metricGr.getValue('src_x_field') || '';
-                config.y_field = metricGr.getValue('src_y_field') || '';
-                config.source_field = metricGr.getValue('src_source_field') || '';
-                config.target_field = metricGr.getValue('src_target_field') || '';
+                config.table = srcGr.getValue('src_table') || '';
+                config.filter = srcGr.getValue('src_filter') || '';
+                config.aggregate = srcGr.getValue('src_aggregate') || '';
+                config.aggregate_field = srcGr.getValue('src_aggregate_field') || '';
+                config.group_by = srcGr.getValue('src_group_by') || '';
+                config.group_by_2 = srcGr.getValue('src_group_by_2') || '';
+                config.order_by = srcGr.getValue('src_order_by') || '';
+                config.limit = parseInt(srcGr.getValue('src_limit'), 10) || 0;
+                config.x_field = srcGr.getValue('src_x_field') || '';
+                config.y_field = srcGr.getValue('src_y_field') || '';
+                config.source_field = srcGr.getValue('src_source_field') || '';
+                config.target_field = srcGr.getValue('src_target_field') || '';
                 break;
             case 'pa_indicator':
-                config.indicator = metricGr.getValue('src_indicator') || '';
-                config.breakdown = metricGr.getValue('src_breakdown') || '';
-                config.elements = metricGr.getValue('src_elements') || '';
-                config.lookback_days = parseInt(metricGr.getValue('src_lookback_days'), 10) || 30;
+                config.indicator = srcGr.getValue('src_indicator') || '';
+                config.breakdown = srcGr.getValue('src_breakdown') || '';
+                config.elements = srcGr.getValue('src_elements') || '';
+                config.lookback_days = parseInt(srcGr.getValue('src_lookback_days'), 10) || 30;
                 break;
             case 'staged_external':
-                config.table = metricGr.getValue('src_staged_table') || '';
-                config.filter = metricGr.getValue('src_staged_filter') || '';
-                config.label_field = metricGr.getValue('src_label_field') || '';
-                config.value_field = metricGr.getValue('src_value_field') || '';
+                config.table = srcGr.getValue('src_staged_table') || '';
+                config.filter = srcGr.getValue('src_staged_filter') || '';
+                config.label_field = srcGr.getValue('src_label_field') || '';
+                config.value_field = srcGr.getValue('src_value_field') || '';
                 break;
             case 'scripted':
-                config.script_include = metricGr.getValue('src_script_include') || '';
-                config.method = metricGr.getValue('src_method') || '';
-                var paramsStr = metricGr.getValue('src_params') || '{}';
+                config.script_include = srcGr.getValue('src_script_include') || '';
+                config.method = srcGr.getValue('src_method') || '';
+                var paramsStr = srcGr.getValue('src_params') || '{}';
                 try {
                     config.params = JSON.parse(paramsStr);
                 } catch (e) {
@@ -262,6 +275,9 @@ MetricsResolver.prototype = {
      * Reads the actual child table (via sys_class_name) to get all fields
      * including viz-type-specific ones. Excludes system fields.
      *
+     * Uses sys_dictionary queries instead of GlideRecord.getFields() since
+     * getFields() is not available in scoped applications.
+     *
      * @param {string} vizSysId - sys_id of the visualization record
      * @returns {Object|null} Key-value pairs of visualization properties, or null
      */
@@ -288,11 +304,43 @@ MetricsResolver.prototype = {
         var vizGr = new GlideRecord(actualTable);
         if (!vizGr.get(vizSysId)) return null;
 
+        // Get field names from sys_dictionary (scoped-app-safe alternative to getFields())
+        var fieldNames = [];
+        var seenFields = {};
+
+        // Get fields defined on the child table
+        var dictGr = new GlideRecord('sys_dictionary');
+        dictGr.addQuery('name', actualTable);
+        dictGr.addQuery('element', '!=', '');
+        dictGr.addQuery('internal_type', '!=', 'collection');
+        dictGr.query();
+        while (dictGr.next()) {
+            var elem = dictGr.getValue('element');
+            if (!seenFields[elem]) {
+                fieldNames.push(elem);
+                seenFields[elem] = true;
+            }
+        }
+
+        // Also get parent table fields if this is a child table
+        if (actualTable !== 'x_1295779_metpo_visualization') {
+            var parentDictGr = new GlideRecord('sys_dictionary');
+            parentDictGr.addQuery('name', 'x_1295779_metpo_visualization');
+            parentDictGr.addQuery('element', '!=', '');
+            parentDictGr.addQuery('internal_type', '!=', 'collection');
+            parentDictGr.query();
+            while (parentDictGr.next()) {
+                var parentElem = parentDictGr.getValue('element');
+                if (!seenFields[parentElem]) {
+                    fieldNames.push(parentElem);
+                    seenFields[parentElem] = true;
+                }
+            }
+        }
+
         var config = {};
-        var fields = vizGr.getFields();
-        for (var i = 0; i < fields.size(); i++) {
-            var field = fields.get(i);
-            var fieldName = field.getName();
+        for (var i = 0; i < fieldNames.length; i++) {
+            var fieldName = fieldNames[i];
 
             if (SKIP_FIELDS[fieldName]) continue;
             if (fieldName.indexOf('sys_') === 0) continue;
@@ -303,12 +351,13 @@ MetricsResolver.prototype = {
             // Convert to camelCase for the JSON output (snake_case → camelCase)
             var camelKey = fieldName.replace(/_([a-z])/g, function(m, c) { return c.toUpperCase(); });
 
-            // Auto-convert booleans and numbers
-            if (value === 'true' || value === '1') {
-                config[camelKey] = true;
-            } else if (value === 'false' || value === '0' && field.getED().getInternalType() === 'boolean') {
-                config[camelKey] = false;
-            } else if (!isNaN(value) && value.trim() !== '' && field.getED().getInternalType() === 'integer') {
+            // Auto-convert booleans and numbers using GlideElement metadata
+            var element = vizGr.getElement(fieldName);
+            var internalType = element.getED().getInternalType() + '';
+
+            if (internalType === 'boolean') {
+                config[camelKey] = (value === 'true' || value === '1');
+            } else if (internalType === 'integer' && !isNaN(value) && value.trim() !== '') {
                 config[camelKey] = parseInt(value, 10);
             } else {
                 config[camelKey] = value;

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="spiral" label="Spiral Type" language="en" table="x_1295779_metpo_viz_wordcloud">
+    <sys_documentation element="spiral" label="Layout - Spiral" language="en" table="x_1295779_metpo_viz_wordcloud">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>spiral</element>
             <help/>
-            <hint>Layout spiral algorithm: archimedean (oval) or rectangular</hint>
-            <label>Spiral Type</label>
+            <hint>Spiral algorithm used to place words in the cloud</hint>
+            <label>Layout - Spiral</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_wordcloud</name>
             <plural/>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="17eccd7493bdc39051d7b1dcebba10ad" extends="x_1295779_metpo_visualization" label="Network Graph" max_length="40" name="x_1295779_metpo_viz_network" type="collection">
+    <element db_object_id="17eccd7493bdc39051d7b1dcebba10ad" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_network" type="collection">
         <element default="true" hint="Allow users to zoom and pan the network view" label="Enable Zoom/Pan" max_length="40" name="zoomable" type="boolean"/>
         <element default="#6366f1" hint="Default fill color for network nodes" label="Default Node Color" max_length="40" name="node_color" type="string"/>
+        <element hint="Data field name to dynamically determine link width" label="Links - Width By Field" max_length="80" name="link_width_field" type="string"/>
         <element default="#9ca3af" hint="Color of connection lines between nodes" label="Link Color" max_length="40" name="link_color" type="string"/>
         <element default="1" hint="Width of connection lines between nodes in pixels" label="Link Width" max_length="40" name="link_width" type="integer"/>
         <element default="100" hint="Preferred distance between connected nodes in pixels" label="Link Distance" max_length="40" name="link_distance" type="integer"/>

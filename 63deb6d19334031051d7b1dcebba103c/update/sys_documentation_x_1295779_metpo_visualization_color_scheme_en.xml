@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="color_scheme" label="Color Scheme" language="en" table="x_1295779_metpo_visualization">
+    <sys_documentation element="color_scheme" label="Colors - Color Scheme" language="en" table="x_1295779_metpo_visualization">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>color_scheme</element>
             <help/>
-            <hint>Color palette name or comma-separated hex values for data series</hint>
-            <label>Color Scheme</label>
+            <hint>Color scheme used for data series in the chart</hint>
+            <label>Colors - Color Scheme</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
             <plural/>

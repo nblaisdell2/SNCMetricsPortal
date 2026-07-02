@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="label_format" label="Label Format" language="en" table="x_1295779_metpo_viz_pie">
+    <sys_documentation element="label_format" label="Labels - Format" language="en" table="x_1295779_metpo_viz_pie">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>label_format</element>
             <help/>
-            <hint>Label display format: percent, value, or name</hint>
-            <label>Label Format</label>
+            <hint>Format of labels displayed on pie slices</hint>
+            <label>Labels - Format</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_pie</name>
             <plural/>

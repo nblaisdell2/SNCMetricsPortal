@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="area_fill_style" table="x_1295779_metpo_viz_line" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>area_fill_style</element>
+            <name>x_1295779_metpo_viz_line</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-02 23:02:41</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>area_fill_style</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_choice_x_1295779_metpo_viz_line_area_fill_style</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-02 23:02:41</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_fill_style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gradient</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_line</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-02 23:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-02 23:02:41</sys_updated_on>
+            <value>gradient</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>area_fill_style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solid</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_line</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-02 23:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-02 23:02:41</sys_updated_on>
+            <value>solid</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

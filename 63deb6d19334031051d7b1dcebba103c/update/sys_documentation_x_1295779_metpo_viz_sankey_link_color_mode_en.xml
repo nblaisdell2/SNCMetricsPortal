@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="link_color_mode" label="Link Color Mode" language="en" table="x_1295779_metpo_viz_sankey">
+    <sys_documentation element="link_color_mode" label="Links - Color Mode" language="en" table="x_1295779_metpo_viz_sankey">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>link_color_mode</element>
             <help/>
-            <hint>How links are colored: source node color, target node color, or gradient</hint>
-            <label>Link Color Mode</label>
+            <hint>How link colors are determined in the Sankey diagram</hint>
+            <label>Links - Color Mode</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_sankey</name>
             <plural/>

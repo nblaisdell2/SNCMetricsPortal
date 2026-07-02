@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="time_scale" label="Time Scale" language="en" table="x_1295779_metpo_viz_gantt">
+    <sys_documentation element="time_scale" label="Timeline - Scale" language="en" table="x_1295779_metpo_viz_gantt">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>time_scale</element>
             <help/>
-            <hint>Time granularity for the header: hour, day, week, month</hint>
-            <label>Time Scale</label>
+            <hint>Time scale granularity for the Gantt chart timeline</hint>
+            <label>Timeline - Scale</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_gantt</name>
             <plural/>

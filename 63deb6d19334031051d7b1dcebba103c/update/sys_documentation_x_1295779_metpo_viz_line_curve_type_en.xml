@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="curve_type" label="Curve Type" language="en" table="x_1295779_metpo_viz_line">
+    <sys_documentation element="curve_type" label="Lines - Curve Type" language="en" table="x_1295779_metpo_viz_line">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>curve_type</element>
             <help/>
-            <hint>Interpolation type for the line (linear, monotone, cardinal, step)</hint>
-            <label>Curve Type</label>
+            <hint>Interpolation method used to draw the line between data points</hint>
+            <label>Lines - Curve Type</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_line</name>
             <plural/>

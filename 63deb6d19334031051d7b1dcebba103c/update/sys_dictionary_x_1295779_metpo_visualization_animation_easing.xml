@@ -5,10 +5,10 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Animation Easing</column_label>
+        <column_label>Display - Animation Easing</column_label>
         <comments/>
         <create_roles/>
         <default_value>cubicOut</default_value>
@@ -27,7 +27,7 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1295779_metpo_visualization</name>
@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-28 02:33:37</sys_created_on>
-        <sys_name>Animation Easing</sys_name>
+        <sys_name>Display - Animation Easing</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
