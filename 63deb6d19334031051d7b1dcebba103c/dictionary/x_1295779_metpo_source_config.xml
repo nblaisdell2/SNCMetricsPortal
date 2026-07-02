@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c3da140545a44d7aa946f165be4e520c" label="Metric Source Configuration" name="x_1295779_metpo_source_config" type="collection">
+    <element db_object_id="c3da140545a44d7aa946f165be4e520c" label="Metric Source Configuration" name="x_1295779_metpo_source_config" type="collection">
         <element dependent="src_staged_table" hint="Field in the staging table to use as the numeric value" label="Value Field" max_length="80" name="src_value_field" type="field_name"/>
         <element hint="Method to call on the script include class" label="Method Name" max_length="100" name="src_method" type="string"/>
         <element dependent="src_table" hint="Field to use for the Y-axis in chart visualizations" label="Y-Axis Field" max_length="80" name="src_y_field" type="field_name"/>

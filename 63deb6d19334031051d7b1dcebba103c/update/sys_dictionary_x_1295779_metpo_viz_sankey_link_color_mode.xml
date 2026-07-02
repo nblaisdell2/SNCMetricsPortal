@@ -5,13 +5,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Link Color Mode</column_label>
+        <column_label>Links - Color Mode</column_label>
         <comments/>
         <create_roles/>
-        <default_value>source</default_value>
+        <default_value>gradient</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,9 +27,9 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>20</max_length>
+        <max_length>40</max_length>
         <name>x_1295779_metpo_viz_sankey</name>
         <next_element/>
         <primary>false</primary>
@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-28 02:33:47</sys_created_on>
-        <sys_name>Link Color Mode</sys_name>
+        <sys_name>Links - Color Mode</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>

@@ -44,6 +44,20 @@ MetricsTableAggregateHandler.prototype = {
                     return this._executeTreemap(table, filter, aggregate, aggregateField, groupBy, groupBy2, limit);
                 case 'wordcloud':
                     return this._executeWordcloud(table, filter, aggregate, aggregateField, groupBy, limit);
+                case 'radar':
+                    return this._executeRadar(table, filter, aggregate, aggregateField, groupBy, limit);
+                case 'gauge':
+                    return this._executeGauge(table, filter, aggregate, aggregateField);
+                case 'choropleth':
+                    return this._executeChoropleth(table, filter, aggregate, aggregateField, groupBy, limit);
+                case 'network':
+                    return this._executeNetwork(table, filter, aggregate, aggregateField, sourceConfig);
+                case 'calendar':
+                    return this._executeCalendar(table, filter, aggregate, aggregateField, sourceConfig);
+                case 'gantt':
+                    return this._executeGantt(table, filter, sourceConfig);
+                case 'boxplot':
+                    return this._executeBoxplot(table, filter, sourceConfig);
                 default:
                     return this._executeChart(table, filter, aggregate, aggregateField, groupBy, orderBy, limit);
             }
@@ -320,6 +334,226 @@ MetricsTableAggregateHandler.prototype = {
     },
 
     // ===== HELPER METHODS (scoped-app safe) =====
+
+    /**
+     * Radar chart: { series: [{ name, data: [{ axis, value }] }] }
+     * Each series shares the same set of axes (dimensions).
+     * The component binds to the series property where each series item
+     * contains a data array of { axis, value } objects.
+     */
+    _executeRadar: function(table, filter, aggregate, aggregateField, groupBy, limit) {
+        if (!groupBy) {
+            return { error: 'group_by is required for radar', series: [] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        ga.setLimit(limit);
+        ga.query();
+
+        var data = [];
+        while (ga.next()) {
+            data.push({
+                axis: this._getGroupLabel(ga, groupBy),
+                value: this._getAggregateValue(ga, aggregate, aggregateField)
+            });
+        }
+
+        return {
+            series: [{ name: aggregate, data: data }]
+        };
+    },
+
+    /**
+     * Gauge: { value, min, max, label }
+     * Single aggregate value for the needle position.
+     */
+    _executeGauge: function(table, filter, aggregate, aggregateField) {
+        var value = this._getSingleValue(table, filter, aggregate, aggregateField);
+        return {
+            value: value,
+            min: 0,
+            max: Math.max(value * 2, 100),
+            label: aggregate + ' Total'
+        };
+    },
+
+    /**
+     * Choropleth: { regions: [{ name, value }] }
+     * Geographic regions with associated values.
+     */
+    _executeChoropleth: function(table, filter, aggregate, aggregateField, groupBy, limit) {
+        if (!groupBy) {
+            return { error: 'group_by is required for choropleth', regions: [] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(groupBy);
+        ga.setLimit(limit);
+        ga.query();
+
+        var regions = [];
+        while (ga.next()) {
+            regions.push({
+                name: this._getGroupLabel(ga, groupBy),
+                value: this._getAggregateValue(ga, aggregate, aggregateField)
+            });
+        }
+
+        return { regions: regions };
+    },
+
+    /**
+     * Network graph: { nodes: [{ id, label, group? }], links: [{ source, target, value? }] }
+     */
+    _executeNetwork: function(table, filter, aggregate, aggregateField, sourceConfig) {
+        var sourceField = sourceConfig.source_field || sourceConfig.group_by || '';
+        var targetField = sourceConfig.target_field || sourceConfig.group_by_2 || '';
+        var limit = parseInt(sourceConfig.limit, 10) || 100;
+
+        if (!sourceField || !targetField) {
+            return { error: 'source_field and target_field required for network', nodes: [], links: [] };
+        }
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.groupBy(sourceField);
+        ga.groupBy(targetField);
+        ga.setLimit(limit);
+        ga.query();
+
+        var nodeSet = {};
+        var links = [];
+
+        while (ga.next()) {
+            var src = this._getGroupLabel(ga, sourceField);
+            var tgt = this._getGroupLabel(ga, targetField);
+            var val = this._getAggregateValue(ga, aggregate, aggregateField);
+
+            nodeSet[src] = true;
+            nodeSet[tgt] = true;
+            links.push({ source: src, target: tgt, value: val });
+        }
+
+        var nodes = [];
+        var idx = 0;
+        for (var nName in nodeSet) {
+            if (nodeSet.hasOwnProperty(nName)) {
+                nodes.push({ id: nName, label: nName, group: idx % 5 });
+                idx++;
+            }
+        }
+
+        return { nodes: nodes, links: links };
+    },
+
+    /**
+     * Calendar heatmap: { entries: [{ date, value }] }
+     * Daily aggregated values for the calendar grid.
+     */
+    _executeCalendar: function(table, filter, aggregate, aggregateField, sourceConfig) {
+        var dateField = sourceConfig.x_field || sourceConfig.group_by || 'sys_created_on';
+        var limit = parseInt(sourceConfig.limit, 10) || 365;
+
+        var ga = new GlideAggregate(table);
+        if (filter) ga.addEncodedQuery(filter);
+        this._addAggregate(ga, aggregate, aggregateField);
+        ga.addTrend(dateField, 'day');
+        ga.setLimit(limit);
+        ga.query();
+
+        var entries = [];
+        while (ga.next()) {
+            var dateVal = ga.getValue('timeref');
+            var val = this._getAggregateValue(ga, aggregate, aggregateField);
+            if (dateVal) {
+                entries.push({ date: dateVal.substring(0, 10), value: val });
+            }
+        }
+
+        return { entries: entries };
+    },
+
+    /**
+     * Gantt chart: { tasks: [{ name, start, end, category, progress? }] }
+     * Task bars with start/end dates.
+     */
+    _executeGantt: function(table, filter, sourceConfig) {
+        var startField = sourceConfig.x_field || 'start_date';
+        var endField = sourceConfig.y_field || 'end_date';
+        var groupBy = sourceConfig.group_by || '';
+        var limit = parseInt(sourceConfig.limit, 10) || 20;
+
+        var gr = new GlideRecord(table);
+        if (filter) gr.addEncodedQuery(filter);
+        gr.addNotNullQuery(startField);
+        gr.addNotNullQuery(endField);
+        gr.orderBy(startField);
+        gr.setLimit(limit);
+        gr.query();
+
+        var tasks = [];
+        while (gr.next()) {
+            var taskName = gr.getDisplayValue('short_description') || gr.getDisplayValue('number') || gr.getUniqueValue();
+            var category = groupBy ? (gr.getDisplayValue(groupBy) || gr.getValue(groupBy) || '') : '';
+
+            tasks.push({
+                name: taskName,
+                start: gr.getValue(startField) || '',
+                end: gr.getValue(endField) || '',
+                category: category
+            });
+        }
+
+        return { tasks: tasks };
+    },
+
+    /**
+     * Box plot: { groups: [{ name, values: [number] }] }
+     * Raw numeric values per group for statistical box calculation.
+     */
+    _executeBoxplot: function(table, filter, sourceConfig) {
+        var valueField = sourceConfig.aggregate_field || '';
+        var groupBy = sourceConfig.group_by || '';
+        var limit = parseInt(sourceConfig.limit, 10) || 500;
+
+        if (!valueField || !groupBy) {
+            return { error: 'aggregate_field and group_by required for boxplot', groups: [] };
+        }
+
+        var gr = new GlideRecord(table);
+        if (filter) gr.addEncodedQuery(filter);
+        gr.addNotNullQuery(valueField);
+        gr.setLimit(limit);
+        gr.query();
+
+        var groupMap = {};
+        while (gr.next()) {
+            var groupName = gr.getDisplayValue(groupBy) || gr.getValue(groupBy) || '(empty)';
+            var numVal = parseFloat(gr.getValue(valueField)) || 0;
+
+            if (!groupMap[groupName]) {
+                groupMap[groupName] = [];
+            }
+            groupMap[groupName].push(numVal);
+        }
+
+        var groups = [];
+        for (var gName in groupMap) {
+            if (groupMap.hasOwnProperty(gName)) {
+                groups.push({ name: gName, values: groupMap[gName] });
+            }
+        }
+
+        return { groups: groups };
+    },
+
+    // ===== CORE HELPER METHODS (scoped-app safe) =====
 
     /**
      * Adds an aggregate to a GlideAggregate. Handles empty aggregateField properly.

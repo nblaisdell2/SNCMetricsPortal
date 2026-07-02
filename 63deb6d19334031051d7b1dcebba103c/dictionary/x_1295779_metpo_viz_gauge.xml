@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="54fc41b493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Gauge" max_length="40" name="x_1295779_metpo_viz_gauge" type="collection">
+    <element db_object_id="54fc41b493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_gauge" type="collection">
         <element default="100" hint="Maximum value on the gauge scale" label="Max Value" max_length="40" name="max_value" type="integer"/>
         <element default="20" hint="Thickness of the gauge arc band in pixels" label="Arc Width" max_length="40" name="arc_width" type="integer"/>
         <element default="28" hint="Font size of the displayed value in pixels" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
@@ -9,6 +9,13 @@
         <element default="0" hint="Minimum value on the gauge scale" label="Min Value" max_length="40" name="min_value" type="integer"/>
         <element hint="JSON array defining color zones [{min, max, color}] on the arc" label="Zones Config (JSON)" max_length="4000" name="zones_config" type="string"/>
         <element hint="Unit label shown after the value (e.g., %, ms, GB)" label="Units Label" max_length="40" name="units" type="string"/>
+        <element choice="3" default="progress" hint="Style of the gauge arc: progress bar, full circle, or speedometer" label="Dial - Style" max_length="40" name="arc_style" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Progress" sequence="0" value="progress"/>
+                <element inactive_on_update="false" label="Speedometer" sequence="2" value="speedometer"/>
+                <element inactive_on_update="false" label="Full" sequence="1" value="full"/>
+            </choice>
+        </element>
         <element default="135" hint="Ending angle of the gauge arc in degrees" label="End Angle (degrees)" max_length="40" name="end_angle" type="integer"/>
     </element>
 </database>

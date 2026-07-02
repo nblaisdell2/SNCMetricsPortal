@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="regression_type" label="Regression Type" language="en" table="x_1295779_metpo_viz_scatter">
+    <sys_documentation element="regression_type" label="Trend Line - Regression Type" language="en" table="x_1295779_metpo_viz_scatter">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>regression_type</element>
             <help/>
-            <hint>Type of regression curve: linear, polynomial, exponential</hint>
-            <label>Regression Type</label>
+            <hint>Type of regression algorithm for the trend line</hint>
+            <label>Trend Line - Regression Type</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_scatter</name>
             <plural/>

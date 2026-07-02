@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e6ec4d7493bdc39051d7b1dcebba10b0" extends="x_1295779_metpo_visualization" label="Word Cloud" max_length="40" name="x_1295779_metpo_viz_wordcloud" type="collection">
+    <element db_object_id="e6ec4d7493bdc39051d7b1dcebba10b0" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_wordcloud" type="collection">
         <element default="-60" hint="Minimum rotation angle in degrees for word placement" label="Rotation Min (degrees)" max_length="40" name="rotation_min" type="integer"/>
         <element default="normal" hint="CSS font weight (normal, bold, 100-900)" label="Font Weight" max_length="20" name="font_weight" type="string"/>
         <element default="10" hint="Minimum font size in pixels for the least frequent words" label="Minimum Font Size" max_length="40" name="min_font_size" type="integer"/>
@@ -8,6 +8,11 @@
         <element default="5" hint="Number of discrete rotation angles between min and max" label="Rotation Steps" max_length="40" name="rotation_steps" type="integer"/>
         <element default="60" hint="Maximum rotation angle in degrees for word placement" label="Rotation Max (degrees)" max_length="40" name="rotation_max" type="integer"/>
         <element default="Impact" hint="CSS font family for all words in the cloud" label="Font Family" max_length="100" name="font_family" type="string"/>
-        <element default="archimedean" hint="Layout spiral algorithm: archimedean (oval) or rectangular" label="Spiral Type" max_length="20" name="spiral" type="string"/>
+        <element choice="3" default="archimedean" hint="Spiral algorithm used to place words in the cloud" label="Layout - Spiral" max_length="40" name="spiral" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rectangular" sequence="1" value="rectangular"/>
+                <element inactive_on_update="false" label="Archimedean" sequence="0" value="archimedean"/>
+            </choice>
+        </element>
     </element>
 </database>

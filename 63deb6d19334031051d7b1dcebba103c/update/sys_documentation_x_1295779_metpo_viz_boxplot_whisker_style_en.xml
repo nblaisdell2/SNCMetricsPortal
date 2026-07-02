@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="whisker_style" label="Whisker Style" language="en" table="x_1295779_metpo_viz_boxplot">
+    <sys_documentation element="whisker_style" label="Whiskers - Style" language="en" table="x_1295779_metpo_viz_boxplot">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>whisker_style</element>
             <help/>
-            <hint>Style of whisker lines: line (simple) or cap (with end caps)</hint>
-            <label>Whisker Style</label>
+            <hint>Visual style of the box plot whiskers</hint>
+            <label>Whiskers - Style</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
             <plural/>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="grid_shape" label="Grid Shape" language="en" table="x_1295779_metpo_viz_radar">
+    <sys_documentation element="grid_shape" label="Radar - Grid Shape" language="en" table="x_1295779_metpo_viz_radar">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>grid_shape</element>
             <help/>
-            <hint>Shape of the grid: polygon (angular) or circle (smooth)</hint>
-            <label>Grid Shape</label>
+            <hint>Shape of the radar grid: polygon or circle</hint>
+            <label>Radar - Grid Shape</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_radar</name>
             <plural/>

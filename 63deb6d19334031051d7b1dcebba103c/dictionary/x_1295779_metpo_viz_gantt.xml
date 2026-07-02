@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="92ec4d7493bdc39051d7b1dcebba1017" extends="x_1295779_metpo_visualization" label="Gantt Chart" max_length="40" name="x_1295779_metpo_viz_gantt" type="collection">
+    <element db_object_id="92ec4d7493bdc39051d7b1dcebba1017" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_gantt" type="collection">
         <element default="true" hint="Display progress fill within task bars" label="Show Progress" max_length="40" name="show_progress" type="boolean"/>
         <element default="6" hint="Vertical padding between task rows in pixels" label="Row Padding (px)" max_length="40" name="row_padding" type="integer"/>
         <element default="#ef4444" hint="Color of the today marker line" label="Today Line Color" max_length="40" name="today_line_color" type="string"/>
-        <element default="day" hint="Time granularity for the header: hour, day, week, month" label="Time Scale" max_length="20" name="time_scale" type="string"/>
+        <element choice="3" default="day" hint="Time scale granularity for the Gantt chart timeline" label="Timeline - Scale" max_length="40" name="time_scale" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Week" sequence="2" value="week"/>
+                <element inactive_on_update="false" label="Day" sequence="1" value="day"/>
+                <element inactive_on_update="false" label="Hour" sequence="0" value="hour"/>
+                <element inactive_on_update="false" label="Month" sequence="3" value="month"/>
+            </choice>
+        </element>
         <element default="true" hint="Show arrow connections between dependent tasks" label="Show Dependencies" max_length="40" name="show_dependencies" type="boolean"/>
         <element default="true" hint="Draw a vertical line at today's date" label="Show Today Line" max_length="40" name="show_today_line" type="boolean"/>
         <element default="4" hint="Corner radius of task bars in pixels" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>

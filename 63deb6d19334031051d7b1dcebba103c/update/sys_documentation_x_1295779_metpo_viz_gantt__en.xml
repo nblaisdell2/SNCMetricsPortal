@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Gantt Chart" language="en" table="x_1295779_metpo_viz_gantt">
+    <sys_documentation element="" label="" language="en" table="x_1295779_metpo_viz_gantt">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Gantt Chart</label>
+            <label/>
             <language>en</language>
             <name>x_1295779_metpo_viz_gantt</name>
-            <plural>Gantt Charts</plural>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:38</sys_created_on>
