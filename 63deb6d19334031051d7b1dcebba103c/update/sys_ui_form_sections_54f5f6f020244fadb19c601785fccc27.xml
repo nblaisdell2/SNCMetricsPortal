@@ -3,30 +3,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
+            <sys_created_on>2026-07-03 17:38:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2484ad5e033e433caa1f7e409f5bb0db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>69ebcaa23bfd031099d7336436e45ae6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Identity" display_value="Identity" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">d7c43266436a4950b5ce4679cc241e51</sys_ui_section>
+            <sys_ui_section caption="Viz: Gantt" display_value="Viz: Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">5ca460fbfc994cb7bf6416592f6a6384</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:04:53</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
+            <sys_created_on>2026-07-03 17:38:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a82177ddb28b460c8bf7d1a329f413de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>53ebc2e23bfd031099d7336436e45a07</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Bars" display_value="Bars" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">e7c14effa489443096b640f8a60f5c26</sys_ui_section>
+            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">df3bc66e9f374b92aa1e64e9f13ec09e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -34,69 +34,69 @@
             <sys_created_on>2026-06-28 03:22:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b25cc8ef70454b70a695fc31d9785da2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Features" display_value="Features" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">deadeefd697f4ec9843103669f6e830d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b89f71627d4344d2835f980a33f4bc85</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Time Scale" display_value="Time Scale" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">c9ecf7971dc842b4998065da3b9024e5</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>8e0cbfb966a24333ae6516ac796d832e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9ebcaa23bfd031099d7336436e45a70</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">4955f535dd334eb6860fce75192963e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97eb82e23bfd031099d7336436e45a79</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
+            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">d9c3349300914c1989a36ccded7bfcf2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
+            <sys_created_on>2026-07-03 17:38:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>da114b13290b477587b82c983bea1be9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>2ceb0aa23bfd031099d7336436e45afd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">53244eb6de59492d940cd68d16120055</sys_ui_section>
+            <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1d49aee8d1d74dcfadcb307450f1676c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
+            <sys_created_on>2026-07-03 17:38:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d3768df1ff2c4dcabcf81aa285b3c22e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>28eb4aa23bfd031099d7336436e45a05</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">01e9fd2b9a874def9b9e066168a29716</sys_ui_section>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1d9ab0b14da1460a8c116f4db10591d1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>7</position>
@@ -104,13 +104,27 @@
             <sys_created_on>2026-06-28 03:22:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>08702be5cfae42b3a2a863072cf731b2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>da114b13290b477587b82c983bea1be9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
-            <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">5db0b14c17b640f9b9fd480e7447cb67</sys_ui_section>
+            <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">53244eb6de59492d940cd68d16120055</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aeb02e23bfd031099d7336436e45a58</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">54f5f6f020244fadb19c601785fccc27</sys_ui_form>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:31:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_gantt</name>

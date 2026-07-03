@@ -4,41 +4,41 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>8d5f99a683b1c710a8d6c829feaad30d</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>02ec5e6e3b71431099d7336436e45af6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>title</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>495f99a683b1c710a8d6c829feaad30e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>width</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>055f99a683b1c710a8d6c829feaad30f</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>caec5e6e3b71431099d7336436e45af6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>height</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>86ec5e6e3b71431099d7336436e45af7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>order</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>cd5f99a683b1c710a8d6c829feaad30f</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>42ec5e6e3b71431099d7336436e45af8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,69 +60,97 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>895f99a683b1c710a8d6c829feaad310</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>0eec5e6e3b71431099d7336436e45af8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>section</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>455f99a683b1c710a8d6c829feaad311</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>c6ec5e6e3b71431099d7336436e45af9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>section</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>015f99a683b1c710a8d6c829feaad312</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>source_config</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>c95f99a683b1c710a8d6c829feaad312</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>82ec5e6e3b71431099d7336436e45afa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>visualization</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 14:23:29</sys_created_on>
-            <sys_id>855f99a683b1c710a8d6c829feaad313</sys_id>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>4eec5e6e3b71431099d7336436e45afa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 14:23:29</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>0aec5e6e3b71431099d7336436e45afb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>c2ec5e6e3b71431099d7336436e45afc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 18:52:31</sys_created_on>
+            <sys_id>8eec5e6e3b71431099d7336436e45afc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Metric Details" display_value="Metric Details" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">2ade46a1d4bf4cf1996c069d80e4cab4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 18:52:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

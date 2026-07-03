@@ -1,130 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Header &amp; Border" section_id="3558a4243652462babc47d37aa522fc9" sys_domain="global" table="x_1295779_metpo_viz_gantt" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>chart_title</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>5ef0f172e2544b75992ced3bdb2c8405</sys_id>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>87362ae23bf1431099d7336436e45aa6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
             <sys_user/>
-            <type>.begin_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>component_width</element>
+            <element>title_font_size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>f4fded013b7a45188b2e5bb25dd624a0</sys_id>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>07362ae23bf1431099d7336436e45aa7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>component_height</element>
+            <element>title_color</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>e281401246e24fa99d958e1677d04bd1</sys_id>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>83362ae23bf1431099d7336436e45aa8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>background_color</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>056ace735a444f9db6c77ef43b6d2fd8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>acc9a57f5fa945c080538f11a72c50c1</sys_id>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>03362ae23bf1431099d7336436e45aa9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>border_color</element>
-            <position>5</position>
+            <element>border_width</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>9baaa303b5764a5885e0538f5e0e9911</sys_id>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>8f362ae23bf1431099d7336436e45aa9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>border_radius</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>0f362ae23bf1431099d7336436e45aaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>border_color</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>c682a3aa35564b21af6dc95a30fa8166</sys_id>
+            <sys_created_on>2026-07-03 19:33:16</sys_created_on>
+            <sys_id>8b362ae23bf1431099d7336436e45aab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:33:16</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>border_width</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>5330b9402dc547d58031deb0133b5466</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
-            <sys_id>495d52e64d43453abf7b3898cc5f18f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">3558a4243652462babc47d37aa522fc9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Header &amp; Border</caption>

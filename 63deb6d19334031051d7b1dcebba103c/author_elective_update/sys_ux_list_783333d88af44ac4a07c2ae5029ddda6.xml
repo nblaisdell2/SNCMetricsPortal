@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="DELETE">
+        <active>true</active>
+        <category display_value="Metrics">976d3c43a78f4dccb8bd74274522839d</category>
+        <columns>name,section,visualization_type,data_source,order,active</columns>
+        <condition table="x_1295779_metpo_metric">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Metrics Portal List Configuration">655b3b8ab9774be588396dcd2b717354</configuration>
+        <enable_column_calculations>false</enable_column_calculations>
+        <enable_infinite_scroll>false</enable_infinite_scroll>
+        <enable_related_hierarchy>false</enable_related_hierarchy>
+        <fixed_query/>
+        <group_by_column/>
+        <groups/>
+        <hide_cell_filter>false</hide_cell_filter>
+        <hide_checkbox_hover>false</hide_checkbox_hover>
+        <hide_column_filtering>false</hide_column_filtering>
+        <hide_column_grouping>false</hide_column_grouping>
+        <hide_column_resizing>false</hide_column_resizing>
+        <hide_column_sorting>false</hide_column_sorting>
+        <hide_drag_and_drop>false</hide_drag_and_drop>
+        <hide_empty_state_image>false</hide_empty_state_image>
+        <hide_first_page>false</hide_first_page>
+        <hide_header>false</hide_header>
+        <hide_highlight_content>false</hide_highlight_content>
+        <hide_highlighted_values>false</hide_highlighted_values>
+        <hide_inline_editing>false</hide_inline_editing>
+        <hide_last_page>false</hide_last_page>
+        <hide_last_refreshed_text>false</hide_last_refreshed_text>
+        <hide_links>false</hide_links>
+        <hide_list_actions>false</hide_list_actions>
+        <hide_menu_button>false</hide_menu_button>
+        <hide_next_page>false</hide_next_page>
+        <hide_option_to_save_as>false</hide_option_to_save_as>
+        <hide_pages>false</hide_pages>
+        <hide_pagination>false</hide_pagination>
+        <hide_panel_advanced>false</hide_panel_advanced>
+        <hide_panel_button>false</hide_panel_button>
+        <hide_panel_condition_delete>false</hide_panel_condition_delete>
+        <hide_panel_footer>false</hide_panel_footer>
+        <hide_panel_restore>false</hide_panel_restore>
+        <hide_personalization>false</hide_personalization>
+        <hide_previous_page>false</hide_previous_page>
+        <hide_quick_edit>false</hide_quick_edit>
+        <hide_range>false</hide_range>
+        <hide_record_count_badge>false</hide_record_count_badge>
+        <hide_reference_links>false</hide_reference_links>
+        <hide_refresh_button>false</hide_refresh_button>
+        <hide_row_count>false</hide_row_count>
+        <hide_row_selector>false</hide_row_selector>
+        <hide_rows_per_page_selector>false</hide_rows_per_page_selector>
+        <hide_select_all>false</hide_select_all>
+        <hide_sharing_button>false</hide_sharing_button>
+        <hide_title>false</hide_title>
+        <highlight_content_color/>
+        <highlight_content_pattern/>
+        <list_attributes/>
+        <live_updates>off</live_updates>
+        <max_characters>4000</max_characters>
+        <order>10</order>
+        <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
+        <roles/>
+        <show_filter_overview>false</show_filter_overview>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>783333d88af44ac4a07c2ae5029ddda6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Metrics</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_list_783333d88af44ac4a07c2ae5029ddda6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:21</sys_updated_on>
+        <table>x_1295779_metpo_metric</table>
+        <title>Active Metrics</title>
+        <view/>
+        <word_wrap>false</word_wrap>
+    </sys_ux_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>sys_ux_list_783333d88af44ac4a07c2ae5029ddda6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Metrics">976d3c43a78f4dccb8bd74274522839d</category>
+        <columns>name,section,visualization_type,data_source,order,active</columns>
+        <condition table="x_1295779_metpo_metric">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Metrics Portal List Configuration">655b3b8ab9774be588396dcd2b717354</configuration>
+        <enable_column_calculations>false</enable_column_calculations>
+        <enable_infinite_scroll>false</enable_infinite_scroll>
+        <enable_related_hierarchy>false</enable_related_hierarchy>
+        <fixed_query/>
+        <group_by_column/>
+        <groups/>
+        <hide_cell_filter>false</hide_cell_filter>
+        <hide_checkbox_hover>false</hide_checkbox_hover>
+        <hide_column_filtering>false</hide_column_filtering>
+        <hide_column_grouping>false</hide_column_grouping>
+        <hide_column_resizing>false</hide_column_resizing>
+        <hide_column_sorting>false</hide_column_sorting>
+        <hide_drag_and_drop>false</hide_drag_and_drop>
+        <hide_empty_state_image>false</hide_empty_state_image>
+        <hide_first_page>false</hide_first_page>
+        <hide_header>false</hide_header>
+        <hide_highlight_content>false</hide_highlight_content>
+        <hide_highlighted_values>false</hide_highlighted_values>
+        <hide_inline_editing>false</hide_inline_editing>
+        <hide_last_page>false</hide_last_page>
+        <hide_last_refreshed_text>false</hide_last_refreshed_text>
+        <hide_links>false</hide_links>
+        <hide_list_actions>false</hide_list_actions>
+        <hide_menu_button>false</hide_menu_button>
+        <hide_next_page>false</hide_next_page>
+        <hide_option_to_save_as>false</hide_option_to_save_as>
+        <hide_pages>false</hide_pages>
+        <hide_pagination>false</hide_pagination>
+        <hide_panel_advanced>false</hide_panel_advanced>
+        <hide_panel_button>false</hide_panel_button>
+        <hide_panel_condition_delete>false</hide_panel_condition_delete>
+        <hide_panel_footer>false</hide_panel_footer>
+        <hide_panel_restore>false</hide_panel_restore>
+        <hide_personalization>false</hide_personalization>
+        <hide_previous_page>false</hide_previous_page>
+        <hide_quick_edit>false</hide_quick_edit>
+        <hide_range>false</hide_range>
+        <hide_record_count_badge>false</hide_record_count_badge>
+        <hide_reference_links>false</hide_reference_links>
+        <hide_refresh_button>false</hide_refresh_button>
+        <hide_row_count>false</hide_row_count>
+        <hide_row_selector>false</hide_row_selector>
+        <hide_rows_per_page_selector>false</hide_rows_per_page_selector>
+        <hide_select_all>false</hide_select_all>
+        <hide_sharing_button>false</hide_sharing_button>
+        <hide_title>false</hide_title>
+        <highlight_content_color/>
+        <highlight_content_pattern/>
+        <list_attributes/>
+        <live_updates>off</live_updates>
+        <max_characters>4000</max_characters>
+        <order>10</order>
+        <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
+        <roles/>
+        <show_filter_overview>false</show_filter_overview>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>783333d88af44ac4a07c2ae5029ddda6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Metrics</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_list_783333d88af44ac4a07c2ae5029ddda6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:21</sys_updated_on>
+        <table>x_1295779_metpo_metric</table>
+        <title>Active Metrics</title>
+        <view/>
+        <word_wrap>false</word_wrap>
+    </sys_ux_list>
+</record_update>]]></payload>
+        <payload_hash>-394830917</payload_hash>
+        <record_name>Active Metrics</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:38:24</sys_created_on>
+        <sys_id>e0fb86e23bfd031099d7336436e45a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f6dd40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:38:24</sys_updated_on>
+        <type>UX List</type>
+        <update_guid>a0fb86e238fd0310ca737d374bb2b76c</update_guid>
+        <update_guid_history>a0fb86e238fd0310ca737d374bb2b76c:-394830917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 18:11:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list">sys_ux_list</sys_db_object>
+        <sys_id>03496c7351b0403b80c334a814fec631</sys_id>
+        <sys_metadata>783333d88af44ac4a07c2ae5029ddda6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Metrics</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ux_list_783333d88af44ac4a07c2ae5029ddda6</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_783333d88af44ac4a07c2ae5029ddda6">e0fb86e23bfd031099d7336436e45a6c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 18:11:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Box &amp; Whiskers" section_id="38e10f9cd98a4b048702320172f419c6" sys_domain="global" table="x_1295779_metpo_viz_boxplot" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>7286048477164e76a00431aa63acdc1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>box_width</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>3603c56ae17d41b997ec4c200e4c11e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>box_fill_opacity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>eef91468f9a64ccab2b5b2dc0a376e09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whisker_style</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>8563fa4fd1b14d6c8b77138147875cbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>a38069e80e614dd4a9c6c710cf21b868</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>horizontal</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>9f2ea5c007794927841c3b0a7e9cfb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_mean</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>9191904332cb4571b73c19b4c618f774</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>d73db233a50c4c38a7ab55766121bc46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Box &amp; Whiskers</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_boxplot</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38e10f9cd98a4b048702320172f419c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_boxplot</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_38e10f9cd98a4b048702320172f419c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>sys_ui_section_38e10f9cd98a4b048702320172f419c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Box &amp; Whiskers" section_id="38e10f9cd98a4b048702320172f419c6" sys_domain="global" table="x_1295779_metpo_viz_boxplot" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>7286048477164e76a00431aa63acdc1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>box_width</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>3603c56ae17d41b997ec4c200e4c11e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>box_fill_opacity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>eef91468f9a64ccab2b5b2dc0a376e09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whisker_style</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>8563fa4fd1b14d6c8b77138147875cbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>a38069e80e614dd4a9c6c710cf21b868</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>horizontal</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>9f2ea5c007794927841c3b0a7e9cfb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_mean</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>9191904332cb4571b73c19b4c618f774</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_id>d73db233a50c4c38a7ab55766121bc46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Box &amp; Whiskers" display_value="Box &amp; Whiskers" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">38e10f9cd98a4b048702320172f419c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Box &amp; Whiskers</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_boxplot</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38e10f9cd98a4b048702320172f419c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_boxplot</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_38e10f9cd98a4b048702320172f419c6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1028152490</payload_hash>
+        <record_name>Viz: Boxplot</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:38:10</sys_created_on>
+        <sys_id>85eb8aa23bfd031099d7336436e45ae2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f37650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:38:10</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>45eb8aa2adfd0310a28dea5059290ae2</update_guid>
+        <update_guid_history>45eb8aa2adfd0310a28dea5059290ae2:-1028152490</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 19:01:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1327080f9685423c88133ab8e92b1690</sys_id>
+        <sys_metadata>38e10f9cd98a4b048702320172f419c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_viz_boxplot</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Boxplot">6beccd7493bdc39051d7b1dcebba10fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_38e10f9cd98a4b048702320172f419c6</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_38e10f9cd98a4b048702320172f419c6">85eb8aa23bfd031099d7336436e45ae2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 19:01:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

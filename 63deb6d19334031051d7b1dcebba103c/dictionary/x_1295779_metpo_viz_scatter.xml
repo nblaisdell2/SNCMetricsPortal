@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d6ec4d7493bdc39051d7b1dcebba1055" extends="x_1295779_metpo_visualization" label="Viz: Scatter" max_length="40" name="x_1295779_metpo_viz_scatter" type="collection">
-        <element default="0.7" hint="Opacity of scatter points (0-1, useful for overlapping points)" label="Point Opacity" max_length="10" name="point_opacity" type="string"/>
-        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
-        <element hint="Display a trend line through the data points" label="Trend Line - Show Trend Line" max_length="40" name="show_trend_line" type="boolean"/>
-        <element hint="Allow users to zoom and pan the scatter plot" label="Enable Zoom" max_length="40" name="zoom_enabled" type="boolean"/>
-        <element hint="Display a best-fit regression trend line through the data" label="Show Regression Line" max_length="40" name="show_regression" type="boolean"/>
-        <element hint="Color of the trend line" label="Trend Line - Color" max_length="40" name="trend_line_color" type="color"/>
+        <element default="5" hint="Default radius of scatter plot points in pixels" label="Point Size" max_length="40" name="point_size" type="integer"/>
         <element choice="3" default="linear" hint="Type of regression algorithm for the trend line" label="Trend Line - Regression Type" max_length="40" name="regression_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Logarithmic" sequence="3" value="logarithmic"/>
-                <element inactive_on_update="false" label="Exponential" sequence="2" value="exponential"/>
                 <element inactive_on_update="false" label="Linear" sequence="0" value="linear"/>
+                <element inactive_on_update="false" label="Exponential" sequence="2" value="exponential"/>
                 <element inactive_on_update="false" label="Polynomial" sequence="1" value="polynomial"/>
+                <element inactive_on_update="false" label="Logarithmic" sequence="3" value="logarithmic"/>
             </choice>
         </element>
+        <element hint="Display a best-fit regression trend line through the data" label="Show Regression Line" max_length="40" name="show_regression" type="boolean"/>
+        <element hint="Display a trend line through the data points" label="Trend Line - Show Trend Line" max_length="40" name="show_trend_line" type="boolean"/>
+        <element default="true" hint="Show background grid lines for easier value reading" label="Show Grid" max_length="40" name="grid_show" type="boolean"/>
+        <element default="0.7" hint="Opacity of scatter points (0-1, useful for overlapping points)" label="Point Opacity" max_length="10" name="point_opacity" type="string"/>
+        <element hint="Allow users to zoom and pan the scatter plot" label="Enable Zoom" max_length="40" name="zoom_enabled" type="boolean"/>
+        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
         <element choice="3" default="circle" hint="Shape of data point markers in the scatter plot" label="Points - Shape" max_length="40" name="point_shape" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Circle" sequence="0" value="circle"/>
+                <element inactive_on_update="false" label="Triangle" sequence="2" value="triangle"/>
                 <element inactive_on_update="false" label="Diamond" sequence="3" value="diamond"/>
                 <element inactive_on_update="false" label="Square" sequence="1" value="square"/>
-                <element inactive_on_update="false" label="Triangle" sequence="2" value="triangle"/>
-                <element inactive_on_update="false" label="Circle" sequence="0" value="circle"/>
             </choice>
         </element>
-        <element default="5" hint="Default radius of scatter plot points in pixels" label="Point Size" max_length="40" name="point_size" type="integer"/>
-        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
-        <element default="true" hint="Show background grid lines for easier value reading" label="Show Grid" max_length="40" name="grid_show" type="boolean"/>
+        <element hint="Color of the trend line" label="Trend Line - Color" max_length="40" name="trend_line_color" type="color"/>
     </element>
 </database>

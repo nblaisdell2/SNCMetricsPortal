@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Metrics Portal Users">3d9b380966ea4e89ba9f4f76630b4327</applicability>
-        <list display_value="Active Pages">bf05149793574946bf9b44744826960a</list>
+        <list/>
         <order>0</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>

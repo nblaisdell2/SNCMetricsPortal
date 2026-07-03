@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="Metrics Portal">de88019b8a16453597554d25c6381bd6</app_config>
+        <app_config/>
         <description/>
         <extension_point/>
         <fields>table,sysId</fields>

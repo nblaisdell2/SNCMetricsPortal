@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description>List Menu Configuration for Metrics Portal Workspace</description>
+        <name>Metrics Portal List Configuration</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:42</sys_created_on>
+        <sys_id>e916bf540fd24e3596f5bad8dc7aa326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metrics Portal List Configuration</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_e916bf540fd24e3596f5bad8dc7aa326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:42</sys_updated_on>
+    </sys_ux_list_menu_config>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>sys_ux_list_menu_config_e916bf540fd24e3596f5bad8dc7aa326</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>List Menu Configuration for Metrics Portal Workspace</description>
+        <name>Metrics Portal List Configuration</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-21 16:15:42</sys_created_on>
+        <sys_id>e916bf540fd24e3596f5bad8dc7aa326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metrics Portal List Configuration</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_e916bf540fd24e3596f5bad8dc7aa326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-21 16:15:42</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>]]></payload>
+        <payload_hash>-231002549</payload_hash>
+        <record_name>Metrics Portal List Configuration</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:38:25</sys_created_on>
+        <sys_id>6cfb86e23bfd031099d7336436e45ade</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f6fe90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:38:25</sys_updated_on>
+        <type>UX List Menu Configuration</type>
+        <update_guid>2cfb86e2adfd0310fae0ae53b11963de</update_guid>
+        <update_guid_history>2cfb86e2adfd0310fae0ae53b11963de:-231002549</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 18:10:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>0cf38ef20d014e6281549496d65572e4</sys_id>
+        <sys_metadata>e916bf540fd24e3596f5bad8dc7aa326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metrics Portal List Configuration</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_e916bf540fd24e3596f5bad8dc7aa326</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_e916bf540fd24e3596f5bad8dc7aa326">6cfb86e23bfd031099d7336436e45ade</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 18:10:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
