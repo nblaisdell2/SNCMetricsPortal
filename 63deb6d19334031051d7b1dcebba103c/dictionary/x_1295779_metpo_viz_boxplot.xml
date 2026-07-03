@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
+    <element db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Boxplot" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
         <element hint="Render box plots horizontally instead of vertically" label="Horizontal" max_length="40" name="horizontal" type="boolean"/>
         <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
         <element choice="3" default="line" hint="Visual style of the box plot whiskers" label="Whiskers - Style" max_length="40" name="whisker_style" type="choice">
@@ -15,6 +15,5 @@
         <element default="true" hint="Display outlier points beyond the whiskers" label="Show Outliers" max_length="40" name="show_outliers" type="boolean"/>
         <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier Point Radius" max_length="40" name="outlier_radius" type="integer"/>
         <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
-        <element default="12" hint="Font size in pixels for axis tick labels" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
     </element>
 </database>

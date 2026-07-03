@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="DELETE">
+    <sys_id>79df943b71e04995a238ca2c6cf99979</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_ui_policy_action_79df943b71e04995a238ca2c6cf99979</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field>src_breakdown</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>ignore</mandatory>
+    <table>x_1295779_metpo_metric</table>
+    <ui_policy short_description="Show PA Indicator source fields" table="x_1295779_metpo_metric">becf525988e142a189477b4f9cc02466</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>true</visible>
+  </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>f67518b73bad0b90986d048aa4e45ac3</instance_id>
+        <instance_name>dev414212</instance_name>
+        <name>sys_ui_policy_action_79df943b71e04995a238ca2c6cf99979</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="INSERT_OR_UPDATE">
+    <sys_id>79df943b71e04995a238ca2c6cf99979</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_ui_policy_action_79df943b71e04995a238ca2c6cf99979</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field>src_breakdown</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>ignore</mandatory>
+    <table>x_1295779_metpo_metric</table>
+    <ui_policy short_description="Show PA Indicator source fields" table="x_1295779_metpo_metric">becf525988e142a189477b4f9cc02466</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>true</visible>
+  </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1988916223</payload_hash>
+        <record_name>src_breakdown</record_name>
+        <reverted_from/>
+        <source>f4f5bdc583b98b10a8d6c829feaad3ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-29 00:12:32</sys_created_on>
+        <sys_id>0536f18983b98b10a8d6c829feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f10b878b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-29 00:12:32</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c136f18983b98b109f245a082a70a301</update_guid>
+        <update_guid_history>c136f18983b98b109f245a082a70a301:-1988916223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 14:26:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>5d37b307fc3149fe9581a3a41fa3e909</sys_id>
+        <sys_metadata>79df943b71e04995a238ca2c6cf99979</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>src_breakdown</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Show PA Indicator source fields">becf525988e142a189477b4f9cc02466</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_79df943b71e04995a238ca2c6cf99979</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_79df943b71e04995a238ca2c6cf99979">0536f18983b98b10a8d6c829feaad302</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 14:26:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

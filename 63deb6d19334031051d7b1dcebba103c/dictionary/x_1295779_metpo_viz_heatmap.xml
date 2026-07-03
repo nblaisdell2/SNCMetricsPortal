@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9beccd7493bdc39051d7b1dcebba100e" extends="x_1295779_metpo_visualization" label="Heatmap" max_length="40" name="x_1295779_metpo_viz_heatmap" type="collection">
-        <element default="12" hint="Font size in pixels for axis tick labels" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9beccd7493bdc39051d7b1dcebba100e" extends="x_1295779_metpo_visualization" label="Viz: Heatmap" max_length="40" name="x_1295779_metpo_viz_heatmap" type="collection">
         <element default="true" hint="Display the numeric value inside each cell" label="Show Values in Cells" max_length="40" name="show_values" type="boolean"/>
         <element default="#ffffff" hint="Color of the cell borders" label="Cell Border Color" max_length="40" name="cell_border_color" type="string"/>
         <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>

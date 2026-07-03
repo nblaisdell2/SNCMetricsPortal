@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="chart_title" label="Header &amp; Border - Chart Title" language="en" table="x_1295779_metpo_visualization">
+    <sys_documentation element="chart_title" label="Chart Title" language="en" table="x_1295779_metpo_visualization">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>chart_title</element>
             <help/>
             <hint>Title text displayed above the chart</hint>
-            <label>Header &amp; Border - Chart Title</label>
+            <label>Chart Title</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-02 22:26:50</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Header &amp; Border - Chart Title</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Chart Title</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_documentation_x_1295779_metpo_visualization_chart_title_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-02 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-03 14:50:55</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
