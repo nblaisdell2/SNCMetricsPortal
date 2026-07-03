@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="d6ec4d7493bdc39051d7b1dcebba1055" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_scatter" type="collection">
+    <element db_object_id="d6ec4d7493bdc39051d7b1dcebba1055" extends="x_1295779_metpo_visualization" label="Viz: Scatter" max_length="40" name="x_1295779_metpo_viz_scatter" type="collection">
         <element default="0.7" hint="Opacity of scatter points (0-1, useful for overlapping points)" label="Point Opacity" max_length="10" name="point_opacity" type="string"/>
         <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
         <element hint="Display a trend line through the data points" label="Trend Line - Show Trend Line" max_length="40" name="show_trend_line" type="boolean"/>
         <element hint="Allow users to zoom and pan the scatter plot" label="Enable Zoom" max_length="40" name="zoom_enabled" type="boolean"/>
         <element hint="Display a best-fit regression trend line through the data" label="Show Regression Line" max_length="40" name="show_regression" type="boolean"/>
         <element hint="Color of the trend line" label="Trend Line - Color" max_length="40" name="trend_line_color" type="color"/>
-        <element default="12" hint="Font size in pixels for axis tick labels" label="Axis Font Size" max_length="40" name="axis_font_size" type="integer"/>
         <element choice="3" default="linear" hint="Type of regression algorithm for the trend line" label="Trend Line - Regression Type" max_length="40" name="regression_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Logarithmic" sequence="3" value="logarithmic"/>

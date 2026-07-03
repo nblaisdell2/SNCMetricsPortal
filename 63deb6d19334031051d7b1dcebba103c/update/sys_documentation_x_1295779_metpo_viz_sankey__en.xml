@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="" language="en" table="x_1295779_metpo_viz_sankey">
+    <sys_documentation element="" label="Viz: Sankey" language="en" table="x_1295779_metpo_viz_sankey">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label/>
+            <label>Viz: Sankey</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_sankey</name>
-            <plural/>
+            <plural>Viz: Sankeys</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:47</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Viz: Sankey Diagram</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Viz: Sankey</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_documentation_x_1295779_metpo_viz_sankey__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 02:33:47</sys_updated_on>
+            <sys_updated_on>2026-07-03 13:48:12</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
