@@ -14,34 +14,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-29 01:33:08</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:18</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f6eb02e23bfd031099d7336436e45aff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_metric" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">fdff08ee829749a694917574294743d7</sys_ui_form>
-            <sys_ui_section caption="Source " display_value="Source " name="x_1295779_metpo_metric" sys_domain="global" view="Default view">bb8dbd8983f98b10a8d6c829feaad3ad</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 17:38:18</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:19</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>1beb82e23bfd031099d7336436e45a61</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_metric" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">fdff08ee829749a694917574294743d7</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_metric" sys_domain="global" view="Default view">d751557093fdc39051d7b1dcebba10e0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 17:38:19</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_metric</name>
             <roles/>

@@ -1,172 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Display" section_id="eda245806b6745e789f4968a1f8db815" sys_domain="global" table="x_1295779_metpo_viz_network" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>height</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>5c8af159cded49779ec0c59bcad685b7</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>fa5766a63bf1431099d7336436e45a33</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>height</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>0430e2b8689749218728dcb7012cc0e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>component_padding</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>ae5b37e710464e2e8de8895eec16c441</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>7a5766a63bf1431099d7336436e45a34</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hover_highlight</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>9506450347c24b3581390cab929b31a7</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>f65766a63bf1431099d7336436e45a35</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hover_dim_others</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>dcc6fdf2ddac44bd9c23a9dc1dbd19d2</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>765766a63bf1431099d7336436e45a36</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>1c2cb6988c184137995b42eff94eda3d</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>f25766a63bf1431099d7336436e45a37</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>background_color</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>e67a9ad2519440ec81d02d61406346e6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_top</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>7fd8ad52242f4821b1185d203ba6dcfc</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>725766a63bf1431099d7336436e45a38</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_bottom</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>c31424846e7d4bab807f1a7de8580a69</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>fe5766a63bf1431099d7336436e45a38</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_left</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>59ce741ed7c44af9bbffc130dfe225fe</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>7e5766a63bf1431099d7336436e45a39</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_right</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>deaf994e1e1e4210a0e6e6853d9f9915</sys_id>
+            <sys_created_on>2026-07-03 19:38:10</sys_created_on>
+            <sys_id>fa5766a63bf1431099d7336436e45a3a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:38:10</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:57</sys_created_on>
-            <sys_id>9c250c179d1b45048c012efb2810be4e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">eda245806b6745e789f4968a1f8db815</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:57</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Display</caption>

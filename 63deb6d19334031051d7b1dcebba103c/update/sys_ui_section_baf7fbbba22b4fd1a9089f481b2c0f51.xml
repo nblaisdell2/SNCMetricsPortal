@@ -1,172 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Display" section_id="baf7fbbba22b4fd1a9089f481b2c0f51" sys_domain="global" table="x_1295779_metpo_viz_heatmap" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>height</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>7c28a84314aa4261b55e050c5472a797</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>18c6ee263bf1431099d7336436e45ad6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>height</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>65100e9e3aac420195b1a439002dfe90</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>component_padding</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>01bc2e70b38541e48a3e578bb0454962</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>94c6ee263bf1431099d7336436e45ad7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hover_highlight</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>8917022c650640f59cc15293bb94e354</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>14c6ee263bf1431099d7336436e45ad8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hover_dim_others</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>3e2abef5e6d141979620de499af85999</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>90c6ee263bf1431099d7336436e45ad9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>96b3bd082f42488d9cb93f27391124bf</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>10c6ee263bf1431099d7336436e45ada</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>background_color</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>4ee93de7d3124fb7855938be4524f848</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_top</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>5695fb72a2e64013b451f862633715c7</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>9cc6ee263bf1431099d7336436e45ada</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_bottom</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>fcfb28938e2f425ab87dbe9893750ed9</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>50c622663bf1431099d7336436e45a01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_left</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>f1b8a80e01aa45938dfc8cae730315e2</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>dcc622663bf1431099d7336436e45a01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>margin_right</element>
-            <position>10</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>138a84590fe94d8fb0e207cfa25849cd</sys_id>
+            <sys_created_on>2026-07-03 19:35:33</sys_created_on>
+            <sys_id>5cc622663bf1431099d7336436e45a02</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:35:33</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>7ace60db346545d782e4cc7d7e1ebe62</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">baf7fbbba22b4fd1a9089f481b2c0f51</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Display</caption>

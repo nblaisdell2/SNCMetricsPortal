@@ -1,88 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Animation" section_id="7527b031b35f41c6a688557c19df7e40" sys_domain="global" table="x_1295779_metpo_viz_pie" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>animate</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:39</sys_created_on>
-            <sys_id>1693c7d3fc0e4a0dbb497bce736af0b6</sys_id>
+            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
+            <sys_id>4501e6e63bb1431099d7336436e45a0f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:39</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>animate</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:39</sys_created_on>
-            <sys_id>f811f8da79d44578a0de196696dacd16</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:39</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>animation_duration</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:39</sys_created_on>
-            <sys_id>a101d07b93b74c688e777a877779a15f</sys_id>
+            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
+            <sys_id>0101e6e63bb1431099d7336436e45a10</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:39</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:39</sys_created_on>
-            <sys_id>ce1e780fbc6c466fbdbd535edc8eaa3b</sys_id>
+            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
+            <sys_id>c901e6e63bb1431099d7336436e45a10</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:39</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>animation_easing</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:39</sys_created_on>
-            <sys_id>baac029eaf8e4149959a8ca5d1773969</sys_id>
+            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
+            <sys_id>8501e6e63bb1431099d7336436e45a11</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:39</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
+            <element>animation_stagger</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:39</sys_created_on>
-            <sys_id>994c6c8d975c40b5a55d874c8f833080</sys_id>
+            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
+            <sys_id>4101e6e63bb1431099d7336436e45a12</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 03:22:39</sys_updated_on>
+            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Animation</caption>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Legend &amp; Tooltip" section_id="1bae2fa9db314813ad4ede05f71083b7" sys_domain="global" table="x_1295779_metpo_viz_pie" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>06cdfd542ea64e609eeb58a50137dd23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_show</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>a0fac8286a964caa86bb4a407d4b81d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_position</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>05c350aa19a14ca0a6719d563dfa6dc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tooltip_show</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>3b4a815687f446c48e32160f44deb891</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>ffa97b59190a47de97741310e7a72208</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_font_size</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>edb9ca145f2f4869a36936cdf79b394f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_interactive</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>20966f7c6d4d4c84ae983cabeb2ee501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>b708b88a468b455eb0b51f7aae1703f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Legend &amp; Tooltip</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_pie</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bae2fa9db314813ad4ede05f71083b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_pie</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_1bae2fa9db314813ad4ede05f71083b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>sys_ui_section_1bae2fa9db314813ad4ede05f71083b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Legend &amp; Tooltip" section_id="1bae2fa9db314813ad4ede05f71083b7" sys_domain="global" table="x_1295779_metpo_viz_pie" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>06cdfd542ea64e609eeb58a50137dd23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_show</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>a0fac8286a964caa86bb4a407d4b81d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_position</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>05c350aa19a14ca0a6719d563dfa6dc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tooltip_show</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>3b4a815687f446c48e32160f44deb891</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>ffa97b59190a47de97741310e7a72208</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_font_size</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>edb9ca145f2f4869a36936cdf79b394f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_interactive</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>20966f7c6d4d4c84ae983cabeb2ee501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_id>b708b88a468b455eb0b51f7aae1703f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend &amp; Tooltip" display_value="Legend &amp; Tooltip" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">1bae2fa9db314813ad4ede05f71083b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Legend &amp; Tooltip</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_pie</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bae2fa9db314813ad4ede05f71083b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_pie</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_1bae2fa9db314813ad4ede05f71083b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>2031185710</payload_hash>
+        <record_name>Viz: Pie</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:38:08</sys_created_on>
+        <sys_id>a0eb0aa23bfd031099d7336436e45af7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f2e9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:38:08</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>60eb0aa239fd0310663aeaf51c474bf7</update_guid>
+        <update_guid_history>60eb0aa239fd0310663aeaf51c474bf7:2031185710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 19:10:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1f04a757cb61456988f36e77453367e9</sys_id>
+        <sys_metadata>1bae2fa9db314813ad4ede05f71083b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_viz_pie</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Pie">80fc41b493bdc39051d7b1dcebba105e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1bae2fa9db314813ad4ede05f71083b7</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1bae2fa9db314813ad4ede05f71083b7">a0eb0aa23bfd031099d7336436e45af7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

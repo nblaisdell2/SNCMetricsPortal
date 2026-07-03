@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 15:55:49</sys_created_on>
-            <sys_id>2574f96a8375c710a8d6c829feaad3ed</sys_id>
+            <sys_created_on>2026-07-03 18:58:18</sys_created_on>
+            <sys_id>b23e5a223bb1431099d7336436e45aa9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Viz: Bar/Column" display_value="Viz: Bar/Column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">95879c4e9eb24acf9ec6b0b8ddfa9fc4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 15:55:49</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:58:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,41 +18,27 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 15:55:49</sys_created_on>
-            <sys_id>a174f96a8375c710a8d6c829feaad3ee</sys_id>
+            <sys_created_on>2026-07-03 18:58:18</sys_created_on>
+            <sys_id>7e3e5a223bb1431099d7336436e45aa9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Viz: Bar/Column" display_value="Viz: Bar/Column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">95879c4e9eb24acf9ec6b0b8ddfa9fc4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 15:55:49</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:58:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_scheme</element>
+            <element>sys_class_name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 15:55:49</sys_created_on>
-            <sys_id>2174f96a8375c710a8d6c829feaad3ef</sys_id>
+            <sys_created_on>2026-07-03 18:58:18</sys_created_on>
+            <sys_id>fe3e5a223bb1431099d7336436e45ab6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Viz: Bar/Column" display_value="Viz: Bar/Column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">95879c4e9eb24acf9ec6b0b8ddfa9fc4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 15:55:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>hover_highlight</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 15:55:49</sys_created_on>
-            <sys_id>ad74f96a8375c710a8d6c829feaad3ef</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Viz: Bar/Column" display_value="Viz: Bar/Column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">95879c4e9eb24acf9ec6b0b8ddfa9fc4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 15:55:49</sys_updated_on>
+            <sys_updated_on>2026-07-03 18:58:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
