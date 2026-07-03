@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_aig_client>false</auth_aig_client>
+        <auth_cimd_client>false</auth_cimd_client>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://github.com/login/oauth/authorize</auth_url>
+        <bff_cookie_exchange_allowed>false</bff_cookie_exchange_allowed>
+        <bind_token_to_session>false</bind_token_to_session>
+        <certificate_url/>
+        <client_id>Ov23li5C8GC1XNB1BRUP</client_id>
+        <client_secret>﷞﷟﷒a01df25d93f0031051d7b1dcebba1011﷬﷔1﷬﷭1BNh2lPaSqb3KJPywx9B0w==BiOH2sQbGznTytPixr3-Iri7yHmdaBdx80AKFjd39aqD2EEDQzMQdul8LqHr_tETlQdpjA6YTY0=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>e50c19789331079051d7b1dcebba10a6</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>0</id_token_lifespan>
+        <inbound_grant_type>not_applicable</inbound_grant_type>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>GitHub</name>
+        <oauth_api_script/>
+        <only_rest_processor>false</only_rest_processor>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev386118.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <scope_restriction_status>unrestricted</scope_restriction_status>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>sys_id</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 03:41:28</sys_created_on>
+        <sys_id>290c19789331079051d7b1dcebba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GitHub</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>oauth_entity_290c19789331079051d7b1dcebba10a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 03:41:28</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url>https://github.com/login/oauth/access_token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>oauth_entity_290c19789331079051d7b1dcebba10a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_aig_client>false</auth_aig_client>
+        <auth_cimd_client>false</auth_cimd_client>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://github.com/login/oauth/authorize</auth_url>
+        <bff_cookie_exchange_allowed>false</bff_cookie_exchange_allowed>
+        <bind_token_to_session>false</bind_token_to_session>
+        <certificate_url/>
+        <client_id>Ov23li5C8GC1XNB1BRUP</client_id>
+        <client_secret>﷞﷟﷒a01df25d93f0031051d7b1dcebba1011﷬﷔1﷬﷭1BNh2lPaSqb3KJPywx9B0w==BiOH2sQbGznTytPixr3-Iri7yHmdaBdx80AKFjd39aqD2EEDQzMQdul8LqHr_tETlQdpjA6YTY0=﷮﷯</client_secret>
+        <client_type/>
+        <client_uuid>e50c19789331079051d7b1dcebba10a6</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>authorization_code</default_grant_type>
+        <extend_refresh_token_expiry>false</extend_refresh_token_expiry>
+        <id_token_lifespan>0</id_token_lifespan>
+        <inbound_grant_type>not_applicable</inbound_grant_type>
+        <jwt_provider/>
+        <login_url/>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
+        <name>GitHub</name>
+        <oauth_api_script/>
+        <only_rest_processor>false</only_rest_processor>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev386118.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <scope_restriction_status>unrestricted</scope_restriction_status>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sub_claim>sys_id</sub_claim>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-28 03:41:28</sys_created_on>
+        <sys_id>290c19789331079051d7b1dcebba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GitHub</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>oauth_entity_290c19789331079051d7b1dcebba10a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-28 03:41:28</sys_updated_on>
+        <token_format>opaque</token_format>
+        <token_url>https://github.com/login/oauth/access_token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <use_pkce>false</use_pkce>
+        <user/>
+    </oauth_entity>
+</record_update>]]></payload>
+        <payload_hash>163903447</payload_hash>
+        <record_name>GitHub</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:37:59</sys_created_on>
+        <sys_id>5adbce623bfd031099d7336436e45a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f0a440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:37:59</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>1adbce6258fd0310828a34e6469b938e</update_guid>
+        <update_guid_history>1adbce6258fd0310828a34e6469b938e:163903447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GitHub">746756623b71431099d7336436e45a05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 18:28:25</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>22d993bb4c044e298ac60eca98861559</sys_id>
+        <sys_metadata>290c19789331079051d7b1dcebba10a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GitHub</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>oauth_entity_290c19789331079051d7b1dcebba10a6</sys_update_name>
+        <sys_update_version display_value="oauth_entity_290c19789331079051d7b1dcebba10a6">5adbce623bfd031099d7336436e45a8e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 18:28:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

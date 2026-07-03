@@ -98,6 +98,104 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-28 03:22:25</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40eb0aa23bfd031099d7336436e45a12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">030cb1f6a3c8435fae8ce697f3749ac6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94eb0aa23bfd031099d7336436e45a5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ceb0aa23bfd031099d7336436e45a77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">104734e0d86a4c04a123246d513a9ac5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96ebcea23bfd031099d7336436e45aa4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2eb02e23bfd031099d7336436e45a50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">b046f4ea8c2d4b2e8ee4e40b00feddab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6eb02e23bfd031099d7336436e45a86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Viz: Wordcloud" display_value="Viz: Wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">b4d95f1530ea4329b2e867bfd01fd325</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 17:38:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbeb06e23bfd031099d7336436e45a43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">f44f90a737c0486ba2d707bd7c662f6b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 17:38:22</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_wordcloud</name>
             <roles/>

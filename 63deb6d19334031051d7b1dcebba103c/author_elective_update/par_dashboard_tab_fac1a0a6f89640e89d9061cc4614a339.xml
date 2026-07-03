@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Metrics Portal Dashboard">8f7ec1ad4cbe4c57b96bdd29759dc289</dashboard>
+        <name>Overview</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fac1a0a6f89640e89d9061cc4614a339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>par_dashboard_tab_fac1a0a6f89640e89d9061cc4614a339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:19</sys_updated_on>
+    </par_dashboard_tab>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>par_dashboard_tab_fac1a0a6f89640e89d9061cc4614a339</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Metrics Portal Dashboard">8f7ec1ad4cbe4c57b96bdd29759dc289</dashboard>
+        <name>Overview</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fac1a0a6f89640e89d9061cc4614a339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>par_dashboard_tab_fac1a0a6f89640e89d9061cc4614a339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:19</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>]]></payload>
+        <payload_hash>1397791156</payload_hash>
+        <record_name>Overview</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:37:59</sys_created_on>
+        <sys_id>92dbce623bfd031099d7336436e45ad0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f0aed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:37:59</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>52dbce6214fd0310a275c07ff56f2ed0</update_guid>
+        <update_guid_history>52dbce6214fd0310a275c07ff56f2ed0:1397791156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Overview">e1d7d6a23b71431099d7336436e45ae0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 18:30:22</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>15a571ff4d6749be8b1edc4dbfd2f119</sys_id>
+        <sys_metadata>fac1a0a6f89640e89d9061cc4614a339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Overview</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_fac1a0a6f89640e89d9061cc4614a339</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_fac1a0a6f89640e89d9061cc4614a339">92dbce623bfd031099d7336436e45ad0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 18:30:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

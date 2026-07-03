@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="80fc41b493bdc39051d7b1dcebba105e" extends="x_1295779_metpo_visualization" max_length="40" name="x_1295779_metpo_viz_pie" type="collection">
+    <element db_object_id="80fc41b493bdc39051d7b1dcebba105e" extends="x_1295779_metpo_visualization" label="Viz: Pie" max_length="40" name="x_1295779_metpo_viz_pie" type="collection">
         <element default="1" hint="Width of the border stroke around each slice" label="Slice Stroke Width" max_length="40" name="stroke_width" type="integer"/>
-        <element default="#ffffff" hint="Color of the border between slices" label="Slice Stroke Color" max_length="40" name="stroke_color" type="string"/>
-        <element default="0" hint="Rotation angle in degrees where the first slice begins" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
-        <element default="true" hint="Sort slices by value in descending order" label="Sort Slices by Value" max_length="40" name="sort_slices" type="boolean"/>
-        <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad Angle" max_length="10" name="pad_angle" type="string"/>
         <element default="true" hint="Display labels on or near each slice" label="Show Slice Labels" max_length="40" name="show_labels" type="boolean"/>
+        <element default="true" hint="Sort slices by value in descending order" label="Sort Slices by Value" max_length="40" name="sort_slices" type="boolean"/>
+        <element default="#ffffff" hint="Color of the border between slices" label="Slice Stroke Color" max_length="40" name="stroke_color" type="string"/>
+        <element hint="Text shown in the center of a donut chart" label="Center Label (donut)" max_length="100" name="center_label" type="string"/>
+        <element default="0" hint="Inner radius as proportion or px - set &gt; 0 for a donut chart" label="Inner Radius (donut)" max_length="20" name="inner_radius" type="string"/>
+        <element default="#374151" hint="Color of the center label text" label="Center Label Color" max_length="40" name="center_label_color" type="string"/>
         <element choice="3" default="percent" hint="Format of labels displayed on pie slices" label="Labels - Format" max_length="40" name="label_format" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Percent" sequence="0" value="percent"/>
-                <element inactive_on_update="false" label="Value" sequence="1" value="value"/>
                 <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+                <element inactive_on_update="false" label="Value" sequence="1" value="value"/>
             </choice>
         </element>
-        <element default="0" hint="Inner radius as proportion or px - set &gt; 0 for a donut chart" label="Inner Radius (donut)" max_length="20" name="inner_radius" type="string"/>
-        <element default="#374151" hint="Color of the center label text" label="Center Label Color" max_length="40" name="center_label_color" type="string"/>
-        <element hint="Text shown in the center of a donut chart" label="Center Label (donut)" max_length="100" name="center_label" type="string"/>
+        <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad Angle" max_length="10" name="pad_angle" type="string"/>
+        <element default="0" hint="Rotation angle in degrees where the first slice begins" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
         <element default="22" hint="Font size of the center label in pixels" label="Center Label Font Size" max_length="40" name="center_label_font_size" type="integer"/>
     </element>
 </database>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_tab</name>
+        <page display_value="Metrics Portal">468d7d7f59454c33af6754380b4e5b77</page>
+        <required_translations/>
+        <route/>
+        <suffix>chrome_tab</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca77318b8ba342128f9377c3d784a634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_page_property_ca77318b8ba342128f9377c3d784a634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:21</sys_updated_on>
+        <type>json</type>
+        <unique_name/>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New x_1295779_metpo_page"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_page","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_page","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_section"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_section","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_section","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_metric"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_metric","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_metric","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_filter"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_filter","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_filter","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=ca77318b8ba342128f9377c3d784a634"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>206605a63bf9879816e44a8aa4e45a31</instance_id>
+        <instance_name>dev420200</instance_name>
+        <name>sys_ux_page_property_ca77318b8ba342128f9377c3d784a634</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_tab</name>
+        <page display_value="Metrics Portal">468d7d7f59454c33af6754380b4e5b77</page>
+        <required_translations/>
+        <route/>
+        <suffix>chrome_tab</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 07:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca77318b8ba342128f9377c3d784a634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ux_page_property_ca77318b8ba342128f9377c3d784a634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 07:15:21</sys_updated_on>
+        <type>json</type>
+        <unique_name/>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New x_1295779_metpo_page"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_page","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_page","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_section"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_section","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_section","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_metric"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_metric","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_metric","canCreate":true}}},{"label":{"translatable":true,"message":"New x_1295779_metpo_filter"},"routeInfo":{"route":"record","fields":{"table":"x_1295779_metpo_filter","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1295779_metpo_filter","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca77318b8ba342128f9377c3d784a634"/>
+</record_update>]]></payload>
+        <payload_hash>1623975121</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>709b4a6e3bbd031099d7336436e45add</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 17:38:26</sys_created_on>
+        <sys_id>b4fbc6e23bfd031099d7336436e45a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f290f735c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 17:38:26</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>74fbc6e29efd031044a07c9e9a91f66c</update_guid>
+        <update_guid_history>74fbc6e29efd031044a07c9e9a91f66c:1623975121</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-03 18:11:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>2958362141a348679d50ad16ee1d9641</sys_id>
+        <sys_metadata>ca77318b8ba342128f9377c3d784a634</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_ca77318b8ba342128f9377c3d784a634</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_ca77318b8ba342128f9377c3d784a634">b4fbc6e23bfd031099d7336436e45a6c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-03 18:11:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

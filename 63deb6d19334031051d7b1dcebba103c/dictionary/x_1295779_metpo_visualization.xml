@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b9ecc97493bdc39051d7b1dcebba10b8" label="Metric Visualization" max_length="40" name="x_1295779_metpo_visualization" type="collection">
         <element label="Axis font size" max_length="255" name="axis_font_size" type="integer"/>
-        <element default="[]" function_definition="[]" label="Custom color palette" max_length="40" name="custom_color_palette" type="string"/>
-        <element label="Axis color" max_length="255" name="axis_color" type="color"/>
-        <element hint="Title text displayed above the chart" label="Chart Title" max_length="200" name="chart_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Template" max_length="65536" name="tooltip_template" type="html"/>
-        <element label="Background color" max_length="255" name="tooltip_background" type="color"/>
-        <element choice="3" default="cubicOut" hint="Easing function used for chart animations" label="Animation easing" max_length="40" name="animation_easing" type="choice">
+        <element default="20" hint="Right margin inside the chart container in pixels" label="Margin Right" max_length="40" name="margin_right" type="integer"/>
+        <element hint="Color of the chart title text" label="Title Color" max_length="40" name="title_color" type="color"/>
+        <element hint="Font size of the chart title in pixels" label="Title Font Size" max_length="40" name="title_font_size" type="integer"/>
+        <element label="Drop shadow color" max_length="255" name="drop_shadow_color" type="color"/>
+        <element choice="3" default="bottom" hint="Position of the chart legend relative to the visualization" label="Legend - Position" max_length="40" name="legend_position" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Bounce Out" sequence="5" value="bounceOut"/>
-                <element inactive_on_update="false" label="Cubic Out" sequence="0" value="cubicOut"/>
-                <element inactive_on_update="false" label="Elastic Out" sequence="6" value="elasticOut"/>
-                <element inactive_on_update="false" label="Ease In Out" sequence="4" value="easeInOut"/>
-                <element inactive_on_update="false" label="Ease In" sequence="2" value="easeIn"/>
-                <element inactive_on_update="false" label="Ease Out" sequence="3" value="easeOut"/>
-                <element inactive_on_update="false" label="Linear" sequence="1" value="linear"/>
+                <element inactive_on_update="false" label="Bottom" sequence="1" value="bottom"/>
+                <element inactive_on_update="false" label="Left" sequence="2" value="left"/>
+                <element inactive_on_update="false" label="Right" sequence="3" value="right"/>
+                <element inactive_on_update="false" label="Top" sequence="0" value="top"/>
             </choice>
         </element>
-        <element hint="Color of the chart title text" label="Title Color" max_length="40" name="title_color" type="color"/>
-        <element label="Follow cursor" max_length="255" name="tooltip_follow_cursor" type="boolean"/>
-        <element label="Text color" max_length="255" name="tooltip_text_color" type="color"/>
-        <element default="200" function_definition="200" label="Animation stagger (ms)" max_length="255" name="animation_stagger" type="integer"/>
-        <element default="12px" hint="Padding inside the chart container (CSS value)" label="Padding" max_length="20" name="component_padding" type="string"/>
-        <element hint="Font size of the chart title in pixels" label="Title Font Size" max_length="40" name="title_font_size" type="integer"/>
-        <element label="Drop shadow" max_length="255" name="drop_shadow" type="boolean"/>
-        <element label="Drop shadow blur amount (px)" max_length="255" name="blur_amount_px" type="integer"/>
-        <element label="Hover - Dim others" max_length="255" name="hover_dim_others" type="boolean"/>
         <element label="Axis font family" max_length="40" name="axis_font_family" type="string"/>
-        <element label="Drop shadow color" max_length="255" name="drop_shadow_color" type="color"/>
-        <element attributes="edge_encryption_enabled=true" hint="Border color of the chart container (CSS color value)" label="Border Color" max_length="40" name="border_color" type="color"/>
-        <element default="true" hint="Enable or disable entrance animations when the chart first renders" label="Animate" max_length="40" name="animate" type="boolean"/>
-        <element display="true" hint="A unique name to identify this visualization configuration" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
         <element choice="3" default="category10" hint="Color scheme used for data series in the chart" label="Color Scheme" max_length="40" name="color_scheme" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Tableau10" sequence="7" value="tableau10"/>
                 <element inactive_on_update="false" label="Set2" sequence="5" value="set2"/>
+                <element inactive_on_update="false" label="Set3" sequence="6" value="set3"/>
+                <element inactive_on_update="false" label="Dark2" sequence="2" value="dark2"/>
+                <element inactive_on_update="false" label="Paired" sequence="3" value="paired"/>
                 <element inactive_on_update="false" label="Set1" sequence="4" value="set1"/>
                 <element inactive_on_update="false" label="Category10" sequence="0" value="category10"/>
                 <element inactive_on_update="false" label="Accent" sequence="1" value="accent"/>
-                <element inactive_on_update="false" label="Paired" sequence="3" value="paired"/>
-                <element inactive_on_update="false" label="Tableau10" sequence="7" value="tableau10"/>
-                <element inactive_on_update="false" label="Dark2" sequence="2" value="dark2"/>
-                <element inactive_on_update="false" label="Set3" sequence="6" value="set3"/>
             </choice>
         </element>
-        <element default="true" hint="Allow clicking legend items to toggle data series visibility" label="Legend Interactive" max_length="40" name="legend_interactive" type="boolean"/>
-        <element default="20" hint="Right margin inside the chart container in pixels" label="Margin Right" max_length="40" name="margin_right" type="integer"/>
-        <element default="800" hint="Duration of entrance animation in milliseconds" label="Animation Duration (ms)" max_length="40" name="animation_duration" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" default="transparent" hint="Background color of the chart container (CSS color value or transparent)" label="Background Color" max_length="40" name="background_color" type="color"/>
-        <element default="0" hint="Border width around the chart container in pixels" label="Border Width" max_length="20" name="border_width" type="string"/>
-        <element choice="3" default="bottom" hint="Position of the chart legend relative to the visualization" label="Legend - Position" max_length="40" name="legend_position" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Left" sequence="2" value="left"/>
-                <element inactive_on_update="false" label="Bottom" sequence="1" value="bottom"/>
-                <element inactive_on_update="false" label="Top" sequence="0" value="top"/>
-                <element inactive_on_update="false" label="Right" sequence="3" value="right"/>
-            </choice>
-        </element>
-        <element default="true" hint="Show or hide the chart legend" label="Show Legend" max_length="40" name="legend_show" type="boolean"/>
-        <element default="40" hint="Bottom margin inside the chart container in pixels" label="Margin Bottom" max_length="40" name="margin_bottom" type="integer"/>
-        <element default="12" hint="Font size for legend text in pixels" label="Legend Font Size" max_length="40" name="legend_font_size" type="integer"/>
         <element default="20" hint="Top margin inside the chart container in pixels" label="Margin Top" max_length="40" name="margin_top" type="integer"/>
-        <element default="true" hint="Highlight data elements when the user hovers over them" label="Hover - Highlight" max_length="40" name="hover_highlight" type="boolean"/>
-        <element default="400" label="Height" max_length="255" name="height" type="integer"/>
-        <element label="Font size" max_length="255" name="tooltip_font_size" type="integer"/>
         <element label="Use series colors" max_length="255" name="use_series_colors" type="boolean"/>
+        <element label="Template" max_length="65536" name="tooltip_template" type="html"/>
+        <element default="800" hint="Duration of entrance animation in milliseconds" label="Animation Duration (ms)" max_length="40" name="animation_duration" type="integer"/>
+        <element label="Follow cursor" max_length="255" name="tooltip_follow_cursor" type="boolean"/>
+        <element label="Drop shadow" max_length="255" name="drop_shadow" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" hint="Border color of the chart container (CSS color value)" label="Border Color" max_length="40" name="border_color" type="color"/>
         <element label="Axis text color" max_length="255" name="axis_text_color" type="color"/>
-        <element default="50" hint="Left margin inside the chart container in pixels" label="Margin Left" max_length="40" name="margin_left" type="integer"/>
+        <element default="true" hint="Show or hide the chart legend" label="Show Legend" max_length="40" name="legend_show" type="boolean"/>
         <element default="0" hint="Corner rounding of the chart container in pixels" label="Border Radius" max_length="20" name="border_radius" type="string"/>
+        <element default="true" hint="Highlight data elements when the user hovers over them" label="Hover - Highlight" max_length="40" name="hover_highlight" type="boolean"/>
+        <element label="Axis color" max_length="255" name="axis_color" type="color"/>
+        <element label="Background color" max_length="255" name="tooltip_background" type="color"/>
+        <element attributes="edge_encryption_enabled=true" default="transparent" hint="Background color of the chart container (CSS color value or transparent)" label="Background Color" max_length="40" name="background_color" type="color"/>
+        <element label="Text color" max_length="255" name="tooltip_text_color" type="color"/>
+        <element label="Drop shadow blur amount (px)" max_length="255" name="blur_amount_px" type="integer"/>
+        <element default="true" hint="Enable or disable entrance animations when the chart first renders" label="Animate" max_length="40" name="animate" type="boolean"/>
+        <element default="400" label="Height" max_length="255" name="height" type="integer"/>
+        <element default="50" hint="Left margin inside the chart container in pixels" label="Margin Left" max_length="40" name="margin_left" type="integer"/>
+        <element default="40" hint="Bottom margin inside the chart container in pixels" label="Margin Bottom" max_length="40" name="margin_bottom" type="integer"/>
         <element default="true" hint="Show tooltips on hover over data points" label="Show Tooltip" max_length="40" name="tooltip_show" type="boolean"/>
+        <element default="200" function_definition="200" label="Animation stagger (ms)" max_length="255" name="animation_stagger" type="integer"/>
+        <element label="Hover - Dim others" max_length="255" name="hover_dim_others" type="boolean"/>
+        <element display="true" hint="A unique name to identify this visualization configuration" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element hint="Title text displayed above the chart" label="Chart Title" max_length="200" name="chart_title" type="string"/>
+        <element default="true" hint="Allow clicking legend items to toggle data series visibility" label="Legend Interactive" max_length="40" name="legend_interactive" type="boolean"/>
+        <element default="[]" function_definition="[]" label="Custom color palette" max_length="40" name="custom_color_palette" type="string"/>
+        <element choice="3" default="cubicOut" hint="Easing function used for chart animations" label="Animation easing" max_length="40" name="animation_easing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Linear" sequence="1" value="linear"/>
+                <element inactive_on_update="false" label="Elastic Out" sequence="6" value="elasticOut"/>
+                <element inactive_on_update="false" label="Ease In" sequence="2" value="easeIn"/>
+                <element inactive_on_update="false" label="Cubic Out" sequence="0" value="cubicOut"/>
+                <element inactive_on_update="false" label="Ease Out" sequence="3" value="easeOut"/>
+                <element inactive_on_update="false" label="Ease In Out" sequence="4" value="easeInOut"/>
+                <element inactive_on_update="false" label="Bounce Out" sequence="5" value="bounceOut"/>
+            </choice>
+        </element>
+        <element default="12px" hint="Padding inside the chart container (CSS value)" label="Padding" max_length="20" name="component_padding" type="string"/>
+        <element default="0" hint="Border width around the chart container in pixels" label="Border Width" max_length="20" name="border_width" type="string"/>
+        <element default="12" hint="Font size for legend text in pixels" label="Legend Font Size" max_length="40" name="legend_font_size" type="integer"/>
+        <element label="Font size" max_length="255" name="tooltip_font_size" type="integer"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
