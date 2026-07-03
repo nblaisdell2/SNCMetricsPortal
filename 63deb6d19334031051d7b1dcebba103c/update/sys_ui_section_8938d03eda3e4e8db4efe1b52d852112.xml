@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Viz: Choropleth/Map" section_id="8938d03eda3e4e8db4efe1b52d852112" sys_domain="global" table="x_1295779_metpo_viz_choropleth" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:54:48</sys_created_on>
+            <sys_id>5e95c944ba674de5bc18ed3a264a2a65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Choropleth/Map" display_value="Viz: Choropleth/Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">8938d03eda3e4e8db4efe1b52d852112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:54:48</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:54:48</sys_created_on>
+            <sys_id>d7d1170e65374604b6681c59f5c8273c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Choropleth/Map" display_value="Viz: Choropleth/Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">8938d03eda3e4e8db4efe1b52d852112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:54:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:54:48</sys_created_on>
+            <sys_id>308f12cc2cc843d89da3fe28ef38ac6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Choropleth/Map" display_value="Viz: Choropleth/Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">8938d03eda3e4e8db4efe1b52d852112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:54:48</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:54:48</sys_created_on>
+            <sys_id>6a20c8a6287c4b47b6f74fb092e0f656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Choropleth/Map" display_value="Viz: Choropleth/Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">8938d03eda3e4e8db4efe1b52d852112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:54:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:54:48</sys_created_on>
+            <sys_id>9f0b3380c91645d68b7574ec9fdfa2be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Choropleth/Map" display_value="Viz: Choropleth/Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">8938d03eda3e4e8db4efe1b52d852112</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:54:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Viz: Choropleth/Map</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_choropleth</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:14:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8938d03eda3e4e8db4efe1b52d852112</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_choropleth</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_8938d03eda3e4e8db4efe1b52d852112</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:35:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

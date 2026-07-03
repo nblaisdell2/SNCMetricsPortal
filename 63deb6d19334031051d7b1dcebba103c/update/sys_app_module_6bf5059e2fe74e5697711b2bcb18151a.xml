@@ -10,8 +10,8 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title/>
-        <mobile_view_name/>
+        <mobile_title>Wdiget Data Sources</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1295779_metpo_source_config</name>
         <order>550</order>
         <override_menu_roles>false</override_menu_roles>
@@ -27,17 +27,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6bf5059e2fe74e5697711b2bcb18151a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Source Configurations</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Data Sources</sys_name>
         <sys_overrides/>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
         <sys_update_name>sys_app_module_6bf5059e2fe74e5697711b2bcb18151a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-29 01:31:56</sys_updated_on>
+        <sys_updated_on>2026-07-03 16:46:29</sys_updated_on>
         <timeline_page/>
-        <title>Source Configurations</title>
+        <title>Data Sources</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>
