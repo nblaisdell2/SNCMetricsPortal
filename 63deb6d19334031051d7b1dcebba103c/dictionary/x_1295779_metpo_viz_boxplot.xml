@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Boxplot" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
-        <element default="true" hint="Display outlier points beyond the whiskers" label="Show Outliers" max_length="40" name="show_outliers" type="boolean"/>
-        <element default="0.6" hint="Proportional width of boxes (0-1, where 0.6 means 60% of available space)" label="Box Width" max_length="20" name="box_width" type="string"/>
+        <element hint="Show a line or marker indicating the mean value" label="Show Mean Line" max_length="40" name="show_mean" type="boolean"/>
+        <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier Point Radius" max_length="40" name="outlier_radius" type="integer"/>
+        <element hint="Render box plots horizontally instead of vertically" label="Horizontal" max_length="40" name="horizontal" type="boolean"/>
         <element choice="3" default="line" hint="Visual style of the box plot whiskers" label="Whiskers - Style" max_length="40" name="whisker_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Line" sequence="0" value="line"/>
@@ -9,11 +10,10 @@
                 <element inactive_on_update="false" label="Cap" sequence="1" value="cap"/>
             </choice>
         </element>
+        <element default="true" hint="Display outlier points beyond the whiskers" label="Show Outliers" max_length="40" name="show_outliers" type="boolean"/>
         <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
-        <element hint="Render box plots horizontally instead of vertically" label="Horizontal" max_length="40" name="horizontal" type="boolean"/>
-        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
-        <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier Point Radius" max_length="40" name="outlier_radius" type="integer"/>
+        <element default="0.6" hint="Proportional width of boxes (0-1, where 0.6 means 60% of available space)" label="Box Width" max_length="20" name="box_width" type="string"/>
         <element default="0.7" hint="Opacity of the box fill color (0-1)" label="Box Fill Opacity" max_length="10" name="box_fill_opacity" type="string"/>
-        <element hint="Show a line or marker indicating the mean value" label="Show Mean Line" max_length="40" name="show_mean" type="boolean"/>
+        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
     </element>
 </database>

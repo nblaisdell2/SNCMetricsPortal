@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="animation_duration" label="Animation Duration (ms)" language="en" table="x_1295779_metpo_visualization">
+    <sys_documentation element="animation_duration" label="Animation duration (ms)" language="en" table="x_1295779_metpo_visualization">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>animation_duration</element>
             <help/>
             <hint>Duration of entrance animation in milliseconds</hint>
-            <label>Animation Duration (ms)</label>
+            <label>Animation duration (ms)</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:37</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Animation Duration (ms)</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Animation duration (ms)</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_documentation_x_1295779_metpo_visualization_animation_duration_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 02:33:37</sys_updated_on>
+            <sys_updated_on>2026-07-04 03:47:50</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

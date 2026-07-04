@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="88fc41b493bdc39051d7b1dcebba10bd" extends="x_1295779_metpo_visualization" label="Viz: Calendar Heatmap" max_length="40" name="x_1295779_metpo_viz_calendar" type="collection">
-        <element default="true" hint="Display day-of-week labels on the left side" label="Show Day Labels" max_length="40" name="show_day_labels" type="boolean"/>
         <element default="2" hint="Corner radius of day cells in pixels" label="Cell Corner Radius" max_length="40" name="cell_radius" type="integer"/>
-        <element default="14" hint="Size of each day cell in pixels (square)" label="Cell Size (px)" max_length="40" name="cell_size" type="integer"/>
+        <element default="#216e39" hint="Color representing days with the highest activity" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
+        <element default="4" hint="Extra spacing between months in pixels" label="Month Gap (px)" max_length="40" name="month_gap" type="integer"/>
         <element default="2" hint="Spacing between day cells in pixels" label="Cell Gap (px)" max_length="40" name="cell_gap" type="integer"/>
         <element default="#ebedf0" hint="Color representing days with the lowest activity" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
-        <element default="4" hint="Extra spacing between months in pixels" label="Month Gap (px)" max_length="40" name="month_gap" type="integer"/>
-        <element default="1" hint="First day of the week (0=Sunday, 1=Monday)" label="Week Start (0=Sun, 1=Mon)" max_length="40" name="week_start" type="integer"/>
-        <element default="#216e39" hint="Color representing days with the highest activity" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
+        <element default="14" hint="Size of each day cell in pixels (square)" label="Cell Size (px)" max_length="40" name="cell_size" type="integer"/>
         <element default="true" hint="Display abbreviated month names above each month block" label="Show Month Labels" max_length="40" name="show_month_labels" type="boolean"/>
+        <element default="1" hint="First day of the week (0=Sunday, 1=Monday)" label="Week Start (0=Sun, 1=Mon)" max_length="40" name="week_start" type="integer"/>
+        <element default="true" hint="Display day-of-week labels on the left side" label="Show Day Labels" max_length="40" name="show_day_labels" type="boolean"/>
     </element>
 </database>

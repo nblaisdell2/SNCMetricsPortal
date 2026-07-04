@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="animation_duration" table="x_1295779_metpo_visualization">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="chart_font_family" table="x_1295779_metpo_visualization">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,10 +8,10 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Animation duration (ms)</column_label>
+        <column_label>Chart font family</column_label>
         <comments/>
         <create_roles/>
-        <default_value>800</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,13 +21,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>animation_duration</element>
+        <element>chart_font_family</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1295779_metpo_visualization</name>
@@ -47,14 +47,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-28 02:33:37</sys_created_on>
-        <sys_name>Animation duration (ms)</sys_name>
+        <sys_created_on>2026-07-04 03:45:48</sys_created_on>
+        <sys_name>Chart font family</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
-        <sys_update_name>sys_dictionary_x_1295779_metpo_visualization_animation_duration</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1295779_metpo_visualization_chart_font_family</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-04 03:47:50</sys_updated_on>
+        <sys_updated_on>2026-07-04 03:45:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

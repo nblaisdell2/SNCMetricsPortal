@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="79e580b693adc35051d7b1dcebba10cb" label="Metric Dashboard" max_length="40" name="x_1295779_metpo_dashboard" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Nav Group" max_length="100" name="nav_group" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key" mandatory="true" max_length="100" name="key" type="string" unique="true"/>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element default="0" label="Nav Order" max_length="40" name="nav_order" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Nav Group" max_length="100" name="nav_group" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Key" mandatory="true" max_length="100" name="key" type="string" unique="true"/>
         <index name="index" unique="true">
             <element name="key"/>
         </index>

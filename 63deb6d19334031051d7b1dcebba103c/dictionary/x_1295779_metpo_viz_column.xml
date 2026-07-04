@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="62ec4d7493bdc39051d7b1dcebba10fd" extends="x_1295779_metpo_visualization" label="Viz: Bar/Column" max_length="40" name="x_1295779_metpo_viz_column" type="collection">
-        <element hint="Stack bars on top of each other instead of side by side for grouped data" label="Stacked" max_length="40" name="stacked" type="boolean"/>
         <element default="true" hint="Show background grid lines for easier value reading" label="Show Grid Lines" max_length="40" name="grid_show" type="boolean"/>
-        <element hint="Number format pattern for Y-axis values (e.g., ',.0f' for thousands)" label="Y-Axis Format" max_length="40" name="y_axis_format" type="string"/>
-        <element default="true" hint="Apply a 3D perspective effect to column bars" label="3D Columns" max_length="40" name="bar_3d" type="boolean"/>
-        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
-        <element hint="Render bars horizontally instead of vertically" label="Horizontal Bars" max_length="40" name="horizontal" type="boolean"/>
-        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
-        <element default="0" hint="Corner radius for the top of each bar in pixels" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>
-        <element default="0.2" hint="Proportional gap between bars (0-1, where 0.2 means 20% gap)" label="Bar Gap" max_length="20" name="bar_gap" type="string"/>
         <element hint="Y-axis value where a horizontal reference line is drawn" label="Reference Line Value" max_length="40" name="reference_line_value" type="string"/>
-        <element hint="Display the numeric value above or inside each bar" label="Show Values on Bars" max_length="40" name="show_values" type="boolean"/>
-        <element default="true" hint="Display value labels on or above bars" label="Data Label - Show Data Labels" max_length="40" name="show_value_labels" type="boolean"/>
-        <element hint="Text label displayed next to the reference line" label="Reference Line Label" max_length="100" name="reference_line_label" type="string"/>
-        <element default="0" hint="Minimum height in pixels for bars with very small values" label="Minimum Bar Height (px)" max_length="40" name="min_bar_height" type="integer"/>
+        <element default="0" hint="Corner radius for the top of each bar in pixels" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>
+        <element hint="Render bars horizontally instead of vertically" label="Horizontal Bars" max_length="40" name="horizontal" type="boolean"/>
+        <element default="true" hint="Apply a 3D perspective effect to column bars" label="3D Columns" max_length="40" name="bar_3d" type="boolean"/>
         <element hint="Color of the background grid lines" label="Grid - Grid Color" max_length="40" name="grid_color" type="color"/>
+        <element hint="Text label displayed next to the reference line" label="Reference Line Label" max_length="100" name="reference_line_label" type="string"/>
+        <element hint="Display the numeric value above or inside each bar" label="Show Values on Bars" max_length="40" name="show_values" type="boolean"/>
+        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
+        <element hint="Number format pattern for Y-axis values (e.g., ',.0f' for thousands)" label="Y-Axis Format" max_length="40" name="y_axis_format" type="string"/>
+        <element default="0.2" hint="Proportional gap between bars (0-1, where 0.2 means 20% gap)" label="Bar Gap" max_length="20" name="bar_gap" type="string"/>
+        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element hint="Stack bars on top of each other instead of side by side for grouped data" label="Stacked" max_length="40" name="stacked" type="boolean"/>
+        <element default="true" hint="Display value labels on or above bars" label="Data Label - Show Data Labels" max_length="40" name="show_value_labels" type="boolean"/>
         <element default="#ef4444" hint="Color of the reference line (hex or CSS color)" label="Reference Line Color" max_length="40" name="reference_line_color" type="string"/>
+        <element default="0" hint="Minimum height in pixels for bars with very small values" label="Minimum Bar Height (px)" max_length="40" name="min_bar_height" type="integer"/>
     </element>
 </database>
