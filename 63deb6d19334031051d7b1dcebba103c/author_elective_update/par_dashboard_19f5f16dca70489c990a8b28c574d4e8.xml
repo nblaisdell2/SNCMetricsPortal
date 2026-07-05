@@ -55,7 +55,7 @@
         <update_guid_history>d8c7562a1a314310595f9f2595f18711:301730713,9edbce62dffd03102731c9af3523d5a3:1026513965</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Metrics Portal Dashboard">d5d712a23b71431099d7336436e45aa3</sys_audit_delete>
+        <sys_audit_delete display_value="">d5d712a23b71431099d7336436e45aa3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-03 18:30:21</sys_created_on>

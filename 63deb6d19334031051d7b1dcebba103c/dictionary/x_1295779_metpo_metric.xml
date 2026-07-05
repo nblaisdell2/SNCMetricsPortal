@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="cc11cfd59334031051d7b1dcebba1045" label="Metric Widget" max_length="40" name="x_1295779_metpo_metric" type="collection">
-        <element attributes="encode_utf8=false" label="Source Config" max_length="32" name="source_config" reference="x_1295779_metpo_source_config" type="reference"/>
-        <element attributes="encode_utf8=false" label="Visualization Config" max_length="32" name="visualization" reference="x_1295779_metpo_visualization" type="reference"/>
         <element default="400" label="Height" max_length="255" name="height" type="integer"/>
+        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="encode_utf8=false" label="Visualization Config" max_length="32" name="visualization" reference="x_1295779_metpo_visualization" type="reference"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Title" mandatory="true" max_length="200" name="title" type="string"/>
+        <element attributes="encode_utf8=false" label="Section" max_length="32" name="section" reference="x_1295779_metpo_section" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="encode_utf8=false" label="Source Config" max_length="32" name="source_config" reference="x_1295779_metpo_source_config" type="reference"/>
         <element choice="3" default="50" label="Width" mandatory="true" max_length="40" name="width" type="choice">
             <choice>
-                <element inactive_on_update="false" label="50% (6 cols)" sequence="2" value="50"/>
-                <element inactive_on_update="false" label="100% (12 cols)" sequence="4" value="100"/>
                 <element inactive_on_update="false" label="33% (4 cols)" sequence="1" value="33"/>
                 <element inactive_on_update="false" label="25% (3 cols)" sequence="0" value="25"/>
+                <element inactive_on_update="false" label="100% (12 cols)" sequence="4" value="100"/>
                 <element inactive_on_update="false" label="75% (9 cols)" sequence="3" value="75"/>
+                <element inactive_on_update="false" label="50% (6 cols)" sequence="2" value="50"/>
             </choice>
         </element>
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
-        <element attributes="encode_utf8=false" label="Section" mandatory="true" max_length="32" name="section" reference="x_1295779_metpo_section" type="reference"/>
         <index name="index">
             <element name="section"/>
         </index>

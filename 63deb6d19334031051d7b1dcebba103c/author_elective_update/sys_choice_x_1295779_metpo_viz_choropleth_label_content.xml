@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="label_content" table="x_1295779_metpo_viz_choropleth" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>label_content</element>
+            <name>x_1295779_metpo_viz_choropleth</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 20:02:09</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>label_content</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_choice_x_1295779_metpo_viz_choropleth_label_content</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 20:02:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>label_content</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_choropleth</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 20:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 20:02:09</sys_updated_on>
+            <value>name</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>label_content</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Value</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_choropleth</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 20:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 20:02:09</sys_updated_on>
+            <value>value</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>label_content</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Name and value</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_choropleth</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 20:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 20:02:09</sys_updated_on>
+            <value>name_and_value</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

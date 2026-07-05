@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e6ec4d7493bdc39051d7b1dcebba10b0" extends="x_1295779_metpo_visualization" label="Viz: Wordcloud" max_length="40" name="x_1295779_metpo_viz_wordcloud" type="collection">
-        <element default="Impact" hint="CSS font family for all words in the cloud" label="Font Family" max_length="100" name="font_family" type="string"/>
-        <element default="80" hint="Maximum font size in pixels for the most frequent words" label="Maximum Font Size" max_length="40" name="max_font_size" type="integer"/>
-        <element default="10" hint="Minimum font size in pixels for the least frequent words" label="Minimum Font Size" max_length="40" name="min_font_size" type="integer"/>
-        <element default="normal" hint="CSS font weight (normal, bold, 100-900)" label="Font Weight" max_length="20" name="font_weight" type="string"/>
+        <element default="2" hint="Spacing between words in pixels" label="Word Padding" max_length="40" name="padding" type="integer"/>
+        <element choice="3" label="Case transform" max_length="255" name="case_transform" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None (as-is)" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="lowercase" sequence="2" value="lower"/>
+                <element inactive_on_update="false" label="Capitalize" sequence="3" value="capitalize"/>
+                <element inactive_on_update="false" label="UPPERCASE" sequence="1" value="upper"/>
+            </choice>
+        </element>
+        <element label="Max words" max_length="255" name="max_words" type="integer"/>
+        <element default="60" hint="Maximum rotation angle in degrees for word placement" label="Rotation Max (degrees)" max_length="40" name="rotation_max" type="integer"/>
         <element choice="3" default="archimedean" hint="Spiral algorithm used to place words in the cloud" label="Layout - Spiral" max_length="40" name="spiral" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Rectangular" sequence="1" value="rectangular"/>
                 <element inactive_on_update="false" label="Archimedean" sequence="0" value="archimedean"/>
             </choice>
         </element>
-        <element default="5" hint="Number of discrete rotation angles between min and max" label="Rotation Steps" max_length="40" name="rotation_steps" type="integer"/>
-        <element default="60" hint="Maximum rotation angle in degrees for word placement" label="Rotation Max (degrees)" max_length="40" name="rotation_max" type="integer"/>
+        <element choice="3" label="Font size scale" max_length="255" name="font_size_scale" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Logarithmic" sequence="2" value="log"/>
+                <element inactive_on_update="false" label="Square root" sequence="0" value="sqrt"/>
+                <element inactive_on_update="false" label="Linear" sequence="1" value="linear"/>
+            </choice>
+        </element>
+        <element default="10" hint="Minimum font size in pixels for the least frequent words" label="Minimum Font Size" max_length="40" name="min_font_size" type="integer"/>
+        <element default="Impact" hint="CSS font family for all words in the cloud" label="Font Family" max_length="100" name="font_family" type="string"/>
+        <element label="Random seed" max_length="255" name="random_seed" type="integer"/>
+        <element choice="3" label="Font style" max_length="255" name="font_style" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Italic" sequence="1" value="italic"/>
+                <element inactive_on_update="false" label="Normal" sequence="0" value="normal"/>
+            </choice>
+        </element>
+        <element choice="3" label="Rotations" max_length="255" name="rotations" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="0 / 90" sequence="1" value="0-90"/>
+                <element inactive_on_update="false" label="-90 / 90" sequence="2" value="-90-90"/>
+                <element inactive_on_update="false" label="None (horizontal)" sequence="0" value="none_horizontal"/>
+                <element inactive_on_update="false" label="0 / 60 / 90" sequence="3" value="0-60-90"/>
+                <element inactive_on_update="false" label="Multiples of 30" sequence="4" value="multiples_of_30"/>
+            </choice>
+        </element>
+        <element default="normal" hint="CSS font weight (normal, bold, 100-900)" label="Font Weight" max_length="20" name="font_weight" type="string"/>
+        <element default="80" hint="Maximum font size in pixels for the most frequent words" label="Maximum Font Size" max_length="40" name="max_font_size" type="integer"/>
         <element default="-60" hint="Minimum rotation angle in degrees for word placement" label="Rotation Min (degrees)" max_length="40" name="rotation_min" type="integer"/>
-        <element default="2" hint="Spacing between words in pixels" label="Word Padding" max_length="40" name="padding" type="integer"/>
+        <element default="5" hint="Number of discrete rotation angles between min and max" label="Rotation Steps" max_length="40" name="rotation_steps" type="integer"/>
     </element>
 </database>

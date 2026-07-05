@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="animation_stagger" label="Animation stagger (ms)" language="en" table="x_1295779_metpo_visualization">
+    <sys_documentation element="animation_stagger" label="Animation stagger" language="en" table="x_1295779_metpo_visualization">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>animation_stagger</element>
             <help/>
-            <hint/>
-            <label>Animation stagger (ms)</label>
+            <hint>Delay between categories for a cascade grow-in (0 = all bars animate together).</hint>
+            <label>Animation stagger</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
             <plural/>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Appearance" section_id="f6fc2071237a45f08c27d1b6e817c249" sys_domain="global" table="x_1295779_metpo_viz_scatter" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>47e65163c20f46e4ab4fe46d3f61ffc7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>background_color</element>
+      <position>1</position>
+      <sys_id>146f372e58d64b5d9b1a7ad354d262d5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>component_padding</element>
+      <position>2</position>
+      <sys_id>f3543829eee8447d9c066c3a43028ff4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>bf4c39960392458d9bf78c80682e3e63</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>chart_font_family</element>
+      <position>4</position>
+      <sys_id>36e835506a4f4a1b925e1d79d5fcbf29</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>b2f2f986af1f4bcf9df77ff0ddcb5d56</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE">
+      <caption>Appearance</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_scatter</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>f6fc2071237a45f08c27d1b6e817c249</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_section_f6fc2071237a45f08c27d1b6e817c249</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Appearance" section_id="f6fc2071237a45f08c27d1b6e817c249" sys_domain="global" table="x_1295779_metpo_viz_scatter" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>47e65163c20f46e4ab4fe46d3f61ffc7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>background_color</element>
+      <position>1</position>
+      <sys_id>146f372e58d64b5d9b1a7ad354d262d5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>component_padding</element>
+      <position>2</position>
+      <sys_id>f3543829eee8447d9c066c3a43028ff4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>bf4c39960392458d9bf78c80682e3e63</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>chart_font_family</element>
+      <position>4</position>
+      <sys_id>36e835506a4f4a1b925e1d79d5fcbf29</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>b2f2f986af1f4bcf9df77ff0ddcb5d56</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">f6fc2071237a45f08c27d1b6e817c249</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Appearance</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_scatter</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>f6fc2071237a45f08c27d1b6e817c249</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>435695998</payload_hash>
+        <record_name>Viz: Scatter</record_name>
+        <reverted_from/>
+        <source>677ee4f273bd031076d5f85c4ab8b7f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:29:57</sys_created_on>
+        <sys_id>53ce607a73bd031076d5f85c4ab8b7ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2b9adca50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:29:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>93ce607a99bd03102bd68f62c895acad</update_guid>
+        <update_guid_history>93ce607a99bd03102bd68f62c895acad:435695998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-05 16:16:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>675a8649ba834c2c8c5e84b0a7dd9d10</sys_id>
+        <sys_metadata>f6fc2071237a45f08c27d1b6e817c249</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appearance</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Scatter">d6ec4d7493bdc39051d7b1dcebba1055</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f6fc2071237a45f08c27d1b6e817c249</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f6fc2071237a45f08c27d1b6e817c249">53ce607a73bd031076d5f85c4ab8b7ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-05 16:16:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

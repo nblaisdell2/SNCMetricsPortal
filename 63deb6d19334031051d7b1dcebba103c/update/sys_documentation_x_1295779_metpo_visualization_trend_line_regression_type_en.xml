@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="trend_line_regression_type" label="Trend line regression type" language="en" table="x_1295779_metpo_visualization">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>trend_line_regression_type</element>
+            <help/>
+            <hint/>
+            <label>Trend line regression type</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 17:39:39</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Trend line regression type</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_documentation_x_1295779_metpo_visualization_trend_line_regression_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 17:39:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

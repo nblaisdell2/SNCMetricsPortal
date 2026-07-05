@@ -4,13 +4,13 @@
             <element>animate</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:08:28</sys_created_on>
-            <sys_id>6f80e2a63bb1431099d7336436e45aae</sys_id>
+            <sys_created_on>2026-07-05 00:51:27</sys_created_on>
+            <sys_id>25a834cf7371c31076d5f85c4ab8b78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">43b3082bf06445cbb6edc464e1fafc2d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:08:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 00:51:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>animation_duration</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:08:28</sys_created_on>
-            <sys_id>2b80e2a63bb1431099d7336436e45aaf</sys_id>
+            <sys_created_on>2026-07-05 00:51:27</sys_created_on>
+            <sys_id>eda834cf7371c31076d5f85c4ab8b78e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">43b3082bf06445cbb6edc464e1fafc2d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:08:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 00:51:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:08:28</sys_created_on>
-            <sys_id>e380e2a63bb1431099d7336436e45ab0</sys_id>
+            <sys_created_on>2026-07-05 00:51:27</sys_created_on>
+            <sys_id>a9a834cf7371c31076d5f85c4ab8b78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">43b3082bf06445cbb6edc464e1fafc2d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:08:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 00:51:27</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>animation_easing</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:08:28</sys_created_on>
-            <sys_id>af80e2a63bb1431099d7336436e45ab0</sys_id>
+            <sys_created_on>2026-07-05 00:51:27</sys_created_on>
+            <sys_id>65a834cf7371c31076d5f85c4ab8b790</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">43b3082bf06445cbb6edc464e1fafc2d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:08:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 00:51:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>animation_stagger</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:08:28</sys_created_on>
-            <sys_id>6b80e2a63bb1431099d7336436e45ab1</sys_id>
+            <sys_created_on>2026-07-05 00:51:27</sys_created_on>
+            <sys_id>21a834cf7371c31076d5f85c4ab8b791</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">43b3082bf06445cbb6edc464e1fafc2d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:08:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 00:51:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

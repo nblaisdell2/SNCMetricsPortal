@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Margins" section_id="fb2a4d0ad2ea4b3da9da52a4d7222292" sys_domain="global" table="x_1295779_metpo_viz_heatmap" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>80e66931af9c46a5bb21eb41b01967f1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_top</element>
+      <position>1</position>
+      <sys_id>241ad877fb03451eb035481a95a54e1d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_bottom</element>
+      <position>2</position>
+      <sys_id>867b76cbf6a94fd08a555e1f190603be</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>e391fc51e0c04f4bba09f7863aa2042b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_right</element>
+      <position>4</position>
+      <sys_id>d442c1f6e0774208974b6b0c8f4ac8ba</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_left</element>
+      <position>5</position>
+      <sys_id>8ae45e7195f642b68e392793cb4563c3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>48c3f4ccf42a43f1821b470a9b790b3a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE">
+      <caption>Margins</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_heatmap</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>fb2a4d0ad2ea4b3da9da52a4d7222292</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_section_fb2a4d0ad2ea4b3da9da52a4d7222292</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Margins" section_id="fb2a4d0ad2ea4b3da9da52a4d7222292" sys_domain="global" table="x_1295779_metpo_viz_heatmap" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>80e66931af9c46a5bb21eb41b01967f1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_top</element>
+      <position>1</position>
+      <sys_id>241ad877fb03451eb035481a95a54e1d</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_bottom</element>
+      <position>2</position>
+      <sys_id>867b76cbf6a94fd08a555e1f190603be</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>e391fc51e0c04f4bba09f7863aa2042b</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_right</element>
+      <position>4</position>
+      <sys_id>d442c1f6e0774208974b6b0c8f4ac8ba</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_left</element>
+      <position>5</position>
+      <sys_id>8ae45e7195f642b68e392793cb4563c3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>48c3f4ccf42a43f1821b470a9b790b3a</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fb2a4d0ad2ea4b3da9da52a4d7222292</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Margins</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_heatmap</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>fb2a4d0ad2ea4b3da9da52a4d7222292</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1554217371</payload_hash>
+        <record_name>Viz: Heatmap</record_name>
+        <reverted_from/>
+        <source>677ee4f273bd031076d5f85c4ab8b7f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:29:57</sys_created_on>
+        <sys_id>57ce607a73bd031076d5f85c4ab8b7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2b9addd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:29:57</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>97ce607a3abd031076e2fe4de6af8ef6</update_guid>
+        <update_guid_history>97ce607a3abd031076e2fe4de6af8ef6:-1554217371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 23:12:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5f8ea43b340f4f5a8d812e48c79eea04</sys_id>
+        <sys_metadata>fb2a4d0ad2ea4b3da9da52a4d7222292</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Margins</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Heatmap">9beccd7493bdc39051d7b1dcebba100e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_fb2a4d0ad2ea4b3da9da52a4d7222292</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_fb2a4d0ad2ea4b3da9da52a4d7222292">57ce607a73bd031076d5f85c4ab8b7f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 23:12:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

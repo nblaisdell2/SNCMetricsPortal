@@ -3,128 +3,156 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:21</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2bebc2e23bfd031099d7336436e45a8c</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>a7a1a2757f64468a8edc407fe692d031</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
-            <sys_ui_section caption="Viz: Radar" display_value="Viz: Radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">eb24465318fd46ffb2ebc0f62ed7dda0</sys_ui_section>
+            <sys_ui_section caption="Viz: Radar" display_value="Viz: Radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">72994bea6a6c48799cb90d1b5dec8d31</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:11:12</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:19</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dbeb82e23bfd031099d7336436e45a82</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>c9045c9b925d4748bc974b3695e3fae7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">db5de8d56b0f4198969bc9a2e0155276</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:24</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0d1c428573fc497f98f24dcfee72d652</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>a81d0cf45f9c468d8b93ab33e21d6032</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:23:59</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:15</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>12ebcea23bfd031099d7336436e45a57</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>269e4b89703a4f33b3645fc2791bb177</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">985fce587d384beaaa570961b4a1afe4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:23:59</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:13</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b5eb4ea23bfd031099d7336436e45a45</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>27baed38e2a245918b644e2dca26a7a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">6d7254833231486e897b2610dab9ac38</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:23:59</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:22</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bbeb06e23bfd031099d7336436e45a68</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>93c02026b7f24dc8829f3ab430855be5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">fb7f9bee63d5415fbaf179af6909f0a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:23:59</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:15</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d6ebcea23bfd031099d7336436e45a27</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>1b031ffb920044e5bc8a7c6548d06a42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">94b1ebd358a049ec9acfe2a70643cd90</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:24</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>41db1072f8a34a7f8db13405ab613b31</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>4614888fef074f029d05ba002b591bce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">80c23181e729493ba2aabaa5b069faaf</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:22</sys_created_on>
+            <sys_created_on>2026-07-05 15:23:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3beb06e23bfd031099d7336436e45a71</sys_id>
+            <sys_id>6250005773f9071076d5f85c4ab8b778</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
-            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">fb84bceb48da49e487c8d720fb94ced8</sys_ui_section>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:11:12</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:23:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3cdbf3223214608bf2f3f688deaa44a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
+            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 15:33:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cc3c2b4f3404dc78fdacda6fd12937a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
+            <sys_ui_section caption="Radar" display_value="Radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">16f174b7eb294d959f64191ee13127ad</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 15:33:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_radar</name>

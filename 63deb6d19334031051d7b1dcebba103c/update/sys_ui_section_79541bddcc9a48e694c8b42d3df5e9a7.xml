@@ -4,13 +4,13 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:49</sys_created_on>
-            <sys_id>5420afca266f4e98973c1e604e0bed35</sys_id>
+            <sys_created_on>2026-07-04 18:41:11</sys_created_on>
+            <sys_id>f9e32f7673b5831076d5f85c4ab8b79f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">79541bddcc9a48e694c8b42d3df5e9a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:49</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:41:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,55 @@
             <element>color_scheme</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:49</sys_created_on>
-            <sys_id>aa0cd58855e04ae1a47907502b50e242</sys_id>
+            <sys_created_on>2026-07-04 18:41:11</sys_created_on>
+            <sys_id>b5e32f7673b5831076d5f85c4ab8b7a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">79541bddcc9a48e694c8b42d3df5e9a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:49</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:41:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 18:41:11</sys_created_on>
+            <sys_id>71e32f7673b5831076d5f85c4ab8b7a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">79541bddcc9a48e694c8b42d3df5e9a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:41:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value_format</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 18:41:11</sys_created_on>
+            <sys_id>3de32f7673b5831076d5f85c4ab8b7a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">79541bddcc9a48e694c8b42d3df5e9a7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:41:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>custom_color_palette</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:49</sys_created_on>
-            <sys_id>14ec444255004b79b25991659f881041</sys_id>
+            <sys_created_on>2026-07-04 18:41:11</sys_created_on>
+            <sys_id>f5e32f7673b5831076d5f85c4ab8b7a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">79541bddcc9a48e694c8b42d3df5e9a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:49</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:41:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,13 +4,13 @@
             <element>animate</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:03:56</sys_created_on>
-            <sys_id>dd8f5ae23bb1431099d7336436e45ada</sys_id>
+            <sys_created_on>2026-07-04 19:51:47</sys_created_on>
+            <sys_id>bb043bbe7339831076d5f85c4ab8b73f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:56</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:51:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>animation_duration</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:03:56</sys_created_on>
-            <sys_id>998f5ae23bb1431099d7336436e45adb</sys_id>
+            <sys_created_on>2026-07-04 19:51:47</sys_created_on>
+            <sys_id>77043bbe7339831076d5f85c4ab8b740</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:56</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:51:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:03:56</sys_created_on>
-            <sys_id>558f5ae23bb1431099d7336436e45adc</sys_id>
+            <sys_created_on>2026-07-04 19:51:47</sys_created_on>
+            <sys_id>33043bbe7339831076d5f85c4ab8b741</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:56</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:51:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>animation_easing</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:03:56</sys_created_on>
-            <sys_id>118f5ae23bb1431099d7336436e45add</sys_id>
+            <sys_created_on>2026-07-04 19:51:47</sys_created_on>
+            <sys_id>fb043bbe7339831076d5f85c4ab8b741</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:56</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:51:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>animation_stagger</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:03:56</sys_created_on>
-            <sys_id>d98f5ae23bb1431099d7336436e45add</sys_id>
+            <sys_created_on>2026-07-04 19:51:47</sys_created_on>
+            <sys_id>b7043bbe7339831076d5f85c4ab8b742</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:56</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:51:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

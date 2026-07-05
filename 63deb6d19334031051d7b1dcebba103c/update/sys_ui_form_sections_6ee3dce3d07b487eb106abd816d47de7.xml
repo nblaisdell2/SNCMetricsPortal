@@ -3,128 +3,198 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:17</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f6eb02e23bfd031099d7336436e45ac0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>0e6dcd8dc95940219e179a167dfa4b1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
-            <sys_ui_section caption="Viz: Calendar Heatmap" display_value="Viz: Calendar Heatmap" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">b7b4dbaf82d64cca99ab57169e77f83e</sys_ui_section>
+            <sys_ui_section caption="Viz: Calendar Heatmap" display_value="Viz: Calendar Heatmap" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">d6d08d5e2bde4c6e9863f5fa78b7cb6b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:03</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:15</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>96ebcea23bfd031099d7336436e45a37</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>2db5402bbdb14218b1468ff9aa22ce08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">964c6af0c4a4491cb3d19e1870e963cb</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:28:48</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>512b4fe5b7034356a4d44c68b7fbfb37</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>6045f641237e4a5eabec4b89b6afc11e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">d49930c29bca46e18b430edfd984c0cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:28:48</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:22</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f3eb06e23bfd031099d7336436e45a2a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>b9b9278cc4f24878b30c797d1941e860</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">f32a8ef67638424abbe12609fb9bff9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:28:48</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:08</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d4eb0aa23bfd031099d7336436e45a7f</sys_id>
+            <sys_id>889923bd6fe74466a6f28e887ed3d71a</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">14988018a0134d20a046b44ded7e1026</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:03</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:19</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>07eb42e23bfd031099d7336436e45ad0</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>01128ac203b644f0bbfb422ad29255bd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">cb07db70219441e2979fa364db048d01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:28:48</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:18</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cbeb42e23bfd031099d7336436e45ab9</sys_id>
+            <sys_id>6d43556309544885b53a23b4fa724f33</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">c7cbf80d400e45169c79caf1535c3c02</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:03:03</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:26</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5de80acd51b54993bec1e87c6823f4c4</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>0e797debd3ff476ea8c7d9bedcb6ecb3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">bf0d5e52a6a543b6806bfece639d934e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:28:48</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:07</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>dceb0aa23bfd031099d7336436e45a51</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>d4483adb26924da6ab87b48f53fa95de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:28:48</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9fb4492581443978ea99ee024ddc107</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
+            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">d6ea779efdb4497589a045471342eb8a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e31fc371f9cc448baaf9bca7a7385bdc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
+            <sys_ui_section caption="Time markers" display_value="Time markers" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">44148d8cc7754bbbb299439c3372cca4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 19:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5011f3f67339831076d5f85c4ab8b7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
+            <sys_ui_section caption="Day values" display_value="Day values" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1811f3f67339831076d5f85c4ab8b7a6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 19:38:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 19:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d811f3f67339831076d5f85c4ab8b7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
+            <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 19:38:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 19:38:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c11f3f67339831076d5f85c4ab8b7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_calendar" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">6ee3dce3d07b487eb106abd816d47de7</sys_ui_form>
+            <sys_ui_section caption="Layout &amp; cells" display_value="Layout &amp; cells" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1011f3f67339831076d5f85c4ab8b7aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 19:38:43</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_calendar</name>

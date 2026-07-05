@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="54fc41b493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Gauge" max_length="40" name="x_1295779_metpo_viz_gauge" type="collection">
-        <element hint="Unit label shown after the value (e.g., %, ms, GB)" label="Units Label" max_length="40" name="units" type="string"/>
-        <element default="0" hint="Minimum value on the gauge scale" label="Min Value" max_length="40" name="min_value" type="integer"/>
-        <element default="135" hint="Ending angle of the gauge arc in degrees" label="End Angle (degrees)" max_length="40" name="end_angle" type="integer"/>
-        <element default="-135" hint="Starting angle of the gauge arc in degrees" label="Start Angle (degrees)" max_length="40" name="start_angle" type="integer"/>
-        <element default="28" hint="Font size of the displayed value in pixels" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
-        <element default="100" hint="Maximum value on the gauge scale" label="Max Value" max_length="40" name="max_value" type="integer"/>
+        <element default="true" hint="Display the current numeric value below the gauge" label="Show Value" max_length="40" name="show_value" type="boolean"/>
         <element choice="3" default="progress" hint="Style of the gauge arc: progress bar, full circle, or speedometer" label="Dial - Style" max_length="40" name="arc_style" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Full" sequence="1" value="full"/>
-                <element inactive_on_update="false" label="Progress" sequence="0" value="progress"/>
                 <element inactive_on_update="false" label="Speedometer" sequence="2" value="speedometer"/>
+                <element inactive_on_update="false" label="Progress" sequence="0" value="progress"/>
+                <element inactive_on_update="false" label="Full" sequence="1" value="full"/>
             </choice>
         </element>
-        <element hint="JSON array defining color zones [{min, max, color}] on the arc" label="Zones Config (JSON)" max_length="4000" name="zones_config" type="string"/>
-        <element default="true" hint="Display the current numeric value below the gauge" label="Show Value" max_length="40" name="show_value" type="boolean"/>
-        <element default="#374151" hint="Color of the gauge needle" label="Needle Color" max_length="40" name="needle_color" type="string"/>
+        <element label="Gauge tick count" max_length="255" name="gauge_tick_count" type="integer"/>
+        <element label="Gauge tick font size" max_length="255" name="gauge_tick_font_size" type="integer"/>
         <element default="20" hint="Thickness of the gauge arc band in pixels" label="Arc Width" max_length="40" name="arc_width" type="integer"/>
+        <element default="28" hint="Font size of the displayed value in pixels" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
+        <element label="Show target" max_length="255" name="show_target" type="boolean"/>
+        <element label="Target color" max_length="255" name="target_color" type="color"/>
+        <element label="Center value color" max_length="255" name="center_value_color" type="color"/>
+        <element label="Gauge target" max_length="38" name="target" type="decimal"/>
+        <element hint="Unit label shown after the value (e.g., %, ms, GB)" label="Units Label" max_length="40" name="units" type="string"/>
+        <element default="#374151" hint="Color of the gauge needle" label="Needle Color" max_length="40" name="needle_color" type="color"/>
+        <element label="Gauge tick format" max_length="40" name="gauge_tick_format" type="string"/>
+        <element hint="JSON array defining color zones [{min, max, color}] on the arc" label="Zones Config (JSON)" max_length="4000" name="zones_config" type="string"/>
+        <element label="Use round caps" max_length="255" name="use_round_caps" type="boolean"/>
+        <element label="Track color" max_length="255" name="track_color" type="color"/>
+        <element label="Caption label" max_length="40" name="caption_label" type="string"/>
+        <element label="Show ticks" max_length="255" name="show_ticks" type="boolean"/>
+        <element default="100" hint="Maximum value on the gauge scale" label="Gauge max value" max_length="40" name="max_value" type="integer"/>
+        <element default="0" hint="Minimum value on the gauge scale" label="Gauge min value" max_length="40" name="min_value" type="integer"/>
+        <element label="Gauge value color" max_length="255" name="gauge_value_color" type="color"/>
+        <element label="Center value font size" max_length="255" name="center_value_font_size" type="integer"/>
+        <element label="Gauge value" max_length="38" name="gauge_value" type="decimal"/>
     </element>
 </database>

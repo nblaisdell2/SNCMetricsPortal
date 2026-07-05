@@ -3,128 +3,198 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:17</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b6eb02e23bfd031099d7336436e45ad8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>8381c0fe2f0b4cc2864290d595725beb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
-            <sys_ui_section caption="Viz: Boxplot" display_value="Viz: Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">b962c057265d45c9873f4ada2d45f5a7</sys_ui_section>
+            <sys_ui_section caption="Viz: Boxplot" display_value="Viz: Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">67ab204a7fea47f9bdd14e08a126ebf8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:01:41</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:42</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:10</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>78eb8aa23bfd031099d7336436e45a73</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>e4a1c12442ae4f499585d7d13afcdcec</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">2dce7cb934f144c3b1923f0e8105ddb2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:23:04</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>573af6b538b34ccfa3f703118f675d4f</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>818dc7a6f79044a5ad9339c28571b0b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">85507ed693b94d9487b447a20f994c4d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:23:04</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:14</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bdeb4ea23bfd031099d7336436e45ada</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>7a347cf7edb14ee8866c6b81ce56143b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">79541bddcc9a48e694c8b42d3df5e9a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:25:51</sys_updated_on>
+            <sys_updated_on>2026-07-04 05:58:42</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:18</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>feeb42e23bfd031099d7336436e45a32</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>a13d9e439b9947c68ef7b390ee704377</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">be2c5ff87d344312b9fefe71216085e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:25:51</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:25:51</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6284eaee3bb1431099d7336436e45afc</sys_id>
+            <sys_id>3bcf021de5a544a4b83cfa599827bc26</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">d684eaee3bb1431099d7336436e45af4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:25:51</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:17</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a6eb02e23bfd031099d7336436e45a38</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>c1ef1e510e5044458e1690f370dba6c7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:25:51</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 03:22:25</sys_created_on>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bdc5b6006b5e4fae92770c60d486e80c</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>84ce5e94f8f34174926131eeb5901685</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">ffbd6e9ec2ca4ebb9238da799eb7c48b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:25:51</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 17:38:09</sys_created_on>
+            <sys_created_on>2026-07-04 18:15:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>eceb4aa23bfd031099d7336436e45a61</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>78fddbf67375831076d5f85c4ab8b7a0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
-            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">2299bd996b62445db3df4574500125bb</sys_ui_section>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">f4fddbf67375831076d5f85c4ab8b795</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:25:51</sys_updated_on>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2980518028e9401bb62badcee67e476d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
+            <sys_ui_section caption="Data" display_value="Data" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">9c61e360597f4164ac33b5de7ee83b79</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1df89e92c7ac4fd5aa8d5c2896a741c2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">3fff5481d8154cfbb773e70b93b7dc2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c14ec555d36470a80d83e953eb13121</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">3dbf0f8f0f6b4f08995b124ccd095fca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:15:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 18:34:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f42e3b273b5831076d5f85c4ab8b7e1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
+            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:38:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9df80839ee57488ca2c5808aa529ac50</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">657d3b947c4647448c45823accab7660</sys_ui_form>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 18:38:29</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_boxplot</name>

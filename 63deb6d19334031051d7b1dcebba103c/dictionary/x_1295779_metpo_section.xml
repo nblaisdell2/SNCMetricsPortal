@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="88118fd59334031051d7b1dcebba10e5" label="Metric Section" max_length="40" name="x_1295779_metpo_section" type="collection">
+        <element attributes="encode_utf8=false" label="Dashboard" mandatory="true" max_length="32" name="dashboard" reference="x_1295779_metpo_dashboard" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
         <element default="0" label="Order" max_length="40" name="order" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Help Text" max_length="4000" name="help_text" type="string"/>
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="encode_utf8=false" label="Dashboard" mandatory="true" max_length="32" name="dashboard" reference="x_1295779_metpo_dashboard" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="500" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <index name="index">
             <element name="dashboard"/>
         </index>

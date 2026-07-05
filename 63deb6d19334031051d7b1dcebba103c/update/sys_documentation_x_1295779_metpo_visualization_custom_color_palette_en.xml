@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="custom_color_palette" label="Custom color palette" language="en" table="x_1295779_metpo_visualization">
+    <sys_documentation element="custom_color_palette" label="Color palette" language="en" table="x_1295779_metpo_visualization">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>custom_color_palette</element>
             <help/>
-            <hint/>
-            <label>Custom color palette</label>
+            <hint>JSON array of CSS colors used per series when 'Use per-series colors' is off and Color scheme is Custom, e.g. ["#2E93fA","#66DA26"].</hint>
+            <label>Color palette</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
             <plural/>
