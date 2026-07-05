@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b9ecc97493bdc39051d7b1dcebba10b8" label="Metric Visualization" max_length="40" name="x_1295779_metpo_visualization" type="collection">
-        <element label="Axis font size" max_length="255" name="axis_font_size" type="integer"/>
+        <element hint="d3-format specifier for values shown in tooltips and value-axis ticks, e.g. &quot;.0f&quot; (whole), &quot;,.1f&quot;, &quot;$,.0f&quot;, &quot;.1s&quot;. Blank = a compact default." label="Value format" max_length="40" name="value_format" type="string"/>
+        <element default="0.25" hint="Smallest allowed zoom scale (e.g. 0.25 = zoomed out to quarter size)." label="Min zoom" max_length="20" name="min_zoom" type="decimal"/>
+        <element default="name" hint="Which feature property to use as the label text (default &quot;name&quot;)." label="Label field" max_length="40" name="label_field" type="string"/>
+        <element hint="Fix the low end of the color domain. Leave blank to use the data minimum." label="Color min" max_length="20" name="color_min" type="decimal"/>
+        <element choice="1" hint="Type of visualization. Auto-set per chart table." label="Visualization type" max_length="40" name="viz_type" read_only="true" read_only_option="instance_configured" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Radar Chart" sequence="11" value="radar"/>
+                <element inactive_on_update="false" label="Sankey Diagram" sequence="5" value="sankey"/>
+                <element inactive_on_update="false" label="Word Cloud" sequence="7" value="wordcloud"/>
+                <element inactive_on_update="false" label="Heatmap" sequence="4" value="heatmap"/>
+                <element inactive_on_update="false" label="Network Graph" sequence="10" value="network"/>
+                <element inactive_on_update="false" label="Gantt Chart" sequence="13" value="gantt"/>
+                <element inactive_on_update="false" label="Choropleth Map" sequence="9" value="choropleth"/>
+                <element inactive_on_update="false" label="Calendar Heatmap" sequence="12" value="calendar"/>
+                <element inactive_on_update="false" label="Column Chart" sequence="0" value="column_chart"/>
+                <element inactive_on_update="false" label="Box Plot" sequence="14" value="boxplot"/>
+                <element inactive_on_update="false" label="Scatter Chart" sequence="3" value="scatter_chart"/>
+                <element inactive_on_update="false" label="Gauge" sequence="8" value="gauge"/>
+                <element inactive_on_update="false" label="Treemap" sequence="6" value="treemap"/>
+                <element inactive_on_update="false" label="Pie Chart" sequence="2" value="pie_chart"/>
+                <element inactive_on_update="false" label="Line Chart" sequence="1" value="line_chart"/>
+            </choice>
+        </element>
+        <element default="true" hint="Zoom with the mouse wheel / pinch and pan by dragging the background. Double-click zooms in (shift+double-click zooms out)." label="Enable zoom" max_length="40" name="enable_zoom" type="boolean"/>
+        <element label="Link opacity" max_length="38" name="link_opacity" type="decimal"/>
+        <element label="Show trend line" max_length="40" name="show_trend_line" type="boolean"/>
+        <element hint="Optional d3-format specifier for numeric values, e.g. &quot;,.0f&quot;, &quot;.1f&quot;, &quot;~s&quot;. Blank = raw value." label="Node value format" max_length="40" name="node_value_format" type="string"/>
+        <element default="true" hint="When hovering a ribbon, brighten its entire connected source-and-target nodes too." label="Link hover" max_length="40" name="link_hover" type="boolean"/>
+        <element choice="1" default="category" hint="Category = evenly-spaced labels (like the column chart; uses each point's 'label'). Linear = numeric X from each point's 'x'. Time = date/time X from each point's 'x' (number = epoch ms, or an ISO date string)." label="X-axis type" max_length="40" name="x_axis_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Time (date)" value="time"/>
+                <element inactive_on_update="false" label="Category (labels)" value="category"/>
+                <element inactive_on_update="false" label="Linear (numeric)" value="linear"/>
+            </choice>
+        </element>
+        <element default="0.3" hint="Horizontal/vertical spread of the raw-points overlay, as a fraction of half the box width (0 = no jitter)." label="Jitter" max_length="20" name="jitter" type="decimal"/>
+        <element hint="Fix the high end of the color domain. Leave blank to use the data maximum." label="Color max" max_length="20" name="color_max" type="decimal"/>
+        <element default="0" hint="Rotate category-axis tick labels by this many degrees (e.g. -45 or -90) so long or dense labels don't overlap. 0 = horizontal. The chart auto-reserves space for tilted labels." label="X tick rotation" max_length="40" name="x_tick_rotation" type="integer"/>
+        <element choice="1" default="bottom" hint="Where to place the color legend." label="Color legend position" max_length="40" name="color_legend_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Right" value="right"/>
+                <element inactive_on_update="false" label="Bottom" value="bottom"/>
+            </choice>
+        </element>
+        <element label="Show node values" max_length="40" name="show_node_values" type="boolean"/>
+        <element default="12" hint="Font size (px) for the x/y axis tick values and the axis titles." label="Axis font size" max_length="40" name="axis_font_size" type="integer"/>
         <element label="Drop shadow" max_length="255" name="drop_shadow" type="boolean"/>
-        <element default="200" function_definition="200" label="Animation stagger (ms)" max_length="255" name="animation_stagger" type="integer"/>
+        <element default="0" hint="Delay between categories for a cascade grow-in (0 = all bars animate together)." label="Animation stagger" max_length="40" name="animation_stagger" type="integer"/>
         <element choice="3" default="cubicOut" hint="Easing function used for chart animations" label="Animation easing" max_length="40" name="animation_easing" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Linear" sequence="1" value="linear"/>
@@ -14,31 +59,131 @@
                 <element inactive_on_update="false" label="Ease Out" sequence="3" value="easeOut"/>
             </choice>
         </element>
+        <element choice="1" default="vertical" hint="Draw vertical columns or horizontal bars. Horizontal is better for long category labels." label="Orientation" max_length="40" name="orientation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Horizontal (bars)" value="horizontal"/>
+                <element inactive_on_update="false" label="Vertical (columns)" value="vertical"/>
+            </choice>
+        </element>
         <element default="20" hint="Right margin inside the chart container in pixels" label="Margin right" max_length="40" name="margin_right" type="integer"/>
         <element default="0" hint="Corner rounding of the chart container in pixels" label="Border radius" max_length="20" name="border_radius" type="string"/>
         <element label="Tooltip font size" max_length="255" name="tooltip_font_size" type="integer"/>
-        <element choice="3" default="bottom" hint="Position of the chart legend relative to the visualization" label="Legend position" max_length="40" name="legend_position" type="choice">
+        <element hint="Fixed y-axis minimum. Leave blank for automatic." label="Y min" max_length="20" name="y_min" type="decimal"/>
+        <element label="Color legend margin" max_length="40" name="color_legend_margin" type="integer"/>
+        <element choice="3" default="bottom" hint="Where to place the legend." label="Legend position" max_length="40" name="legend_position" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Right" sequence="3" value="right"/>
-                <element inactive_on_update="false" label="Bottom" sequence="1" value="bottom"/>
-                <element inactive_on_update="false" label="Left" sequence="2" value="left"/>
-                <element inactive_on_update="false" label="Top" sequence="0" value="top"/>
+                <element inactive_on_update="false" label="Top" sequence="2" value="top"/>
+                <element inactive_on_update="false" label="Right" sequence="1" value="right"/>
+                <element inactive_on_update="false" label="Bottom" sequence="0" value="bottom"/>
             </choice>
         </element>
-        <element label="Use series colors" max_length="255" name="use_series_colors" type="boolean"/>
+        <element label="Reference line color" max_length="40" name="reference_line_color" type="color"/>
+        <element default="true" hint="Use each series' own 'color' field when present. Falls back to the palette otherwise." label="Use series colors" max_length="40" name="use_series_colors" type="boolean"/>
         <element default="400" label="Chart height" max_length="255" name="height" type="integer"/>
         <element display="true" hint="A unique name to identify this visualization configuration" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element choice="1" default="auto" hint="Where labels sit relative to the node. Outside = left of leftmost / right of others; Inside = inset within the column; Auto = outside-aware placement that keeps edge labels in view." label="Node label position" max_length="40" name="node_label_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Auto" value="auto"/>
+                <element inactive_on_update="false" label="Outside" value="outside"/>
+                <element inactive_on_update="false" label="Inside" value="inside"/>
+            </choice>
+        </element>
+        <element default="#f3f4f6" hint="Fill color of the weekend shading bands." label="Weekend color" max_length="40" name="weekend_color" type="color"/>
+        <element default="true" hint="Draw a text label beside each node." label="Show node labels" max_length="40" name="show_node_labels" type="boolean"/>
+        <element default="#374151" hint="Text color of the node labels." label="Node label color" max_length="40" name="node_label_color" type="color"/>
+        <element label="Trend line color" max_length="40" name="trend_line_color" type="color"/>
+        <element label="Y-axis format" max_length="40" name="y_axis_format" type="string"/>
+        <element default="1" hint="Fill opacity of the columns from 0 (transparent) to 1 (solid)." label="Bar opacity" max_length="20" name="bar_opacity" type="decimal"/>
+        <element hint="Override for the 'today' reference line. Date string ('YYYY-MM-DD' or ISO). Leave blank to use the current date." label="Today date" max_length="40" name="today_date" type="glide_date"/>
+        <element hint="Fixed y-axis maximum. Leave blank for automatic. Bars exceeding it are truncated at the top." label="Y max" max_length="20" name="y_max" type="decimal"/>
+        <element hint="For Linear X: a d3-format number specifier (e.g. &quot;.0f&quot;, &quot;,.1f&quot;). For Time X: a d3-time-format specifier (e.g. &quot;%b %Y&quot;, &quot;%m/%d&quot;, &quot;%H:%M&quot;). Ignored for a Category axis. Blank = automatic." label="X-axis format" max_length="40" name="x_axis_format" type="string"/>
+        <element default="4" hint="Largest allowed zoom scale (e.g. 4 = 4x magnification)." label="Max zoom" max_length="40" name="max_zoom" type="integer"/>
+        <element choice="1" default="scheme" hint="Where the gradient colors come from: a preset color scheme, or a custom gradient defined by your own start and end colors." label="Color mode" max_length="40" name="color_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Custom gradient" value="custom"/>
+                <element inactive_on_update="false" label="Preset scheme" value="scheme"/>
+            </choice>
+        </element>
+        <element default="1" hint="Show every Nth category label (1 = all, 2 = every other, …). Bars are unaffected; only labels thin out." label="X tick interval" max_length="40" name="x_tick_interval" type="integer"/>
+        <element default="%b %-d, %Y" hint="d3-time-format spec for the {date} token in tooltips (e.g. %b %-d, %Y)." label="Tooltip date format" max_length="40" name="date_format" type="string"/>
+        <element label="Data label color" max_length="40" name="data_label_color" type="color"/>
         <element label="Tooltip template" max_length="65536" name="tooltip_template" type="html"/>
         <element default="50" hint="Left margin inside the chart container in pixels" label="Margin left" max_length="40" name="margin_left" type="integer"/>
         <element hint="Title text displayed above the chart" label="Chart title" max_length="200" name="chart_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Border color of the chart container (CSS color value)" label="Border color" max_length="40" name="border_color" type="color"/>
         <element default="12px" hint="Padding inside the chart container (CSS value)" label="Chart padding" max_length="20" name="component_padding" type="string"/>
+        <element label="Point opacity" max_length="38" name="point_opacity" type="decimal"/>
         <element label="Chart font family" max_length="40" name="chart_font_family" type="string"/>
         <element hint="Color of the chart title text" label="Title color" max_length="40" name="title_color" type="color"/>
         <element default="true" hint="Highlight data elements when the user hovers over them" label="Hover - Highlight" max_length="40" name="hover_highlight" type="boolean"/>
-        <element label="Axis font family" max_length="40" name="axis_font_family" type="string"/>
+        <element hint="Fixed x-axis maximum. Leave blank for automatic." label="X max" max_length="20" name="x_max" type="decimal"/>
+        <element default="#ef4444" hint="Color of the today reference line." label="Today color" max_length="40" name="today_color" type="color"/>
+        <element hint="CSS font-family for the x/y axis tick values and axis titles. Blank = use the base font family." label="Axis font family" max_length="40" name="axis_font_family" type="string"/>
         <element label="Tooltip text color" max_length="255" name="tooltip_text_color" type="color"/>
+        <element default="0" hint="Outline thickness of the node bars, in pixels. 0 = no outline." label="Node stroke width" max_length="40" name="node_stroke_width" type="integer"/>
+        <element default="0.75" hint="Opacity a ribbon rises to on hover (0 to 1)." label="Link hover opacity" max_length="20" name="link_hover_opacity" type="decimal"/>
+        <element hint="Shade Saturday/Sunday columns with a light band." label="Show weekends" max_length="40" name="show_weekends" type="boolean"/>
+        <element choice="1" label="Curve type" max_length="40" name="curve_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Step before" sequence="5" value="step_before"/>
+                <element inactive_on_update="false" label="Monotone (no overshoot)" sequence="2" value="monotone"/>
+                <element inactive_on_update="false" label="Linear (straight)" sequence="0" value="linear"/>
+                <element inactive_on_update="false" label="Basis (spline)" sequence="3" value="basis"/>
+                <element inactive_on_update="false" label="Smooth (Catmull-Rom)" sequence="1" value="smooth"/>
+                <element inactive_on_update="false" label="Step after" sequence="6" value="step_after"/>
+                <element inactive_on_update="false" label="Step (center)" sequence="4" value="step"/>
+            </choice>
+        </element>
+        <element default="9" hint="Font size of the in-node value text, in pixels." label="Node value font size" max_length="40" name="node_value_font_size" type="integer"/>
+        <element choice="1" default="percent" hint="What to draw on/around each slice: None, Inside (value inside the slice), Outside (label outside), Leader-line (label outside with a connector), or Percent (percent inside the slice)." label="Label mode" max_length="40" name="label_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="None" value="none"/>
+                <element inactive_on_update="false" label="Outside (label)" value="outside"/>
+                <element inactive_on_update="false" label="Leader line" value="leader-line"/>
+                <element inactive_on_update="false" label="Percent" value="percent"/>
+                <element inactive_on_update="false" label="Inside (value)" value="inside"/>
+            </choice>
+        </element>
+        <element default="#ffffff" hint="Text color of the in-node value. Default white reads well on the categorical node colors." label="Node value color" max_length="40" name="node_value_color" type="color"/>
+        <element label="Reference line value" max_length="38" name="reference_line_value" type="decimal"/>
+        <element choice="1" default="sequential" hint="How values map to colors: sequential (single hue ramp), diverging (two hues around a midpoint), or quantize (discrete steps)." label="Color scale type" max_length="40" name="color_scale_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Quantize" value="quantize"/>
+                <element inactive_on_update="false" label="Diverging" value="diverging"/>
+                <element inactive_on_update="false" label="Sequential" value="sequential"/>
+            </choice>
+        </element>
+        <element hint="Fixed x-axis minimum. Leave blank for automatic." label="X min" max_length="20" name="x_min" type="decimal"/>
+        <element choice="1" default="top" hint="Where the optional legend title sits relative to the legend. Top/Bottom apply when the legend is on the bottom; Left/Right apply when it is on the right." label="Color legend title position" max_length="40" name="color_legend_title_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bottom" value="bottom"/>
+                <element inactive_on_update="false" label="Left" value="left"/>
+                <element inactive_on_update="false" label="Top" value="top"/>
+                <element inactive_on_update="false" label="Right" value="right"/>
+            </choice>
+        </element>
+        <element default="#216e39" hint="High-end color of the custom gradient. Applies when Color mode is 'Custom gradient'." label="Custom color end" max_length="40" name="custom_color_end" type="color"/>
+        <element hint="Optional caption above/beside the color legend. Leave blank to hide." label="Color legend title" max_length="100" name="color_legend_title" type="string"/>
+        <element choice="3" label="Data label format" max_length="40" name="data_label_format" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+                <element inactive_on_update="false" label="Percent" sequence="0" value="percent"/>
+                <element inactive_on_update="false" label="Value" sequence="1" value="value"/>
+            </choice>
+        </element>
+        <element label="Show data labels" max_length="40" name="show_data_labels" type="boolean"/>
+        <element hint="D3 number format specifier for the column value labels only (e.g. &quot;.0f&quot;, &quot;,.1f&quot;, &quot;$,.0f&quot;, &quot;.2%&quot;). Blank = default." label="Value label format" max_length="40" name="value_label_format" type="string"/>
+        <element label="Start angle (degrees)" max_length="40" name="start_angle" type="integer"/>
+        <element default="0.5" hint="Curviness of the ribbons from 0 (nearly straight) to 1 (strongly S-curved)." label="Link curvature" max_length="20" name="link_curvature" type="decimal"/>
+        <element choice="1" default="linear" hint="Linear (default), Logarithmic (for data spanning orders of magnitude; ignores zero/negatives and is best with grouped data), or Square root." label="Y scale type" max_length="40" name="y_scale_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Square root" value="sqrt"/>
+                <element inactive_on_update="false" label="Logarithmic" value="log"/>
+                <element inactive_on_update="false" label="Linear" value="linear"/>
+            </choice>
+        </element>
         <element label="Chart background color" max_length="255" name="background_color" type="color"/>
+        <element hint="JSON array of numbers for exact y-axis ticks/gridlines, e.g. [0, 25, 50, 75, 100]. Overrides Tick count. Blank = automatic." label="Y-axis tick values" max_length="4000" name="y_axis_tick_values" type="string"/>
         <element choice="3" default="category10" hint="Color scheme used for data series in the chart" label="Color scheme" max_length="40" name="color_scheme" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Accent" sequence="1" value="accent"/>
@@ -52,24 +197,96 @@
             </choice>
         </element>
         <element label="Drop shadow blur amount (px)" max_length="255" name="blur_amount_px" type="integer"/>
+        <element hint="Midpoint value for the diverging scale. Leave blank to use the data mean." label="Diverging midpoint" max_length="20" name="diverging_midpoint" type="decimal"/>
         <element default="800" hint="Duration of entrance animation in milliseconds" label="Animation duration (ms)" max_length="40" name="animation_duration" type="integer"/>
         <element default="40" hint="Bottom margin inside the chart container in pixels" label="Margin bottom" max_length="40" name="margin_bottom" type="integer"/>
-        <element default="true" hint="Allow clicking legend items to toggle data series visibility" label="Legend Interactive" max_length="40" name="legend_interactive" type="boolean"/>
-        <element label="Axis text color" max_length="255" name="axis_text_color" type="color"/>
+        <element hint="Let viewers click a legend item to hide/show that series; the chart rescales to the remaining series. Hidden items stay in the legend (dimmed) so they can be toggled back." label="Interactive Legend" max_length="40" name="legend_interactive" type="boolean"/>
+        <element choice="1" default="none" hint="Only applies when Column grouping is Stacked. None = raw totals; 100% = every column normalized to full height (y-axis shows %); Diverging = negatives drop below the zero line, positives rise above." label="Stack offset" max_length="40" name="stack_offset" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diverging (+/-)" sequence="1" value="diverging"/>
+                <element inactive_on_update="false" label="100% (expand)" sequence="0" value="expand"/>
+            </choice>
+        </element>
+        <element default="true" hint="Draw a vertical guide line at the hovered x position." label="Show crosshair" max_length="40" name="show_crosshair" type="boolean"/>
+        <element hint="Text color for the x/y axis tick values and the axis titles." label="Axis text color" max_length="40" name="axis_text_color" type="color"/>
         <element default="0" hint="Border width around the chart container in pixels" label="Border width" max_length="20" name="border_width" type="string"/>
+        <element default="5" hint="Approximate number of ticks/gridlines on the y-axis. Ignored when Explicit tick values is set." label="Y tick count" max_length="40" name="y_tick_count" type="integer"/>
         <element hint="Font size of the chart title in pixels" label="Title font size" max_length="40" name="title_font_size" type="integer"/>
-        <element label="Axis color" max_length="255" name="axis_color" type="color"/>
+        <element hint="Color of the x and y axis lines and tick marks." label="Axis line color" max_length="40" name="axis_color" type="color"/>
+        <element default="#f3f4f6" hint="Fill color for regions that have no joined numeric value (choropleth mode). Use &quot;transparent&quot; to leave them blank." label="No data color" max_length="40" name="no_data_color" type="color"/>
+        <element choice="1" label="Link color mode" max_length="40" name="link_color_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Target color" sequence="3" value="target"/>
+                <element inactive_on_update="false" label="Static color" sequence="2" value="static"/>
+                <element inactive_on_update="false" label="Source color" sequence="1" value="source"/>
+                <element inactive_on_update="false" label="Gradient (source to target)" sequence="0" value="gradient_source_to_target"/>
+            </choice>
+        </element>
+        <element hint="Reverse the direction of the color scale." label="Reverse colors" max_length="40" name="reverse_colors" type="boolean"/>
+        <element default="true" hint="Show a gradient color legend for the value-to-color scale." label="Show color legend" max_length="40" name="show_color_legend" type="boolean"/>
+        <element choice="3" label="Trend line regression type" max_length="40" name="trend_line_regression_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Polynomial" sequence="1" value="polynomial"/>
+                <element inactive_on_update="false" label="Logarithmic" sequence="3" value="logarithmic"/>
+                <element inactive_on_update="false" label="Linear" sequence="0" value="linear"/>
+                <element inactive_on_update="false" label="Exponential" sequence="2" value="exponential"/>
+            </choice>
+        </element>
+        <element label="End angle (degrees)" max_length="40" name="end_angle" type="integer"/>
+        <element default="4" hint="Rounded top corners of each column, in pixels. Applies in flat (2D) mode only." label="Corner radius" max_length="40" name="corner_radius" type="integer"/>
+        <element default="true" hint="Draw horizontal gridlines at each y tick." label="Show gridlines" max_length="40" name="show_gridlines" type="boolean"/>
+        <element hint="Outline color of the node bars. Blank = no outline." label="Node stroke" max_length="40" name="node_stroke" type="string"/>
+        <element label="Grid color" max_length="40" name="grid_color" type="color"/>
+        <element default="true" hint="Show +, − and reset buttons in the top-right corner of the chart. Requires zoom to be enabled." label="Show zoom controls" max_length="40" name="show_zoom_controls" type="boolean"/>
+        <element default="true" hint="Draw a dashed reference line at today's date (or 'Today date' override)." label="Show today" max_length="40" name="show_today" type="boolean"/>
+        <element hint="Draw a small zigzag 'torn edge' on bars cut off by an explicit Minimum/Maximum, signaling the value extends beyond the axis." label="Clamp overflow indicator" max_length="40" name="clamp_overflow_indicator" type="boolean"/>
+        <element hint="Draw gridlines along the category axis (vertical lines for columns, horizontal for bars), in addition to the value-axis gridlines." label="Show x gridlines" max_length="40" name="show_x_gridlines" type="boolean"/>
+        <element default="#ebedf0" hint="Low-end color of the custom gradient. Applies when Color mode is 'Custom gradient'." label="Custom color start" max_length="40" name="custom_color_start" type="color"/>
+        <element choice="1" default="inside" hint="Where to draw the data labels: inside each bar, just above/past the bar's end, or hidden." label="Value label position" max_length="40" name="value_label_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Inside" value="inside"/>
+                <element inactive_on_update="false" label="Above / past end" value="above"/>
+                <element inactive_on_update="false" label="None" value="none"/>
+            </choice>
+        </element>
+        <element default="0" hint="Cap the number of category labels shown; the chart auto-thins to roughly this many when there are more categories. 0 = no cap." label="Max x ticks" max_length="40" name="max_x_ticks" type="integer"/>
+        <element default="5" hint="Number of discrete color steps when the scale type is 'quantize'." label="Quantize steps" max_length="40" name="quantize_steps" type="integer"/>
+        <element label="Data label font size" max_length="255" name="data_label_font_size" type="integer"/>
+        <element hint="D3 number format specifier for the legend ticks and the {formattedValue} tooltip token (e.g. &quot;.0f&quot;, &quot;,.0f&quot;, &quot;$,.0f&quot;, &quot;.0%&quot;, &quot;.2s&quot;). Blank = default." label="Color legend format" max_length="40" name="color_legend_format" type="string"/>
         <element label="Drop shadow color" max_length="255" name="drop_shadow_color" type="color"/>
         <element label="Tooltip background color" max_length="255" name="tooltip_background" type="color"/>
+        <element choice="1" default="blues" hint="Sequential color scheme used when Color mode is By value. Maps the smallest value to the lightest color and the largest to the darkest." label="Value color scheme" max_length="40" name="value_color_scheme" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Oranges" value="oranges"/>
+                <element inactive_on_update="false" label="Cividis" value="cividis"/>
+                <element inactive_on_update="false" label="Turbo" value="turbo"/>
+                <element inactive_on_update="false" label="YlGnBu" value="ylGnBu"/>
+                <element inactive_on_update="false" label="Inferno" value="inferno"/>
+                <element inactive_on_update="false" label="Warm" value="warm"/>
+                <element inactive_on_update="false" label="Viridis" value="viridis"/>
+                <element inactive_on_update="false" label="Greens" value="greens"/>
+                <element inactive_on_update="false" label="Cool" value="cool"/>
+                <element inactive_on_update="false" label="Magma" value="magma"/>
+                <element inactive_on_update="false" label="Purples" value="purples"/>
+                <element inactive_on_update="false" label="Reds" value="reds"/>
+                <element inactive_on_update="false" label="YlOrRd" value="ylOrRd"/>
+                <element inactive_on_update="false" label="Blues" value="blues"/>
+                <element inactive_on_update="false" label="Plasma" value="plasma"/>
+                <element inactive_on_update="false" label="Greys" value="greys"/>
+            </choice>
+        </element>
+        <element default="12" hint="Font size of the node labels, in pixels." label="Node label font size" max_length="40" name="node_label_font_size" type="integer"/>
         <element default="20" hint="Top margin inside the chart container in pixels" label="Margin top" max_length="40" name="margin_top" type="integer"/>
         <element default="true" hint="Enable or disable entrance animations when the chart first renders" label="Animate" max_length="40" name="animate" type="boolean"/>
-        <element label="Hover - Dim others" max_length="255" name="hover_dim_others" type="boolean"/>
+        <element hint="Fade the other columns when hovering one, so the hovered column stands out." label="Hover dim others" max_length="40" name="hover_dim_others" type="boolean"/>
         <element label="Follow cursor" max_length="255" name="tooltip_follow_cursor" type="boolean"/>
         <element default="true" hint="Show tooltips on hover over data points" label="Show tooltip" max_length="40" name="tooltip_show" type="boolean"/>
-        <element default="[]" function_definition="[]" label="Custom color palette" max_length="40" name="custom_color_palette" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element default="true" hint="Show or hide the chart legend" label="Show Legend" max_length="40" name="legend_show" type="boolean"/>
-        <element default="12" hint="Font size for legend text in pixels" label="Legend font size" max_length="40" name="legend_font_size" type="integer"/>
+        <element hint="JSON array of CSS colors used per series when 'Use per-series colors' is off and Color scheme is Custom, e.g. [&quot;#2E93fA&quot;,&quot;#66DA26&quot;]." label="Color palette" max_length="4000" name="custom_color_palette" type="string"/>
+        <element label="Reference line label" max_length="40" name="reference_line_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Class" max_length="80" name="sys_class_name" read_only="true" read_only_option="display_read_only" type="sys_class_name"/>
+        <element default="true" hint="Show a legend of series names with color swatches." label="Show legend" max_length="40" name="legend_show" type="boolean"/>
+        <element default="12" hint="Font size (px) for the legend text." label="Legend font size" max_length="40" name="legend_font_size" type="integer"/>
+        <element hint="Color a column turns on hover. Blank = automatically brighten the column's own color." label="Hover color" max_length="40" name="hover_color" type="color"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

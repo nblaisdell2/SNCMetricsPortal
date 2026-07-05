@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Viz: Gantt" section_id="f5d09b80eafc41f28d61677e4a55adc6" sys_domain="global" table="x_1295779_metpo_viz_gantt" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 22:37:41</sys_created_on>
+            <sys_id>4e0ad4cb737d831076d5f85c4ab8b7ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Gantt" display_value="Viz: Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">f5d09b80eafc41f28d61677e4a55adc6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 22:37:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 22:37:41</sys_created_on>
+            <sys_id>0a0ad4cb737d831076d5f85c4ab8b7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Gantt" display_value="Viz: Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">f5d09b80eafc41f28d61677e4a55adc6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 22:37:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 22:37:41</sys_created_on>
+            <sys_id>c20ad4cb737d831076d5f85c4ab8b7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Viz: Gantt" display_value="Viz: Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">f5d09b80eafc41f28d61677e4a55adc6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 22:37:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Viz: Gantt</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_gantt</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5d09b80eafc41f28d61677e4a55adc6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_gantt</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_f5d09b80eafc41f28d61677e4a55adc6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 22:37:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,102 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Legend" section_id="bbac79bfb4be4b3a8eef6c892c7b96fe" sys_domain="global" table="x_1295779_metpo_viz_scatter" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>legend_show</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>57f8f3e3445d41059b92da2629a4ff45</sys_id>
+            <sys_created_on>2026-07-05 16:16:01</sys_created_on>
+            <sys_id>c14c08df733d071076d5f85c4ab8b79a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legend_show</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>64b08bae7ba74023b84303f96d5d3763</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-05 16:16:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legend_interactive</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>bb057d9bcba6462fa65d0aac0cce774e</sys_id>
+            <sys_created_on>2026-07-05 16:16:01</sys_created_on>
+            <sys_id>8d4c08df733d071076d5f85c4ab8b79a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-05 16:16:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>85705dc2bd30485181824eb9f10837ac</sys_id>
+            <sys_created_on>2026-07-05 16:16:01</sys_created_on>
+            <sys_id>494c08df733d071076d5f85c4ab8b79b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-05 16:16:01</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legend_position</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>9dddfbf8ff9046f8a615f9f049f8020f</sys_id>
+            <sys_created_on>2026-07-05 16:16:01</sys_created_on>
+            <sys_id>054c08df733d071076d5f85c4ab8b79c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-05 16:16:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>legend_font_size</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>e8b3253622e5432ba18d2c1258c22cf9</sys_id>
+            <sys_created_on>2026-07-05 16:16:01</sys_created_on>
+            <sys_id>cd4c08df733d071076d5f85c4ab8b79c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
+            <sys_updated_on>2026-07-05 16:16:01</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:54</sys_created_on>
-            <sys_id>63bc29a3396b4dcbafc594361f58e939</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">bbac79bfb4be4b3a8eef6c892c7b96fe</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:54</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Legend</caption>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Links" section_id="c52586b5a54149cebe2b4944e8c217b5" sys_domain="global" table="x_1295779_metpo_viz_network" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_hover</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>5449fb4373b9071076d5f85c4ab8b757</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_color_mode</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>1049fb4373b9071076d5f85c4ab8b758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_opacity</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>d849fb4373b9071076d5f85c4ab8b758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_width</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>9449fb4373b9071076d5f85c4ab8b759</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>5049fb4373b9071076d5f85c4ab8b75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>directed_links</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>1c49fb4373b9071076d5f85c4ab8b75a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_curvature</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>d449fb4373b9071076d5f85c4ab8b75b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_hover_opacity</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>9049fb4373b9071076d5f85c4ab8b75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_color</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>5c49fb4373b9071076d5f85c4ab8b75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_width_field</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 14:52:57</sys_created_on>
+            <sys_id>1849fb4373b9071076d5f85c4ab8b75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">c52586b5a54149cebe2b4944e8c217b5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 14:52:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Links</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_network</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c52586b5a54149cebe2b4944e8c217b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_network</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_c52586b5a54149cebe2b4944e8c217b5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

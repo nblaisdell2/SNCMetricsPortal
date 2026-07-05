@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Margins" section_id="93a910b629634be5b77f57ef8224108a" sys_domain="global" table="x_1295779_metpo_viz_choropleth" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>0884cb8b6c6c44c48a28ba6f7b12bd30</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_top</element>
+      <position>1</position>
+      <sys_id>a234c5a232d64363b6f137176015de35</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_bottom</element>
+      <position>2</position>
+      <sys_id>59bfeb3a1f1f452e92fb38a902630a91</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>7801c7a1bd8a403293ef422de1b32f47</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_right</element>
+      <position>4</position>
+      <sys_id>118bac5b0c3848fdbc35d0854524ea2c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_left</element>
+      <position>5</position>
+      <sys_id>68b549917ace4cdba94e2420bd7630de</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>c74d45aab01a4d37ab01d753837fb4a4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE">
+      <caption>Margins</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_choropleth</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>93a910b629634be5b77f57ef8224108a</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_section_93a910b629634be5b77f57ef8224108a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Margins" section_id="93a910b629634be5b77f57ef8224108a" sys_domain="global" table="x_1295779_metpo_viz_choropleth" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>0884cb8b6c6c44c48a28ba6f7b12bd30</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_top</element>
+      <position>1</position>
+      <sys_id>a234c5a232d64363b6f137176015de35</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_bottom</element>
+      <position>2</position>
+      <sys_id>59bfeb3a1f1f452e92fb38a902630a91</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>7801c7a1bd8a403293ef422de1b32f47</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_right</element>
+      <position>4</position>
+      <sys_id>118bac5b0c3848fdbc35d0854524ea2c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>margin_left</element>
+      <position>5</position>
+      <sys_id>68b549917ace4cdba94e2420bd7630de</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>c74d45aab01a4d37ab01d753837fb4a4</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Margins" display_value="Margins" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">93a910b629634be5b77f57ef8224108a</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Margins</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_choropleth</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>93a910b629634be5b77f57ef8224108a</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>2036125999</payload_hash>
+        <record_name>Viz: Choropleth/Map</record_name>
+        <reverted_from/>
+        <source>677ee4f273bd031076d5f85c4ab8b7f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:29:48</sys_created_on>
+        <sys_id>cdcea83a73bd031076d5f85c4ab8b7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2b9abb280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:29:48</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>01cea83a36bd03105820636645ecc8d4</update_guid>
+        <update_guid_history>01cea83a36bd03105820636645ecc8d4:2036125999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 19:48:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>d8ff64df0c8841e6943448940a9423c1</sys_id>
+        <sys_metadata>93a910b629634be5b77f57ef8224108a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Margins</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Choropleth/Map">f2ec8d7493bdc39051d7b1dcebba1079</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_93a910b629634be5b77f57ef8224108a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_93a910b629634be5b77f57ef8224108a">cdcea83a73bd031076d5f85c4ab8b7d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 19:48:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

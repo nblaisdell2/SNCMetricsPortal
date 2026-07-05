@@ -4,13 +4,13 @@
             <element>animate</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
-            <sys_id>4501e6e63bb1431099d7336436e45a0f</sys_id>
+            <sys_created_on>2026-07-05 15:01:14</sys_created_on>
+            <sys_id>692bff8773b9071076d5f85c4ab8b7e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:01:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>animation_duration</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
-            <sys_id>0101e6e63bb1431099d7336436e45a10</sys_id>
+            <sys_created_on>2026-07-05 15:01:14</sys_created_on>
+            <sys_id>252bff8773b9071076d5f85c4ab8b7e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:01:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
-            <sys_id>c901e6e63bb1431099d7336436e45a10</sys_id>
+            <sys_created_on>2026-07-05 15:01:14</sys_created_on>
+            <sys_id>ed2bff8773b9071076d5f85c4ab8b7e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:01:14</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>animation_easing</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
-            <sys_id>8501e6e63bb1431099d7336436e45a11</sys_id>
+            <sys_created_on>2026-07-05 15:01:14</sys_created_on>
+            <sys_id>a92bff8773b9071076d5f85c4ab8b7e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:01:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>animation_stagger</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:10:28</sys_created_on>
-            <sys_id>4101e6e63bb1431099d7336436e45a12</sys_id>
+            <sys_created_on>2026-07-05 15:01:14</sys_created_on>
+            <sys_id>652bff8773b9071076d5f85c4ab8b7e8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_pie" sys_domain="global" view="Default view">7527b031b35f41c6a688557c19df7e40</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:10:28</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:01:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

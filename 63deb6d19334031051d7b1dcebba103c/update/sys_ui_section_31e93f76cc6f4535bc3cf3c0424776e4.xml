@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Y-axis" section_id="31e93f76cc6f4535bc3cf3c0424776e4" sys_domain="global" table="x_1295779_metpo_viz_heatmap" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>y_axis_label</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 23:25:49</sys_created_on>
+            <sys_id>5305e80b73fd831076d5f85c4ab8b782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">31e93f76cc6f4535bc3cf3c0424776e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 23:25:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 23:25:49</sys_created_on>
+            <sys_id>1f05e80b73fd831076d5f85c4ab8b782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">31e93f76cc6f4535bc3cf3c0424776e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 23:25:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sort_y</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 23:25:49</sys_created_on>
+            <sys_id>d705e80b73fd831076d5f85c4ab8b783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">31e93f76cc6f4535bc3cf3c0424776e4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 23:25:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Y-axis</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_heatmap</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31e93f76cc6f4535bc3cf3c0424776e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_heatmap</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_31e93f76cc6f4535bc3cf3c0424776e4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

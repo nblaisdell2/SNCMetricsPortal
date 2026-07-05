@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Colors" section_id="f32a8ef67638424abbe12609fb9bff9d" sys_domain="global" table="x_1295779_metpo_viz_calendar" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>use_series_colors</element>
+            <element>value_color_scheme</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:58</sys_created_on>
-            <sys_id>2b34148502df4bf3b1f7a16ecaded96d</sys_id>
+            <sys_created_on>2026-07-04 19:12:48</sys_created_on>
+            <sys_id>782bef7a73f5831076d5f85c4ab8b78a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">f32a8ef67638424abbe12609fb9bff9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:58</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:12:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_scheme</element>
+            <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:58</sys_created_on>
-            <sys_id>4c8995c741d4443187f7798cc63a3d84</sys_id>
+            <sys_created_on>2026-07-04 19:12:48</sys_created_on>
+            <sys_id>342bef7a73f5831076d5f85c4ab8b78b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">f32a8ef67638424abbe12609fb9bff9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:58</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:12:48</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>custom_color_palette</element>
+            <element>no_data_color</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:58</sys_created_on>
-            <sys_id>7977880dfbe846d1a0e6804683e8dfca</sys_id>
+            <sys_created_on>2026-07-04 19:12:48</sys_created_on>
+            <sys_id>fc2bef7a73f5831076d5f85c4ab8b78b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">f32a8ef67638424abbe12609fb9bff9d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:58</sys_updated_on>
+            <sys_updated_on>2026-07-04 19:12:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

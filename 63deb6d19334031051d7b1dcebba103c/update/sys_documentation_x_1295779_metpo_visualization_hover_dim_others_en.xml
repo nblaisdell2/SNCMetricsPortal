@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="hover_dim_others" label="Hover - Dim others" language="en" table="x_1295779_metpo_visualization">
+    <sys_documentation element="hover_dim_others" label="Hover dim others" language="en" table="x_1295779_metpo_visualization">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>hover_dim_others</element>
             <help/>
-            <hint/>
-            <label>Hover - Dim others</label>
+            <hint>Fade the other columns when hovering one, so the hovered column stands out.</hint>
+            <label>Hover dim others</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
             <plural/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="y_axis_tick_values" label="Y-axis tick values" language="en" table="x_1295779_metpo_visualization">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>y_axis_tick_values</element>
+            <help/>
+            <hint>JSON array of numbers for exact y-axis ticks/gridlines, e.g. [0, 25, 50, 75, 100]. Overrides Tick count. Blank = automatic.</hint>
+            <label>Y-axis tick values</label>
+            <language>en</language>
+            <name>x_1295779_metpo_visualization</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:18</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Y-axis tick values</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_documentation_x_1295779_metpo_visualization_y_axis_tick_values_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

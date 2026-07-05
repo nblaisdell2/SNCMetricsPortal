@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="grid_color" table="x_1295779_metpo_viz_column">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Grid color</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>grid_color</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Color">color</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1295779_metpo_viz_column</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-02 22:26:57</sys_created_on>
+        <sys_id>57c1d03e7379031076d5f85c4ab8b759</sys_id>
+        <sys_name>Grid color</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_dictionary_x_1295779_metpo_viz_column_grid_color</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 18:10:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_dictionary_x_1295779_metpo_viz_column_grid_color</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="grid_color" table="x_1295779_metpo_viz_column"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Grid color</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>grid_color</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Color">color</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1295779_metpo_viz_column</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-02 22:26:57</sys_created_on><sys_id>57c1d03e7379031076d5f85c4ab8b759</sys_id><sys_name>Grid color</sys_name><sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package><sys_policy/><sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope><sys_update_name>sys_dictionary_x_1295779_metpo_viz_column_grid_color</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-04 18:10:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1313040904</payload_hash>
+        <record_name>Viz: Bar/Column.Grid color</record_name>
+        <reverted_from/>
+        <source>a2129cba7379031076d5f85c4ab8b7b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 18:10:44</sys_created_on>
+        <sys_id>2bec17767375831076d5f85c4ab8b7e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2e5360a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>2bec17765075831019a593033768cee3</update_guid>
+        <update_guid_history>2bec17765075831019a593033768cee3:-1313040904,18f194fe297903104486adab0cca8dee:0,5cf194fe487903102d3f8f640ecd24e7:-2097754250</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 18:46:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0519d81382cb40c080606b69caa09000</sys_id>
+        <sys_metadata>57c1d03e7379031076d5f85c4ab8b759</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grid color</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Bar/Column">62ec4d7493bdc39051d7b1dcebba10fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1295779_metpo_viz_column_grid_color</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1295779_metpo_viz_column_grid_color">2bec17767375831076d5f85c4ab8b7e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 18:46:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

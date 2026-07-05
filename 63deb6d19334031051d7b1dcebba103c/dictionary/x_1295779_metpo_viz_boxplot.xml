@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Boxplot" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
+        <element label="Point radius" max_length="38" name="point_radius" type="decimal"/>
+        <element label="Show points" max_length="255" name="show_points" type="boolean"/>
         <element hint="Show a line or marker indicating the mean value" label="Show Mean Line" max_length="40" name="show_mean" type="boolean"/>
+        <element label="Mean color" max_length="255" name="mean_color" type="color"/>
         <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier Point Radius" max_length="40" name="outlier_radius" type="integer"/>
         <element hint="Render box plots horizontally instead of vertically" label="Horizontal" max_length="40" name="horizontal" type="boolean"/>
-        <element choice="3" default="line" hint="Visual style of the box plot whiskers" label="Whiskers - Style" max_length="40" name="whisker_style" type="choice">
+        <element label="Box stroke color" max_length="255" name="box_stroke_color" type="color"/>
+        <element choice="3" default="line" hint="Visual style of the box plot whiskers" label="Whiskers style" max_length="40" name="whisker_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Line" sequence="0" value="line"/>
                 <element inactive_on_update="false" label="Box" sequence="2" value="box"/>
                 <element inactive_on_update="false" label="Cap" sequence="1" value="cap"/>
             </choice>
         </element>
+        <element label="Median stroke width" max_length="38" name="median_stroke_width" type="decimal"/>
+        <element label="Box stroke width" max_length="38" name="box_stroke_width" type="decimal"/>
         <element default="true" hint="Display outlier points beyond the whiskers" label="Show Outliers" max_length="40" name="show_outliers" type="boolean"/>
+        <element label="Outlier color" max_length="255" name="outlier_color" type="color"/>
         <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
         <element default="0.6" hint="Proportional width of boxes (0-1, where 0.6 means 60% of available space)" label="Box Width" max_length="20" name="box_width" type="string"/>
         <element default="0.7" hint="Opacity of the box fill color (0-1)" label="Box Fill Opacity" max_length="10" name="box_fill_opacity" type="string"/>
         <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element label="Median color" max_length="255" name="median_color" type="color"/>
     </element>
 </database>

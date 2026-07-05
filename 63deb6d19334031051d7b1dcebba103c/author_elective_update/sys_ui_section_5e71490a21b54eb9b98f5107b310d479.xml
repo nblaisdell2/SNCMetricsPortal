@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Appearance" section_id="5e71490a21b54eb9b98f5107b310d479" sys_domain="global" table="x_1295779_metpo_viz_radar" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>538a1a167d944a609d1c71b949c512a6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>background_color</element>
+      <position>1</position>
+      <sys_id>213c5714835e48e6916933657adef1b1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>component_padding</element>
+      <position>2</position>
+      <sys_id>04f5f14ee23a4907b2d9f70ffa9e36c5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>050b93b503a047c69f091bb5a45c8af9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>chart_font_family</element>
+      <position>4</position>
+      <sys_id>0fc2cb0d11804ad495ff71d1b23e80d3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>3ad0feaeba344317b750b108480f3fcd</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE">
+      <caption>Appearance</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_radar</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>5e71490a21b54eb9b98f5107b310d479</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_section_5e71490a21b54eb9b98f5107b310d479</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Appearance" section_id="5e71490a21b54eb9b98f5107b310d479" sys_domain="global" table="x_1295779_metpo_viz_radar" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>538a1a167d944a609d1c71b949c512a6</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>background_color</element>
+      <position>1</position>
+      <sys_id>213c5714835e48e6916933657adef1b1</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>component_padding</element>
+      <position>2</position>
+      <sys_id>04f5f14ee23a4907b2d9f70ffa9e36c5</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>050b93b503a047c69f091bb5a45c8af9</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>chart_font_family</element>
+      <position>4</position>
+      <sys_id>0fc2cb0d11804ad495ff71d1b23e80d3</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>5</position>
+      <sys_id>3ad0feaeba344317b750b108480f3fcd</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Appearance" display_value="Appearance" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">5e71490a21b54eb9b98f5107b310d479</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Appearance</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_radar</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>5e71490a21b54eb9b98f5107b310d479</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-842096749</payload_hash>
+        <record_name>Viz: Radar</record_name>
+        <reverted_from/>
+        <source>677ee4f273bd031076d5f85c4ab8b7f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:29:43</sys_created_on>
+        <sys_id>88cea43a73bd031076d5f85c4ab8b798</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2b9aa8180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:29:43</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c8cea43ab2bd03106facfa4795501497</update_guid>
+        <update_guid_history>c8cea43ab2bd03106facfa4795501497:-842096749</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-05 15:23:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>064fb4fb696a41908076152cff279f91</sys_id>
+        <sys_metadata>5e71490a21b54eb9b98f5107b310d479</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Appearance</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Radar">8fec8d7493bdc39051d7b1dcebba10c3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5e71490a21b54eb9b98f5107b310d479</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5e71490a21b54eb9b98f5107b310d479">88cea43a73bd031076d5f85c4ab8b798</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-05 15:23:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

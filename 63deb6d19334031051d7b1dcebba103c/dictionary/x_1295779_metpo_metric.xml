@@ -5,7 +5,7 @@
         <element attributes="encode_utf8=false" label="Visualization Config" max_length="32" name="visualization" reference="x_1295779_metpo_visualization" type="reference"/>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Title" mandatory="true" max_length="200" name="title" type="string"/>
-        <element attributes="encode_utf8=false" label="Section" mandatory="true" max_length="32" name="section" reference="x_1295779_metpo_section" type="reference"/>
+        <element attributes="encode_utf8=false" label="Section" max_length="32" name="section" reference="x_1295779_metpo_section" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <element attributes="encode_utf8=false" label="Source Config" max_length="32" name="source_config" reference="x_1295779_metpo_source_config" type="reference"/>
         <element choice="3" default="50" label="Width" mandatory="true" max_length="40" name="width" type="choice">

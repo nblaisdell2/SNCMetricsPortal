@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Points" section_id="0704a593ab5e44d2a8857e12984e5d11" sys_domain="global" table="x_1295779_metpo_viz_scatter" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>jitter</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>d05e4c17737d071076d5f85c4ab8b73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_size</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>9c5e4c17737d071076d5f85c4ab8b73f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bubble_scale_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>585e4c17737d071076d5f85c4ab8b740</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bubble_min_radius</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>145e4c17737d071076d5f85c4ab8b741</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bubble_max_radius</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>dc5e4c17737d071076d5f85c4ab8b741</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>985e4c17737d071076d5f85c4ab8b742</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_opacity</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>545e4c17737d071076d5f85c4ab8b743</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_shape</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>105e4c17737d071076d5f85c4ab8b744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_stroke_width</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>d85e4c17737d071076d5f85c4ab8b744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>point_stroke_color</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:24:59</sys_created_on>
+            <sys_id>945e4c17737d071076d5f85c4ab8b745</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">0704a593ab5e44d2a8857e12984e5d11</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:24:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Points</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_scatter</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0704a593ab5e44d2a8857e12984e5d11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_scatter</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_0704a593ab5e44d2a8857e12984e5d11</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

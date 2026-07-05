@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="X-axis" section_id="9002f573ce394c87a2bf8b2557c15d25" sys_domain="global" table="x_1295779_metpo_viz_line" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_min</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>3c7105c373f1c31076d5f85c4ab8b7de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_axis_label</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>f47105c373f1c31076d5f85c4ab8b7df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_tick_rotation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>b07105c373f1c31076d5f85c4ab8b7e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_tick_interval</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>7c7105c373f1c31076d5f85c4ab8b7e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>387105c373f1c31076d5f85c4ab8b7e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_max</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>f07105c373f1c31076d5f85c4ab8b7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_x_gridlines</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>bc7105c373f1c31076d5f85c4ab8b7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_x_ticks</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>787105c373f1c31076d5f85c4ab8b7e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_axis_format</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 01:29:54</sys_created_on>
+            <sys_id>347105c373f1c31076d5f85c4ab8b7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">9002f573ce394c87a2bf8b2557c15d25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 01:29:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>X-axis</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_line</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9002f573ce394c87a2bf8b2557c15d25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_line</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_9002f573ce394c87a2bf8b2557c15d25</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

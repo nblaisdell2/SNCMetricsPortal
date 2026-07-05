@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="label_min_tile_size" label="Label min tile size" language="en" table="x_1295779_metpo_viz_treemap">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>label_min_tile_size</element>
+            <help/>
+            <hint/>
+            <label>Label min tile size</label>
+            <language>en</language>
+            <name>x_1295779_metpo_viz_treemap</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-05 16:55:21</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Label min tile size</sys_name>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_documentation_x_1295779_metpo_viz_treemap_label_min_tile_size_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-05 16:55:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

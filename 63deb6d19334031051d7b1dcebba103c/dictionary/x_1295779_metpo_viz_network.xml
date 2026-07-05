@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="17eccd7493bdc39051d7b1dcebba10ad" extends="x_1295779_metpo_visualization" label="Viz: Network" max_length="40" name="x_1295779_metpo_viz_network" type="collection">
-        <element default="#9ca3af" hint="Color of connection lines between nodes" label="Link Color" max_length="40" name="link_color" type="string"/>
+        <element label="Directed links" max_length="255" name="directed_links" type="boolean"/>
+        <element default="value" function_definition="value" label="Node value field" max_length="40" name="node_value_field" type="string"/>
+        <element default="#9ca3af" hint="Color of connection lines between nodes" label="Link color" max_length="40" name="link_color" type="color"/>
         <element default="true" hint="Allow users to drag and reposition individual nodes" label="Draggable Nodes" max_length="40" name="draggable" type="boolean"/>
-        <element default="true" hint="Display text labels on each node" label="Show Node Labels" max_length="40" name="show_labels" type="boolean"/>
-        <element hint="Data field name to dynamically determine link width" label="Links - Width By Field" max_length="80" name="link_width_field" type="string"/>
+        <element hint="Data field name to dynamically determine link width" label="Links width field" max_length="80" name="link_width_field" type="string"/>
         <element default="-300" hint="Force simulation charge (negative = repel, higher magnitude = stronger)" label="Charge Strength" max_length="40" name="charge_strength" type="integer"/>
-        <element default="8" hint="Default radius of network nodes in pixels" label="Node Radius" max_length="40" name="node_radius" type="integer"/>
-        <element default="#6366f1" hint="Default fill color for network nodes" label="Default Node Color" max_length="40" name="node_color" type="string"/>
+        <element label="Simulation ticks" max_length="255" name="simulation_ticks" type="integer"/>
+        <element label="Node max radius" max_length="255" name="node_max_radius" type="integer"/>
+        <element default="8" hint="Default radius of network nodes in pixels" label="Node radius" max_length="40" name="node_radius" type="integer"/>
+        <element default="#6366f1" hint="Default fill color for network nodes" label="Default node color" max_length="40" name="node_color" type="color"/>
         <element default="100" hint="Preferred distance between connected nodes in pixels" label="Link Distance" max_length="40" name="link_distance" type="integer"/>
+        <element label="Node min radius" max_length="255" name="node_min_radius" type="integer"/>
+        <element label="Node radius field" max_length="40" name="node_radius_field" type="string"/>
+        <element label="Collide padding" max_length="255" name="collide_padding" type="integer"/>
         <element default="true" hint="Allow users to zoom and pan the network view" label="Enable Zoom/Pan" max_length="40" name="zoomable" type="boolean"/>
-        <element default="1" hint="Width of connection lines between nodes in pixels" label="Link Width" max_length="40" name="link_width" type="integer"/>
+        <element default="1" hint="Width of connection lines between nodes in pixels" label="Link width" max_length="40" name="link_width" type="integer"/>
         <element default="10" hint="Font size for node labels in pixels" label="Label Font Size" max_length="40" name="label_font_size" type="integer"/>
     </element>
 </database>

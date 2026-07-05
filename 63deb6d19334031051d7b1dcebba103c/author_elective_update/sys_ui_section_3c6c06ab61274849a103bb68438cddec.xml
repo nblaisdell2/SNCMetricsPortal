@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section action="DELETE" caption="Data label" section_id="3c6c06ab61274849a103bb68438cddec" sys_domain="global" table="x_1295779_metpo_viz_scatter" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>257af9eb45604ccc96698f6c82a0558e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>show_value_labels</element>
+      <position>1</position>
+      <sys_id>16e601a55cc14793b984023a4b9bf4d7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>value_label_format</element>
+      <position>2</position>
+      <sys_id>bd99f0bb486741b88b79114eac9d4f14</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>505f89f3f6584c6cb188055159c081ee</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>label_font_size</element>
+      <position>4</position>
+      <sys_id>c907bdebcc7e4e3dbfaa316b8f5993ba</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>value_label_position</element>
+      <position>5</position>
+      <sys_id>0b5a4b2d9eca48f084707335a08de11c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>edaa33cc98224544839d87f41ed1658c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="DELETE">
+      <caption>Data label</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_scatter</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>3c6c06ab61274849a103bb68438cddec</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_section_3c6c06ab61274849a103bb68438cddec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_section caption="Data label" section_id="3c6c06ab61274849a103bb68438cddec" sys_domain="global" table="x_1295779_metpo_viz_scatter" view="Default view">
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.begin_split</element>
+      <position>0</position>
+      <sys_id>257af9eb45604ccc96698f6c82a0558e</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type>.begin_split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>show_value_labels</element>
+      <position>1</position>
+      <sys_id>16e601a55cc14793b984023a4b9bf4d7</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>value_label_format</element>
+      <position>2</position>
+      <sys_id>bd99f0bb486741b88b79114eac9d4f14</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.split</element>
+      <position>3</position>
+      <sys_id>505f89f3f6584c6cb188055159c081ee</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type>.split</type>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>label_font_size</element>
+      <position>4</position>
+      <sys_id>c907bdebcc7e4e3dbfaa316b8f5993ba</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>value_label_position</element>
+      <position>5</position>
+      <sys_id>0b5a4b2d9eca48f084707335a08de11c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type/>
+    </sys_ui_element>
+    <sys_ui_element action="INSERT_OR_UPDATE">
+      <element>.end_split</element>
+      <position>6</position>
+      <sys_id>edaa33cc98224544839d87f41ed1658c</sys_id>
+      <sys_ui_formatter/>
+      <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">3c6c06ab61274849a103bb68438cddec</sys_ui_section>
+      <sys_user/>
+      <type>.end_split</type>
+    </sys_ui_element>
+    <sys_ui_section action="INSERT_OR_UPDATE">
+      <caption>Data label</caption>
+      <header>false</header>
+      <name>x_1295779_metpo_viz_scatter</name>
+      <roles/>
+      <sys_domain>global</sys_domain>
+      <sys_id>3c6c06ab61274849a103bb68438cddec</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <title>false</title>
+      <view_name/>
+      <view>Default view</view>
+    </sys_ui_section>
+  </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1374304119</payload_hash>
+        <record_name>Viz: Scatter</record_name>
+        <reverted_from/>
+        <source>677ee4f273bd031076d5f85c4ab8b7f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:29:40</sys_created_on>
+        <sys_id>d3bee03a73bd031076d5f85c4ab8b7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2b9a9cff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:29:40</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>17bee03a88bd03103791e2a011dbe5ed</update_guid>
+        <update_guid_history>17bee03a88bd03103791e2a011dbe5ed:1374304119</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-05 16:18:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1998f37166d94f7f9547337af76be1b1</sys_id>
+        <sys_metadata>3c6c06ab61274849a103bb68438cddec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data label</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Scatter">d6ec4d7493bdc39051d7b1dcebba1055</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3c6c06ab61274849a103bb68438cddec</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3c6c06ab61274849a103bb68438cddec">d3bee03a73bd031076d5f85c4ab8b7ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-05 16:18:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

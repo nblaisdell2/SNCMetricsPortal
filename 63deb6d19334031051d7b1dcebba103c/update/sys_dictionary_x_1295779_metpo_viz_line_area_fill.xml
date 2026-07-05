@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Area Fill</column_label>
+        <column_label>Area fill</column_label>
         <comments/>
         <create_roles/>
         <default_value>false</default_value>
@@ -48,13 +48,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-28 02:33:44</sys_created_on>
-        <sys_name>Area Fill</sys_name>
+        <sys_name>Area fill</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
         <sys_update_name>sys_dictionary_x_1295779_metpo_viz_line_area_fill</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-28 02:33:44</sys_updated_on>
+        <sys_updated_on>2026-07-05 00:53:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

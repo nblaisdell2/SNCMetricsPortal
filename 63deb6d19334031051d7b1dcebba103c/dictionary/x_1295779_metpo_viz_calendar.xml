@@ -4,10 +4,34 @@
         <element default="#216e39" hint="Color representing days with the highest activity" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
         <element default="4" hint="Extra spacing between months in pixels" label="Month Gap (px)" max_length="40" name="month_gap" type="integer"/>
         <element default="2" hint="Spacing between day cells in pixels" label="Cell Gap (px)" max_length="40" name="cell_gap" type="integer"/>
+        <element choice="3" label="Year order" max_length="255" name="year_order" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Descending (newest first)" sequence="1" value="descending"/>
+                <element inactive_on_update="false" label="Ascending (oldest first)" sequence="0" value="ascending"/>
+            </choice>
+        </element>
+        <element label="Day value font size" max_length="255" name="day_value_font_size" type="integer"/>
+        <element choice="1" label="Weekday label mode" max_length="255" name="weekday_label_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Alternate" sequence="1" value="alternate"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="all"/>
+            </choice>
+        </element>
+        <element label="Show month borders" max_length="255" name="show_month_borders" type="boolean"/>
+        <element label="Day value format" max_length="40" name="day_value_format" type="string"/>
         <element default="#ebedf0" hint="Color representing days with the lowest activity" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
         <element default="14" hint="Size of each day cell in pixels (square)" label="Cell Size (px)" max_length="40" name="cell_size" type="integer"/>
-        <element default="true" hint="Display abbreviated month names above each month block" label="Show Month Labels" max_length="40" name="show_month_labels" type="boolean"/>
+        <element default="true" hint="Display abbreviated month names above each month block" label="Show month labels" max_length="40" name="show_month_labels" type="boolean"/>
         <element default="1" hint="First day of the week (0=Sunday, 1=Monday)" label="Week Start (0=Sun, 1=Mon)" max_length="40" name="week_start" type="integer"/>
+        <element label="Month border color" max_length="255" name="month_border_color" type="color"/>
         <element default="true" hint="Display day-of-week labels on the left side" label="Show Day Labels" max_length="40" name="show_day_labels" type="boolean"/>
+        <element choice="1" label="Cell size mode" max_length="255" name="cell_size_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fixed cell size" sequence="1" value="fixed"/>
+                <element inactive_on_update="false" label="Fit to width" sequence="0" value="fit"/>
+            </choice>
+        </element>
+        <element label="Day value color" max_length="255" name="day_value_color" type="color"/>
+        <element label="Show weekday labels" max_length="255" name="show_weekday_labels" type="boolean"/>
     </element>
 </database>

@@ -4,13 +4,13 @@
             <element>chart_title</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>86e7aae63bf1431099d7336436e45a5d</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>5f014c9773f9071076d5f85c4ab8b716</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>title_font_size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>06e7aae63bf1431099d7336436e45a5e</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>1b014c9773f9071076d5f85c4ab8b717</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>title_color</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>82e7aae63bf1431099d7336436e45a5f</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>d3014c9773f9071076d5f85c4ab8b718</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>02e7aae63bf1431099d7336436e45a60</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>9f014c9773f9071076d5f85c4ab8b718</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>border_width</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>8ee7aae63bf1431099d7336436e45a60</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>5b014c9773f9071076d5f85c4ab8b719</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>border_radius</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>0ee7aae63bf1431099d7336436e45a61</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>17014c9773f9071076d5f85c4ab8b71a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>border_color</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 19:40:34</sys_created_on>
-            <sys_id>8ae7aae63bf1431099d7336436e45a62</sys_id>
+            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
+            <sys_id>df014c9773f9071076d5f85c4ab8b71a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">7a87dc49fe8c4986aebfda5af5008be6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 19:40:34</sys_updated_on>
+            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

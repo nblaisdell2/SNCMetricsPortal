@@ -4,41 +4,55 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:45</sys_created_on>
-            <sys_id>3efc9a7cbc1647868d07655d677c6bd9</sys_id>
+            <sys_created_on>2026-07-04 22:41:40</sys_created_on>
+            <sys_id>64fa108f737d831076d5f85c4ab8b775</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">4955f535dd334eb6860fce75192963e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_scheme</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:45</sys_created_on>
-            <sys_id>78398e86304149979507952aaeb80d71</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">4955f535dd334eb6860fce75192963e0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:45</sys_updated_on>
+            <sys_updated_on>2026-07-04 22:41:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>custom_color_palette</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:45</sys_created_on>
-            <sys_id>ebde23cd1c22482e859f92592ffe6290</sys_id>
+            <sys_created_on>2026-07-04 22:41:40</sys_created_on>
+            <sys_id>20fa108f737d831076d5f85c4ab8b776</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">4955f535dd334eb6860fce75192963e0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:45</sys_updated_on>
+            <sys_updated_on>2026-07-04 22:41:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 22:41:40</sys_created_on>
+            <sys_id>e8fa108f737d831076d5f85c4ab8b776</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">4955f535dd334eb6860fce75192963e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 22:41:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color_scheme</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 22:41:40</sys_created_on>
+            <sys_id>a4fa108f737d831076d5f85c4ab8b777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">4955f535dd334eb6860fce75192963e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 22:41:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
