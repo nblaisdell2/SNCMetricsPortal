@@ -4,13 +4,13 @@
             <element>color_mode</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>a484bbfe7339831076d5f85c4ab8b741</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>eecea4d473024f1076d5f85c4ab8b71d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>color_min</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>6084bbfe7339831076d5f85c4ab8b742</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>aacea4d473024f1076d5f85c4ab8b71e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,111 +32,139 @@
             <element>custom_color_start</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>2c84bbfe7339831076d5f85c4ab8b742</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>66cea4d473024f1076d5f85c4ab8b71f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value_color_scheme</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>22cea4d473024f1076d5f85c4ab8b720</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reverse_colors</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>e484bbfe7339831076d5f85c4ab8b743</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>eacea4d473024f1076d5f85c4ab8b720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>a084bbfe7339831076d5f85c4ab8b744</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>a6cea4d473024f1076d5f85c4ab8b721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color_scale_type</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>6c84bbfe7339831076d5f85c4ab8b744</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>62cea4d473024f1076d5f85c4ab8b722</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color_max</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>2884bbfe7339831076d5f85c4ab8b745</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>2ecea4d473024f1076d5f85c4ab8b722</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>custom_color_end</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>e084bbfe7339831076d5f85c4ab8b746</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>e6cea4d473024f1076d5f85c4ab8b723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>diverging_midpoint</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>ac84bbfe7339831076d5f85c4ab8b746</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>a2cea4d473024f1076d5f85c4ab8b724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>quantize_steps</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:53:45</sys_created_on>
-            <sys_id>6884bbfe7339831076d5f85c4ab8b747</sys_id>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>6ecea4d473024f1076d5f85c4ab8b724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:53:45</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_data_color</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 21:20:47</sys_created_on>
+            <sys_id>2acea4d473024f1076d5f85c4ab8b725</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

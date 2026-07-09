@@ -129,16 +129,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:43</sys_created_on>
+            <sys_created_on>2026-07-07 21:28:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8e03b19d50334bf69a96e32c38d854fb</sys_id>
+            <sys_id>68072f3b73f58b1076d5f85c4ab8b736</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">f0c1553281164c6cafab819685a358fc</sys_ui_form>
-            <sys_ui_section caption="Data" display_value="Data" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">fda5250b314d4d91a38c955b9b89030d</sys_ui_section>
+            <sys_ui_section caption="Bar/Column" display_value="Bar/Column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">98072f3b73f58b1076d5f85c4ab8b713</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 14:12:02</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:28:41</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>10</position>
@@ -147,12 +147,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7822127761ba47cf9758c6c5a6a66f47</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">f0c1553281164c6cafab819685a358fc</sys_ui_form>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">43cf1c7deba5405392120fa2ea58f449</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 14:38:26</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>11</position>
@@ -161,12 +161,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fd7ae19fdfa6496a866c3f5650e3c7bc</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">f0c1553281164c6cafab819685a358fc</sys_ui_form>
             <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">3533b6f0e9b4469cae79c0d57ce15eb2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 14:38:26</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>12</position>
@@ -175,12 +175,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>16fbd3c6487249e9bc48108fa0de0cfe</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">f0c1553281164c6cafab819685a358fc</sys_ui_form>
             <sys_ui_section caption="X-axis" display_value="X-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">7721d86d09604c70a4f175b55daf3dd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 14:38:26</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>13</position>
@@ -189,12 +189,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>82cc90ced00c47acb093f6d664d4c9ac</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">f0c1553281164c6cafab819685a358fc</sys_ui_form>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 14:38:26</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_column</name>

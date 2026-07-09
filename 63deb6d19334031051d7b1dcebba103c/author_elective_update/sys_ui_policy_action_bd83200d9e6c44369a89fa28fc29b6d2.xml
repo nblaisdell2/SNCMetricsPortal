@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="DELETE">
+    <sys_id>bd83200d9e6c44369a89fa28fc29b6d2</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_ui_policy_action_bd83200d9e6c44369a89fa28fc29b6d2</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field>min_zoom</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>ignore</mandatory>
+    <table>x_1295779_metpo_visualization</table>
+    <ui_policy short_description="VIZ show: Zoom (2 types)" table="x_1295779_metpo_visualization">c7f981d8370d4a97a0993083f9c39399</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>true</visible>
+  </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_policy_action_bd83200d9e6c44369a89fa28fc29b6d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+  <sys_ui_policy_action action="INSERT_OR_UPDATE">
+    <sys_id>bd83200d9e6c44369a89fa28fc29b6d2</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_ui_policy_action_bd83200d9e6c44369a89fa28fc29b6d2</sys_update_name>
+    <cleared>false</cleared>
+    <disabled>ignore</disabled>
+    <field>min_zoom</field>
+    <field_message/>
+    <field_message_type>none</field_message_type>
+    <mandatory>ignore</mandatory>
+    <table>x_1295779_metpo_visualization</table>
+    <ui_policy short_description="VIZ show: Zoom (2 types)" table="x_1295779_metpo_visualization">c7f981d8370d4a97a0993083f9c39399</ui_policy>
+    <value/>
+    <value_action>ignore</value_action>
+    <visible>true</visible>
+  </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1210862293</payload_hash>
+        <record_name>min_zoom</record_name>
+        <reverted_from/>
+        <source>8645b83673fd031076d5f85c4ab8b71b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:58:47</sys_created_on>
+        <sys_id>a165343e73fd031076d5f85c4ab8b70f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2bb543660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:58:47</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>6165343e80fd03107b6ff0bca90bde0e</update_guid>
+        <update_guid_history>6165343e80fd03107b6ff0bca90bde0e:-1210862293</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 21:25:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>21f3aee0e67747979af5adc02dc95a81</sys_id>
+        <sys_metadata>bd83200d9e6c44369a89fa28fc29b6d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>min_zoom</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="VIZ show: Zoom (2 types)">c7f981d8370d4a97a0993083f9c39399</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_bd83200d9e6c44369a89fa28fc29b6d2</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_bd83200d9e6c44369a89fa28fc29b6d2">a165343e73fd031076d5f85c4ab8b70f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 21:25:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

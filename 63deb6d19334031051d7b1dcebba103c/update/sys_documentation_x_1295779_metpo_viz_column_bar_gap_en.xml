@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="bar_gap" label="Bar Gap" language="en" table="x_1295779_metpo_viz_column">
+    <sys_documentation element="bar_gap" label="Bar gap" language="en" table="x_1295779_metpo_viz_column">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>bar_gap</element>
             <help/>
             <hint>Proportional gap between bars (0-1, where 0.2 means 20% gap)</hint>
-            <label>Bar Gap</label>
+            <label>Bar gap</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_column</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-28 02:33:40</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Bar Gap</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Bar gap</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_documentation_x_1295779_metpo_viz_column_bar_gap_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 02:33:40</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:45:54</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

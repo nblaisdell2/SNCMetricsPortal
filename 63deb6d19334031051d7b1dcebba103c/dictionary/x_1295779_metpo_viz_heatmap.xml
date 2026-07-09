@@ -7,8 +7,6 @@
             </choice>
         </element>
         <element default="#f0fdf4" hint="Color representing the minimum value in the scale" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
-        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
-        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
         <element default="1" hint="Width of the border around each cell in pixels" label="Cell Border Width" max_length="40" name="cell_border_width" type="integer"/>
         <element label="Cell label min size" max_length="40" name="cell_label_min_size" type="integer"/>
         <element choice="3" label="Cell aspect" max_length="255" name="cell_aspect" type="choice">
@@ -28,7 +26,6 @@
         <element default="true" hint="Display the numeric value inside each cell" label="Show Values in Cells" max_length="40" name="show_values" type="boolean"/>
         <element default="11" hint="Font size in pixels for values displayed in cells" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
         <element default="#ffffff" hint="Color of the cell borders" label="Cell Border Color" max_length="40" name="cell_border_color" type="color"/>
-        <element default="2" hint="Corner radius for each heatmap cell in pixels" label="Cell Corner Radius" max_length="40" name="cell_radius" type="integer"/>
         <element label="Cell label font size" max_length="40" name="cell_label_font_size" type="integer"/>
         <element label="Cell padding" max_length="255" name="cell_padding" type="integer"/>
         <element default="#166534" hint="Color representing the maximum value in the scale" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>

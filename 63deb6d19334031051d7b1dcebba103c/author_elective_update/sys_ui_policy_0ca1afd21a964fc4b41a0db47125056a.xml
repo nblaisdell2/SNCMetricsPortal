@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy">
+  <sys_ui_policy action="DELETE">
+    <sys_id>0ca1afd21a964fc4b41a0db47125056a</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_ui_policy_0ca1afd21a964fc4b41a0db47125056a</sys_update_name>
+    <active>true</active>
+    <conditions>viz_typeINcolumn_chart,line_chart,radar</conditions>
+    <description/>
+    <global>true</global>
+    <inherit>true</inherit>
+    <isolate_script>false</isolate_script>
+    <model_id/>
+    <model_table/>
+    <on_load>true</on_load>
+    <order>100</order>
+    <reverse_if_false>true</reverse_if_false>
+    <run_scripts>false</run_scripts>
+    <script_false>function onCondition() {
+
+}</script_false>
+    <script_true>function onCondition() {
+
+}</script_true>
+    <set_values/>
+    <short_description>VIZ show: Data label (3 types)</short_description>
+    <table>x_1295779_metpo_visualization</table>
+    <ui_type>0</ui_type>
+    <view/>
+  </sys_ui_policy>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_policy_0ca1afd21a964fc4b41a0db47125056a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy">
+  <sys_ui_policy action="INSERT_OR_UPDATE">
+    <sys_id>0ca1afd21a964fc4b41a0db47125056a</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_ui_policy_0ca1afd21a964fc4b41a0db47125056a</sys_update_name>
+    <active>true</active>
+    <conditions>viz_typeINcolumn_chart,line_chart,radar</conditions>
+    <description/>
+    <global>true</global>
+    <inherit>true</inherit>
+    <isolate_script>false</isolate_script>
+    <model_id/>
+    <model_table/>
+    <on_load>true</on_load>
+    <order>100</order>
+    <reverse_if_false>true</reverse_if_false>
+    <run_scripts>false</run_scripts>
+    <script_false>function onCondition() {
+
+}</script_false>
+    <script_true>function onCondition() {
+
+}</script_true>
+    <set_values/>
+    <short_description>VIZ show: Data label (3 types)</short_description>
+    <table>x_1295779_metpo_visualization</table>
+    <ui_type>0</ui_type>
+    <view/>
+  </sys_ui_policy>
+</record_update>]]></payload>
+        <payload_hash>471464455</payload_hash>
+        <record_name>VIZ show: Data label (3 types)</record_name>
+        <reverted_from/>
+        <source>3bc43c7673fd031076d5f85c4ab8b7df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:56:40</sys_created_on>
+        <sys_id>bae4b83a73fd031076d5f85c4ab8b7b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2bb353c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:56:40</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>7ae4b83aa2fd0310454130c5eeb692b2</update_guid>
+        <update_guid_history>7ae4b83aa2fd0310454130c5eeb692b2:471464455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 21:22:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>804b7ce8e5ff45a0ab807a2204afc5a4</sys_id>
+        <sys_metadata>0ca1afd21a964fc4b41a0db47125056a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VIZ show: Data label (3 types)</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Metric Visualization">b9ecc97493bdc39051d7b1dcebba10b8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_0ca1afd21a964fc4b41a0db47125056a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_0ca1afd21a964fc4b41a0db47125056a">bae4b83a73fd031076d5f85c4ab8b7b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 21:22:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

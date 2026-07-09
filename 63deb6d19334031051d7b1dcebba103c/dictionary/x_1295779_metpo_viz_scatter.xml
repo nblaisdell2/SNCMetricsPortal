@@ -9,7 +9,6 @@
                 <element inactive_on_update="false" label="Diamond" sequence="3" value="diamond"/>
             </choice>
         </element>
-        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
         <element label="Quadrant y" max_length="38" name="quadrant_y" type="decimal"/>
         <element label="Point stroke width" max_length="255" name="point_stroke_width" type="integer"/>
         <element choice="3" label="Bubble scale type" max_length="255" name="bubble_scale_type" type="choice">
@@ -19,7 +18,6 @@
             </choice>
         </element>
         <element label="Point stroke color" max_length="255" name="point_stroke_color" type="color"/>
-        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
         <element hint="Allow users to zoom and pan the scatter plot" label="Enable Zoom" max_length="40" name="zoom_enabled" type="boolean"/>
         <element label="Quadrant x" max_length="38" name="quadrant_x" type="decimal"/>
         <element label="Bubble max radius" max_length="255" name="bubble_max_radius" type="integer"/>

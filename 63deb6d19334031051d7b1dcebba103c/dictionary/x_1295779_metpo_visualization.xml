@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b9ecc97493bdc39051d7b1dcebba10b8" label="Metric Visualization" max_length="40" name="x_1295779_metpo_visualization" type="collection">
         <element hint="d3-format specifier for values shown in tooltips and value-axis ticks, e.g. &quot;.0f&quot; (whole), &quot;,.1f&quot;, &quot;$,.0f&quot;, &quot;.1s&quot;. Blank = a compact default." label="Value format" max_length="40" name="value_format" type="string"/>
-        <element default="0.25" hint="Smallest allowed zoom scale (e.g. 0.25 = zoomed out to quarter size)." label="Min zoom" max_length="20" name="min_zoom" type="decimal"/>
         <element default="name" hint="Which feature property to use as the label text (default &quot;name&quot;)." label="Label field" max_length="40" name="label_field" type="string"/>
         <element hint="Fix the low end of the color domain. Leave blank to use the data minimum." label="Color min" max_length="20" name="color_min" type="decimal"/>
-        <element choice="1" hint="Type of visualization. Auto-set per chart table." label="Visualization type" max_length="40" name="viz_type" read_only="true" read_only_option="instance_configured" type="choice">
+        <element choice="1" hint="Type of visualization. Auto-set per chart table." label="Visualization type" max_length="40" name="viz_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Radar Chart" sequence="11" value="radar"/>
                 <element inactive_on_update="false" label="Sankey Diagram" sequence="5" value="sankey"/>
@@ -23,10 +22,10 @@
                 <element inactive_on_update="false" label="Line Chart" sequence="1" value="line_chart"/>
             </choice>
         </element>
-        <element default="true" hint="Zoom with the mouse wheel / pinch and pan by dragging the background. Double-click zooms in (shift+double-click zooms out)." label="Enable zoom" max_length="40" name="enable_zoom" type="boolean"/>
         <element label="Link opacity" max_length="38" name="link_opacity" type="decimal"/>
         <element label="Show trend line" max_length="40" name="show_trend_line" type="boolean"/>
         <element hint="Optional d3-format specifier for numeric values, e.g. &quot;,.0f&quot;, &quot;.1f&quot;, &quot;~s&quot;. Blank = raw value." label="Node value format" max_length="40" name="node_value_format" type="string"/>
+        <element label="X-axis label" max_length="255" name="x_axis_label" type="string"/>
         <element default="true" hint="When hovering a ribbon, brighten its entire connected source-and-target nodes too." label="Link hover" max_length="40" name="link_hover" type="boolean"/>
         <element choice="1" default="category" hint="Category = evenly-spaced labels (like the column chart; uses each point's 'label'). Linear = numeric X from each point's 'x'. Time = date/time X from each point's 'x' (number = epoch ms, or an ISO date string)." label="X-axis type" max_length="40" name="x_axis_type" type="choice">
             <choice>
@@ -65,7 +64,6 @@
                 <element inactive_on_update="false" label="Vertical (columns)" value="vertical"/>
             </choice>
         </element>
-        <element default="20" hint="Right margin inside the chart container in pixels" label="Margin right" max_length="40" name="margin_right" type="integer"/>
         <element default="0" hint="Corner rounding of the chart container in pixels" label="Border radius" max_length="20" name="border_radius" type="string"/>
         <element label="Tooltip font size" max_length="255" name="tooltip_font_size" type="integer"/>
         <element hint="Fixed y-axis minimum. Leave blank for automatic." label="Y min" max_length="20" name="y_min" type="decimal"/>
@@ -97,7 +95,6 @@
         <element hint="Override for the 'today' reference line. Date string ('YYYY-MM-DD' or ISO). Leave blank to use the current date." label="Today date" max_length="40" name="today_date" type="glide_date"/>
         <element hint="Fixed y-axis maximum. Leave blank for automatic. Bars exceeding it are truncated at the top." label="Y max" max_length="20" name="y_max" type="decimal"/>
         <element hint="For Linear X: a d3-format number specifier (e.g. &quot;.0f&quot;, &quot;,.1f&quot;). For Time X: a d3-time-format specifier (e.g. &quot;%b %Y&quot;, &quot;%m/%d&quot;, &quot;%H:%M&quot;). Ignored for a Category axis. Blank = automatic." label="X-axis format" max_length="40" name="x_axis_format" type="string"/>
-        <element default="4" hint="Largest allowed zoom scale (e.g. 4 = 4x magnification)." label="Max zoom" max_length="40" name="max_zoom" type="integer"/>
         <element choice="1" default="scheme" hint="Where the gradient colors come from: a preset color scheme, or a custom gradient defined by your own start and end colors." label="Color mode" max_length="40" name="color_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Custom gradient" value="custom"/>
@@ -108,7 +105,6 @@
         <element default="%b %-d, %Y" hint="d3-time-format spec for the {date} token in tooltips (e.g. %b %-d, %Y)." label="Tooltip date format" max_length="40" name="date_format" type="string"/>
         <element label="Data label color" max_length="40" name="data_label_color" type="color"/>
         <element label="Tooltip template" max_length="65536" name="tooltip_template" type="html"/>
-        <element default="50" hint="Left margin inside the chart container in pixels" label="Margin left" max_length="40" name="margin_left" type="integer"/>
         <element hint="Title text displayed above the chart" label="Chart title" max_length="200" name="chart_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Border color of the chart container (CSS color value)" label="Border color" max_length="40" name="border_color" type="color"/>
         <element default="12px" hint="Padding inside the chart container (CSS value)" label="Chart padding" max_length="20" name="component_padding" type="string"/>
@@ -135,6 +131,7 @@
             </choice>
         </element>
         <element default="9" hint="Font size of the in-node value text, in pixels." label="Node value font size" max_length="40" name="node_value_font_size" type="integer"/>
+        <element label="Y-axis label" max_length="255" name="y_axis_label" type="string"/>
         <element choice="1" default="percent" hint="What to draw on/around each slice: None, Inside (value inside the slice), Outside (label outside), Leader-line (label outside with a connector), or Percent (percent inside the slice)." label="Label mode" max_length="40" name="label_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="None" value="none"/>
@@ -164,13 +161,7 @@
         </element>
         <element default="#216e39" hint="High-end color of the custom gradient. Applies when Color mode is 'Custom gradient'." label="Custom color end" max_length="40" name="custom_color_end" type="color"/>
         <element hint="Optional caption above/beside the color legend. Leave blank to hide." label="Color legend title" max_length="100" name="color_legend_title" type="string"/>
-        <element choice="3" label="Data label format" max_length="40" name="data_label_format" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
-                <element inactive_on_update="false" label="Percent" sequence="0" value="percent"/>
-                <element inactive_on_update="false" label="Value" sequence="1" value="value"/>
-            </choice>
-        </element>
+        <element label="Data label format" max_length="40" name="data_label_format" type="string"/>
         <element label="Show data labels" max_length="40" name="show_data_labels" type="boolean"/>
         <element hint="D3 number format specifier for the column value labels only (e.g. &quot;.0f&quot;, &quot;,.1f&quot;, &quot;$,.0f&quot;, &quot;.2%&quot;). Blank = default." label="Value label format" max_length="40" name="value_label_format" type="string"/>
         <element label="Start angle (degrees)" max_length="40" name="start_angle" type="integer"/>
@@ -199,7 +190,6 @@
         <element label="Drop shadow blur amount (px)" max_length="255" name="blur_amount_px" type="integer"/>
         <element hint="Midpoint value for the diverging scale. Leave blank to use the data mean." label="Diverging midpoint" max_length="20" name="diverging_midpoint" type="decimal"/>
         <element default="800" hint="Duration of entrance animation in milliseconds" label="Animation duration (ms)" max_length="40" name="animation_duration" type="integer"/>
-        <element default="40" hint="Bottom margin inside the chart container in pixels" label="Margin bottom" max_length="40" name="margin_bottom" type="integer"/>
         <element hint="Let viewers click a legend item to hide/show that series; the chart rescales to the remaining series. Hidden items stay in the legend (dimmed) so they can be toggled back." label="Interactive Legend" max_length="40" name="legend_interactive" type="boolean"/>
         <element choice="1" default="none" hint="Only applies when Column grouping is Stacked. None = raw totals; 100% = every column normalized to full height (y-axis shows %); Diverging = negatives drop below the zero line, positives rise above." label="Stack offset" max_length="40" name="stack_offset" type="choice">
             <choice>
@@ -237,7 +227,6 @@
         <element default="true" hint="Draw horizontal gridlines at each y tick." label="Show gridlines" max_length="40" name="show_gridlines" type="boolean"/>
         <element hint="Outline color of the node bars. Blank = no outline." label="Node stroke" max_length="40" name="node_stroke" type="string"/>
         <element label="Grid color" max_length="40" name="grid_color" type="color"/>
-        <element default="true" hint="Show +, − and reset buttons in the top-right corner of the chart. Requires zoom to be enabled." label="Show zoom controls" max_length="40" name="show_zoom_controls" type="boolean"/>
         <element default="true" hint="Draw a dashed reference line at today's date (or 'Today date' override)." label="Show today" max_length="40" name="show_today" type="boolean"/>
         <element hint="Draw a small zigzag 'torn edge' on bars cut off by an explicit Minimum/Maximum, signaling the value extends beyond the axis." label="Clamp overflow indicator" max_length="40" name="clamp_overflow_indicator" type="boolean"/>
         <element hint="Draw gridlines along the category axis (vertical lines for columns, horizontal for bars), in addition to the value-axis gridlines." label="Show x gridlines" max_length="40" name="show_x_gridlines" type="boolean"/>
@@ -276,7 +265,6 @@
             </choice>
         </element>
         <element default="12" hint="Font size of the node labels, in pixels." label="Node label font size" max_length="40" name="node_label_font_size" type="integer"/>
-        <element default="20" hint="Top margin inside the chart container in pixels" label="Margin top" max_length="40" name="margin_top" type="integer"/>
         <element default="true" hint="Enable or disable entrance animations when the chart first renders" label="Animate" max_length="40" name="animate" type="boolean"/>
         <element hint="Fade the other columns when hovering one, so the hovered column stands out." label="Hover dim others" max_length="40" name="hover_dim_others" type="boolean"/>
         <element label="Follow cursor" max_length="255" name="tooltip_follow_cursor" type="boolean"/>

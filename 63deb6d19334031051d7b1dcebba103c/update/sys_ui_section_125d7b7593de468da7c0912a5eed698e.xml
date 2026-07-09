@@ -1,44 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Labels" section_id="125d7b7593de468da7c0912a5eed698e" sys_domain="global" table="x_1295779_metpo_viz_gantt" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>data_label_color</element>
+            <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:43:14</sys_created_on>
-            <sys_id>d34b5c8f737d831076d5f85c4ab8b720</sys_id>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>358678d873424f1076d5f85c4ab8b79e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:43:14</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>row_label_width</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>fd8678d873424f1076d5f85c4ab8b79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_color</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>b98678d873424f1076d5f85c4ab8b79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:43:14</sys_created_on>
-            <sys_id>9f4b5c8f737d831076d5f85c4ab8b720</sys_id>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>758678d873424f1076d5f85c4ab8b7a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:43:14</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>data_label_font_size</element>
-            <position>2</position>
+            <element>show_task_labels</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:43:14</sys_created_on>
-            <sys_id>d34b5c8f737d831076d5f85c4ab8b76c</sys_id>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>f58678d873424f1076d5f85c4ab8b7ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:43:14</sys_updated_on>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_label_position</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>b18678d873424f1076d5f85c4ab8b7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_label_color</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 21:54:36</sys_created_on>
+            <sys_id>7d8678d873424f1076d5f85c4ab8b7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">125d7b7593de468da7c0912a5eed698e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 21:54:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
