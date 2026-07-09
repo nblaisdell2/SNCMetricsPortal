@@ -4,13 +4,13 @@
             <element>tooltip_show</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>5a0a18cb737d831076d5f85c4ab8b721</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>e7b9309073824f1076d5f85c4ab8b763</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,111 +18,97 @@
             <element>tooltip_font_size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>160a18cb737d831076d5f85c4ab8b722</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>a3b9309073824f1076d5f85c4ab8b764</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>tooltip_text_color</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>de0a18cb737d831076d5f85c4ab8b722</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>9a0a18cb737d831076d5f85c4ab8b723</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>6fb9309073824f1076d5f85c4ab8b764</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tooltip_follow_cursor</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>560a18cb737d831076d5f85c4ab8b724</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>2bb9309073824f1076d5f85c4ab8b765</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_format</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>120a18cb737d831076d5f85c4ab8b725</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tooltip_background</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>da0a18cb737d831076d5f85c4ab8b725</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>e3b9309073824f1076d5f85c4ab8b766</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tooltip_text_color</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>afb9309073824f1076d5f85c4ab8b766</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>960a18cb737d831076d5f85c4ab8b726</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>6bb9309073824f1076d5f85c4ab8b767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tooltip_template</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:37:42</sys_created_on>
-            <sys_id>520a18cb737d831076d5f85c4ab8b727</sys_id>
+            <sys_created_on>2026-07-08 22:08:38</sys_created_on>
+            <sys_id>27b9309073824f1076d5f85c4ab8b768</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">b35ee38e4d2046a19e18266375bb4681</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:37:42</sys_updated_on>
+            <sys_updated_on>2026-07-08 22:08:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

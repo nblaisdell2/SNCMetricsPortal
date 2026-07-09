@@ -1,60 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Axes" section_id="cb07db70219441e2979fa364db048d01" sys_domain="global" table="x_1295779_metpo_viz_calendar" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>axis_font_size</element>
+            <element>axis_font_family</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:12:49</sys_created_on>
-            <sys_id>c52bef7a73f5831076d5f85c4ab8b79a</sys_id>
+            <sys_created_on>2026-07-08 02:53:59</sys_created_on>
+            <sys_id>f17138087342cb1076d5f85c4ab8b7f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">cb07db70219441e2979fa364db048d01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:12:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>axis_font_family</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:12:49</sys_created_on>
-            <sys_id>812bef7a73f5831076d5f85c4ab8b79b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">cb07db70219441e2979fa364db048d01</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:12:49</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:53:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:12:49</sys_created_on>
-            <sys_id>c92bef7a73f5831076d5f85c4ab8b7b4</sys_id>
+            <sys_created_on>2026-07-08 02:53:59</sys_created_on>
+            <sys_id>bd7138087342cb1076d5f85c4ab8b7f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">cb07db70219441e2979fa364db048d01</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:12:49</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:53:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>axis_text_color</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:12:49</sys_created_on>
-            <sys_id>852bef7a73f5831076d5f85c4ab8b7b5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">cb07db70219441e2979fa364db048d01</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:12:49</sys_updated_on>
-            <sys_user/>
-            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Axes</caption>

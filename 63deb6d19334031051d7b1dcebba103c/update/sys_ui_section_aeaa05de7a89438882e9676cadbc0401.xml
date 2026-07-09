@@ -4,27 +4,27 @@
             <element>legend_show</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:44:15</sys_created_on>
-            <sys_id>2a942bf673b5831076d5f85c4ab8b743</sys_id>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>eb2a6c847302cb1076d5f85c4ab8b799</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:44:15</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legend_font_size</element>
+            <element>legend_interactive</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:44:15</sys_created_on>
-            <sys_id>e2942bf673b5831076d5f85c4ab8b744</sys_id>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>a72a6c847302cb1076d5f85c4ab8b79a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:44:15</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,41 +32,41 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:44:15</sys_created_on>
-            <sys_id>ae942bf673b5831076d5f85c4ab8b744</sys_id>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>632a6c847302cb1076d5f85c4ab8b79b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:44:15</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legend_interactive</element>
+            <element>legend_position</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:44:15</sys_created_on>
-            <sys_id>6a942bf673b5831076d5f85c4ab8b745</sys_id>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>2f2a6c847302cb1076d5f85c4ab8b79b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:44:15</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>legend_position</element>
+            <element>legend_font_size</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:44:15</sys_created_on>
-            <sys_id>26942bf673b5831076d5f85c4ab8b746</sys_id>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>e72a6c847302cb1076d5f85c4ab8b79c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:44:15</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="box_width" label="Box Width" language="en" table="x_1295779_metpo_viz_boxplot">
+    <sys_documentation element="box_width" label="Box width" language="en" table="x_1295779_metpo_viz_boxplot">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>box_width</element>
             <help/>
-            <hint>Proportional width of boxes (0-1, where 0.6 means 60% of available space)</hint>
-            <label>Box Width</label>
+            <hint/>
+            <label>Box width</label>
             <language>en</language>
             <name>x_1295779_metpo_viz_boxplot</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-28 02:33:43</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Box Width</sys_name>
+            <sys_created_on>2026-07-08 02:11:44</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Box width</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_documentation_x_1295779_metpo_viz_boxplot_box_width_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-28 02:33:43</sys_updated_on>
+            <sys_updated_on>2026-07-08 02:11:45</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

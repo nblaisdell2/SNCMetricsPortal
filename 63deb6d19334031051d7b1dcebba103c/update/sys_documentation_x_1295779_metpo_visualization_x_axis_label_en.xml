@@ -3,7 +3,7 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>x_axis_label</element>
             <help/>
-            <hint>Caption beneath the x-axis. Leave blank to hide.</hint>
+            <hint/>
             <label>X-axis label</label>
             <language>en</language>
             <name>x_1295779_metpo_visualization</name>
@@ -11,14 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 05:29:30</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>X-axis label</sys_name>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
             <sys_policy/>
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_documentation_x_1295779_metpo_visualization_x_axis_label_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:29:30</sys_updated_on>
+            <sys_updated_on>2026-07-08 01:15:45</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

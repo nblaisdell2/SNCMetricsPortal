@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="62ec4d7493bdc39051d7b1dcebba10fd" extends="x_1295779_metpo_visualization" label="Viz: Bar/Column" max_length="40" name="x_1295779_metpo_viz_column" type="collection">
-        <element default="true" hint="Show background grid lines for easier value reading" label="Show Grid Lines" max_length="40" name="grid_show" type="boolean"/>
-        <element default="0" hint="Corner radius for the top of each bar in pixels" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>
-        <element hint="Render bars horizontally instead of vertically" label="Horizontal Bars" max_length="40" name="horizontal" type="boolean"/>
-        <element default="true" hint="Apply a 3D perspective effect to column bars" label="3D Columns" max_length="40" name="bar_3d" type="boolean"/>
-        <element hint="Display the numeric value above or inside each bar" label="Show Values on Bars" max_length="40" name="show_values" type="boolean"/>
+        <element default="true" hint="Apply a 3D perspective effect to column bars" label="3D columns" max_length="40" name="bar_3d" type="boolean"/>
         <element label="Group padding" max_length="255" name="group_padding" type="integer"/>
-        <element hint="Custom label text displayed beside the Y-axis" label="Y-Axis Label" max_length="100" name="y_axis_label" type="string"/>
-        <element default="0.2" hint="Proportional gap between bars (0-1, where 0.2 means 20% gap)" label="Bar Gap" max_length="20" name="bar_gap" type="string"/>
-        <element hint="Custom label text displayed below the X-axis" label="X-Axis Label" max_length="100" name="x_axis_label" type="string"/>
+        <element default="0.2" hint="Proportional gap between bars (0-1, where 0.2 means 20% gap)" label="Bar gap" max_length="20" name="bar_gap" type="decimal"/>
         <element label="Bar depth" max_length="40" name="bar_depth" type="integer"/>
         <element choice="3" label="Group mode" max_length="255" name="group_mode" type="choice">
             <choice>
@@ -23,7 +17,6 @@
                 <element inactive_on_update="false" label="Pattern (texture)" sequence="2" value="pattern"/>
             </choice>
         </element>
-        <element hint="Stack bars on top of each other instead of side by side for grouped data" label="Stacked" max_length="40" name="stacked" type="boolean"/>
         <element default="0" hint="Minimum height in pixels for bars with very small values" label="Minimum bar height" max_length="40" name="min_bar_height" type="integer"/>
     </element>
 </database>

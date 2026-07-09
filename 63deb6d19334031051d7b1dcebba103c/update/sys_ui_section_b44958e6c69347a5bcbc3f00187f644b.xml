@@ -4,13 +4,13 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 17:52:33</sys_created_on>
-            <sys_id>5dc853fa7335831076d5f85c4ab8b7de</sys_id>
+            <sys_created_on>2026-07-07 21:43:31</sys_created_on>
+            <sys_id>b56ae7ff73f58b1076d5f85c4ab8b765</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">b44958e6c69347a5bcbc3f00187f644b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 17:52:33</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>color_scheme</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 17:52:33</sys_created_on>
-            <sys_id>51c853fa7335831076d5f85c4ab8b7e0</sys_id>
+            <sys_created_on>2026-07-07 21:43:31</sys_created_on>
+            <sys_id>716ae7ff73f58b1076d5f85c4ab8b766</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">b44958e6c69347a5bcbc3f00187f644b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 17:52:33</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 17:52:33</sys_created_on>
-            <sys_id>1dc853fa7335831076d5f85c4ab8b7e0</sys_id>
+            <sys_created_on>2026-07-07 21:43:31</sys_created_on>
+            <sys_id>3d6ae7ff73f58b1076d5f85c4ab8b766</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">b44958e6c69347a5bcbc3f00187f644b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 17:52:33</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,27 +46,13 @@
             <element>custom_color_palette</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 17:52:33</sys_created_on>
-            <sys_id>d5c853fa7335831076d5f85c4ab8b7e1</sys_id>
+            <sys_created_on>2026-07-07 21:43:31</sys_created_on>
+            <sys_id>f56ae7ff73f58b1076d5f85c4ab8b767</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">b44958e6c69347a5bcbc3f00187f644b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 17:52:33</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bar_fill_style</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 17:52:33</sys_created_on>
-            <sys_id>91c853fa7335831076d5f85c4ab8b7e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">b44958e6c69347a5bcbc3f00187f644b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 17:52:33</sys_updated_on>
+            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

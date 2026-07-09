@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f2ec8d7493bdc39051d7b1dcebba1079" extends="x_1295779_metpo_visualization" label="Viz: Choropleth/Map" max_length="40" name="x_1295779_metpo_viz_choropleth" type="collection">
         <element label="Symbol min radius" max_length="38" name="symbol_min_radius" type="decimal"/>
-        <element default="#1e40af" hint="Color representing the maximum data value" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
-        <element default="#e5e7eb" hint="Fill color for regions with no data" label="Default Fill Color" max_length="40" name="default_color" type="string"/>
-        <element hint="URL or path to the GeoJSON file defining map regions" label="GeoJSON Source" max_length="500" name="geo_json_source" type="string"/>
         <element choice="3" label="Height mode" max_length="40" name="height_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Match map aspect" sequence="0" value="match_map_aspect"/>
@@ -12,7 +9,6 @@
         </element>
         <element label="Border stroke color" max_length="40" name="border_stroke_color" type="color"/>
         <element label="Symbol max radius" max_length="38" name="symbol_max_radius" type="decimal"/>
-        <element default="#dbeafe" hint="Color representing the minimum data value" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
         <element choice="3" label="Map mode" max_length="255" name="map_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Choropleth (fill by value)" sequence="0" value="choropleth"/>
@@ -21,9 +17,7 @@
         </element>
         <element label="Land color" max_length="40" name="land_color" type="color"/>
         <element label="Symbol opacity" max_length="38" name="symbol_opacity" type="decimal"/>
-        <element default="#9ca3af" hint="Color of region boundary lines" label="Stroke Color" max_length="40" name="stroke_color" type="string"/>
-        <element default="true" hint="Allow users to zoom and pan the map" label="Enable Zoom/Pan" max_length="40" name="zoomable" type="boolean"/>
-        <element choice="3" default="geoMercator" hint="Geographic map projection used to render the choropleth" label="Map - Projection" max_length="40" name="map_projection" type="choice">
+        <element choice="3" default="geoMercator" hint="Geographic map projection used to render the choropleth" label="Projection type" max_length="40" name="map_projection" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Natural Earth" sequence="3" value="geoNaturalEarth1"/>
                 <element inactive_on_update="false" label="Albers USA" sequence="1" value="geoAlbersUsa"/>
@@ -31,7 +25,6 @@
                 <element inactive_on_update="false" label="Equal Earth" sequence="2" value="geoEqualEarth"/>
             </choice>
         </element>
-        <element default="0.5" hint="Width of region boundary lines" label="Stroke Width" max_length="10" name="stroke_width" type="string"/>
         <element choice="3" label="Label content" max_length="40" name="label_content" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Name" sequence="0" value="name"/>

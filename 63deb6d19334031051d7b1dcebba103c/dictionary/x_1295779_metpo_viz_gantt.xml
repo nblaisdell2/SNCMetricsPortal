@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="92ec4d7493bdc39051d7b1dcebba1017" extends="x_1295779_metpo_visualization" label="Viz: Gantt" max_length="40" name="x_1295779_metpo_viz_gantt" type="collection">
-        <element default="24" hint="Height of each task bar in pixels" label="Bar Height (px)" max_length="40" name="bar_height" type="integer"/>
+        <element default="24" hint="Height of each task bar in pixels" label="Bar height" max_length="40" name="bar_height" type="integer"/>
+        <element label="Default bar color" max_length="255" name="default_bar_color" type="color"/>
+        <element label="Task label color" max_length="255" name="task_label_color" type="color"/>
         <element choice="3" label="Axis position" max_length="255" name="axis_position" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Bottom" sequence="1" value="bottom"/>
@@ -8,20 +10,17 @@
                 <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
             </choice>
         </element>
-        <element choice="3" default="day" hint="Time scale granularity for the Gantt chart timeline" label="Timeline - Scale" max_length="40" name="time_scale" type="choice">
+        <element label="Color by group" max_length="255" name="color_by_group" type="boolean"/>
+        <element label="Show task labels" max_length="255" name="show_task_labels" type="boolean"/>
+        <element label="Progress color" max_length="255" name="progress_color" type="color"/>
+        <element choice="3" label="Task label position" max_length="255" name="task_label_position" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Week" sequence="2" value="week"/>
-                <element inactive_on_update="false" label="Hour" sequence="0" value="hour"/>
-                <element inactive_on_update="false" label="Day" sequence="1" value="day"/>
-                <element inactive_on_update="false" label="Month" sequence="3" value="month"/>
+                <element inactive_on_update="false" label="Inside" sequence="1" value="inside"/>
+                <element inactive_on_update="false" label="Right of bar" sequence="0" value="right"/>
             </choice>
         </element>
-        <element default="true" hint="Draw a vertical line at today's date" label="Show Today Line" max_length="40" name="show_today_line" type="boolean"/>
-        <element default="true" hint="Show arrow connections between dependent tasks" label="Show Dependencies" max_length="40" name="show_dependencies" type="boolean"/>
-        <element default="4" hint="Corner radius of task bars in pixels" label="Bar Corner Radius" max_length="40" name="bar_radius" type="integer"/>
-        <element default="#ef4444" hint="Color of the today marker line" label="Today Line Color" max_length="40" name="today_line_color" type="string"/>
-        <element default="40" hint="Height of the timeline header area in pixels" label="Header Height (px)" max_length="40" name="header_height" type="integer"/>
-        <element default="6" hint="Vertical padding between task rows in pixels" label="Row Padding (px)" max_length="40" name="row_padding" type="integer"/>
-        <element default="true" hint="Display progress fill within task bars" label="Show Progress" max_length="40" name="show_progress" type="boolean"/>
+        <element default="6" hint="Vertical padding between task rows in pixels" label="Row padding" max_length="40" name="row_padding" type="integer"/>
+        <element default="true" hint="Display progress fill within task bars" label="Show progress" max_length="40" name="show_progress" type="boolean"/>
+        <element label="Row label width" max_length="255" name="row_label_width" type="integer"/>
     </element>
 </database>
