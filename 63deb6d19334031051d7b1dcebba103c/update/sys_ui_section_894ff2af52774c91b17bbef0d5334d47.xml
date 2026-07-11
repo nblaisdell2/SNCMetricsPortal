@@ -4,85 +4,57 @@
             <element>drop_shadow</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:50</sys_created_on>
-            <sys_id>9bbf3f7bd1ab4defa74225dd8de25252</sys_id>
+            <sys_created_on>2026-07-11 16:53:37</sys_created_on>
+            <sys_id>5e6e8f89938e8f1051d7b1dcebba10c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">894ff2af52774c91b17bbef0d5334d47</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:50</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:53:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>blur_amount_px</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:50</sys_created_on>
-            <sys_id>7c16b77272be4de79f755bc760858c7b</sys_id>
+            <sys_created_on>2026-07-11 16:53:37</sys_created_on>
+            <sys_id>1a6e8f89938e8f1051d7b1dcebba10c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">894ff2af52774c91b17bbef0d5334d47</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:50</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>blur_amount_px</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:50</sys_created_on>
-            <sys_id>a23d6537f4654c72bfffd0e88b38d6be</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">894ff2af52774c91b17bbef0d5334d47</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:50</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:53:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:50</sys_created_on>
-            <sys_id>4beeb2a6f411434699be68d52faf24af</sys_id>
+            <sys_created_on>2026-07-11 16:53:37</sys_created_on>
+            <sys_id>d26e8f89938e8f1051d7b1dcebba10c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">894ff2af52774c91b17bbef0d5334d47</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:50</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:53:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>drop_shadow_color</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:50</sys_created_on>
-            <sys_id>e24b4e27762447cca6070c65607532d0</sys_id>
+            <sys_created_on>2026-07-11 16:53:37</sys_created_on>
+            <sys_id>9e6e8f89938e8f1051d7b1dcebba10c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">894ff2af52774c91b17bbef0d5334d47</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:50</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:53:37</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-03 16:54:50</sys_created_on>
-            <sys_id>8602c64531ca4ca19465c5aa5a36c95c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">894ff2af52774c91b17bbef0d5334d47</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-03 16:54:50</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Drop shadow</caption>

@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Maximum Font Size</column_label>
+        <column_label>Max font size</column_label>
         <comments/>
         <create_roles/>
         <default_value>80</default_value>
@@ -48,13 +48,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-28 02:33:39</sys_created_on>
-        <sys_name>Maximum Font Size</sys_name>
+        <sys_name>Max font size</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
         <sys_update_name>sys_dictionary_x_1295779_metpo_viz_wordcloud_max_font_size</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-28 02:33:39</sys_updated_on>
+        <sys_updated_on>2026-07-11 18:29:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

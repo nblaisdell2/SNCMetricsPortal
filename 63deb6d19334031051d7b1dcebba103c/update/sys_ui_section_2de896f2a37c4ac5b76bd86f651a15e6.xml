@@ -4,13 +4,13 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 16:38:14</sys_created_on>
-            <sys_id>1251581f737d071076d5f85c4ab8b70c</sys_id>
+            <sys_created_on>2026-07-11 17:56:52</sys_created_on>
+            <sys_id>34ec9f0d9302cf1051d7b1dcebba1026</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:38:14</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:56:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>custom_color_palette</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 16:38:14</sys_created_on>
-            <sys_id>da51581f737d071076d5f85c4ab8b70c</sys_id>
+            <sys_created_on>2026-07-11 17:56:52</sys_created_on>
+            <sys_id>fcec9f0d9302cf1051d7b1dcebba1026</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:38:14</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:56:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,41 +32,55 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 16:38:14</sys_created_on>
-            <sys_id>9651581f737d071076d5f85c4ab8b70d</sys_id>
+            <sys_created_on>2026-07-11 17:56:52</sys_created_on>
+            <sys_id>b8ec9f0d9302cf1051d7b1dcebba1027</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:38:14</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:56:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_scheme</element>
+            <element>color_mode</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 16:38:14</sys_created_on>
-            <sys_id>5251581f737d071076d5f85c4ab8b70e</sys_id>
+            <sys_created_on>2026-07-11 17:56:52</sys_created_on>
+            <sys_id>74ec9f0d9302cf1051d7b1dcebba1028</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:38:14</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:56:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color_scheme</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 17:56:52</sys_created_on>
+            <sys_id>30ec9f0d9302cf1051d7b1dcebba1029</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 17:56:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>value_color_scheme</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 16:38:14</sys_created_on>
-            <sys_id>1e51581f737d071076d5f85c4ab8b70e</sys_id>
+            <sys_created_on>2026-07-11 17:56:52</sys_created_on>
+            <sys_id>f8ec9f0d9302cf1051d7b1dcebba1029</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:38:14</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:56:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

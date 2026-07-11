@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c3da140545a44d7aa946f165be4e520c" label="Metric Data Source" name="x_1295779_metpo_source_config" type="collection">
         <element dependent="src_staged_table" hint="Field in the staging table to use as the numeric value" label="Value Field" max_length="80" name="src_value_field" type="field_name"/>
-        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element hint="Method to call on the script include class" label="Method Name" max_length="100" name="src_method" type="string"/>
+        <element dependent="src_table" hint="Field to use for the Y-axis in chart visualizations" label="Y-Axis Field" max_length="80" name="src_y_field" type="field_name"/>
         <element dependent="src_staged_table" hint="Filter conditions to apply to the staging table" label="Staging Filter" max_length="4000" name="src_staged_filter" type="conditions"/>
+        <element dependent="src_table" hint="Field to sort results by" label="Order By" max_length="80" name="src_order_by" type="field_name"/>
+        <element hint="Maximum number of results to return (0 = unlimited)" label="Result Limit" max_length="40" name="src_limit" type="integer"/>
+        <element default="30" hint="Number of days of historical data to retrieve" label="Lookback Days" max_length="40" name="src_lookback_days" type="integer"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element dependent="src_table" hint="Encoded query filter to limit records from the source table" label="Filter Conditions" max_length="4000" name="src_filter" type="conditions"/>
+        <element hint="Comma-separated list of specific breakdown element sys_ids to include" label="Breakdown Elements" max_length="4000" name="src_elements" type="string"/>
+        <element hint="The table to aggregate data from" label="Source Table" max_length="80" name="src_table" type="table_name"/>
+        <element dependent="src_table" hint="Primary field to group results by" label="Group By" max_length="80" name="src_group_by" type="field_name"/>
+        <element dependent="src_table" hint="Target field for relationship/flow visualizations (e.g., Sankey, Network)" label="Target Field" max_length="80" name="src_target_field" type="field_name"/>
+        <element hint="API name of the script include class to invoke (e.g., x_1295779_metpo.MyHandler)" label="Script Include" max_length="200" name="src_script_include" type="string"/>
+        <element choice="3" default="table_aggregate" label="Source Type" mandatory="true" max_length="40" name="source_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PA Indicator" sequence="1" value="pa_indicator"/>
+                <element inactive_on_update="false" label="Table Aggregate" sequence="0" value="table_aggregate"/>
+                <element inactive_on_update="false" label="Scripted" sequence="3" value="scripted"/>
+                <element inactive_on_update="false" label="Staged External" sequence="2" value="staged_external"/>
+            </choice>
+        </element>
+        <element dependent="src_table" hint="The field to apply the aggregate function to (required for SUM, AVG, MIN, MAX)" label="Aggregate Field" max_length="80" name="src_aggregate_field" type="field_name"/>
+        <element hint="The Performance Analytics indicator to pull data from" label="PA Indicator" max_length="32" name="src_indicator" reference="pa_indicators" type="reference"/>
+        <element dependent="src_staged_table" hint="Field in the staging table to use as the display label" label="Label Field" max_length="80" name="src_label_field" type="field_name"/>
+        <element hint="The staging table containing pre-loaded external data" label="Staging Table" max_length="80" name="src_staged_table" type="table_name"/>
+        <element hint="The breakdown dimension for the PA indicator data" label="PA Breakdown" max_length="32" name="src_breakdown" reference="pa_breakdowns" type="reference"/>
+        <element dependent="src_table" hint="Field to use for the X-axis in chart visualizations" label="X-Axis Field" max_length="80" name="src_x_field" type="field_name"/>
+        <element dependent="src_table" hint="Source field for relationship/flow visualizations (e.g., Sankey, Network)" label="Source Field" max_length="80" name="src_source_field" type="field_name"/>
+        <element hint="JSON object of parameters to pass to the method" label="Parameters (JSON)" max_length="4000" name="src_params" type="string"/>
         <element choice="1" hint="The aggregate operation to perform on records" label="Aggregate Function" max_length="40" name="src_aggregate" type="choice">
             <choice>
-                <element inactive_on_update="false" label="MIN" sequence="3" value="MIN"/>
                 <element inactive_on_update="false" label="AVG" sequence="2" value="AVG"/>
                 <element inactive_on_update="false" label="SUM" sequence="1" value="SUM"/>
                 <element inactive_on_update="false" label="MAX" sequence="4" value="MAX"/>
                 <element inactive_on_update="false" label="COUNT" sequence="0" value="COUNT"/>
-            </choice>
-        </element>
-        <element choice="3" default="table_aggregate" label="Source Type" mandatory="true" max_length="40" name="source_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Table Aggregate" sequence="0" value="table_aggregate"/>
-                <element inactive_on_update="false" label="Scripted" sequence="3" value="scripted"/>
-                <element inactive_on_update="false" label="Staged External" sequence="2" value="staged_external"/>
-                <element inactive_on_update="false" label="PA Indicator" sequence="1" value="pa_indicator"/>
+                <element inactive_on_update="false" label="MIN" sequence="3" value="MIN"/>
             </choice>
         </element>
         <element dependent="src_table" hint="Optional secondary field for nested grouping" label="Secondary Group By" max_length="80" name="src_group_by_2" type="field_name"/>
-        <element dependent="src_table" hint="Field to use for the X-axis in chart visualizations" label="X-Axis Field" max_length="80" name="src_x_field" type="field_name"/>
-        <element hint="The Performance Analytics indicator to pull data from" label="PA Indicator" max_length="32" name="src_indicator" reference="pa_indicators" type="reference"/>
-        <element dependent="src_table" hint="Target field for relationship/flow visualizations (e.g., Sankey, Network)" label="Target Field" max_length="80" name="src_target_field" type="field_name"/>
-        <element dependent="src_table" hint="Encoded query filter to limit records from the source table" label="Filter Conditions" max_length="4000" name="src_filter" type="conditions"/>
-        <element hint="Maximum number of results to return (0 = unlimited)" label="Result Limit" max_length="40" name="src_limit" type="integer"/>
-        <element hint="The breakdown dimension for the PA indicator data" label="PA Breakdown" max_length="32" name="src_breakdown" reference="pa_breakdowns" type="reference"/>
-        <element hint="Method to call on the script include class" label="Method Name" max_length="100" name="src_method" type="string"/>
-        <element dependent="src_staged_table" hint="Field in the staging table to use as the display label" label="Label Field" max_length="80" name="src_label_field" type="field_name"/>
-        <element hint="The staging table containing pre-loaded external data" label="Staging Table" max_length="80" name="src_staged_table" type="table_name"/>
-        <element hint="API name of the script include class to invoke (e.g., x_1295779_metpo.MyHandler)" label="Script Include" max_length="200" name="src_script_include" type="string"/>
-        <element dependent="src_table" hint="Field to sort results by" label="Order By" max_length="80" name="src_order_by" type="field_name"/>
-        <element hint="The table to aggregate data from" label="Source Table" max_length="80" name="src_table" type="table_name"/>
-        <element default="30" hint="Number of days of historical data to retrieve" label="Lookback Days" max_length="40" name="src_lookback_days" type="integer"/>
-        <element dependent="src_table" hint="Field to use for the Y-axis in chart visualizations" label="Y-Axis Field" max_length="80" name="src_y_field" type="field_name"/>
-        <element dependent="src_table" hint="The field to apply the aggregate function to (required for SUM, AVG, MIN, MAX)" label="Aggregate Field" max_length="80" name="src_aggregate_field" type="field_name"/>
-        <element dependent="src_table" hint="Primary field to group results by" label="Group By" max_length="80" name="src_group_by" type="field_name"/>
-        <element dependent="src_table" hint="Source field for relationship/flow visualizations (e.g., Sankey, Network)" label="Source Field" max_length="80" name="src_source_field" type="field_name"/>
-        <element hint="JSON object of parameters to pass to the method" label="Parameters (JSON)" max_length="4000" name="src_params" type="string"/>
-        <element hint="Comma-separated list of specific breakdown element sys_ids to include" label="Breakdown Elements" max_length="4000" name="src_elements" type="string"/>
         <index name="index">
             <element name="src_breakdown"/>
         </index>

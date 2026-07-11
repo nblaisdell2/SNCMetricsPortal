@@ -113,20 +113,6 @@
             <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a72a0621dc844aaab02d9b44c774af4b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
-            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">0caa31d01137401cb7098e13d1899b2f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>

@@ -4,13 +4,13 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:08:42</sys_created_on>
-            <sys_id>b058985f73bd071076d5f85c4ab8b701</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>9193e30d9342cf1051d7b1dcebba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:08:42</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>custom_color_palette</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:08:42</sys_created_on>
-            <sys_id>7c58985f73bd071076d5f85c4ab8b701</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>5d93e30d9342cf1051d7b1dcebba1004</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:08:42</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,55 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:08:42</sys_created_on>
-            <sys_id>3858985f73bd071076d5f85c4ab8b702</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>1993e30d9342cf1051d7b1dcebba1005</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:08:42</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_scheme</element>
+            <element>color_mode</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:08:42</sys_created_on>
-            <sys_id>f058985f73bd071076d5f85c4ab8b703</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>d193e30d9342cf1051d7b1dcebba1006</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:08:42</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color_scheme</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>9d93e30d9342cf1051d7b1dcebba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value_color_scheme</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>5993e30d9342cf1051d7b1dcebba1007</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

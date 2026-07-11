@@ -155,20 +155,6 @@
             <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>fd7ae19fdfa6496a866c3f5650e3c7bc</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_column" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">f0c1553281164c6cafab819685a358fc</sys_ui_form>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">3533b6f0e9b4469cae79c0d57ce15eb2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-07 21:43:31</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 05:58:43</sys_created_on>

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6beccd7493bdc39051d7b1dcebba10fb" extends="x_1295779_metpo_visualization" label="Viz: Boxplot" max_length="40" name="x_1295779_metpo_viz_boxplot" type="collection">
         <element label="Point radius" max_length="38" name="point_radius" type="decimal"/>
-        <element label="Show points" max_length="255" name="show_points" type="boolean"/>
-        <element label="Box width" max_length="38" name="box_width" type="decimal"/>
-        <element hint="Show a line or marker indicating the mean value" label="Show mean marker" max_length="40" name="show_mean" type="boolean"/>
         <element label="Mean color" max_length="255" name="mean_color" type="color"/>
-        <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier point radius" max_length="40" name="outlier_radius" type="integer"/>
-        <element label="Box stroke color" max_length="255" name="box_stroke_color" type="color"/>
         <element label="Box fill opacity" max_length="38" name="box_fill_opacity" type="decimal"/>
-        <element label="Median stroke width" max_length="38" name="median_stroke_width" type="decimal"/>
-        <element label="Box stroke width" max_length="38" name="box_stroke_width" type="decimal"/>
-        <element default="true" hint="Display outlier points beyond the whiskers" label="Show outliers" max_length="40" name="show_outliers" type="boolean"/>
         <element label="Outlier color" max_length="255" name="outlier_color" type="color"/>
-        <element label="Median color" max_length="255" name="median_color" type="color"/>
+        <element label="Box width" max_length="38" name="box_width" type="decimal"/>
         <element choice="3" label="Whisker type" max_length="40" name="whisker_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Min / Max (full range)" sequence="1" value="min_max"/>
                 <element inactive_on_update="false" label="Tukey (1.5xIQR fences)" sequence="0" value="tukey"/>
+                <element inactive_on_update="false" label="Min / Max (full range)" sequence="1" value="min_max"/>
             </choice>
         </element>
+        <element label="Box stroke color" max_length="255" name="box_stroke_color" type="color"/>
+        <element label="Median stroke width" max_length="38" name="median_stroke_width" type="decimal"/>
+        <element default="4" hint="Radius of outlier point markers in pixels" label="Outlier point radius" max_length="40" name="outlier_radius" type="integer"/>
+        <element default="true" hint="Display outlier points beyond the whiskers" label="Show outliers" max_length="40" name="show_outliers" type="boolean"/>
+        <element hint="Show a line or marker indicating the mean value" label="Show mean marker" max_length="40" name="show_mean" type="boolean"/>
+        <element label="Box stroke width" max_length="38" name="box_stroke_width" type="decimal"/>
+        <element label="Median color" max_length="255" name="median_color" type="color"/>
     </element>
 </database>

@@ -4,13 +4,13 @@
             <element>tooltip_show</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>23718cd773f9071076d5f85c4ab8b779</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>0dd08709930e8f1051d7b1dcebba105e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>tooltip_background</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>eb718cd773f9071076d5f85c4ab8b779</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>c5d08709930e8f1051d7b1dcebba105f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>tooltip_text_color</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>a7718cd773f9071076d5f85c4ab8b77a</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>81d08709930e8f1051d7b1dcebba1060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>63718cd773f9071076d5f85c4ab8b77b</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>4dd08709930e8f1051d7b1dcebba1060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,55 +60,69 @@
             <element>tooltip_follow_cursor</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>2f718cd773f9071076d5f85c4ab8b77b</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>09d08709930e8f1051d7b1dcebba1061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_format</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>c1d08709930e8f1051d7b1dcebba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tooltip_font_size</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>e7718cd773f9071076d5f85c4ab8b77c</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>8dd08709930e8f1051d7b1dcebba1062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>a3718cd773f9071076d5f85c4ab8b77d</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>49d08709930e8f1051d7b1dcebba1063</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tooltip_template</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:28:57</sys_created_on>
-            <sys_id>6f718cd773f9071076d5f85c4ab8b77d</sys_id>
+            <sys_created_on>2026-07-11 15:54:17</sys_created_on>
+            <sys_id>05d08709930e8f1051d7b1dcebba1064</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">e250005773f9071076d5f85c4ab8b723</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:28:57</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:54:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

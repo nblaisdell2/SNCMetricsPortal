@@ -114,7 +114,7 @@
         <update_guid_history>6af110324eb903109b3addf3314077db:2081711586</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Gauge">8ba6922c73cacf1076d5f85c4ab8b771</sys_audit_delete>
+        <sys_audit_delete display_value="">8ba6922c73cacf1076d5f85c4ab8b771</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-09 23:33:09</sys_created_on>

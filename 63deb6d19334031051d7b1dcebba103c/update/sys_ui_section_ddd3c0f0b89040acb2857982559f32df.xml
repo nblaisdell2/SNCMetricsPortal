@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Reference line" section_id="ddd3c0f0b89040acb2857982559f32df" sys_domain="global" table="x_1295779_metpo_viz_scatter" version="3" view="">
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:59:05</sys_created_on>
-            <sys_id>bacc89a0234f4ef19627ca6a9b49ce72</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:59:05</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
+    <sys_ui_section caption="Lines" section_id="ddd3c0f0b89040acb2857982559f32df" sys_domain="global" table="x_1295779_metpo_viz_scatter" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reference_line_value</element>
-            <position>1</position>
+            <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:59:05</sys_created_on>
-            <sys_id>142aee4dfd88403e90ca5ef7c7d55080</sys_id>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>fc85d78993ce8f1051d7b1dcebba109b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:59:05</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reference_line_label</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>b885d78993ce8f1051d7b1dcebba109c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,60 +32,102 @@
             <element>reference_line_color</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:59:05</sys_created_on>
-            <sys_id>3fae1af456db4d6d9043937b584dd4ba</sys_id>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>7485d78993ce8f1051d7b1dcebba109d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:59:05</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_trend_line</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>3085d78993ce8f1051d7b1dcebba109e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:59:05</sys_created_on>
-            <sys_id>4bbc5ce46f004eb286c964c04fd77697</sys_id>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>f885d78993ce8f1051d7b1dcebba109e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:59:05</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reference_line_label</element>
-            <position>4</position>
+            <element>quadrant_x</element>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:59:05</sys_created_on>
-            <sys_id>00c0069e16a041678714bceb1e33d69d</sys_id>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>b485d78993ce8f1051d7b1dcebba109f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:59:05</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>5</position>
+            <element>quadrant_y</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:59:05</sys_created_on>
-            <sys_id>cc8a3da47cec4af49a44740bd67af9f6</sys_id>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>7085d78993ce8f1051d7b1dcebba10a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:59:05</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quadrant_color</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>3c85d78993ce8f1051d7b1dcebba10a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trend_line_color</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 17:24:39</sys_created_on>
+            <sys_id>f485d78993ce8f1051d7b1dcebba10a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 17:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Reference line</caption>
+            <caption>Lines</caption>
             <header>false</header>
             <name>x_1295779_metpo_viz_scatter</name>
             <roles/>
@@ -95,7 +137,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ddd3c0f0b89040acb2857982559f32df</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_1295779_metpo_viz_scatter</sys_name>
             <sys_overrides/>
             <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
@@ -103,7 +145,7 @@
             <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
             <sys_update_name>sys_ui_section_ddd3c0f0b89040acb2857982559f32df</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 05:29:55</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:24:38</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

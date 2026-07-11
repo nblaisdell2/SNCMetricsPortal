@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="62ec4d7493bdc39051d7b1dcebba10fd" extends="x_1295779_metpo_visualization" label="Viz: Bar/Column" max_length="40" name="x_1295779_metpo_viz_column" type="collection">
-        <element default="true" hint="Apply a 3D perspective effect to column bars" label="3D columns" max_length="40" name="bar_3d" type="boolean"/>
-        <element label="Group padding" max_length="255" name="group_padding" type="integer"/>
         <element default="0.2" hint="Proportional gap between bars (0-1, where 0.2 means 20% gap)" label="Bar gap" max_length="20" name="bar_gap" type="decimal"/>
-        <element label="Bar depth" max_length="40" name="bar_depth" type="integer"/>
-        <element choice="3" label="Group mode" max_length="255" name="group_mode" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Stacked" sequence="1" value="stacked"/>
-                <element inactive_on_update="false" label="Grouped (side by side)" sequence="0" value="grouped"/>
-            </choice>
-        </element>
         <element choice="1" default="Solid" label="Bar fill style" max_length="255" name="bar_fill_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Gradient" sequence="1" value="gradient"/>
                 <element inactive_on_update="false" label="Solid" sequence="0" value="solid"/>
                 <element inactive_on_update="false" label="Pattern (texture)" sequence="2" value="pattern"/>
+            </choice>
+        </element>
+        <element label="Group padding" max_length="255" name="group_padding" type="integer"/>
+        <element default="true" hint="Apply a 3D perspective effect to column bars" label="3D columns" max_length="40" name="bar_3d" type="boolean"/>
+        <element label="Bar depth" max_length="40" name="bar_depth" type="integer"/>
+        <element choice="3" label="Group mode" max_length="255" name="group_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Stacked" sequence="1" value="stacked"/>
+                <element inactive_on_update="false" label="Grouped (side by side)" sequence="0" value="grouped"/>
             </choice>
         </element>
         <element default="0" hint="Minimum height in pixels for bars with very small values" label="Minimum bar height" max_length="40" name="min_bar_height" type="integer"/>

@@ -132,13 +132,13 @@
             <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e3cdbf3223214608bf2f3f688deaa44a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>6cc3c2b4f3404dc78fdacda6fd12937a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
-            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
+            <sys_ui_section caption="Radar" display_value="Radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">16f174b7eb294d959f64191ee13127ad</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:33:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:55:59</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>10</position>
@@ -146,13 +146,13 @@
             <sys_created_on>2026-07-04 05:58:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6cc3c2b4f3404dc78fdacda6fd12937a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>e3cdbf3223214608bf2f3f688deaa44a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">2696d12abca7448fb1b5ed4cefb96aef</sys_ui_form>
-            <sys_ui_section caption="Radar" display_value="Radar" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">16f174b7eb294d959f64191ee13127ad</sys_ui_section>
+            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:33:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:55:59</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_radar</name>

@@ -4,139 +4,125 @@
             <element>color_min</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>6e88909f73bd071076d5f85c4ab8b75f</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>1993e30d9342cf1051d7b1dcebba1019</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_mode</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>2a88909f73bd071076d5f85c4ab8b760</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>custom_color_start</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>e288909f73bd071076d5f85c4ab8b761</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>d193e30d9342cf1051d7b1dcebba101a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>custom_color_end</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>ae88909f73bd071076d5f85c4ab8b761</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>9d93e30d9342cf1051d7b1dcebba101a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reverse_colors</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>6a88909f73bd071076d5f85c4ab8b762</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>5993e30d9342cf1051d7b1dcebba101b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>2688909f73bd071076d5f85c4ab8b763</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>1593e30d9342cf1051d7b1dcebba101c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color_max</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>ee88909f73bd071076d5f85c4ab8b763</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>dd93e30d9342cf1051d7b1dcebba101c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color_scale_type</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>aa88909f73bd071076d5f85c4ab8b764</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>9993e30d9342cf1051d7b1dcebba101d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>diverging_midpoint</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>6688909f73bd071076d5f85c4ab8b765</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>5593e30d9342cf1051d7b1dcebba101e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>quantize_steps</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:09:39</sys_created_on>
-            <sys_id>2288909f73bd071076d5f85c4ab8b766</sys_id>
+            <sys_created_on>2026-07-11 18:26:07</sys_created_on>
+            <sys_id>1193e30d9342cf1051d7b1dcebba101f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:09:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:26:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

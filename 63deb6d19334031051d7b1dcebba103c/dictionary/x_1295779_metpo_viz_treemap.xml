@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="7bec41b493bdc39051d7b1dcebba1003" extends="x_1295779_metpo_visualization" label="Viz: Treemap" max_length="40" name="x_1295779_metpo_viz_treemap" type="collection">
-        <element default="12" hint="Font size for tile labels in pixels" label="Label Font Size" max_length="40" name="label_font_size" type="integer"/>
-        <element label="Label min tile size" max_length="255" name="label_min_tile_size" type="integer"/>
-        <element default="true" hint="Display labels inside each tile" label="Show Labels" max_length="40" name="show_labels" type="boolean"/>
-        <element default="#ffffff" hint="Color of the tile borders" label="Tile Border Color" max_length="40" name="tile_border_color" type="color"/>
-        <element label="Tile padding top" max_length="255" name="tile_padding_top" type="integer"/>
-        <element label="Group header color" max_length="255" name="group_header_color" type="color"/>
+        <element label="Tile header padding" max_length="255" name="tile_padding_top" type="integer"/>
         <element label="Show group headers" max_length="255" name="show_group_headers" type="boolean"/>
-        <element choice="3" default="squarify" hint="Algorithm used to tile the treemap rectangles" label="Layout - Tiling Method" max_length="40" name="tiling_method" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Dice" sequence="3" value="dice"/>
-                <element inactive_on_update="false" label="Binary" sequence="1" value="binary"/>
-                <element inactive_on_update="false" label="Squarify" sequence="0" value="squarify"/>
-                <element inactive_on_update="false" label="Slice" sequence="2" value="slice"/>
-            </choice>
-        </element>
-        <element default="2" hint="Spacing between tiles in pixels" label="Tile Padding" max_length="40" name="tile_padding" type="integer"/>
-        <element label="Max depth" max_length="255" name="max_depth" type="integer"/>
+        <element label="Label min tile size" max_length="255" name="label_min_tile_size" type="integer"/>
+        <element label="Group header color" max_length="255" name="group_header_color" type="color"/>
         <element label="Group header font size" max_length="255" name="group_header_font_size" type="integer"/>
-        <element default="1" hint="Width of the border around each tile in pixels" label="Tile Border Width" max_length="40" name="tile_border_width" type="integer"/>
         <element choice="3" label="Sort tiles" max_length="255" name="sort_tiles" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Value descending" sequence="1" value="value_descending"/>
-                <element inactive_on_update="false" label="Value ascending" sequence="2" value="value_ascending"/>
                 <element inactive_on_update="false" label="None (input order)" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="Value ascending" sequence="2" value="value_ascending"/>
             </choice>
         </element>
+        <element label="Max depth" max_length="255" name="max_depth" type="integer"/>
+        <element choice="3" default="squarify" hint="Algorithm used to tile the treemap rectangles" label="Tiling method" max_length="40" name="tiling_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Squarify" sequence="0" value="squarify"/>
+                <element inactive_on_update="false" label="Slice" sequence="2" value="slice"/>
+                <element inactive_on_update="false" label="Binary" sequence="1" value="binary"/>
+                <element inactive_on_update="false" label="Dice" sequence="3" value="dice"/>
+            </choice>
+        </element>
+        <element default="2" hint="Spacing between tiles in pixels" label="Tile inner padding" max_length="40" name="tile_padding" type="integer"/>
     </element>
 </database>

@@ -1,170 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Display" section_id="0cf74bdde0e54e25aaeac96eac987454" sys_domain="global" table="x_1295779_metpo_viz_wordcloud" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>hover_highlight</element>
+            <element>height</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>84c7141f73bd071076d5f85c4ab8b77f</sys_id>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>2610eb059342cf1051d7b1dcebba106c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>hover_color</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>40c7141f73bd071076d5f85c4ab8b780</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>background_color</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>0cc7141f73bd071076d5f85c4ab8b780</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>height</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>c4c7141f73bd071076d5f85c4ab8b781</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>component_padding</element>
-            <position>4</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>80c7141f73bd071076d5f85c4ab8b782</sys_id>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>ee10eb059342cf1051d7b1dcebba106c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>chart_font_family</element>
-            <position>5</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>4cc7141f73bd071076d5f85c4ab8b782</sys_id>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>aa10eb059342cf1051d7b1dcebba106d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>background_color</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>6610eb059342cf1051d7b1dcebba106e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>08c7141f73bd071076d5f85c4ab8b783</sys_id>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>2210eb059342cf1051d7b1dcebba106f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hover_highlight</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>ea10eb059342cf1051d7b1dcebba106f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hover_dim_others</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 18:10:54</sys_created_on>
+            <sys_id>a610eb059342cf1051d7b1dcebba1070</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 18:10:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hover_color</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>c0c7141f73bd071076d5f85c4ab8b784</sys_id>
+            <sys_created_on>2026-07-11 18:10:55</sys_created_on>
+            <sys_id>6210eb059342cf1051d7b1dcebba1071</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>margin_top</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>8cc7141f73bd071076d5f85c4ab8b784</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>margin_bottom</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>48c7141f73bd071076d5f85c4ab8b785</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>margin_left</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>04c7141f73bd071076d5f85c4ab8b786</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>margin_right</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 17:06:12</sys_created_on>
-            <sys_id>ccc7141f73bd071076d5f85c4ab8b786</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Display" display_value="Display" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0cf74bdde0e54e25aaeac96eac987454</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-11 18:10:55</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

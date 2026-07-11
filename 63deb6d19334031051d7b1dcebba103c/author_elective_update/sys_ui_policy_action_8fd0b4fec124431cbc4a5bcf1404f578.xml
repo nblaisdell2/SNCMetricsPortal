@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>start_angle</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:58:47</sys_created_on>
+        <sys_id>8fd0b4fec124431cbc4a5bcf1404f578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>start_angle</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8fd0b4fec124431cbc4a5bcf1404f578</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:58:47</sys_updated_on>
+        <table>x_1295779_metpo_visualization</table>
+        <ui_policy display_value="VIZ show: Arc and angles (3 types)">1233767737534875ac726749eefd1885</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=8fd0b4fec124431cbc4a5bcf1404f578"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>cfd782ea3bdc8754c55a348aa4e45a6e</instance_id>
+        <instance_name>dev386118</instance_name>
+        <name>sys_ui_policy_action_8fd0b4fec124431cbc4a5bcf1404f578</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>start_angle</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:58:47</sys_created_on>
+        <sys_id>8fd0b4fec124431cbc4a5bcf1404f578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>start_angle</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8fd0b4fec124431cbc4a5bcf1404f578</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:58:47</sys_updated_on>
+        <table>x_1295779_metpo_visualization</table>
+        <ui_policy display_value="VIZ show: Arc and angles (3 types)">1233767737534875ac726749eefd1885</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=8fd0b4fec124431cbc4a5bcf1404f578"/>
+</record_update>]]></payload>
+        <payload_hash>1051277935</payload_hash>
+        <record_name>start_angle</record_name>
+        <reverted_from/>
+        <source>8eb6a64993c68f1051d7b1dcebba10e0</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 14:02:46</sys_created_on>
+        <sys_id>ef47e609930a8f1051d7b1dcebba1030</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f517ce2100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 14:02:46</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>af47e609860a8f1089a179f24d783e30</update_guid>
+        <update_guid_history>af47e609860a8f1089a179f24d783e30:1051277935</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 18:35:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>af01cd9f32c445ccae85ea3322bc1e10</sys_id>
+        <sys_metadata>8fd0b4fec124431cbc4a5bcf1404f578</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>start_angle</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8fd0b4fec124431cbc4a5bcf1404f578</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8fd0b4fec124431cbc4a5bcf1404f578">ef47e609930a8f1051d7b1dcebba1030</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 18:35:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

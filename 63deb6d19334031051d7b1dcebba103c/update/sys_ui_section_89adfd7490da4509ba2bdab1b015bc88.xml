@@ -4,55 +4,97 @@
             <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>53014c9773f9071076d5f85c4ab8b748</sys_id>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>d0838bcd930e8f1051d7b1dcebba10cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_label_format</element>
+            <element>value_label_position</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>1f014c9773f9071076d5f85c4ab8b748</sys_id>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>9c838bcd930e8f1051d7b1dcebba10cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_format</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>58838bcd930e8f1051d7b1dcebba10d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>d7014c9773f9071076d5f85c4ab8b749</sys_id>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>14838bcd930e8f1051d7b1dcebba10d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_label_position</element>
-            <position>3</position>
+            <element>show_axis_labels</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>93014c9773f9071076d5f85c4ab8b74a</sys_id>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>dc838bcd930e8f1051d7b1dcebba10d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_level_labels</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>98838bcd930e8f1051d7b1dcebba10d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>y_axis_format</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 16:05:58</sys_created_on>
+            <sys_id>54838bcd930e8f1051d7b1dcebba10d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">89adfd7490da4509ba2bdab1b015bc88</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 16:05:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Trend line" section_id="7671ae4b8f99409b9af916dbc8b0c18e" sys_domain="global" table="x_1295779_metpo_viz_scatter" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>82c583f6429446fda6631da8bbd1ebcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_trend_line</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>03534179ce84470c8982e2f0165a27a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>7af9c48d08914f12b0cc8a5b68518b2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trend_line_color</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>94cc6d6605dd4a6a936fec15387a9129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>e3f6a259e31b471c98c4ea10be75c496</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Trend line</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_scatter</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7671ae4b8f99409b9af916dbc8b0c18e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_scatter</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_7671ae4b8f99409b9af916dbc8b0c18e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>cfd782ea3bdc8754c55a348aa4e45a6e</instance_id>
+        <instance_name>dev386118</instance_name>
+        <name>sys_ui_section_7671ae4b8f99409b9af916dbc8b0c18e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Trend line" section_id="7671ae4b8f99409b9af916dbc8b0c18e" sys_domain="global" table="x_1295779_metpo_viz_scatter" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>82c583f6429446fda6631da8bbd1ebcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_trend_line</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>03534179ce84470c8982e2f0165a27a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>7af9c48d08914f12b0cc8a5b68518b2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trend_line_color</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>94cc6d6605dd4a6a936fec15387a9129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:57</sys_created_on>
+            <sys_id>e3f6a259e31b471c98c4ea10be75c496</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:58:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Trend line</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_scatter</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:29:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7671ae4b8f99409b9af916dbc8b0c18e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_scatter</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_7671ae4b8f99409b9af916dbc8b0c18e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 05:29:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1408389584</payload_hash>
+        <record_name>Viz: Scatter</record_name>
+        <reverted_from/>
+        <source>8eb6a64993c68f1051d7b1dcebba10e0</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 14:02:54</sys_created_on>
+        <sys_id>d157ee09930a8f1051d7b1dcebba1076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f517cff350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 14:02:54</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9157ee09600a8f1030d94d24d1047976</update_guid>
+        <update_guid_history>9157ee09600a8f1030d94d24d1047976:1408389584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 17:24:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>64612dac54c348c28835bb444d7f9ac4</sys_id>
+        <sys_metadata>7671ae4b8f99409b9af916dbc8b0c18e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_viz_scatter</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Scatter">d6ec4d7493bdc39051d7b1dcebba1055</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7671ae4b8f99409b9af916dbc8b0c18e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7671ae4b8f99409b9af916dbc8b0c18e">d157ee09930a8f1051d7b1dcebba1076</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 17:24:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

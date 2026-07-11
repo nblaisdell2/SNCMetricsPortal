@@ -192,37 +192,9 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_scatter" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">49dd2c3c74d74bc299ff6606293a7655</sys_ui_form>
-            <sys_ui_section caption="Reference line" display_value="Reference line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
+            <sys_ui_section caption="Lines" display_value="Lines" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">ddd3c0f0b89040acb2857982559f32df</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-05 16:18:40</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>14</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:42</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>62c776af8e834b509ff756b8dc451ea1</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_scatter" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">49dd2c3c74d74bc299ff6606293a7655</sys_ui_form>
-            <sys_ui_section caption="Trend line" display_value="Trend line" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">7671ae4b8f99409b9af916dbc8b0c18e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:18:40</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>15</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 16:27:16</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f1de4c97737d071076d5f85c4ab8b76f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_scatter" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">49dd2c3c74d74bc299ff6606293a7655</sys_ui_form>
-            <sys_ui_section caption="Quadrant" display_value="Quadrant" name="x_1295779_metpo_viz_scatter" sys_domain="global" view="Default view">b9de4c97737d071076d5f85c4ab8b765</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:27:16</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_scatter</name>

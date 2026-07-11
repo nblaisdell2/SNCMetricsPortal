@@ -4,13 +4,13 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>1b014c9773f9071076d5f85c4ab8b729</sys_id>
+            <sys_created_on>2026-07-11 15:55:25</sys_created_on>
+            <sys_id>f9118349930e8f1051d7b1dcebba1041</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">985fce587d384beaaa570961b4a1afe4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:55:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>color_scheme</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>d3014c9773f9071076d5f85c4ab8b72a</sys_id>
+            <sys_created_on>2026-07-11 15:55:25</sys_created_on>
+            <sys_id>b5118349930e8f1051d7b1dcebba1042</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">985fce587d384beaaa570961b4a1afe4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:55:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>9f014c9773f9071076d5f85c4ab8b72a</sys_id>
+            <sys_created_on>2026-07-11 15:55:25</sys_created_on>
+            <sys_id>71118349930e8f1051d7b1dcebba1043</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">985fce587d384beaaa570961b4a1afe4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:55:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,27 +46,13 @@
             <element>custom_color_palette</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>5b014c9773f9071076d5f85c4ab8b72b</sys_id>
+            <sys_created_on>2026-07-11 15:55:25</sys_created_on>
+            <sys_id>3d118349930e8f1051d7b1dcebba1043</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">985fce587d384beaaa570961b4a1afe4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_format</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:27:02</sys_created_on>
-            <sys_id>17014c9773f9071076d5f85c4ab8b72c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_radar" sys_domain="global" view="Default view">985fce587d384beaaa570961b4a1afe4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:27:02</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:55:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

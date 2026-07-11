@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Points" section_id="368ebc0f73b1c31076d5f85c4ab8b7e3" sys_domain="global" table="x_1295779_metpo_viz_line" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>show_markers</element>
+            <element>show_points</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 13:23:58</sys_created_on>
-            <sys_id>8b6e5e057346c35076d5f85c4ab8b794</sys_id>
+            <sys_created_on>2026-07-11 17:36:43</sys_created_on>
+            <sys_id>79485f419302cf1051d7b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">368ebc0f73b1c31076d5f85c4ab8b7e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 13:23:58</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:36:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>marker_size</element>
+            <element>point_size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 13:23:58</sys_created_on>
-            <sys_id>476e5e057346c35076d5f85c4ab8b795</sys_id>
+            <sys_created_on>2026-07-11 17:36:43</sys_created_on>
+            <sys_id>35485f419302cf1051d7b1dcebba1099</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">368ebc0f73b1c31076d5f85c4ab8b7e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 13:23:58</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:36:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 13:23:58</sys_created_on>
-            <sys_id>136e5e057346c35076d5f85c4ab8b796</sys_id>
+            <sys_created_on>2026-07-11 17:36:44</sys_created_on>
+            <sys_id>fd485f419302cf1051d7b1dcebba1099</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">368ebc0f73b1c31076d5f85c4ab8b7e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 13:23:58</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:36:44</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>marker_shape</element>
+            <element>point_shape</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 13:23:58</sys_created_on>
-            <sys_id>db6e5e057346c35076d5f85c4ab8b796</sys_id>
+            <sys_created_on>2026-07-11 17:36:44</sys_created_on>
+            <sys_id>b9485f419302cf1051d7b1dcebba109a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">368ebc0f73b1c31076d5f85c4ab8b7e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 13:23:58</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:36:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>marker_style</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 13:23:58</sys_created_on>
-            <sys_id>976e5e057346c35076d5f85c4ab8b797</sys_id>
+            <sys_created_on>2026-07-11 17:36:44</sys_created_on>
+            <sys_id>75485f419302cf1051d7b1dcebba109b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">368ebc0f73b1c31076d5f85c4ab8b7e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 13:23:58</sys_updated_on>
+            <sys_updated_on>2026-07-11 17:36:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

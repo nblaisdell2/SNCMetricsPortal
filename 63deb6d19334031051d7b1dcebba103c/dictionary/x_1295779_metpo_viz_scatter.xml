@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d6ec4d7493bdc39051d7b1dcebba1055" extends="x_1295779_metpo_visualization" label="Viz: Scatter" max_length="40" name="x_1295779_metpo_viz_scatter" type="collection">
-        <element default="5" hint="Default radius of scatter plot points in pixels" label="Point Size" max_length="40" name="point_size" type="integer"/>
-        <element choice="3" default="circle" hint="Shape of data point markers in the scatter plot" label="Points - Shape" max_length="40" name="point_shape" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Circle" sequence="0" value="circle"/>
-                <element inactive_on_update="false" label="Triangle" sequence="2" value="triangle"/>
-                <element inactive_on_update="false" label="Square" sequence="1" value="square"/>
-                <element inactive_on_update="false" label="Diamond" sequence="3" value="diamond"/>
-            </choice>
-        </element>
-        <element label="Quadrant y" max_length="38" name="quadrant_y" type="decimal"/>
-        <element label="Point stroke width" max_length="255" name="point_stroke_width" type="integer"/>
+        <element label="Quadrant color" max_length="255" name="quadrant_color" type="color"/>
         <element choice="3" label="Bubble scale type" max_length="255" name="bubble_scale_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Square root (area-true, recommended)" sequence="0" value="square_root_area_true_recommended"/>
                 <element inactive_on_update="false" label="Linear" sequence="1" value="linear"/>
+                <element inactive_on_update="false" label="Square root (area-true, recommended)" sequence="0" value="square_root_area_true_recommended"/>
             </choice>
         </element>
-        <element label="Point stroke color" max_length="255" name="point_stroke_color" type="color"/>
-        <element hint="Allow users to zoom and pan the scatter plot" label="Enable Zoom" max_length="40" name="zoom_enabled" type="boolean"/>
-        <element label="Quadrant x" max_length="38" name="quadrant_x" type="decimal"/>
+        <element choice="3" label="X scale type" max_length="255" name="x_scale_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Logarithmic" sequence="1" value="log"/>
+                <element inactive_on_update="false" label="Square root" sequence="2" value="sqrt"/>
+                <element inactive_on_update="false" label="Linear" sequence="0" value="linear"/>
+            </choice>
+        </element>
         <element label="Bubble max radius" max_length="255" name="bubble_max_radius" type="integer"/>
-        <element default="true" hint="Show background grid lines for easier value reading" label="Show Grid" max_length="40" name="grid_show" type="boolean"/>
-        <element hint="Display a best-fit regression trend line through the data" label="Show Regression Line" max_length="40" name="show_regression" type="boolean"/>
-        <element label="Quadrant color" max_length="255" name="quadrant_color" type="color"/>
         <element label="Bubble min radius" max_length="255" name="bubble_min_radius" type="integer"/>
+        <element label="Quadrant y" max_length="38" name="quadrant_y" type="decimal"/>
+        <element label="Use bubble sizing" max_length="255" name="use_bubble_sizing" type="boolean"/>
+        <element label="Quadrant x" max_length="38" name="quadrant_x" type="decimal"/>
     </element>
 </database>

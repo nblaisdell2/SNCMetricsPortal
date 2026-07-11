@@ -4,13 +4,13 @@
             <element>use_series_colors</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:42:30</sys_created_on>
-            <sys_id>8e94ccdf73f9071076d5f85c4ab8b73b</sys_id>
+            <sys_created_on>2026-07-11 16:39:31</sys_created_on>
+            <sys_id>bf2b07c1938e8f1051d7b1dcebba10bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">7625398211fb4f2aad2c6e342b80b3b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:42:30</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:39:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>custom_color_palette</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:42:30</sys_created_on>
-            <sys_id>4a94ccdf73f9071076d5f85c4ab8b73c</sys_id>
+            <sys_created_on>2026-07-11 16:39:31</sys_created_on>
+            <sys_id>7b2b07c1938e8f1051d7b1dcebba10bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">7625398211fb4f2aad2c6e342b80b3b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:42:30</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:39:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:42:30</sys_created_on>
-            <sys_id>0694ccdf73f9071076d5f85c4ab8b73d</sys_id>
+            <sys_created_on>2026-07-11 16:39:31</sys_created_on>
+            <sys_id>372b07c1938e8f1051d7b1dcebba10be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">7625398211fb4f2aad2c6e342b80b3b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:42:30</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:39:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,27 +46,13 @@
             <element>color_scheme</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:42:30</sys_created_on>
-            <sys_id>ce94ccdf73f9071076d5f85c4ab8b73d</sys_id>
+            <sys_created_on>2026-07-11 16:39:31</sys_created_on>
+            <sys_id>ff2b07c1938e8f1051d7b1dcebba10be</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">7625398211fb4f2aad2c6e342b80b3b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:42:30</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_format</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 15:42:30</sys_created_on>
-            <sys_id>8a94ccdf73f9071076d5f85c4ab8b73e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">7625398211fb4f2aad2c6e342b80b3b7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 15:42:30</sys_updated_on>
+            <sys_updated_on>2026-07-11 16:39:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

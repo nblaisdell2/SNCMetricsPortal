@@ -4,69 +4,69 @@
             <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>ddb8f30373b9071076d5f85c4ab8b799</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>55a4f2c9938a8f1051d7b1dcebba100f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>data_label_color</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>99b8f30373b9071076d5f85c4ab8b79a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>label_font_size</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>55b8f30373b9071076d5f85c4ab8b79b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>label_field</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>11b8f30373b9071076d5f85c4ab8b79c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>node_value_field</element>
-            <position>4</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>d9b8f30373b9071076d5f85c4ab8b79c</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>11a4f2c9938a8f1051d7b1dcebba1010</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_font_size</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>d9a4f2c9938a8f1051d7b1dcebba1010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_color</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>95a4f2c9938a8f1051d7b1dcebba1011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_format</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>51a4f2c9938a8f1051d7b1dcebba1012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>95b8f30373b9071076d5f85c4ab8b79d</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>1da4f2c9938a8f1051d7b1dcebba1012</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,55 +88,55 @@
             <element>show_node_labels</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>51b8f30373b9071076d5f85c4ab8b79e</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>d5a4f2c9938a8f1051d7b1dcebba1013</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>show_node_values</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>1db8f30373b9071076d5f85c4ab8b79e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>node_label_font_size</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>d5b8f30373b9071076d5f85c4ab8b79f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>node_label_position</element>
-            <position>9</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>91b8f30373b9071076d5f85c4ab8b7a0</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>91a4f2c9938a8f1051d7b1dcebba1014</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>label_field</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>5da4f2c9938a8f1051d7b1dcebba1014</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>node_label_font_size</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>19a4f2c9938a8f1051d7b1dcebba1015</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,55 +144,27 @@
             <element>node_label_color</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>5db8f30373b9071076d5f85c4ab8b7a0</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>d1a4f2c9938a8f1051d7b1dcebba1016</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>node_value_color</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>19b8f30373b9071076d5f85c4ab8b7a1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>node_value_font_size</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>d1b8f30373b9071076d5f85c4ab8b7a2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>node_value_format</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 14:50:34</sys_created_on>
-            <sys_id>9db8f30373b9071076d5f85c4ab8b7a2</sys_id>
+            <sys_created_on>2026-07-11 15:01:03</sys_created_on>
+            <sys_id>9da4f2c9938a8f1051d7b1dcebba1016</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_network" sys_domain="global" view="Default view">72b40e82099946e0b78759e96b5152c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 14:50:34</sys_updated_on>
+            <sys_updated_on>2026-07-11 15:01:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

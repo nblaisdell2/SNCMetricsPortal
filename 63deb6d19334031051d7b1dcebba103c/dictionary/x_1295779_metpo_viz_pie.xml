@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="80fc41b493bdc39051d7b1dcebba105e" extends="x_1295779_metpo_visualization" label="Viz: Pie" max_length="40" name="x_1295779_metpo_viz_pie" type="collection">
-        <element default="true" hint="Sort slices by value in descending order" label="Sort Slices by Value" max_length="40" name="sort_slices" type="boolean"/>
-        <element default="22" hint="Font size of the center label in pixels" label="Center Label Font Size" max_length="40" name="center_label_font_size" type="integer"/>
-        <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad Angle" max_length="10" name="pad_angle" type="decimal"/>
-        <element default="#374151" hint="Color of the center label text" label="Center Label Color" max_length="40" name="center_label_color" type="string"/>
-        <element hint="Text shown in the center of a donut chart" label="Center Label (donut)" max_length="100" name="center_label" type="string"/>
-        <element default="1" hint="Width of the border stroke around each slice" label="Slice Stroke Width" max_length="40" name="stroke_width" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" hint="Text shown in the center of a donut chart" label="Center label" max_length="100" name="center_label" type="string"/>
         <element label="Sunburst depth" max_length="255" name="sunburst_depth" type="integer"/>
         <element choice="3" label="Chart type" max_length="255" name="chart_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Sunburst" sequence="2" value="sunburst"/>
                 <element inactive_on_update="false" label="Pie" sequence="0" value="pie"/>
+                <element inactive_on_update="false" label="Sunburst" sequence="2" value="sunburst"/>
                 <element inactive_on_update="false" label="Donut" sequence="1" value="donut"/>
             </choice>
         </element>
-        <element default="0" hint="Inner radius as proportion or px - set &gt; 0 for a donut chart" label="Inner Radius (donut)" max_length="20" name="inner_radius" type="string"/>
-        <element default="#ffffff" hint="Color of the border between slices" label="Slice Stroke Color" max_length="40" name="stroke_color" type="color"/>
-        <element default="true" hint="Display labels on or near each slice" label="Show Slice Labels" max_length="40" name="show_labels" type="boolean"/>
+        <element choice="3" label="Slice sort" max_length="255" name="slice_sort" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Value (low to high)" sequence="2" value="value_asc"/>
+                <element inactive_on_update="false" label="None (data order)" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="Label" sequence="3" value="label"/>
+                <element inactive_on_update="false" label="Value (high to low)" sequence="1" value="value_desc"/>
+            </choice>
+        </element>
+        <element default="22" hint="Font size of the center label in pixels" label="Center label font size" max_length="40" name="center_label_font_size" type="integer"/>
+        <element label="Small slice group min" max_length="38" name="small_slice_group_min" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="#374151" hint="Color of the center label text" label="Center label color" max_length="40" name="center_label_color" type="color"/>
+        <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad angle" max_length="10" name="pad_angle" type="decimal"/>
+        <element label="Outer padding" max_length="255" name="outer_padding" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="0" hint="Inner radius as proportion or px - set &gt; 0 for a donut chart" label="Inner radius" max_length="20" name="inner_radius" type="string"/>
     </element>
 </database>

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dcfc81b493bdc39051d7b1dcebba1049" extends="x_1295779_metpo_visualization" label="Viz: Sankey" max_length="40" name="x_1295779_metpo_viz_sankey" type="collection">
+        <element default="20" hint="Width of each node bar in pixels" label="Node width" max_length="40" name="node_width" type="integer"/>
+        <element label="Link static color" max_length="255" name="link_static_color" type="color"/>
+        <element choice="3" default="justify" hint="Horizontal alignment of nodes in the Sankey diagram" label="Node alignment" max_length="40" name="node_alignment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Left" sequence="1" value="left"/>
+                <element inactive_on_update="false" label="Center" sequence="3" value="center"/>
+                <element inactive_on_update="false" label="Justify" sequence="0" value="justify"/>
+                <element inactive_on_update="false" label="Right" sequence="2" value="right"/>
+            </choice>
+        </element>
+        <element label="Hover opacity" max_length="38" name="hover_opacity" type="decimal"/>
+        <element default="10" hint="Vertical spacing between nodes in the same column in pixels" label="Node padding" max_length="40" name="node_padding" type="integer"/>
         <element choice="3" label="Node sort" max_length="255" name="node_sort" type="choice">
             <choice>
-                <element inactive_on_update="false" label="None (input order)" sequence="1" value="none"/>
-                <element inactive_on_update="false" label="Ascending (by value)" sequence="2" value="ascending"/>
                 <element inactive_on_update="false" label="Auto (minimize crossings)" sequence="0" value="auto"/>
+                <element inactive_on_update="false" label="Ascending (by value)" sequence="2" value="ascending"/>
+                <element inactive_on_update="false" label="None (input order)" sequence="1" value="none"/>
                 <element inactive_on_update="false" label="Descending (by value)" sequence="3" value="descending"/>
             </choice>
         </element>
-        <element default="10" hint="Vertical spacing between nodes in the same column in pixels" label="Node Padding" max_length="40" name="node_padding" type="integer"/>
-        <element default="20" hint="Width of each node bar in pixels" label="Node Width" max_length="40" name="node_width" type="integer"/>
-        <element label="Link static color" max_length="255" name="link_static_color" type="color"/>
-        <element default="12" hint="Font size for node labels in pixels" label="Label Font Size" max_length="40" name="label_font_size" type="integer"/>
-        <element choice="3" default="justify" hint="Horizontal alignment of nodes in the Sankey diagram" label="Layout - Node Alignment" max_length="40" name="node_alignment" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Right" sequence="2" value="right"/>
-                <element inactive_on_update="false" label="Justify" sequence="0" value="justify"/>
-                <element inactive_on_update="false" label="Left" sequence="1" value="left"/>
-                <element inactive_on_update="false" label="Center" sequence="3" value="center"/>
-            </choice>
-        </element>
-        <element hint="Comma-separated hex color values for the Sankey color palette" label="Colors - Color Palette" max_length="200" name="color_palette" type="string"/>
     </element>
 </database>
