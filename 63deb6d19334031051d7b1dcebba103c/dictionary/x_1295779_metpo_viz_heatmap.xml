@@ -6,8 +6,7 @@
                 <element inactive_on_update="false" label="Bottom" sequence="0" value="bottom"/>
             </choice>
         </element>
-        <element default="#f0fdf4" hint="Color representing the minimum value in the scale" label="Color Scale Min" max_length="40" name="color_scale_min" type="string"/>
-        <element default="1" hint="Width of the border around each cell in pixels" label="Cell Border Width" max_length="40" name="cell_border_width" type="integer"/>
+        <element default="1" hint="Width of the border around each cell in pixels" label="Cell border width" max_length="40" name="cell_border_width" type="integer"/>
         <element label="Cell label min size" max_length="40" name="cell_label_min_size" type="integer"/>
         <element choice="3" label="Cell aspect" max_length="255" name="cell_aspect" type="choice">
             <choice>
@@ -15,27 +14,21 @@
                 <element inactive_on_update="false" label="Fit (stretch to size)" sequence="0" value="fit"/>
             </choice>
         </element>
-        <element choice="1" label="Sort X" max_length="255" name="sort_x" type="choice">
+        <element choice="1" label="Sort x" max_length="255" name="sort_x" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Descending (label)" sequence="1" value="desc"/>
                 <element inactive_on_update="false" label="By value (total)" sequence="2" value="value"/>
                 <element inactive_on_update="false" label="Ascending (label)" sequence="0" value="asc"/>
             </choice>
         </element>
-        <element label="Cell label color" max_length="40" name="cell_label_color" type="color"/>
-        <element default="true" hint="Display the numeric value inside each cell" label="Show Values in Cells" max_length="40" name="show_values" type="boolean"/>
-        <element default="11" hint="Font size in pixels for values displayed in cells" label="Value Font Size" max_length="40" name="value_font_size" type="integer"/>
-        <element default="#ffffff" hint="Color of the cell borders" label="Cell Border Color" max_length="40" name="cell_border_color" type="color"/>
-        <element label="Cell label font size" max_length="40" name="cell_label_font_size" type="integer"/>
+        <element default="#ffffff" hint="Color of the cell borders" label="Cell border color" max_length="40" name="cell_border_color" type="color"/>
         <element label="Cell padding" max_length="255" name="cell_padding" type="integer"/>
-        <element default="#166534" hint="Color representing the maximum value in the scale" label="Color Scale Max" max_length="40" name="color_scale_max" type="string"/>
-        <element choice="1" label="Sort Y" max_length="255" name="sort_y" type="choice">
+        <element choice="1" label="Sort y" max_length="255" name="sort_y" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Ascending (label)" sequence="0" value="asc"/>
                 <element inactive_on_update="false" label="By value (total)" sequence="2" value="value"/>
                 <element inactive_on_update="false" label="Descending (label)" sequence="1" value="desc"/>
             </choice>
         </element>
-        <element label="Cell label format" max_length="40" name="cell_label_format" type="string"/>
     </element>
 </database>

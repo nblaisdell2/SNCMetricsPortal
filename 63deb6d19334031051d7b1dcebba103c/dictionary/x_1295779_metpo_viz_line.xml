@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b7ec01b493bdc39051d7b1dcebba1040" extends="x_1295779_metpo_visualization" label="Viz: Line" max_length="40" name="x_1295779_metpo_viz_line" type="collection">
-        <element default="true" hint="Show circular markers at each data point on the line" label="Points - Show Points" max_length="40" name="show_points" type="boolean"/>
         <element choice="3" label="Line style" max_length="255" name="line_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Dash-dot" sequence="3" value="dash_dot"/>
@@ -10,7 +9,6 @@
             </choice>
         </element>
         <element label="Line opacity" max_length="38" name="line_opacity" type="decimal"/>
-        <element default="true" hint="Show background grid lines for easier value reading" label="Show Grid Lines" max_length="40" name="grid_show" type="boolean"/>
         <element choice="3" default="gradient" hint="Style of the fill area beneath the line" label="Area fill style" max_length="40" name="area_fill_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Gradient" sequence="0" value="gradient"/>
@@ -18,8 +16,8 @@
             </choice>
         </element>
         <element default="0.25" hint="Opacity of the area fill (0-1, where 1 is fully opaque)" label="Area opacity" max_length="10" name="area_opacity" type="string"/>
-        <element default="2" hint="Thickness of the line stroke in pixels" label="Line Width (px)" max_length="40" name="line_width" type="integer"/>
-        <element label="Marker size" max_length="40" name="marker_size" type="integer"/>
+        <element default="2" hint="Thickness of the line stroke in pixels" label="Line width" max_length="40" name="line_width" type="integer"/>
+        <element label="Point size" max_length="40" name="marker_size" type="integer"/>
         <element choice="3" label="Series layout" max_length="255" name="series_layout" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Stacked" sequence="1" value="stacked"/>
@@ -33,11 +31,9 @@
                 <element inactive_on_update="false" label="Shared (all series at x)" sequence="1" value="axis"/>
             </choice>
         </element>
-        <element label="Show markers" max_length="40" name="show_markers" type="boolean"/>
-        <element default="4" hint="Radius of data points on the line in pixels" label="Point Size" max_length="40" name="point_size" type="integer"/>
+        <element label="Show points" max_length="40" name="show_markers" type="boolean"/>
         <element hint="Fill the area between the line and the X-axis" label="Area fill" max_length="40" name="area_fill" type="boolean"/>
-        <element default="true" hint="Show circular markers at each data point on the line" label="Show Points" max_length="40" name="point_show" type="boolean"/>
-        <element choice="3" label="Marker shape" max_length="40" name="marker_shape" type="choice">
+        <element choice="3" label="Points shape" max_length="40" name="marker_shape" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Square" sequence="1" value="square"/>
                 <element inactive_on_update="false" label="Circle" sequence="0" value="circle"/>
@@ -45,7 +41,7 @@
                 <element inactive_on_update="false" label="Triangle" sequence="3" value="triangle"/>
             </choice>
         </element>
-        <element choice="3" label="Marker style" max_length="40" name="marker_style" type="choice">
+        <element choice="3" label="Point style" max_length="40" name="marker_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Hollow (outline)" sequence="1" value="hollow"/>
                 <element inactive_on_update="false" label="Filled" sequence="0" value="filled"/>
