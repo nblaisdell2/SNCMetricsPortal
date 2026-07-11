@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Labels" section_id="8034608773fd831076d5f85c4ab8b73d" sys_domain="global" table="x_1295779_metpo_viz_heatmap" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>show_values</element>
+            <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:22:31</sys_created_on>
-            <sys_id>b244a48773fd831076d5f85c4ab8b7db</sys_id>
+            <sys_created_on>2026-07-11 01:28:09</sys_created_on>
+            <sys_id>299a7b7873c2835076d5f85c4ab8b79b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">8034608773fd831076d5f85c4ab8b73d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:22:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 01:28:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cell_label_format</element>
+            <element>data_label_format</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:22:31</sys_created_on>
-            <sys_id>7e44a48773fd831076d5f85c4ab8b7db</sys_id>
+            <sys_created_on>2026-07-11 01:28:09</sys_created_on>
+            <sys_id>f19a7b7873c2835076d5f85c4ab8b79c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">8034608773fd831076d5f85c4ab8b73d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:22:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 01:28:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cell_label_color</element>
+            <element>data_label_color</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:22:31</sys_created_on>
-            <sys_id>3a44a48773fd831076d5f85c4ab8b7dc</sys_id>
+            <sys_created_on>2026-07-11 01:28:09</sys_created_on>
+            <sys_id>bd9a7b7873c2835076d5f85c4ab8b79c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">8034608773fd831076d5f85c4ab8b73d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:22:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 01:28:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,27 +46,27 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:22:31</sys_created_on>
-            <sys_id>f244a48773fd831076d5f85c4ab8b7dd</sys_id>
+            <sys_created_on>2026-07-11 01:28:09</sys_created_on>
+            <sys_id>799a7b7873c2835076d5f85c4ab8b79d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">8034608773fd831076d5f85c4ab8b73d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:22:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 01:28:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cell_label_font_size</element>
+            <element>data_label_font_size</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:22:31</sys_created_on>
-            <sys_id>be44a48773fd831076d5f85c4ab8b7dd</sys_id>
+            <sys_created_on>2026-07-11 01:28:10</sys_created_on>
+            <sys_id>359a7b7873c2835076d5f85c4ab8b79e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">8034608773fd831076d5f85c4ab8b73d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:22:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 01:28:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>cell_label_min_size</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:22:31</sys_created_on>
-            <sys_id>7a44a48773fd831076d5f85c4ab8b7de</sys_id>
+            <sys_created_on>2026-07-11 01:28:10</sys_created_on>
+            <sys_id>fd9a7b7873c2835076d5f85c4ab8b79e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">8034608773fd831076d5f85c4ab8b73d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:22:31</sys_updated_on>
+            <sys_updated_on>2026-07-11 01:28:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

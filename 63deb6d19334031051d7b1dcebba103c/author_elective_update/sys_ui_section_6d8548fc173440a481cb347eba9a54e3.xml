@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Header &amp; Border" section_id="6d8548fc173440a481cb347eba9a54e3" sys_domain="global" table="x_1295779_metpo_viz_gauge" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>chart_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>4b2626e23bf1431099d7336436e45acc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title_font_size</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>c72626e23bf1431099d7336436e45acd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title_color</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>472626e23bf1431099d7336436e45ace</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>c32626e23bf1431099d7336436e45acf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>border_width</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>432626e23bf1431099d7336436e45ad0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>border_radius</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>cf2626e23bf1431099d7336436e45ad0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>border_color</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 19:33:00</sys_created_on>
+            <sys_id>4f2626e23bf1431099d7336436e45ad1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 19:33:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Header &amp; Border</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_gauge</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-28 03:22:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6d8548fc173440a481cb347eba9a54e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_gauge</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_6d8548fc173440a481cb347eba9a54e3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-28 03:22:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>308233eaebb1cf983a48f459bad0cd7f</instance_id>
+        <instance_name>dev421046</instance_name>
+        <name>sys_ui_section_6d8548fc173440a481cb347eba9a54e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Header &amp; Border" section_id="6d8548fc173440a481cb347eba9a54e3" sys_domain="global" table="x_1295779_metpo_viz_gauge" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>chart_title</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>4b2626e23bf1431099d7336436e45acc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>title_font_size</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>c72626e23bf1431099d7336436e45acd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>title_color</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>472626e23bf1431099d7336436e45ace</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>c32626e23bf1431099d7336436e45acf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>border_width</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>432626e23bf1431099d7336436e45ad0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>border_radius</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>cf2626e23bf1431099d7336436e45ad0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>border_color</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-03 19:33:00</sys_created_on><sys_id>4f2626e23bf1431099d7336436e45ad1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Header &amp; Border" display_value="Header &amp; Border" name="x_1295779_metpo_viz_gauge" sys_domain="global" view="Default view">6d8548fc173440a481cb347eba9a54e3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-03 19:33:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Header &amp; Border</caption><header>false</header><name>x_1295779_metpo_viz_gauge</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-28 03:22:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6d8548fc173440a481cb347eba9a54e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1295779_metpo_viz_gauge</sys_name><sys_overrides/><sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package><sys_policy/><sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope><sys_update_name>sys_ui_section_6d8548fc173440a481cb347eba9a54e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-28 03:22:38</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-820930330</payload_hash>
+        <record_name>Viz: Gauge</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 05:29:41</sys_created_on>
+        <sys_id>e7be243a73bd031076d5f85c4ab8b794</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f2b9a9fab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 05:29:41</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a7be243ad6bd0310c99e6aa506e6c794</update_guid>
+        <update_guid_history>4002583241b90310137e6173f4820d87:-621894914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-09 23:36:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>14ddfcc155be4b1d82440a39afedf999</sys_id>
+        <sys_metadata>6d8548fc173440a481cb347eba9a54e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_viz_gauge</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="">54fc41b493bdc39051d7b1dcebba10fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6d8548fc173440a481cb347eba9a54e3</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6d8548fc173440a481cb347eba9a54e3">e7be243a73bd031076d5f85c4ab8b794</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-09 23:36:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
