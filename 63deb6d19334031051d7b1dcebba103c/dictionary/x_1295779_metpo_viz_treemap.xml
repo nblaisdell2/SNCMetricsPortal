@@ -5,11 +5,11 @@
         <element label="Label min tile size" max_length="255" name="label_min_tile_size" type="integer"/>
         <element label="Group header color" max_length="255" name="group_header_color" type="color"/>
         <element label="Group header font size" max_length="255" name="group_header_font_size" type="integer"/>
-        <element choice="3" label="Sort tiles" max_length="255" name="sort_tiles" type="choice">
+        <element choice="3" default="none" label="Sort tiles" max_length="255" name="sort_tiles" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Value descending" sequence="1" value="value_descending"/>
+                <element inactive_on_update="false" label="Value descending" sequence="1" value="value-desc"/>
                 <element inactive_on_update="false" label="None (input order)" sequence="0" value="none"/>
-                <element inactive_on_update="false" label="Value ascending" sequence="2" value="value_ascending"/>
+                <element inactive_on_update="false" label="Value ascending" sequence="2" value="value-asc"/>
             </choice>
         </element>
         <element label="Max depth" max_length="255" name="max_depth" type="integer"/>

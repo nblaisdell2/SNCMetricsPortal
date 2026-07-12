@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8fec8d7493bdc39051d7b1dcebba10c3" extends="x_1295779_metpo_visualization" label="Viz: Radar" max_length="40" name="x_1295779_metpo_viz_radar" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="0.25" hint="Opacity of the filled data area (0-1)" label="Fill opacity" max_length="10" name="fill_opacity" type="string"/>
+        <element label="Fill opacity" max_length="38" name="fill_opacity" type="decimal"/>
         <element default="5" hint="Number of concentric grid rings from center to edge" label="Grid levels" max_length="40" name="levels" type="integer"/>
         <element label="Show axis labels" max_length="255" name="show_axis_labels" type="boolean"/>
         <element label="Show level labels" max_length="255" name="show_level_labels" type="boolean"/>

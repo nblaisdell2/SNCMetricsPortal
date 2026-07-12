@@ -4,55 +4,41 @@
             <element>border_stroke_color</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:30:09</sys_created_on>
-            <sys_id>b748d8c7737d831076d5f85c4ab8b7d9</sys_id>
+            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
+            <sys_id>1a85e861930e435051d7b1dcebba1089</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Regions" display_value="Regions" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">a747f3b67379831076d5f85c4ab8b7b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:30:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>land_color</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:30:09</sys_created_on>
-            <sys_id>7348d8c7737d831076d5f85c4ab8b7da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Regions" display_value="Regions" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">a747f3b67379831076d5f85c4ab8b7b5</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:30:09</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:30:09</sys_created_on>
-            <sys_id>3f48d8c7737d831076d5f85c4ab8b7da</sys_id>
+            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
+            <sys_id>d285e861930e435051d7b1dcebba108a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Regions" display_value="Regions" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">a747f3b67379831076d5f85c4ab8b7b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:30:09</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>border_stroke_width</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 22:30:09</sys_created_on>
-            <sys_id>f748d8c7737d831076d5f85c4ab8b7db</sys_id>
+            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
+            <sys_id>9e85e861930e435051d7b1dcebba108a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Regions" display_value="Regions" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">a747f3b67379831076d5f85c4ab8b7b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 22:30:09</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

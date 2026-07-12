@@ -9,6 +9,7 @@
                 <element inactive_on_update="false" label="Donut" sequence="1" value="donut"/>
             </choice>
         </element>
+        <element label="Inner radius" max_length="38" name="inner_radius" type="decimal"/>
         <element choice="3" label="Slice sort" max_length="255" name="slice_sort" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Value (low to high)" sequence="2" value="value_asc"/>
@@ -22,6 +23,5 @@
         <element attributes="edge_encryption_enabled=true" default="#374151" hint="Color of the center label text" label="Center label color" max_length="40" name="center_label_color" type="color"/>
         <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad angle" max_length="10" name="pad_angle" type="decimal"/>
         <element label="Outer padding" max_length="255" name="outer_padding" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" default="0" hint="Inner radius as proportion or px - set &gt; 0 for a donut chart" label="Inner radius" max_length="20" name="inner_radius" type="string"/>
     </element>
 </database>

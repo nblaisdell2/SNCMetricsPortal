@@ -12,7 +12,7 @@
         </element>
         <element label="Hover opacity" max_length="38" name="hover_opacity" type="decimal"/>
         <element default="10" hint="Vertical spacing between nodes in the same column in pixels" label="Node padding" max_length="40" name="node_padding" type="integer"/>
-        <element choice="3" label="Node sort" max_length="255" name="node_sort" type="choice">
+        <element choice="3" default="none" label="Node sort" max_length="255" name="node_sort" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Auto (minimize crossings)" sequence="0" value="auto"/>
                 <element inactive_on_update="false" label="Ascending (by value)" sequence="2" value="ascending"/>

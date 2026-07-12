@@ -4,13 +4,13 @@
             <element>bar_height</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>90dcfc5873824f1076d5f85c4ab8b737</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>731c2421934e435051d7b1dcebba1032</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>corner_radius</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>5cdcfc5873824f1076d5f85c4ab8b737</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>3f1c2421934e435051d7b1dcebba1032</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>bar_opacity</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>18dcfc5873824f1076d5f85c4ab8b738</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>f71c2421934e435051d7b1dcebba1033</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>row_padding</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>d0dcfc5873824f1076d5f85c4ab8b739</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>b31c2421934e435051d7b1dcebba1034</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>9cdcfc5873824f1076d5f85c4ab8b739</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>7f1c2421934e435051d7b1dcebba1034</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>show_progress</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>58dcfc5873824f1076d5f85c4ab8b73a</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>3b1c2421934e435051d7b1dcebba1035</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,41 +88,13 @@
             <element>progress_color</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>14dcfc5873824f1076d5f85c4ab8b73b</sys_id>
+            <sys_created_on>2026-07-12 18:21:32</sys_created_on>
+            <sys_id>f31c2421934e435051d7b1dcebba1036</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_by_group</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>dcdcfc5873824f1076d5f85c4ab8b73b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>default_bar_color</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 22:22:04</sys_created_on>
-            <sys_id>98dcfc5873824f1076d5f85c4ab8b73c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Gantt" display_value="Gantt" name="x_1295779_metpo_viz_gantt" sys_domain="global" view="Default view">1c43b0d073424f1076d5f85c4ab8b7a7</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 22:22:04</sys_updated_on>
+            <sys_updated_on>2026-07-12 18:21:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,13 +4,13 @@
             <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>573f281873024f1076d5f85c4ab8b7ba</sys_id>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>2f73e06d93ca435051d7b1dcebba1076</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>label_field</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>133f281873024f1076d5f85c4ab8b7bb</sys_id>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>e773e06d93ca435051d7b1dcebba1077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>label_content</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>db3f281873024f1076d5f85c4ab8b7bb</sys_id>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>a373e06d93ca435051d7b1dcebba1078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,55 +46,55 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>973f281873024f1076d5f85c4ab8b7bc</sys_id>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>6f73e06d93ca435051d7b1dcebba1078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_label_format</element>
+            <element>data_label_font_size</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>533f281873024f1076d5f85c4ab8b7bd</sys_id>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>2b73e06d93ca435051d7b1dcebba1079</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>data_label_font_size</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>1f3f281873024f1076d5f85c4ab8b7bd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_label_color</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 21:22:45</sys_created_on>
-            <sys_id>d73f281873024f1076d5f85c4ab8b7be</sys_id>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>e373e06d93ca435051d7b1dcebba107a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:22:45</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_format</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 17:43:50</sys_created_on>
+            <sys_id>af73e06d93ca435051d7b1dcebba107a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 17:43:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

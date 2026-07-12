@@ -4,13 +4,13 @@
             <element>sort_tiles</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:57</sys_created_on>
-            <sys_id>38cbd7899302cf1051d7b1dcebba10e9</sys_id>
+            <sys_created_on>2026-07-12 22:00:05</sys_created_on>
+            <sys_id>952e1d219306835051d7b1dcebba1008</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:57</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:00:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>tile_padding</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:57</sys_created_on>
-            <sys_id>f0cbd7899302cf1051d7b1dcebba10ea</sys_id>
+            <sys_created_on>2026-07-12 22:00:05</sys_created_on>
+            <sys_id>992e1d219306835051d7b1dcebba1009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:57</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:00:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,97 +32,69 @@
             <element>corner_radius</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:57</sys_created_on>
-            <sys_id>bccbd7899302cf1051d7b1dcebba10ea</sys_id>
+            <sys_created_on>2026-07-12 22:00:05</sys_created_on>
+            <sys_id>552e1d219306835051d7b1dcebba100a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>max_depth</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:58</sys_created_on>
-            <sys_id>78cbd7899302cf1051d7b1dcebba10eb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:58</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:00:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:58</sys_created_on>
-            <sys_id>34cbd7899302cf1051d7b1dcebba10ec</sys_id>
+            <sys_created_on>2026-07-12 22:00:05</sys_created_on>
+            <sys_id>112e1d219306835051d7b1dcebba100b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:58</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:00:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tiling_method</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:58</sys_created_on>
-            <sys_id>fccbd7899302cf1051d7b1dcebba10ec</sys_id>
+            <sys_created_on>2026-07-12 22:00:05</sys_created_on>
+            <sys_id>d92e1d219306835051d7b1dcebba100b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:58</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:00:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tile_padding_top</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 22:00:06</sys_created_on>
+            <sys_id>152e1d219306835051d7b1dcebba1025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 22:00:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_depth</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:58</sys_created_on>
-            <sys_id>b8cbd7899302cf1051d7b1dcebba10ed</sys_id>
+            <sys_created_on>2026-07-12 22:00:06</sys_created_on>
+            <sys_id>dd2e1d219306835051d7b1dcebba1025</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>node_stroke_width</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:58</sys_created_on>
-            <sys_id>74cbd7899302cf1051d7b1dcebba10ee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:58</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>node_stroke</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 17:51:58</sys_created_on>
-            <sys_id>30cbd7899302cf1051d7b1dcebba10ef</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 17:51:58</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:00:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

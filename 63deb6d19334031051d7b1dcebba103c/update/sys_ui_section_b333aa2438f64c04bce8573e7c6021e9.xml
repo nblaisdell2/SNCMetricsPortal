@@ -4,13 +4,13 @@
             <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 01:11:54</sys_created_on>
-            <sys_id>c55df08b73b1c31076d5f85c4ab8b724</sys_id>
+            <sys_created_on>2026-07-12 19:27:11</sys_created_on>
+            <sys_id>652bfc6193ce435051d7b1dcebba1066</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">b333aa2438f64c04bce8573e7c6021e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 01:11:54</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:27:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>data_label_font_size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 01:11:54</sys_created_on>
-            <sys_id>815df08b73b1c31076d5f85c4ab8b725</sys_id>
+            <sys_created_on>2026-07-12 19:27:11</sys_created_on>
+            <sys_id>212bfc6193ce435051d7b1dcebba1067</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">b333aa2438f64c04bce8573e7c6021e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 01:11:54</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:27:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>data_label_color</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 19:27:11</sys_created_on>
+            <sys_id>e92bfc6193ce435051d7b1dcebba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">b333aa2438f64c04bce8573e7c6021e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 19:27:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 01:11:54</sys_created_on>
-            <sys_id>4d5df08b73b1c31076d5f85c4ab8b725</sys_id>
+            <sys_created_on>2026-07-12 19:27:11</sys_created_on>
+            <sys_id>a52bfc6193ce435051d7b1dcebba1068</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">b333aa2438f64c04bce8573e7c6021e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 01:11:54</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:27:11</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>value_label_position</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 01:11:54</sys_created_on>
-            <sys_id>095df08b73b1c31076d5f85c4ab8b726</sys_id>
+            <sys_created_on>2026-07-12 19:27:11</sys_created_on>
+            <sys_id>612bfc6193ce435051d7b1dcebba1069</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">b333aa2438f64c04bce8573e7c6021e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 01:11:54</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:27:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_label_format</element>
-            <position>4</position>
+            <element>data_label_format</element>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 01:11:54</sys_created_on>
-            <sys_id>c15df08b73b1c31076d5f85c4ab8b727</sys_id>
+            <sys_created_on>2026-07-12 19:27:11</sys_created_on>
+            <sys_id>2d2bfc6193ce435051d7b1dcebba1069</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data label" display_value="Data label" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">b333aa2438f64c04bce8573e7c6021e9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 01:11:54</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:27:11</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

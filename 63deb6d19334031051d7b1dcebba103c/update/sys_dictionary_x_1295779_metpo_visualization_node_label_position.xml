@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Node label position</column_label>
@@ -54,7 +54,7 @@
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
         <sys_update_name>sys_dictionary_x_1295779_metpo_visualization_node_label_position</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-04 05:28:58</sys_updated_on>
+        <sys_updated_on>2026-07-12 22:19:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -45,16 +45,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:45</sys_created_on>
+            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>06ca20440e7847e7a217e9da08234795</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>c285e861930e435051d7b1dcebba1062</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
-            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">55dfd02ebad54bcb99e0bc139892f5a7</sys_ui_section>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -62,13 +62,13 @@
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1141ecd4c24143029c2705f007814093</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>06ca20440e7847e7a217e9da08234795</sys_id>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
-            <sys_ui_section caption="Axes" display_value="Axes" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">59c9dd7c19664d449d9347068b74c5d2</sys_ui_section>
+            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">55dfd02ebad54bcb99e0bc139892f5a7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
@@ -77,12 +77,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>70ead34c0c5342e4b072e1115c2d4ebe</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">ee906572918343af985b4b9c951a75a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>6</position>
@@ -91,12 +91,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>eccb9228d4f640a6994b182663156c2e</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">e183a4e0d46e48b284cc57f4edd0775b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>7</position>
@@ -105,26 +105,40 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7b337b3e7339831076d5f85c4ab8b72d</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">b3333b3e7339831076d5f85c4ab8b76e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f09f45d15310465487da61fa4c318fc5</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">6499bd20d84b40f6bbd1e9b95d703e71</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 20:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb47f3b67379831076d5f85c4ab8b7bf</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
+            <sys_ui_section caption="Map" display_value="Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2f47f3b67379831076d5f85c4ab8b7b3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>10</position>
@@ -132,41 +146,27 @@
             <sys_created_on>2026-07-04 20:05:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bb47f3b67379831076d5f85c4ab8b7bf</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
-            <sys_ui_section caption="Map" display_value="Map" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2f47f3b67379831076d5f85c4ab8b7b3</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 20:05:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>3f47f3b67379831076d5f85c4ab8b7cb</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
             <sys_ui_section caption="Regions" display_value="Regions" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">a747f3b67379831076d5f85c4ab8b7b5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 20:05:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b747f3b67379831076d5f85c4ab8b7d8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_choropleth" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">713cabd49efd48d6bb36ca523ddc59fc</sys_ui_form>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 21:20:47</sys_updated_on>
+            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_choropleth</name>

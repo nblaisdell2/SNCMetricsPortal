@@ -733,17 +733,7 @@
                             "value": "#e95327"
                         },
                         "metrics": {
-                            "binding": {
-                                "address": [
-                                    "get_mp_dashboard_data_1",
-                                    "output",
-                                    "result",
-                                    "sections",
-                                    "0",
-                                    "metrics"
-                                ]
-                            },
-                            "type": "DATA_OUTPUT_BINDING"
+                            "type": "JSON_LITERAL"
                         },
                         "ruleColor": {
                             "type": "JSON_LITERAL",
@@ -794,7 +784,7 @@
                         },
                         "showCardChrome": {
                             "type": "JSON_LITERAL",
-                            "value": false
+                            "value": true
                         },
                         "showCardTitle": {
                             "type": "JSON_LITERAL",
@@ -886,7 +876,7 @@
         "slot": null,
         "styles": {
             "default": {
-                "margin-bottom": "var(--now-scalable-space--lg)",
+                "margin-bottom": "var(--now-scalable-space--3xl)",
                 "margin-top": "var(--now-scalable-space--lg)",
                 "padding-left": "5%",
                 "padding-right": "5%"
@@ -1026,14 +1016,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-21 16:22:27</sys_created_on>
         <sys_id>b677c87a93adc35051d7b1dcebba107f</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_name>Home default</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
         <sys_update_name>sys_ux_macroponent_b677c87a93adc35051d7b1dcebba107f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-30 00:07:51</sys_updated_on>
+        <sys_updated_on>2026-07-12 20:17:16</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=b677c87a93adc35051d7b1dcebba107f"/>
 </record_update>

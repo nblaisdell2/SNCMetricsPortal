@@ -48,13 +48,13 @@
             <sys_created_on>2026-07-04 05:58:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e13613267b524d6a8e282404f9d5d1a9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>4ffceb2feed2414494677136a983641d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2de896f2a37c4ac5b76bd86f651a15e6</sys_ui_section>
+            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">de6cf642babf457493bab4288649e3b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:31:11</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -62,13 +62,13 @@
             <sys_created_on>2026-07-04 05:58:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4ffceb2feed2414494677136a983641d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>2c506b96428f4c2a9c0dc54dd112af2e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
-            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">de6cf642babf457493bab4288649e3b0</sys_ui_section>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">02c603e271044cd28fe329f76b4b3e2b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:31:11</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
@@ -76,41 +76,41 @@
             <sys_created_on>2026-07-04 05:58:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2c506b96428f4c2a9c0dc54dd112af2e</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
-            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">02c603e271044cd28fe329f76b4b3e2b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:45:29</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>28c3ceeadc6b43e9b048e046c6a1c973</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">ed5ceee341f04d8fb2a9555828763526</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:45:29</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-05 16:33:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0d40509b737d071076d5f85c4ab8b7cc</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">c940509b737d071076d5f85c4ab8b745</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:45:29</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 05:58:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44a19bde93cf414fa75acfcc4bac0ed5</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
+            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">0f3abb78820745a085fe1371345547e0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>8</position>
@@ -118,41 +118,27 @@
             <sys_created_on>2026-07-04 05:58:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>44a19bde93cf414fa75acfcc4bac0ed5</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
-            <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">0f3abb78820745a085fe1371345547e0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 16:45:29</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>6555d29a433d465bacc23772d1509b53</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
             <sys_ui_section caption="Labels" display_value="Labels" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">0fb86d4d64654fc4bfd02fa5ad70d24f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:00:29</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-05 16:45:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a003941373bd071076d5f85c4ab8b716</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_treemap" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">17a3769df7c040b99e2f1309fd8e71ec</sys_ui_form>
             <sys_ui_section caption="Tiles" display_value="Tiles" name="x_1295779_metpo_viz_treemap" sys_domain="global" view="Default view">2803541373bd071076d5f85c4ab8b773</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:00:29</sys_updated_on>
+            <sys_updated_on>2026-07-12 22:01:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_treemap</name>

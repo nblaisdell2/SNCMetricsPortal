@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Legend" section_id="aeaa05de7a89438882e9676cadbc0401" sys_domain="global" table="x_1295779_metpo_viz_boxplot" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_show</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>eb2a6c847302cb1076d5f85c4ab8b799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_interactive</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>a72a6c847302cb1076d5f85c4ab8b79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>632a6c847302cb1076d5f85c4ab8b79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_position</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>2f2a6c847302cb1076d5f85c4ab8b79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_font_size</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>e72a6c847302cb1076d5f85c4ab8b79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Legend</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_boxplot</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeaa05de7a89438882e9676cadbc0401</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_boxplot</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_aeaa05de7a89438882e9676cadbc0401</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:15:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>cfd782ea3bdc8754c55a348aa4e45a6e</instance_id>
+        <instance_name>dev386118</instance_name>
+        <name>sys_ui_section_aeaa05de7a89438882e9676cadbc0401</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Legend" section_id="aeaa05de7a89438882e9676cadbc0401" sys_domain="global" table="x_1295779_metpo_viz_boxplot" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_show</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>eb2a6c847302cb1076d5f85c4ab8b799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_interactive</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>a72a6c847302cb1076d5f85c4ab8b79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>632a6c847302cb1076d5f85c4ab8b79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_position</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>2f2a6c847302cb1076d5f85c4ab8b79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>legend_font_size</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 02:22:10</sys_created_on>
+            <sys_id>e72a6c847302cb1076d5f85c4ab8b79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">aeaa05de7a89438882e9676cadbc0401</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 02:22:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Legend</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_viz_boxplot</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-03 16:15:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeaa05de7a89438882e9676cadbc0401</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_viz_boxplot</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_aeaa05de7a89438882e9676cadbc0401</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-03 16:15:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>-1795604017</payload_hash>
+        <record_name>Viz: Boxplot</record_name>
+        <reverted_from/>
+        <source>8eb6a64993c68f1051d7b1dcebba10e0</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 14:02:56</sys_created_on>
+        <sys_id>c657a249930a8f1051d7b1dcebba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f517d09ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 14:02:56</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>8657a2490c0a8f10f8c7b1568354a09e</update_guid>
+        <update_guid_history>8657a2490c0a8f10f8c7b1568354a09e:-1795604017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 15:19:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0e98793df5f74ccf95acce8d09ec26f9</sys_id>
+        <sys_metadata>aeaa05de7a89438882e9676cadbc0401</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_viz_boxplot</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Viz: Boxplot">6beccd7493bdc39051d7b1dcebba10fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_aeaa05de7a89438882e9676cadbc0401</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_aeaa05de7a89438882e9676cadbc0401">c657a249930a8f1051d7b1dcebba109e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 15:19:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

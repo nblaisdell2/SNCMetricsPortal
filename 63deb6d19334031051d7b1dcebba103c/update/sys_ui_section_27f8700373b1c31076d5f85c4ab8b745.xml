@@ -1,58 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Area" section_id="27f8700373b1c31076d5f85c4ab8b745" sys_domain="global" table="x_1295779_metpo_viz_line" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>area_fill</element>
+            <element>area_fill_style</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 00:52:57</sys_created_on>
-            <sys_id>67f8700373b1c31076d5f85c4ab8b75b</sys_id>
+            <sys_created_on>2026-07-12 19:37:27</sys_created_on>
+            <sys_id>bb7d34e593ce435051d7b1dcebba105e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Area" display_value="Area" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">27f8700373b1c31076d5f85c4ab8b745</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 00:52:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>area_opacity</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 00:52:57</sys_created_on>
-            <sys_id>23f8700373b1c31076d5f85c4ab8b75c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Area" display_value="Area" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">27f8700373b1c31076d5f85c4ab8b745</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 00:52:57</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:37:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 00:52:57</sys_created_on>
-            <sys_id>ebf8700373b1c31076d5f85c4ab8b75c</sys_id>
+            <sys_created_on>2026-07-12 19:37:27</sys_created_on>
+            <sys_id>777d34e593ce435051d7b1dcebba105f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Area" display_value="Area" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">27f8700373b1c31076d5f85c4ab8b745</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 00:52:57</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:37:27</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>area_fill_style</element>
-            <position>3</position>
+            <element>area_opacity</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 00:52:57</sys_created_on>
-            <sys_id>a7f8700373b1c31076d5f85c4ab8b75d</sys_id>
+            <sys_created_on>2026-07-12 19:37:27</sys_created_on>
+            <sys_id>337d34e593ce435051d7b1dcebba1060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Area" display_value="Area" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">27f8700373b1c31076d5f85c4ab8b745</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 00:52:57</sys_updated_on>
+            <sys_updated_on>2026-07-12 19:37:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

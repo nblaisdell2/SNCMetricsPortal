@@ -4,13 +4,13 @@
             <element>show_gridlines</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>afec57767375831076d5f85c4ab8b7ca</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>309a55199342035051d7b1dcebba10fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>y_min</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>6bec57767375831076d5f85c4ab8b7cb</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>f89a55199342035051d7b1dcebba10fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>y_axis_label</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>27ec57767375831076d5f85c4ab8b7cc</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>b49a55199342035051d7b1dcebba10fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>y_axis_format</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>efec57767375831076d5f85c4ab8b7cc</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>709a55199342035051d7b1dcebba10fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,97 +60,111 @@
             <element>y_tick_count</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>abec57767375831076d5f85c4ab8b7cd</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>3c9a55199342035051d7b1dcebba10fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>67ec57767375831076d5f85c4ab8b7ce</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>clamp_overflow_indicator</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>33ec57767375831076d5f85c4ab8b7cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>y_max</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>fbec57767375831076d5f85c4ab8b7cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>y_scale_type</element>
-            <position>8</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>b7ec57767375831076d5f85c4ab8b7d0</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>c59a55199342035051d7b1dcebba10fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>819a55199342035051d7b1dcebba10ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>clamp_overflow_indicator</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>4d9a55199342035051d7b1dcebba10ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>y_max</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>099a95199342035051d7b1dcebba1000</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>min_bar_height</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>c19a95199342035051d7b1dcebba1001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>grid_color</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>73ec57767375831076d5f85c4ab8b7d1</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>8d9a95199342035051d7b1dcebba1001</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>y_axis_tick_values</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 18:10:44</sys_created_on>
-            <sys_id>3fec57767375831076d5f85c4ab8b7d1</sys_id>
+            <sys_created_on>2026-07-12 03:06:01</sys_created_on>
+            <sys_id>499a95199342035051d7b1dcebba1002</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Y-axis" display_value="Y-axis" name="x_1295779_metpo_viz_column" sys_domain="global" view="Default view">5d14d92ac1254ae98be0f3ae2906a729</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 18:10:44</sys_updated_on>
+            <sys_updated_on>2026-07-12 03:06:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

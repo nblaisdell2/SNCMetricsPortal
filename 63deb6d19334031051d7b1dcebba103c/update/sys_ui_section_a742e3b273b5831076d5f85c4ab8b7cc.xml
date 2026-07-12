@@ -4,13 +4,13 @@
             <element>orientation</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>b219e4047302cb1076d5f85c4ab8b75e</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>b3af88ad930a435051d7b1dcebba10ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,181 +18,139 @@
             <element>box_width</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>7e19e4047302cb1076d5f85c4ab8b75e</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>7faf88ad930a435051d7b1dcebba10ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>box_stroke_width</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>3a19e4047302cb1076d5f85c4ab8b75f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>show_outliers</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>f219e4047302cb1076d5f85c4ab8b760</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>outlier_radius</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>be19e4047302cb1076d5f85c4ab8b760</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>outlier_color</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>7a19e4047302cb1076d5f85c4ab8b761</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>3619e4047302cb1076d5f85c4ab8b762</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>whisker_type</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>fe19e4047302cb1076d5f85c4ab8b762</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>box_fill_opacity</element>
-            <position>8</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>ba19e4047302cb1076d5f85c4ab8b763</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>3baf88ad930a435051d7b1dcebba10ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>box_stroke_width</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>f3af88ad930a435051d7b1dcebba10ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>box_stroke_color</element>
-            <position>9</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>7619e4047302cb1076d5f85c4ab8b764</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>77af88ad930a435051d7b1dcebba10fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>33af88ad930a435051d7b1dcebba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whisker_type</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>fbaf88ad930a435051d7b1dcebba10fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>show_mean</element>
-            <position>10</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>3219e4047302cb1076d5f85c4ab8b765</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>b7af88ad930a435051d7b1dcebba10fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>mean_color</element>
-            <position>11</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>fa19e4047302cb1076d5f85c4ab8b765</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>73af88ad930a435051d7b1dcebba10ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>median_stroke_width</element>
-            <position>12</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>b619e4047302cb1076d5f85c4ab8b766</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>3faf88ad930a435051d7b1dcebba10ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>median_color</element>
-            <position>13</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>7219e4047302cb1076d5f85c4ab8b767</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>f7afc8ad930a435051d7b1dcebba1000</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Boxplot" display_value="Boxplot" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">a742e3b273b5831076d5f85c4ab8b7cc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,13 +4,13 @@
             <element>show_points</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>3e19e4047302cb1076d5f85c4ab8b774</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>b3afc8ad930a435051d7b1dcebba100e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,97 @@
             <element>jitter</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>f619e4047302cb1076d5f85c4ab8b775</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>7fafc8ad930a435051d7b1dcebba100e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>point_radius</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>b219e4047302cb1076d5f85c4ab8b776</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>3bafc8ad930a435051d7b1dcebba100f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>point_radius</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>7e19e4047302cb1076d5f85c4ab8b776</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>point_opacity</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:17:28</sys_created_on>
-            <sys_id>3a19e4047302cb1076d5f85c4ab8b777</sys_id>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>f3afc8ad930a435051d7b1dcebba1010</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:17:28</sys_updated_on>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>bfafc8ad930a435051d7b1dcebba1010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_outliers</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>7bafc8ad930a435051d7b1dcebba1011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outlier_radius</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>37afc8ad930a435051d7b1dcebba1012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outlier_color</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 16:17:17</sys_created_on>
+            <sys_id>ffafc8ad930a435051d7b1dcebba1012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Points" display_value="Points" name="x_1295779_metpo_viz_boxplot" sys_domain="global" view="Default view">832df43a9f614c99a825f38568b82347</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 16:17:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

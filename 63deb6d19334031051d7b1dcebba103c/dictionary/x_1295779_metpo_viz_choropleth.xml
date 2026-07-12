@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f2ec8d7493bdc39051d7b1dcebba1079" extends="x_1295779_metpo_visualization" label="Viz: Choropleth/Map" max_length="40" name="x_1295779_metpo_viz_choropleth" type="collection">
-        <element choice="3" default="geoMercator" hint="Geographic map projection used to render the choropleth" label="Projection type" max_length="40" name="map_projection" type="choice">
+        <element choice="3" default="albersUsa" hint="Geographic map projection used to render the choropleth" label="Projection type" max_length="40" name="map_projection" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Equal Earth" sequence="2" value="geoEqualEarth"/>
-                <element inactive_on_update="false" label="Mercator" sequence="0" value="geoMercator"/>
-                <element inactive_on_update="false" label="Natural Earth" sequence="3" value="geoNaturalEarth1"/>
-                <element inactive_on_update="false" label="Albers USA" sequence="1" value="geoAlbersUsa"/>
+                <element inactive_on_update="false" label="Equal Earth" sequence="2" value="equalEarth"/>
+                <element inactive_on_update="false" label="Mercator" sequence="0" value="mercator"/>
+                <element inactive_on_update="false" label="Natural Earth" sequence="3" value="naturalEarth1"/>
+                <element inactive_on_update="false" label="Albers USA" sequence="1" value="albersUsa"/>
             </choice>
         </element>
         <element label="Symbol min radius" max_length="38" name="symbol_min_radius" type="decimal"/>
         <element label="Border stroke color" max_length="40" name="border_stroke_color" type="color"/>
-        <element choice="3" label="Map mode" max_length="255" name="map_mode" type="choice">
+        <element choice="3" default="choropleth" label="Map mode" max_length="255" name="map_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Choropleth (fill by value)" sequence="0" value="choropleth"/>
                 <element inactive_on_update="false" label="Symbol (sized circles)" sequence="1" value="symbol"/>
             </choice>
         </element>
         <element label="Symbol max radius" max_length="38" name="symbol_max_radius" type="decimal"/>
-        <element choice="3" label="Label content" max_length="40" name="label_content" type="choice">
+        <element choice="3" default="value" label="Label content" max_length="40" name="label_content" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Name and value" sequence="2" value="name_and_value"/>
+                <element inactive_on_update="false" label="Name and value" sequence="2" value="both"/>
                 <element inactive_on_update="false" label="Name" sequence="0" value="name"/>
                 <element inactive_on_update="false" label="Value" sequence="1" value="value"/>
             </choice>
@@ -27,7 +27,7 @@
         <element label="Land color" max_length="40" name="land_color" type="color"/>
         <element label="Value field" max_length="40" name="value_field" type="string"/>
         <element label="Symbol color" max_length="40" name="symbol_color" type="color"/>
-        <element choice="3" label="Height mode" max_length="40" name="height_mode" type="choice">
+        <element choice="3" default="match_map_aspect" label="Height mode" max_length="40" name="height_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Fixed height" sequence="1" value="fixed_height"/>
                 <element inactive_on_update="false" label="Match map aspect" sequence="0" value="match_map_aspect"/>
