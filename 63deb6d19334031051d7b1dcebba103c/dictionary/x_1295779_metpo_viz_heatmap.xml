@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9beccd7493bdc39051d7b1dcebba100e" extends="x_1295779_metpo_visualization" label="Viz: Heatmap" max_length="40" name="x_1295779_metpo_viz_heatmap" type="collection">
         <element label="Cell label min size" max_length="40" name="cell_label_min_size" type="integer"/>
-        <element choice="3" default="bottom" label="X axis position" max_length="255" name="x_axis_position" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Bottom" sequence="0" value="bottom"/>
-                <element inactive_on_update="false" label="Top" sequence="1" value="top"/>
-            </choice>
-        </element>
         <element default="#ffffff" hint="Color of the cell borders" label="Cell border color" max_length="40" name="cell_border_color" type="color"/>
         <element choice="1" label="Sort y" max_length="255" name="sort_y" type="choice">
             <choice>

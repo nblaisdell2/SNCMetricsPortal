@@ -4,27 +4,27 @@
             <element>link_color_mode</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 22:26:50</sys_created_on>
-            <sys_id>c54469ad9306835051d7b1dcebba10d5</sys_id>
+            <sys_created_on>2026-07-13 23:33:40</sys_created_on>
+            <sys_id>392dfa7d938e075051d7b1dcebba1078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">76f52f33764e4bb481abd80d934b9481</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>link_static_color</element>
+            <element>static_color</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 22:26:50</sys_created_on>
-            <sys_id>814469ad9306835051d7b1dcebba10d6</sys_id>
+            <sys_created_on>2026-07-13 23:33:40</sys_created_on>
+            <sys_id>f12dfa7d938e075051d7b1dcebba1079</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">76f52f33764e4bb481abd80d934b9481</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 22:26:50</sys_created_on>
-            <sys_id>4d4469ad9306835051d7b1dcebba10d6</sys_id>
+            <sys_created_on>2026-07-13 23:33:40</sys_created_on>
+            <sys_id>bd2dfa7d938e075051d7b1dcebba1079</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">76f52f33764e4bb481abd80d934b9481</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:33:40</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>link_curvature</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 22:26:50</sys_created_on>
-            <sys_id>094469ad9306835051d7b1dcebba10d7</sys_id>
+            <sys_created_on>2026-07-13 23:33:40</sys_created_on>
+            <sys_id>792dfa7d938e075051d7b1dcebba107a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">76f52f33764e4bb481abd80d934b9481</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>link_opacity</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 22:26:50</sys_created_on>
-            <sys_id>c14469ad9306835051d7b1dcebba10d8</sys_id>
+            <sys_created_on>2026-07-13 23:33:40</sys_created_on>
+            <sys_id>352dfa7d938e075051d7b1dcebba107b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">76f52f33764e4bb481abd80d934b9481</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>link_hover_opacity</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 22:26:50</sys_created_on>
-            <sys_id>8d4469ad9306835051d7b1dcebba10d8</sys_id>
+            <sys_created_on>2026-07-13 23:33:40</sys_created_on>
+            <sys_id>fd2dfa7d938e075051d7b1dcebba107b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Links" display_value="Links" name="x_1295779_metpo_viz_sankey" sys_domain="global" view="Default view">76f52f33764e4bb481abd80d934b9481</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 22:26:50</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:33:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

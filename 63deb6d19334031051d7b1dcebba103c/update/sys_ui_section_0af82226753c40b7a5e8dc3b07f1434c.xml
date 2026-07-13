@@ -4,13 +4,13 @@
             <element>tooltip_show</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>77a92bb673f5831076d5f85c4ab8b7ce</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>e68272f1934e075051d7b1dcebba108a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>tooltip_font_size</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>33a92bb673f5831076d5f85c4ab8b7cf</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>6a8272f1934e075051d7b1dcebba1097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>tooltip_text_color</element>
+            <element>date_format</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>fba92bb673f5831076d5f85c4ab8b7cf</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>268272f1934e075051d7b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>b7a92bb673f5831076d5f85c4ab8b7d0</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>ee8272f1934e075051d7b1dcebba1098</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,41 +60,41 @@
             <element>tooltip_follow_cursor</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>73a92bb673f5831076d5f85c4ab8b7d1</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>aa8272f1934e075051d7b1dcebba1099</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>date_format</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>3fa92bb673f5831076d5f85c4ab8b7d1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tooltip_background</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>f7a92bb673f5831076d5f85c4ab8b7d2</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>668272f1934e075051d7b1dcebba109a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tooltip_text_color</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>228272f1934e075051d7b1dcebba109b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.end_split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>b3a92bb673f5831076d5f85c4ab8b7d3</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>ea8272f1934e075051d7b1dcebba109b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>tooltip_template</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 19:06:27</sys_created_on>
-            <sys_id>7fa92bb673f5831076d5f85c4ab8b7d3</sys_id>
+            <sys_created_on>2026-07-13 22:47:18</sys_created_on>
+            <sys_id>a68272f1934e075051d7b1dcebba109c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">0af82226753c40b7a5e8dc3b07f1434c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 19:06:27</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:47:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

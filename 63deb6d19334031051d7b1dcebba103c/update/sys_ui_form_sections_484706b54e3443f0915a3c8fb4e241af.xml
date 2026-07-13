@@ -48,13 +48,13 @@
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>040a1cc2a58541efae67646912b06239</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>6582eaadb7f6451faef70966ce278fc0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">a05a2a44ef9d41679c0354298703ebf7</sys_ui_section>
+            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">030cb1f6a3c8435fae8ce697f3749ac6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:21:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
@@ -62,13 +62,13 @@
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6582eaadb7f6451faef70966ce278fc0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>f94c917e3f974822a96753598427deed</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
-            <sys_ui_section caption="Drop shadow" display_value="Drop shadow" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">030cb1f6a3c8435fae8ce697f3749ac6</sys_ui_section>
+            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">104734e0d86a4c04a123246d513a9ac5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:21:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
@@ -76,69 +76,55 @@
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f94c917e3f974822a96753598427deed</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
-            <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">104734e0d86a4c04a123246d513a9ac5</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>08a3637e80ce41939bbbc129da49390f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
             <sys_ui_section caption="Animation" display_value="Animation" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">bcb016db6d30480790f547973362771e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:21:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-05 17:06:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>84c7141f73bd071076d5f85c4ab8b74e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
             <sys_ui_section caption="Tooltip" display_value="Tooltip" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">7fb7d01f73bd071076d5f85c4ab8b7f2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:21:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 05:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>505c5655114e4b748aafb45c7d5ed5c3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
             <sys_ui_section caption="Color scale" display_value="Color scale" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0a793c25af47474d803b8ac85c430ada</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:06:12</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:21:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-05 17:07:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4118105f73bd071076d5f85c4ab8b78f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1295779_metpo_viz_wordcloud" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">484706b54e3443f0915a3c8fb4e241af</sys_ui_form>
             <sys_ui_section caption="Words" display_value="Words" name="x_1295779_metpo_viz_wordcloud" sys_domain="global" view="Default view">0d18105f73bd071076d5f85c4ab8b755</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 17:07:38</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:21:38</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_wordcloud</name>

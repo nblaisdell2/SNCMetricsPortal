@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dcfc81b493bdc39051d7b1dcebba1049" extends="x_1295779_metpo_visualization" label="Viz: Sankey" max_length="40" name="x_1295779_metpo_viz_sankey" type="collection">
         <element default="20" hint="Width of each node bar in pixels" label="Node width" max_length="40" name="node_width" type="integer"/>
-        <element label="Link static color" max_length="255" name="link_static_color" type="color"/>
         <element choice="3" default="justify" hint="Horizontal alignment of nodes in the Sankey diagram" label="Node alignment" max_length="40" name="node_alignment" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Left" sequence="1" value="left"/>

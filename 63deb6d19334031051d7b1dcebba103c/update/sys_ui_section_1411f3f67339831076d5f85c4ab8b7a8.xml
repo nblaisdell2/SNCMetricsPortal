@@ -4,13 +4,13 @@
             <element>show_data_labels</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>48b230c87342cb1076d5f85c4ab8b7b8</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>2a05fe39934e075051d7b1dcebba1071</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>data_label_color</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>04b230c87342cb1076d5f85c4ab8b7b9</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>e205fe39934e075051d7b1dcebba1072</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>data_label_font_size</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>ccb230c87342cb1076d5f85c4ab8b7b9</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>ae05fe39934e075051d7b1dcebba1072</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>data_label_format</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>88b230c87342cb1076d5f85c4ab8b7ba</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>6a05fe39934e075051d7b1dcebba1073</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>44b230c87342cb1076d5f85c4ab8b7bb</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>2605fe39934e075051d7b1dcebba1074</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>show_month_labels</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>00b230c87342cb1076d5f85c4ab8b7bc</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>ee05fe39934e075051d7b1dcebba1074</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,27 +88,27 @@
             <element>show_month_borders</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>c8b230c87342cb1076d5f85c4ab8b7bc</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>aa05fe39934e075051d7b1dcebba1075</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>month_border_color</element>
+            <element>node_stroke</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>84b230c87342cb1076d5f85c4ab8b7bd</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>6605fe39934e075051d7b1dcebba1076</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>show_weekday_labels</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>40b230c87342cb1076d5f85c4ab8b7be</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>2205fe39934e075051d7b1dcebba1077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>weekday_label_mode</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-08 02:59:20</sys_created_on>
-            <sys_id>0cb230c87342cb1076d5f85c4ab8b7be</sys_id>
+            <sys_created_on>2026-07-13 22:58:13</sys_created_on>
+            <sys_id>ea05fe39934e075051d7b1dcebba1077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Labels &amp; Separators" display_value="Labels &amp; Separators" name="x_1295779_metpo_viz_calendar" sys_domain="global" view="Default view">1411f3f67339831076d5f85c4ab8b7a8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-08 02:59:20</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:58:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

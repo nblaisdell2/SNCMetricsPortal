@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="axis_position" table="x_1295779_metpo_viz_gantt">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="inner_radius" table="x_1295779_metpo_viz_pie">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>3</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Axis position</column_label>
+        <column_label>Inner radius</column_label>
         <comments/>
         <create_roles/>
-        <default_value>top</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>axis_position</element>
+        <element>inner_radius</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Decimal">decimal</internal_type>
         <mandatory>false</mandatory>
-        <max_length>255</max_length>
-        <name>x_1295779_metpo_viz_gantt</name>
+        <max_length>38</max_length>
+        <name>x_1295779_metpo_viz_pie</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,14 +47,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-07-04 22:40:53</sys_created_on>
-        <sys_name>Axis position</sys_name>
+        <sys_created_on>2026-07-12 20:25:46</sys_created_on>
+        <sys_name>Inner radius</sys_name>
         <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
         <sys_policy/>
         <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
-        <sys_update_name>sys_dictionary_x_1295779_metpo_viz_gantt_axis_position</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1295779_metpo_viz_pie_inner_radius</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-12 18:24:28</sys_updated_on>
+        <sys_updated_on>2026-07-12 20:25:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -49,6 +49,13 @@
         <element label="Point size" max_length="40" name="point_size" type="integer"/>
         <element label="Tooltip background color" max_length="255" name="tooltip_background" type="color"/>
         <element hint="Fixed x-axis maximum. Leave blank for automatic." label="X max" max_length="20" name="x_max" type="decimal"/>
+        <element choice="3" label="Axis position" max_length="40" name="axis_position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Top" sequence="0" value="top"/>
+                <element inactive_on_update="false" label="Bottom" sequence="1" value="bottom"/>
+                <element inactive_on_update="false" label="Both" sequence="2" value="both"/>
+            </choice>
+        </element>
         <element default="0.75" hint="Opacity a ribbon rises to on hover (0 to 1)." label="Link hover opacity" max_length="20" name="link_hover_opacity" type="decimal"/>
         <element label="Tooltip text color" max_length="255" name="tooltip_text_color" type="color"/>
         <element hint="Fixed y-axis maximum. Leave blank for automatic. Bars exceeding it are truncated at the top." label="Y max" max_length="20" name="y_max" type="decimal"/>
@@ -171,6 +178,7 @@
         <element hint="CSS font-family for the x/y axis tick values and axis titles. Blank = use the base font family." label="Axis font family" max_length="40" name="axis_font_family" type="string"/>
         <element default="name" hint="Which feature property to use as the label text (default &quot;name&quot;)." label="Label field" max_length="40" name="label_field" type="string"/>
         <element default="12" hint="Font size (px) for the legend text." label="Legend font size" max_length="40" name="legend_font_size" type="integer"/>
+        <element label="Static color" max_length="40" name="static_color" type="color"/>
         <element choice="3" default="custom" hint="Where the gradient colors come from: a preset color scheme, or a custom gradient defined by your own start and end colors." label="Color mode" max_length="40" name="color_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Custom gradient" value="custom"/>

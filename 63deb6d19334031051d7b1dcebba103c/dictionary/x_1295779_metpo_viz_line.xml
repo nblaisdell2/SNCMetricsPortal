@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b7ec01b493bdc39051d7b1dcebba1040" extends="x_1295779_metpo_visualization" label="Viz: Line" max_length="40" name="x_1295779_metpo_viz_line" type="collection">
         <element label="Line opacity" max_length="38" name="line_opacity" type="decimal"/>
-        <element default="0.25" hint="Opacity of the area fill (0-1, where 1 is fully opaque)" label="Area opacity" max_length="10" name="area_opacity" type="string"/>
+        <element default="0.25" hint="Opacity of the area fill (0-1, where 1 is fully opaque)" label="Area opacity" max_length="10" name="area_opacity" type="decimal"/>
         <element choice="3" default="filled" label="Point style" max_length="40" name="marker_style" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Filled" sequence="0" value="filled"/>

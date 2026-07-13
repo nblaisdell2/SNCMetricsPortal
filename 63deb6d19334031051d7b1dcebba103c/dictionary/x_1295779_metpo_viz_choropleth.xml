@@ -9,7 +9,6 @@
             </choice>
         </element>
         <element label="Symbol min radius" max_length="38" name="symbol_min_radius" type="decimal"/>
-        <element label="Border stroke color" max_length="40" name="border_stroke_color" type="color"/>
         <element choice="3" default="choropleth" label="Map mode" max_length="255" name="map_mode" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Choropleth (fill by value)" sequence="0" value="choropleth"/>
@@ -24,7 +23,6 @@
                 <element inactive_on_update="false" label="Value" sequence="1" value="value"/>
             </choice>
         </element>
-        <element label="Land color" max_length="40" name="land_color" type="color"/>
         <element label="Value field" max_length="40" name="value_field" type="string"/>
         <element label="Symbol color" max_length="40" name="symbol_color" type="color"/>
         <element choice="3" default="match_map_aspect" label="Height mode" max_length="40" name="height_mode" type="choice">
@@ -34,6 +32,5 @@
             </choice>
         </element>
         <element label="Symbol opacity" max_length="38" name="symbol_opacity" type="decimal"/>
-        <element label="Border stroke width" max_length="40" name="border_stroke_width" type="integer"/>
     </element>
 </database>

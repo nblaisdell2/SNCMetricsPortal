@@ -4,41 +4,41 @@
             <element>show_color_legend</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>23122c0373fd831076d5f85c4ab8b733</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>adc6f27d934e075051d7b1dcebba103c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_legend_margin</element>
+            <element>color_legend_position</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>eb122c0373fd831076d5f85c4ab8b733</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>69c6f27d934e075051d7b1dcebba103d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_legend_format</element>
+            <element>color_legend_title_position</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>a7122c0373fd831076d5f85c4ab8b734</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>25c6f27d934e075051d7b1dcebba103e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>63122c0373fd831076d5f85c4ab8b735</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>edc6f27d934e075051d7b1dcebba103e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,41 +60,41 @@
             <element>color_legend_title</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>2f122c0373fd831076d5f85c4ab8b735</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>a9c6f27d934e075051d7b1dcebba103f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_legend_position</element>
+            <element>color_legend_margin</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>e7122c0373fd831076d5f85c4ab8b736</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>65c6f27d934e075051d7b1dcebba1040</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_legend_title_position</element>
+            <element>color_legend_format</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 23:13:01</sys_created_on>
-            <sys_id>a3122c0373fd831076d5f85c4ab8b737</sys_id>
+            <sys_created_on>2026-07-13 23:05:48</sys_created_on>
+            <sys_id>21c6f27d934e075051d7b1dcebba1041</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Legend" display_value="Legend" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">ce352a641b1a404e8f7a97e93b645e34</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-04 23:13:01</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:05:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -4,139 +4,139 @@
             <element>color_mode</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>aeb5e0a1930e435051d7b1dcebba1005</sys_id>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>36f27235934e075051d7b1dcebba10f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_scheme</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>6ab5e0a1930e435051d7b1dcebba1006</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>value_color_scheme</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>26b5e0a1930e435051d7b1dcebba1007</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>reverse_colors</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>eeb5e0a1930e435051d7b1dcebba1007</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>aab5e0a1930e435051d7b1dcebba1008</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>custom_color_start</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>66b5e0a1930e435051d7b1dcebba1009</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>custom_color_end</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>22b5e0a1930e435051d7b1dcebba100a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_min</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>eab5e0a1930e435051d7b1dcebba100a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>color_max</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>a6b5e0a1930e435051d7b1dcebba100b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>color_scale_type</element>
-            <position>9</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>62b5e0a1930e435051d7b1dcebba100c</sys_id>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>fef27235934e075051d7b1dcebba10f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color_scheme</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>72f2b235934e075051d7b1dcebba1003</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value_color_scheme</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>3ef2b235934e075051d7b1dcebba1003</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reverse_colors</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>f6f2b235934e075051d7b1dcebba1004</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>b2f2b235934e075051d7b1dcebba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>custom_color_start</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>7ef2b235934e075051d7b1dcebba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>custom_color_end</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>3af2b235934e075051d7b1dcebba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color_min</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>f2f2b235934e075051d7b1dcebba1007</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color_max</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>bef2b235934e075051d7b1dcebba1007</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>diverging_midpoint</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>2eb5e0a1930e435051d7b1dcebba100c</sys_id>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>7af2b235934e075051d7b1dcebba1008</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>quantize_steps</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:53:35</sys_created_on>
-            <sys_id>e6b5e0a1930e435051d7b1dcebba100d</sys_id>
+            <sys_created_on>2026-07-13 22:49:14</sys_created_on>
+            <sys_id>36f2b235934e075051d7b1dcebba1009</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">c685e861930e435051d7b1dcebba1059</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:53:35</sys_updated_on>
+            <sys_updated_on>2026-07-13 22:49:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

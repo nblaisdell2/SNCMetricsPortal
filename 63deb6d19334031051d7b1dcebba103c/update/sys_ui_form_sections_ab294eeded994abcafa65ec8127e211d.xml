@@ -211,20 +211,6 @@
             <sys_updated_on>2026-07-11 13:25:20</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>15</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-04 05:58:43</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5056247d2912498298f44c5529583d8c</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1295779_metpo_viz_line" name="x_1295779_metpo_viz_line" sys_domain="global" view="Default view">ab294eeded994abcafa65ec8127e211d</sys_ui_form>
-            <sys_ui_section display_value="">6ceb83e649de440a9aba4c3d5be9d28b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 13:25:20</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-07-04 05:58:43</sys_created_on>

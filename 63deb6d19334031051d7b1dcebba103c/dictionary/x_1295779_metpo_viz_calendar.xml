@@ -13,7 +13,6 @@
                 <element inactive_on_update="false" label="Fixed cell size" sequence="1" value="fixed"/>
             </choice>
         </element>
-        <element label="Month border color" max_length="255" name="month_border_color" type="color"/>
         <element choice="3" default="1" hint="First day of the week (0=Sunday, 1=Monday)" label="Week start" max_length="40" name="week_start" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Monday" sequence="1" value="monday"/>

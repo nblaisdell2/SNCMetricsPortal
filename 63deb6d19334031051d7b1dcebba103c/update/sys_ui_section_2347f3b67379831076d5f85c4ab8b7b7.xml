@@ -4,13 +4,13 @@
             <element>symbol_color</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
-            <sys_id>1a85e861930e435051d7b1dcebba1097</sys_id>
+            <sys_created_on>2026-07-13 23:34:38</sys_created_on>
+            <sys_id>406df6bd938e075051d7b1dcebba1060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:34:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>symbol_min_radius</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
-            <sys_id>d285e861930e435051d7b1dcebba1098</sys_id>
+            <sys_created_on>2026-07-13 23:34:38</sys_created_on>
+            <sys_id>0c6df6bd938e075051d7b1dcebba1060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:34:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>symbol_max_radius</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
-            <sys_id>9e85e861930e435051d7b1dcebba1098</sys_id>
+            <sys_created_on>2026-07-13 23:34:38</sys_created_on>
+            <sys_id>c46df6bd938e075051d7b1dcebba1061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:34:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
-            <sys_id>5a85e861930e435051d7b1dcebba1099</sys_id>
+            <sys_created_on>2026-07-13 23:34:38</sys_created_on>
+            <sys_id>806df6bd938e075051d7b1dcebba1062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:34:38</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,27 +60,27 @@
             <element>symbol_opacity</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
-            <sys_id>1685e861930e435051d7b1dcebba109a</sys_id>
+            <sys_created_on>2026-07-13 23:34:38</sys_created_on>
+            <sys_id>4c6df6bd938e075051d7b1dcebba1062</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:34:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>land_color</element>
+            <element>static_color</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-12 17:52:45</sys_created_on>
-            <sys_id>de85e861930e435051d7b1dcebba109a</sys_id>
+            <sys_created_on>2026-07-13 23:34:38</sys_created_on>
+            <sys_id>086df6bd938e075051d7b1dcebba1063</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Symbols" display_value="Symbols" name="x_1295779_metpo_viz_choropleth" sys_domain="global" view="Default view">2347f3b67379831076d5f85c4ab8b7b7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-12 17:52:45</sys_updated_on>
+            <sys_updated_on>2026-07-13 23:34:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
