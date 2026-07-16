@@ -348,9 +348,6 @@ MetricsResolver.prototype = {
             var value = vizGr.getValue(fieldName);
             if (value === null || value === '') continue;
 
-            // // Convert to camelCase for the JSON output (snake_case → camelCase)
-            // var camelKey = fieldName.replace(/_([a-z])/g, function(m, c) { return c.toUpperCase(); });
-
             // Auto-convert booleans and numbers using GlideElement metadata
             var element = vizGr.getElement(fieldName);
             var internalType = element.getED().getInternalType() + '';
@@ -390,10 +387,54 @@ MetricsResolver.prototype = {
     },
 
     /**
-     * Returns active dashboards as a hierarchical nav structure.
+     * Returns active dashboards as a hierarchical nav structure for a specific portal.
+     * Queries the M2M table to get dashboards associated with the given portal,
+     * and also returns the Navigation Theme configuration for the portal.
+     *
+     * @param {string} portalName - The name of the Metrics Portal
+     * @returns {Object} Object with result (nav items array) and display_config (theme settings)
      */
-    getNavItems: function() {
+    getNavItems: function(portalName) {
+        var result = [];
+        var displayConfig = {};
+
+        // Find the portal by name
+        var portalGr = new GlideRecord('x_1295779_metpo_metrics_portal');
+        portalGr.addQuery('name', portalName);
+        portalGr.query();
+
+        if (!portalGr.next()) {
+            return { result: result, display_config: displayConfig };
+        }
+
+        var portalSysId = portalGr.getUniqueValue();
+
+        // Load Navigation Theme display_config from portal's navigation_theme reference
+        var navThemeSysId = portalGr.getValue('navigation_theme') || '';
+        if (navThemeSysId) {
+            displayConfig = this._loadNavigationTheme(navThemeSysId);
+        }
+
+        // Query the M2M table to get dashboard sys_ids for this portal
+        var dashboardSysIds = [];
+        var m2mGr = new GlideRecord('x_1295779_metpo_m2m_portal_dashboard');
+        m2mGr.addQuery('x_1295779_metpo_metrics_portal', portalSysId);
+        m2mGr.query();
+
+        while (m2mGr.next()) {
+            var dashId = m2mGr.getValue('x_1295779_metpo_dashboard');
+            if (dashId) {
+                dashboardSysIds.push(dashId);
+            }
+        }
+
+        if (dashboardSysIds.length === 0) {
+            return { result: result, display_config: displayConfig };
+        }
+
+        // Query dashboards filtered by the M2M results
         var dashGr = new GlideRecord('x_1295779_metpo_dashboard');
+        dashGr.addQuery('sys_id', 'IN', dashboardSysIds.join(','));
         dashGr.addQuery('active', true);
         dashGr.orderBy('nav_order');
         dashGr.query();
@@ -431,7 +472,6 @@ MetricsResolver.prototype = {
             }
         }
 
-        var result = [];
         for (var j = 0; j < roots.length; j++) {
             var root = roots[j];
             result.push({
@@ -444,7 +484,57 @@ MetricsResolver.prototype = {
             });
         }
 
-        return result;
+        return { result: result, display_config: displayConfig };
+    },
+
+    /**
+     * Loads all fields from the Navigation Theme record.
+     *
+     * @param {string} themeSysId - sys_id of the navigation_theme record
+     * @returns {Object} Key-value pairs of all navigation theme properties
+     */
+    _loadNavigationTheme: function(themeSysId) {
+        var config = {};
+        var themeGr = new GlideRecord('x_1295779_metpo_navigation_theme');
+        if (!themeGr.get(themeSysId)) {
+            return config;
+        }
+
+        // Include every field from the Navigation Theme table
+        config.name = themeGr.getValue('name') || '';
+        config.font_weight = themeGr.getValue('font_weight') || '';
+        config.current_key = themeGr.getValue('current_key') || '';
+        config.logo_image_alt = themeGr.getValue('logo_image_alt') || '';
+        config.logo_image_url = themeGr.getValue('logo_image_url') || '';
+        config.popup_background_color = themeGr.getValue('popup_background_color') || '';
+        config.font_size = themeGr.getValue('font_size') || '';
+        config.active_text_color = themeGr.getValue('active_text_color') || '';
+        config.logo_image_height = parseInt(themeGr.getValue('logo_image_height'), 10) || 0;
+        config.item_radius = themeGr.getValue('item_radius') || '';
+        config.text_transform = themeGr.getValue('text_transform') || '';
+        config.dashboards = themeGr.getValue('dashboards') || '';
+        config.active_background_color = themeGr.getValue('active_background_color') || '';
+        config.child_display_mode = themeGr.getValue('child_display_mode') || '';
+        config.nav_padding = themeGr.getValue('nav_padding') || '';
+        config.item_alignment = themeGr.getValue('item_alignment') || '';
+        config.letter_spacing = themeGr.getValue('letter_spacing') || '';
+        config.item_gap = themeGr.getValue('item_gap') || '';
+        config.aria_label = themeGr.getValue('aria_label') || '';
+        config.inline_column_size = parseInt(themeGr.getValue('inline_column_size'), 10) || 0;
+        config.orientation = themeGr.getValue('orientation') || '';
+        config.border_bottom_width = themeGr.getValue('border_bottom_width') || '';
+        config.show_logo = (themeGr.getValue('show_logo') === 'true' || themeGr.getValue('show_logo') === '1');
+        config.brand_label = themeGr.getValue('brand_label') || '';
+        config.empty_message = themeGr.getValue('empty_message') || '';
+        config.border_bottom_color = themeGr.getValue('border_bottom_color') || '';
+        config.child_line_color = themeGr.getValue('child_line_color') || '';
+        config.background_color = themeGr.getValue('background_color') || '';
+        config.font_family = themeGr.getValue('font_family') || '';
+        config.text_color = themeGr.getValue('text_color') || '';
+        config.item_padding = themeGr.getValue('item_padding') || '';
+        config.logo_text = themeGr.getValue('logo_text') || '';
+
+        return config;
     },
 
     type: 'MetricsResolver'

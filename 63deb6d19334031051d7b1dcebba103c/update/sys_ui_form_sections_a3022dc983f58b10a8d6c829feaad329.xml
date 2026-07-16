@@ -14,6 +14,48 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-28 22:44:31</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 22:07:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dacf426830a8710ee019f60deaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_dashboard" name="x_1295779_metpo_dashboard" sys_domain="global" view="Default view">a3022dc983f58b10a8d6c829feaad329</sys_ui_form>
+            <sys_ui_section caption="Layout" display_value="Layout" name="x_1295779_metpo_dashboard" sys_domain="global" view="Default view">01acf426830a8710ee019f60deaad303</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 22:07:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 22:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05acf426830a8710ee019f60deaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_dashboard" name="x_1295779_metpo_dashboard" sys_domain="global" view="Default view">a3022dc983f58b10a8d6c829feaad329</sys_ui_form>
+            <sys_ui_section caption="Sections" display_value="Sections" name="x_1295779_metpo_dashboard" sys_domain="global" view="Default view">45acf426830a8710ee019f60deaad306</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 22:07:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 22:07:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01acf426830a8710ee019f60deaad327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_dashboard" name="x_1295779_metpo_dashboard" sys_domain="global" view="Default view">a3022dc983f58b10a8d6c829feaad329</sys_ui_form>
+            <sys_ui_section caption="Cards" display_value="Cards" name="x_1295779_metpo_dashboard" sys_domain="global" view="Default view">41acf426830a8710ee019f60deaad308</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 22:07:38</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_dashboard</name>
             <roles/>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value/>
+        <name>portal_name</name>
+        <required>false</required>
+        <short_description>The name of the Metrics Portal to load navigation for</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:55:46</sys_created_on>
+        <sys_id>fd5ed21c61d34630bb1bbaa99afdcedd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>portal_name</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_fd5ed21c61d34630bb1bbaa99afdcedd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:55:46</sys_updated_on>
+        <web_service_definition display_value="Metrics Portal API">2af1ec8c9dff4b048e41b1cc7584113f</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>

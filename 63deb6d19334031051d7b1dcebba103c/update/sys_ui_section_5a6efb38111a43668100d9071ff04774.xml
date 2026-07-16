@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Spacing" section_id="5a6efb38111a43668100d9071ff04774" sys_domain="global" table="x_1295779_metpo_navigation_theme" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>a6b7fc20a8044441bf63d878438ca008</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_gap</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>8b089bdd312245188429558592199056</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_padding</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>4eca2b5692744cc28e13f639162abecb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_radius</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>082b4b3ffb2d4b85a8433dd930d81740</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>b153ea799cdb4eba8da9197fe072c049</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nav_padding</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>63658fd9b0c54d5dabb9df983a6c8639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>border_bottom_width</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>a3b7fd1004454f2e8ed9a4b45f782d19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:02</sys_created_on>
+            <sys_id>d318c9c3fbd74378a4d4a045cf3b6049</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 00:43:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Spacing</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_navigation_theme</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 23:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a6efb38111a43668100d9071ff04774</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1295779_metpo_navigation_theme</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_5a6efb38111a43668100d9071ff04774</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 23:48:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

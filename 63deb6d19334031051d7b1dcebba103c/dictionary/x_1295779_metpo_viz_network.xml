@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="17eccd7493bdc39051d7b1dcebba10ad" extends="x_1295779_metpo_visualization" label="Viz: Network" max_length="40" name="x_1295779_metpo_viz_network" type="collection">
-        <element label="Collide padding" max_length="255" name="collide_padding" type="integer"/>
-        <element label="Enable zoom" max_length="40" name="enable_zoom" type="boolean"/>
-        <element default="8" hint="Default radius of network nodes in pixels" label="Node radius" max_length="40" name="node_radius" type="integer"/>
-        <element label="Show zoom controls" max_length="40" name="show_zoom_controls" type="boolean"/>
-        <element label="Min zoom" max_length="38" name="min_zoom" type="decimal"/>
-        <element default="value" function_definition="value" label="Data label field" max_length="40" name="node_value_field" type="string"/>
-        <element label="Node min radius" max_length="255" name="node_min_radius" type="integer"/>
-        <element label="Max zoom" max_length="38" name="max_zoom" type="decimal"/>
-        <element label="Node radius field" max_length="40" name="node_radius_field" type="string"/>
-        <element label="Node max radius" max_length="255" name="node_max_radius" type="integer"/>
-        <element label="Simulation ticks" max_length="255" name="simulation_ticks" type="integer"/>
-        <element hint="Data field name to dynamically determine link width" label="Link width field" max_length="80" name="link_width_field" type="string"/>
-        <element label="Directed links" max_length="255" name="directed_links" type="boolean"/>
         <element default="#9ca3af" hint="Color of connection lines between nodes" label="Link color" max_length="40" name="link_color" type="color"/>
-        <element default="-300" hint="Force simulation charge (negative = repel, higher magnitude = stronger)" label="Charge strength" max_length="40" name="charge_strength" type="integer"/>
+        <element hint="Data field name to dynamically determine link width" label="Link width field" max_length="80" name="link_width_field" type="string"/>
+        <element label="Node max radius" max_length="255" name="node_max_radius" type="integer"/>
+        <element label="Max zoom" max_length="38" name="max_zoom" type="decimal"/>
         <element default="1" hint="Width of connection lines between nodes in pixels" label="Link width" max_length="40" name="link_width" type="integer"/>
+        <element label="Min zoom" max_length="38" name="min_zoom" type="decimal"/>
+        <element default="8" hint="Default radius of network nodes in pixels" label="Node radius" max_length="40" name="node_radius" type="integer"/>
+        <element label="Collide padding" max_length="255" name="collide_padding" type="integer"/>
+        <element label="Node radius field" max_length="40" name="node_radius_field" type="string"/>
+        <element label="Node min radius" max_length="255" name="node_min_radius" type="integer"/>
+        <element default="-300" hint="Force simulation charge (negative = repel, higher magnitude = stronger)" label="Charge strength" max_length="40" name="charge_strength" type="integer"/>
+        <element label="Directed links" max_length="255" name="directed_links" type="boolean"/>
+        <element default="value" function_definition="value" label="Data label field" max_length="40" name="node_value_field" type="string"/>
+        <element label="Simulation ticks" max_length="255" name="simulation_ticks" type="integer"/>
         <element default="100" hint="Preferred distance between connected nodes in pixels" label="Link distance" max_length="40" name="link_distance" type="integer"/>
+        <element label="Show zoom controls" max_length="40" name="show_zoom_controls" type="boolean"/>
+        <element label="Enable zoom" max_length="40" name="enable_zoom" type="boolean"/>
     </element>
 </database>

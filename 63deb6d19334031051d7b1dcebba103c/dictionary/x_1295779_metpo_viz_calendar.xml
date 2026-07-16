@@ -2,32 +2,32 @@
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="88fc41b493bdc39051d7b1dcebba10bd" extends="x_1295779_metpo_visualization" label="Viz: Calendar Heatmap" max_length="40" name="x_1295779_metpo_viz_calendar" type="collection">
         <element choice="3" default="ascending" label="Year order" max_length="255" name="year_order" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Ascending (oldest first)" sequence="0" value="ascending"/>
                 <element inactive_on_update="false" label="Descending (newest first)" sequence="1" value="descending"/>
+                <element inactive_on_update="false" label="Ascending (oldest first)" sequence="0" value="ascending"/>
             </choice>
         </element>
-        <element label="Show month borders" max_length="255" name="show_month_borders" type="boolean"/>
-        <element choice="3" default="fit" label="Cell size mode" max_length="255" name="cell_size_mode" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Fit to width" sequence="0" value="fit"/>
-                <element inactive_on_update="false" label="Fixed cell size" sequence="1" value="fixed"/>
-            </choice>
-        </element>
+        <element default="true" label="Show weekday labels" max_length="255" name="show_weekday_labels" type="boolean"/>
         <element choice="3" default="1" hint="First day of the week (0=Sunday, 1=Monday)" label="Week start" max_length="40" name="week_start" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Monday" sequence="1" value="monday"/>
                 <element inactive_on_update="false" label="Sunday" sequence="0" value="sunday"/>
             </choice>
         </element>
-        <element default="2" hint="Spacing between day cells in pixels" label="Cell gap" max_length="40" name="cell_gap" type="integer"/>
-        <element default="true" hint="Display abbreviated month names above each month block" label="Show month labels" max_length="40" name="show_month_labels" type="boolean"/>
         <element choice="3" default="alternate" label="Weekday label mode" max_length="255" name="weekday_label_mode" type="choice">
             <choice>
-                <element inactive_on_update="false" label="All" sequence="0" value="all"/>
                 <element inactive_on_update="false" label="Alternate" sequence="1" value="alternate"/>
+                <element inactive_on_update="false" label="All" sequence="0" value="all"/>
             </choice>
         </element>
+        <element label="Show month borders" max_length="255" name="show_month_borders" type="boolean"/>
+        <element choice="3" default="fit" label="Cell size mode" max_length="255" name="cell_size_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fixed cell size" sequence="1" value="fixed"/>
+                <element inactive_on_update="false" label="Fit to width" sequence="0" value="fit"/>
+            </choice>
+        </element>
+        <element default="true" hint="Display abbreviated month names above each month block" label="Show month labels" max_length="40" name="show_month_labels" type="boolean"/>
+        <element default="2" hint="Spacing between day cells in pixels" label="Cell gap" max_length="40" name="cell_gap" type="integer"/>
         <element default="14" hint="Size of each day cell in pixels (square)" label="Cell size" max_length="40" name="cell_size" type="integer"/>
-        <element default="true" label="Show weekday labels" max_length="255" name="show_weekday_labels" type="boolean"/>
     </element>
 </database>

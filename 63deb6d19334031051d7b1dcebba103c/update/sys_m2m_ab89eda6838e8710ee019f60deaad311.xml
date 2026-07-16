@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_1295779_metpo_metrics_portal</from_table>
+        <m2m_from_field>x_1295779_metpo_metrics_portal</m2m_from_field>
+        <m2m_from_label>Dashboard</m2m_from_label>
+        <m2m_table>x_1295779_metpo_m2m_portal_dashboard</m2m_table>
+        <m2m_to_field>x_1295779_metpo_dashboard</m2m_to_field>
+        <m2m_to_label>Portal</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:24:34</sys_created_on>
+        <sys_id>ab89eda6838e8710ee019f60deaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_m2m_portal_dashboard</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_m2m_ab89eda6838e8710ee019f60deaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:24:34</sys_updated_on>
+        <to_table>x_1295779_metpo_dashboard</to_table>
+    </sys_m2m>
+</record_update>

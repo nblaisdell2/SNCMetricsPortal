@@ -51,7 +51,7 @@
         <requires_acl_authorization>true</requires_acl_authorization>
         <requires_authentication>true</requires_authentication>
         <requires_snc_internal_role>true</requires_snc_internal_role>
-        <short_description>Loads a dashboard by key with all active metric definitions hydrated with data f</short_description>
+        <short_description/>
         <support_trailing_slash>false</support_trailing_slash>
         <sys_class_name>sys_ws_operation</sys_class_name>
         <sys_created_by>admin</sys_created_by>

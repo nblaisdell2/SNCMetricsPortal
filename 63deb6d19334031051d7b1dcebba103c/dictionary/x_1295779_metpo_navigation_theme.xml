@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c2c8e4c6aa214cb9ba83928cb7961298" label="Navigation Theme" name="x_1295779_metpo_navigation_theme" type="collection">
+        <element choice="1" default="center" label="Item alignment" max_length="40" name="item_alignment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="left" sequence="1" value="left"/>
+                <element inactive_on_update="false" label="right" sequence="2" value="right"/>
+                <element inactive_on_update="false" label="stretch" sequence="3" value="stretch"/>
+                <element inactive_on_update="false" label="center" sequence="0" value="center"/>
+            </choice>
+        </element>
+        <element choice="1" default="normal" label="Font weight" max_length="40" name="font_weight" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="bolder" sequence="3" value="bolder"/>
+                <element inactive_on_update="false" label="bold" sequence="1" value="bold"/>
+                <element inactive_on_update="false" label="normal" sequence="0" value="normal"/>
+                <element inactive_on_update="false" label="lighter" sequence="2" value="lighter"/>
+            </choice>
+        </element>
+        <element label="Font family" max_length="255" name="font_family" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Dashboards" max_length="4000" name="dashboards" type="string"/>
+        <element default="No dashboards configured." label="Empty message" max_length="255" name="empty_message" type="string"/>
+        <element label="Logo image URL" max_length="1024" name="logo_image_url" type="user_image"/>
+        <element default="normal" label="Letter spacing" max_length="40" name="letter_spacing" type="string"/>
+        <element default="14px" label="Font size" max_length="40" name="font_size" type="string"/>
+        <element default="#d1d5db" label="Sub-page line color" max_length="100" name="child_line_color" type="string"/>
+        <element default="8" label="Inline column size" max_length="40" name="inline_column_size" type="integer"/>
+        <element default="#374151" label="Text color" max_length="100" name="text_color" type="string"/>
+        <element default="transparent" label="Background color" max_length="100" name="background_color" type="string"/>
+        <element default="4px" label="Item gap" max_length="40" name="item_gap" type="string"/>
+        <element default="#2E93fA" label="Active background color" max_length="100" name="active_background_color" type="string"/>
+        <element label="Brand label" max_length="255" name="brand_label" type="string"/>
+        <element default="#ffffff" label="Popup background color" max_length="100" name="popup_background_color" type="string"/>
+        <element default="transparent" label="Bottom border color" max_length="100" name="border_bottom_color" type="string"/>
+        <element choice="1" default="inline" label="Sub-page display" max_length="40" name="child_display_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="inline" sequence="0" value="inline"/>
+                <element inactive_on_update="false" label="popup" sequence="1" value="popup"/>
+            </choice>
+        </element>
+        <element default="24" label="Logo image height" max_length="40" name="logo_image_height" type="integer"/>
+        <element default="true" label="Show logo" max_length="40" name="show_logo" type="boolean"/>
+        <element default="8px 12px" label="Item padding" max_length="100" name="item_padding" type="string"/>
+        <element label="Current key" max_length="255" name="current_key" type="string"/>
+        <element default="Metrics navigation" label="Aria label" max_length="255" name="aria_label" type="string"/>
+        <element default="0" label="Nav padding" max_length="100" name="nav_padding" type="string"/>
+        <element default="Metrics Portal" label="Logo text" max_length="255" name="logo_text" type="string"/>
+        <element default="1px" label="Bottom border width" max_length="40" name="border_bottom_width" type="string"/>
+        <element choice="1" default="none" label="Text transform" max_length="40" name="text_transform" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="lowercase" sequence="2" value="lowercase"/>
+                <element inactive_on_update="false" label="capitalize" sequence="3" value="capitalize"/>
+                <element inactive_on_update="false" label="uppercase" sequence="1" value="uppercase"/>
+                <element inactive_on_update="false" label="none" sequence="0" value="none"/>
+            </choice>
+        </element>
+        <element label="Logo image alt text" max_length="255" name="logo_image_alt" type="string"/>
+        <element default="#ffffff" label="Active text color" max_length="100" name="active_text_color" type="string"/>
+        <element default="6px" label="Item corner radius" max_length="40" name="item_radius" type="string"/>
+        <element choice="1" default="horizontal" label="Orientation" max_length="40" name="orientation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="horizontal" sequence="0" value="horizontal"/>
+                <element inactive_on_update="false" label="vertical" sequence="1" value="vertical"/>
+            </choice>
+        </element>
+    </element>
+</database>

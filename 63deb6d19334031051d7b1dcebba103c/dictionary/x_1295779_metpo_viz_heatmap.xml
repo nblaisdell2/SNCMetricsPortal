@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9beccd7493bdc39051d7b1dcebba100e" extends="x_1295779_metpo_visualization" label="Viz: Heatmap" max_length="40" name="x_1295779_metpo_viz_heatmap" type="collection">
-        <element label="Cell label min size" max_length="40" name="cell_label_min_size" type="integer"/>
-        <element default="#ffffff" hint="Color of the cell borders" label="Cell border color" max_length="40" name="cell_border_color" type="color"/>
-        <element choice="1" label="Sort y" max_length="255" name="sort_y" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Ascending (label)" sequence="0" value="asc"/>
-                <element inactive_on_update="false" label="Descending (label)" sequence="1" value="desc"/>
-                <element inactive_on_update="false" label="By value (total)" sequence="2" value="value"/>
-            </choice>
-        </element>
-        <element default="1" hint="Width of the border around each cell in pixels" label="Cell border width" max_length="40" name="cell_border_width" type="integer"/>
-        <element choice="3" default="fit" label="Cell aspect" max_length="255" name="cell_aspect" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Square cells" sequence="1" value="square"/>
-                <element inactive_on_update="false" label="Fit (stretch to size)" sequence="0" value="fit"/>
-            </choice>
-        </element>
-        <element label="Cell padding" max_length="255" name="cell_padding" type="integer"/>
         <element choice="1" label="Sort x" max_length="255" name="sort_x" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Descending (label)" sequence="1" value="desc"/>
                 <element inactive_on_update="false" label="Ascending (label)" sequence="0" value="asc"/>
                 <element inactive_on_update="false" label="By value (total)" sequence="2" value="value"/>
-                <element inactive_on_update="false" label="Descending (label)" sequence="1" value="desc"/>
             </choice>
         </element>
+        <element choice="3" default="fit" label="Cell aspect" max_length="255" name="cell_aspect" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fit (stretch to size)" sequence="0" value="fit"/>
+                <element inactive_on_update="false" label="Square cells" sequence="1" value="square"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sort y" max_length="255" name="sort_y" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Descending (label)" sequence="1" value="desc"/>
+                <element inactive_on_update="false" label="Ascending (label)" sequence="0" value="asc"/>
+                <element inactive_on_update="false" label="By value (total)" sequence="2" value="value"/>
+            </choice>
+        </element>
+        <element label="Cell label min size" max_length="40" name="cell_label_min_size" type="integer"/>
+        <element label="Cell padding" max_length="255" name="cell_padding" type="integer"/>
+        <element default="1" hint="Width of the border around each cell in pixels" label="Cell border width" max_length="40" name="cell_border_width" type="integer"/>
+        <element default="#ffffff" hint="Color of the cell borders" label="Cell border color" max_length="40" name="cell_border_color" type="color"/>
     </element>
 </database>

@@ -182,6 +182,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-11 01:18:12</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-14 00:27:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b898ff9830a4310ee019f60deaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_viz_heatmap" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">87bdf3f1434d48b2865ffaeeb1cb7ff6</sys_ui_form>
+            <sys_ui_section caption="Viz: Heatmap" display_value="Viz: Heatmap" name="x_1295779_metpo_viz_heatmap" sys_domain="global" view="Default view">fe2b1043b74149d2840bb977eb4c1a24</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-14 00:27:49</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1295779_metpo_viz_heatmap</name>
             <roles/>

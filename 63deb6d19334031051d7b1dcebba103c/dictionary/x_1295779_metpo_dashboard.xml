@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="79e580b693adc35051d7b1dcebba10cb" label="Metric Dashboard" max_length="40" name="x_1295779_metpo_dashboard" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Nav Group" max_length="100" name="nav_group" type="string"/>
-        <element default="0" label="Nav Order" max_length="40" name="nav_order" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Empty message" max_length="400" name="empty_message" type="string"/>
+        <element label="Show help button" max_length="255" name="show_help_button" type="boolean"/>
+        <element label="Show drop shadow" max_length="255" name="show_drop_shadow" type="boolean"/>
+        <element label="Section help font size" max_length="255" name="section_help_font_size" type="integer"/>
+        <element label="Section help color" max_length="255" name="section_help_color" type="color"/>
+        <element label="Section rule color" max_length="255" name="section_rule_color" type="color"/>
+        <element label="Card padding" max_length="255" name="card_padding" type="integer"/>
+        <element default="0" label="Nav Order" max_length="40" name="nav_order" type="integer"/>
+        <element label="Section help icon color" max_length="255" name="section_help_icon_color" type="color"/>
+        <element label="Card border color" max_length="255" name="card_border_color" type="color"/>
+        <element label="Card border width" max_length="255" name="card_border_width" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Key" mandatory="true" max_length="100" name="key" type="string" unique="true"/>
+        <element label="Collapse below" max_length="255" name="collapse_below" type="integer"/>
+        <element label="Section name font family" max_length="40" name="section_name_font_family" type="string"/>
+        <element label="Collapsible sections" max_length="255" name="collapsible_sections" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Section name font weight" max_length="255" name="section_name_font_weight" type="integer"/>
+        <element label="Card corner radius" max_length="255" name="card_corner_radius" type="integer"/>
+        <element label="Show card title" max_length="255" name="show_card_title" type="boolean"/>
+        <element label="Card background color" max_length="255" name="card_background_color" type="color"/>
+        <element label="Show cards" max_length="255" name="show_cards" type="boolean"/>
+        <element label="Animation duration" max_length="255" name="animation_duration" type="integer"/>
+        <element label="Animate expand/collapse" max_length="255" name="animate_expand_collapse" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Start collapsed" max_length="255" name="start_collapsed" type="boolean"/>
+        <element label="Section name color" max_length="255" name="section_name_color" type="color"/>
+        <element label="Card minimum height" max_length="255" name="card_minimum_height" type="integer"/>
+        <element label="Layout gap" max_length="255" name="layout_gap" type="integer"/>
+        <element label="Section spacing" max_length="255" name="section_spacing" type="integer"/>
+        <element label="Help shown by default" max_length="255" name="help_shown_by_default" type="boolean"/>
+        <element label="Section rule thickness" max_length="255" name="section_rule_thickness" type="integer"/>
+        <element label="Section name font size" max_length="255" name="section_name_font_size" type="integer"/>
         <index name="index" unique="true">
             <element name="key"/>
         </index>

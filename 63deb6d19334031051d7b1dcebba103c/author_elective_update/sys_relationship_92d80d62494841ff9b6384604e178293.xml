@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+  <sys_relationship action="DELETE">
+    <sys_id>92d80d62494841ff9b6384604e178293</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_relationship_92d80d62494841ff9b6384604e178293</sys_update_name>
+    <advanced>true</advanced>
+    <basic_apply_to>x_1295779_metpo_dashboard</basic_apply_to>
+    <basic_query_from>x_1295779_metpo_metrics_portal</basic_query_from>
+    <insert_callback>(function insertCallback(target, current) {
+    var m2m = new GlideRecord('x_1295779_metpo_m2m_portal_dashboard');
+    m2m.initialize();
+    m2m.setValue('metrics_portal', target.sys_id);
+    m2m.setValue('metric_dashboard', current.sys_id);
+    m2m.insert();
+})(target, current)</insert_callback>
+    <name>Dashboard Portals</name>
+    <query_with>(function refineQuery(current) {
+    var m2m = new GlideRecord('x_1295779_metpo_m2m_portal_dashboard');
+    m2m.addQuery('metric_dashboard', current.sys_id);
+    m2m.query();
+    var ids = [];
+    while (m2m.next()) {
+        ids.push(m2m.getValue('metrics_portal'));
+    }
+    if (ids.length &gt; 0) {
+        return 'sys_idIN' + ids.join(',');
+    }
+    return 'sys_id=-1';
+})(current)</query_with>
+  </sys_relationship>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>a690794b3ba38ed016e44a8aa4e45a29</instance_id>
+        <instance_name>dev279221</instance_name>
+        <name>sys_relationship_92d80d62494841ff9b6384604e178293</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+  <sys_relationship action="INSERT_OR_UPDATE">
+    <sys_id>92d80d62494841ff9b6384604e178293</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_relationship_92d80d62494841ff9b6384604e178293</sys_update_name>
+    <advanced>true</advanced>
+    <basic_apply_to>x_1295779_metpo_dashboard</basic_apply_to>
+    <basic_query_from>x_1295779_metpo_metrics_portal</basic_query_from>
+    <insert_callback>(function insertCallback(target, current) {
+    var m2m = new GlideRecord('x_1295779_metpo_m2m_portal_dashboard');
+    m2m.initialize();
+    m2m.setValue('metrics_portal', target.sys_id);
+    m2m.setValue('metric_dashboard', current.sys_id);
+    m2m.insert();
+})(target, current)</insert_callback>
+    <name>Dashboard Portals</name>
+    <query_with>(function refineQuery(current) {
+    var m2m = new GlideRecord('x_1295779_metpo_m2m_portal_dashboard');
+    m2m.addQuery('metric_dashboard', current.sys_id);
+    m2m.query();
+    var ids = [];
+    while (m2m.next()) {
+        ids.push(m2m.getValue('metrics_portal'));
+    }
+    if (ids.length &gt; 0) {
+        return 'sys_idIN' + ids.join(',');
+    }
+    return 'sys_id=-1';
+})(current)</query_with>
+  </sys_relationship>
+</record_update>]]></payload>
+        <payload_hash>-1346068734</payload_hash>
+        <record_name>Dashboard Portals</record_name>
+        <reverted_from/>
+        <source>2b489d22830e8710ee019f60deaad3f4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 00:08:39</sys_created_on>
+        <sys_id>fd589162830e8710ee019f60deaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f6841047c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 00:08:39</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>bd5891629d0e87104069f6c9b5509e90</update_guid>
+        <update_guid_history>bd5891629d0e87104069f6c9b5509e90:-1346068734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:15:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>01a4acd3cd6c4fa9800463b946dff521</sys_id>
+        <sys_metadata>92d80d62494841ff9b6384604e178293</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard Portals</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="Metric Dashboard">79e580b693adc35051d7b1dcebba10cb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_relationship_92d80d62494841ff9b6384604e178293</sys_update_name>
+        <sys_update_version display_value="sys_relationship_92d80d62494841ff9b6384604e178293">fd589162830e8710ee019f60deaad391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:15:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

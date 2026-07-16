@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="DELETE" element="metrics_portal" table="x_1295779_metpo_m2m_portal_dashboard">
+    <sys_id>1bbf35d47ae749edb62cf343165627e0</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_dictionary_x_1295779_metpo_m2m_portal_dashboard_metrics_portal</sys_update_name>
+    <active>true</active>
+    <array>false</array>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <column_label>Metrics Portal</column_label>
+    <default_value/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation/>
+    <dynamic_creation_script/>
+    <dynamic_ref_qual/>
+    <element>metrics_portal</element>
+    <element_reference>false</element_reference>
+    <formula/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <internal_type>reference</internal_type>
+    <mandatory>true</mandatory>
+    <max_length>32</max_length>
+    <name>x_1295779_metpo_m2m_portal_dashboard</name>
+    <primary>false</primary>
+    <read_only>false</read_only>
+    <read_only_option/>
+    <reference>x_1295779_metpo_metrics_portal</reference>
+    <reference_cascade_rule/>
+    <reference_floats/>
+    <reference_key/>
+    <reference_qual/>
+    <spell_check>false</spell_check>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual/>
+    <virtual_type>script</virtual_type>
+    <widget/>
+    <xml_view>false</xml_view>
+  </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>a690794b3ba38ed016e44a8aa4e45a29</instance_id>
+        <instance_name>dev279221</instance_name>
+        <name>sys_dictionary_x_1295779_metpo_m2m_portal_dashboard_metrics_portal</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary">
+  <sys_dictionary action="INSERT_OR_UPDATE" element="metrics_portal" table="x_1295779_metpo_m2m_portal_dashboard">
+    <sys_id>1bbf35d47ae749edb62cf343165627e0</sys_id>
+    <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+    <sys_update_name>sys_dictionary_x_1295779_metpo_m2m_portal_dashboard_metrics_portal</sys_update_name>
+    <active>true</active>
+    <array>false</array>
+    <attributes/>
+    <audit>false</audit>
+    <calculation/>
+    <choice/>
+    <choice_field/>
+    <choice_table/>
+    <column_label>Metrics Portal</column_label>
+    <default_value/>
+    <dependent/>
+    <dependent_on_field/>
+    <display>false</display>
+    <dynamic_creation/>
+    <dynamic_creation_script/>
+    <dynamic_ref_qual/>
+    <element>metrics_portal</element>
+    <element_reference>false</element_reference>
+    <formula/>
+    <function_definition/>
+    <function_field>false</function_field>
+    <internal_type>reference</internal_type>
+    <mandatory>true</mandatory>
+    <max_length>32</max_length>
+    <name>x_1295779_metpo_m2m_portal_dashboard</name>
+    <primary>false</primary>
+    <read_only>false</read_only>
+    <read_only_option/>
+    <reference>x_1295779_metpo_metrics_portal</reference>
+    <reference_cascade_rule/>
+    <reference_floats/>
+    <reference_key/>
+    <reference_qual/>
+    <spell_check>false</spell_check>
+    <table_reference>false</table_reference>
+    <text_index>false</text_index>
+    <unique>false</unique>
+    <use_dependent_field>false</use_dependent_field>
+    <use_reference_qualifier>simple</use_reference_qualifier>
+    <virtual/>
+    <virtual_type>script</virtual_type>
+    <widget/>
+    <xml_view>false</xml_view>
+  </sys_dictionary>
+</record_update>]]></payload>
+        <payload_hash>-874014309</payload_hash>
+        <record_name>Portal Dashboard.Metrics Portal</record_name>
+        <reverted_from/>
+        <source>2b489d22830e8710ee019f60deaad3f4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 00:08:32</sys_created_on>
+        <sys_id>9858dd22830e8710ee019f60deaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f6840eb050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 00:08:32</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>9858dd22b60e871036f3aff7d54413bc</update_guid>
+        <update_guid_history>9858dd22b60e871036f3aff7d54413bc:-874014309,52b4116ae6ca8710ad2d5295f75083b8:245809904,8e2b01e2fd8a8710e704dd31f415bf4c:-874014309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:18:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>014a10f964514b64979cd56658a5f1a4</sys_id>
+        <sys_metadata>1bbf35d47ae749edb62cf343165627e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Metrics Portal</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="">cfa6ef0599ff4d9e92d894fb4645b938</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1295779_metpo_m2m_portal_dashboard_metrics_portal</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1295779_metpo_m2m_portal_dashboard_metrics_portal">9858dd22830e8710ee019f60deaad3bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:18:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

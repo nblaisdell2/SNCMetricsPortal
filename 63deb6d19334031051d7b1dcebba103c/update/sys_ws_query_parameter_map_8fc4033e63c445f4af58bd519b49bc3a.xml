@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:55:46</sys_created_on>
+        <sys_id>8fc4033e63c445f4af58bd519b49bc3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fd5ed21c61d34630bb1bbaa99afdcedd</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_8fc4033e63c445f4af58bd519b49bc3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:55:46</sys_updated_on>
+        <web_service_operation display_value="Get Navigation">87f5b87561b841bcb2842e3a443a40de</web_service_operation>
+        <web_service_query_parameter display_value="portal_name">fd5ed21c61d34630bb1bbaa99afdcedd</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>

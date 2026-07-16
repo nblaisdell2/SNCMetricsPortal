@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8fec8d7493bdc39051d7b1dcebba10c3" extends="x_1295779_metpo_visualization" label="Viz: Radar" max_length="40" name="x_1295779_metpo_viz_radar" type="collection">
-        <element label="Fill opacity" max_length="38" name="fill_opacity" type="decimal"/>
-        <element default="5" hint="Number of concentric grid rings from center to edge" label="Grid levels" max_length="40" name="levels" type="integer"/>
-        <element label="Show axis labels" max_length="255" name="show_axis_labels" type="boolean"/>
         <element label="Show level labels" max_length="255" name="show_level_labels" type="boolean"/>
+        <element default="5" hint="Number of concentric grid rings from center to edge" label="Grid levels" max_length="40" name="levels" type="integer"/>
         <element choice="3" default="polygon" hint="Shape of the radar grid: polygon or circle" label="Grid shape" max_length="40" name="grid_shape" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Circle" sequence="1" value="circle"/>
                 <element inactive_on_update="false" label="Polygon" sequence="0" value="polygon"/>
+                <element inactive_on_update="false" label="Circle" sequence="1" value="circle"/>
             </choice>
         </element>
+        <element label="Show axis labels" max_length="255" name="show_axis_labels" type="boolean"/>
+        <element label="Fill opacity" max_length="38" name="fill_opacity" type="decimal"/>
     </element>
 </database>

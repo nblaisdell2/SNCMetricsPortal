@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ced23112ff29495db747db6704156512" label="Metrics Portal" name="x_1295779_metpo_metrics_portal" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Navigation theme" max_length="32" name="navigation_theme" reference="x_1295779_metpo_navigation_theme" type="reference"/>
+        <index name="index">
+            <element name="navigation_theme"/>
+        </index>
+    </element>
+</database>

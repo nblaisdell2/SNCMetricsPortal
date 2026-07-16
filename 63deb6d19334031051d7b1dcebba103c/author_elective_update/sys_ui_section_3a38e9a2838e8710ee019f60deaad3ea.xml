@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="3a38e9a2838e8710ee019f60deaad3ea" sys_domain="global" table="x_1295779_metpo_m2m_portal_dashboards" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+            <sys_id>7638e9e2838e8710ee019f60deaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1295779_metpo_metrics_portal</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+            <sys_id>f638e9e2838e8710ee019f60deaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+            <sys_id>b238e9e2838e8710ee019f60deaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1295779_metpo_dashboard</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+            <sys_id>7e38e9e2838e8710ee019f60deaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+            <sys_id>3a38e9e2838e8710ee019f60deaad3bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1295779_metpo_m2m_portal_dashboards</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a38e9a2838e8710ee019f60deaad3ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_m2m_portal_dashboards</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_3a38e9a2838e8710ee019f60deaad3ea</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>a690794b3ba38ed016e44a8aa4e45a29</instance_id>
+        <instance_name>dev279221</instance_name>
+        <name>sys_ui_section_3a38e9a2838e8710ee019f60deaad3ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="3a38e9a2838e8710ee019f60deaad3ea" sys_domain="global" table="x_1295779_metpo_m2m_portal_dashboards" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-16 01:18:04</sys_created_on><sys_id>7638e9e2838e8710ee019f60deaad3ba</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-16 01:18:04</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1295779_metpo_metrics_portal</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-16 01:18:04</sys_created_on><sys_id>f638e9e2838e8710ee019f60deaad3bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-16 01:18:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-16 01:18:04</sys_created_on><sys_id>b238e9e2838e8710ee019f60deaad3bc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-16 01:18:04</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1295779_metpo_dashboard</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-16 01:18:04</sys_created_on><sys_id>7e38e9e2838e8710ee019f60deaad3bc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-16 01:18:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-16 01:18:04</sys_created_on><sys_id>3a38e9e2838e8710ee019f60deaad3bd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1295779_metpo_m2m_portal_dashboards" sys_domain="global" view="Default view">3a38e9a2838e8710ee019f60deaad3ea</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-16 01:18:04</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1295779_metpo_m2m_portal_dashboards</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-16 01:18:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3a38e9a2838e8710ee019f60deaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1295779_metpo_m2m_portal_dashboards</sys_name><sys_overrides/><sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package><sys_policy/><sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope><sys_update_name>sys_ui_section_3a38e9a2838e8710ee019f60deaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-16 01:18:04</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-879761856</payload_hash>
+        <record_name>x_1295779_metpo_m2m_Metrics Portals_Metric Dashboards</record_name>
+        <reverted_from/>
+        <source>ffc943b1830a4310ee019f60deaad3f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:18:04</sys_created_on>
+        <sys_id>b238e9e2838e8710ee019f60deaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f6880936b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:18:04</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f238e9e2858e8710a947ed017bf8e3c0</update_guid>
+        <update_guid_history>f238e9e2858e8710a947ed017bf8e3c0:-879761856,3a38e9e28b8e87109b919539028d18b9:851635709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:23:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>476ca35755614f83bd3bfec43de24361</sys_id>
+        <sys_metadata>3a38e9a2838e8710ee019f60deaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_m2m_portal_dashboards</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="">69d669ae834e8710ee019f60deaad3c4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3a38e9a2838e8710ee019f60deaad3ea</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3a38e9a2838e8710ee019f60deaad3ea">b238e9e2838e8710ee019f60deaad3c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:23:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

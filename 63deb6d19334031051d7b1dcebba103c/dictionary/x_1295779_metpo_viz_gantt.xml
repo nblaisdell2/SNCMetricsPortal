@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="92ec4d7493bdc39051d7b1dcebba1017" extends="x_1295779_metpo_visualization" label="Viz: Gantt" max_length="40" name="x_1295779_metpo_viz_gantt" type="collection">
-        <element default="24" hint="Height of each task bar in pixels" label="Bar height" max_length="40" name="bar_height" type="integer"/>
-        <element label="Show task labels" max_length="255" name="show_task_labels" type="boolean"/>
+        <element default="true" hint="Display progress fill within task bars" label="Show progress" max_length="40" name="show_progress" type="boolean"/>
+        <element label="Progress color" max_length="255" name="progress_color" type="color"/>
         <element label="Row label width" max_length="255" name="row_label_width" type="integer"/>
+        <element label="Task label color" max_length="255" name="task_label_color" type="color"/>
+        <element label="Row padding" max_length="38" name="row_padding" type="decimal"/>
+        <element default="24" hint="Height of each task bar in pixels" label="Bar height" max_length="40" name="bar_height" type="integer"/>
         <element choice="3" default="right" label="Task label position" max_length="255" name="task_label_position" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Right of bar" sequence="0" value="right"/>
                 <element inactive_on_update="false" label="Inside" sequence="1" value="inside"/>
+                <element inactive_on_update="false" label="Right of bar" sequence="0" value="right"/>
             </choice>
         </element>
-        <element label="Progress color" max_length="255" name="progress_color" type="color"/>
-        <element label="Row padding" max_length="38" name="row_padding" type="decimal"/>
-        <element default="true" hint="Display progress fill within task bars" label="Show progress" max_length="40" name="show_progress" type="boolean"/>
-        <element label="Task label color" max_length="255" name="task_label_color" type="color"/>
+        <element label="Show task labels" max_length="255" name="show_task_labels" type="boolean"/>
     </element>
 </database>

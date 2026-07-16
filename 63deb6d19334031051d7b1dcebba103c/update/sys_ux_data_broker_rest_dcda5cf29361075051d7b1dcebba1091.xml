@@ -8,9 +8,9 @@
         <mutates_server_data>false</mutates_server_data>
         <name>Get Metrics Portal Navigation</name>
         <output_schema/>
-        <parameters/>
+        <parameters>[{"name":"portal_name","value":"{{portal_name}}"}]</parameters>
         <private>false</private>
-        <props/>
+        <props>[{"name":"portal_name","label":"Portal Name","description":"The name of the Metrics Portal to load navigation for","readOnly":false,"fieldType":"string","mandatory":true,"defaultValue":""}]</props>
         <request_body/>
         <required_translations/>
         <schema_version>1.0.0</schema_version>

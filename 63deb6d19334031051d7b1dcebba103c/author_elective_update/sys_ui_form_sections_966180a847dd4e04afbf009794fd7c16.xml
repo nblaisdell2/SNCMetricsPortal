@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections action="DELETE" form_id="966180a847dd4e04afbf009794fd7c16" sys_domain="global" table="x_1295779_metpo_m2m_portal_dashboard">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>e7292835fadf4e9dbf15abd1efdb4f89</sys_id>
+      <sys_ui_form display_value="x_1295779_metpo_m2m_portal_dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">966180a847dd4e04afbf009794fd7c16</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1295779_metpo_m2m_portal_dashboard</name>
+      <roles/>
+      <sys_id>966180a847dd4e04afbf009794fd7c16</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>a690794b3ba38ed016e44a8aa4e45a29</instance_id>
+        <instance_name>dev279221</instance_name>
+        <name>sys_ui_form_sections_966180a847dd4e04afbf009794fd7c16</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_ui_form_sections form_id="966180a847dd4e04afbf009794fd7c16" sys_domain="global" table="x_1295779_metpo_m2m_portal_dashboard">
+    <sys_ui_form_section action="INSERT_OR_UPDATE">
+      <position>0</position>
+      <sys_id>e7292835fadf4e9dbf15abd1efdb4f89</sys_id>
+      <sys_ui_form display_value="x_1295779_metpo_m2m_portal_dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">966180a847dd4e04afbf009794fd7c16</sys_ui_form>
+      <sys_ui_section caption="General" display_value="General" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section>
+    </sys_ui_form_section>
+    <sys_ui_form action="INSERT_OR_UPDATE">
+      <name>x_1295779_metpo_m2m_portal_dashboard</name>
+      <roles/>
+      <sys_id>966180a847dd4e04afbf009794fd7c16</sys_id>
+      <sys_scope display_value="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+      <sys_user/>
+      <view display_value="Default view" name="NULL">Default view</view>
+      <view_name/>
+    </sys_ui_form>
+  </sys_ui_form_sections>
+</record_update>]]></payload>
+        <payload_hash>-805245142</payload_hash>
+        <record_name>Portal Dashboard</record_name>
+        <reverted_from/>
+        <source>192bcda2838a8710ee019f60deaad32d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-15 23:11:11</sys_created_on>
+        <sys_id>103b05e2838a8710ee019f60deaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f680c69c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-15 23:11:11</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>503b05e2588a8710831631e7b8c9b424</update_guid>
+        <update_guid_history>503b05e2588a8710831631e7b8c9b424:-805245142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:18:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>4044d0e63d904c809b6cb002b9e04000</sys_id>
+        <sys_metadata>966180a847dd4e04afbf009794fd7c16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1295779_metpo_m2m_portal_dashboard</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="">cfa6ef0599ff4d9e92d894fb4645b938</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_966180a847dd4e04afbf009794fd7c16</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_966180a847dd4e04afbf009794fd7c16">103b05e2838a8710ee019f60deaad325</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:18:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

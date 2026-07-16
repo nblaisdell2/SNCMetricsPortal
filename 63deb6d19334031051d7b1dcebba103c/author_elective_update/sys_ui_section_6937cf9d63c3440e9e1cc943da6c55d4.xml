@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Portal Dashboard" section_id="6937cf9d63c3440e9e1cc943da6c55d4" sys_domain="global" table="x_1295779_metpo_m2m_portal_dashboard" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>metrics_portal</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 23:15:07</sys_created_on>
+            <sys_id>fd1cc566838a8710ee019f60deaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Portal Dashboard" display_value="Portal Dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 23:15:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 23:15:07</sys_created_on>
+            <sys_id>b91cc566838a8710ee019f60deaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Portal Dashboard" display_value="Portal Dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 23:15:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>metric_dashboard</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 23:15:07</sys_created_on>
+            <sys_id>751cc566838a8710ee019f60deaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Portal Dashboard" display_value="Portal Dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 23:15:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Portal Dashboard</caption>
+            <header>false</header>
+            <name>x_1295779_metpo_m2m_portal_dashboard</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 23:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6937cf9d63c3440e9e1cc943da6c55d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1295779_metpo_m2m_portal_dashboard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_section_6937cf9d63c3440e9e1cc943da6c55d4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 23:15:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MetPo">63deb6d19334031051d7b1dcebba103c</application>
+        <file_path/>
+        <instance_id>a690794b3ba38ed016e44a8aa4e45a29</instance_id>
+        <instance_name>dev279221</instance_name>
+        <name>sys_ui_section_6937cf9d63c3440e9e1cc943da6c55d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Portal Dashboard" section_id="6937cf9d63c3440e9e1cc943da6c55d4" sys_domain="global" table="x_1295779_metpo_m2m_portal_dashboard" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>metrics_portal</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-15 23:15:07</sys_created_on><sys_id>fd1cc566838a8710ee019f60deaad3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Portal Dashboard" display_value="Portal Dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-15 23:15:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-15 23:15:07</sys_created_on><sys_id>b91cc566838a8710ee019f60deaad3a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Portal Dashboard" display_value="Portal Dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-15 23:15:07</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>metric_dashboard</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-15 23:15:07</sys_created_on><sys_id>751cc566838a8710ee019f60deaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Portal Dashboard" display_value="Portal Dashboard" name="x_1295779_metpo_m2m_portal_dashboard" sys_domain="global" view="Default view">6937cf9d63c3440e9e1cc943da6c55d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-15 23:15:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Portal Dashboard</caption><header>false</header><name>x_1295779_metpo_m2m_portal_dashboard</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-15 23:11:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6937cf9d63c3440e9e1cc943da6c55d4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1295779_metpo_m2m_portal_dashboard</sys_name><sys_overrides/><sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package><sys_policy/><sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope><sys_update_name>sys_ui_section_6937cf9d63c3440e9e1cc943da6c55d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-15 23:15:07</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-468482234</payload_hash>
+        <record_name>Portal Dashboard</record_name>
+        <reverted_from/>
+        <source>ffc943b1830a4310ee019f60deaad3f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-15 23:15:07</sys_created_on>
+        <sys_id>311cc566838a8710ee019f60deaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f681002e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-15 23:15:07</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>311cc566358a87109042b873ef1e2ca9</update_guid>
+        <update_guid_history>311cc566358a87109042b873ef1e2ca9:-468482234,311cc566978a87105f3ce488f3ec709b:-1076336177,ac3b05e2328a8710ef5f3afb9dde9a97:-860196822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-16 01:18:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0afbbea0d61d4195acf52c55701e4151</sys_id>
+        <sys_metadata>6937cf9d63c3440e9e1cc943da6c55d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Dashboard</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_parent display_value="">cfa6ef0599ff4d9e92d894fb4645b938</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_scope_delete display_value="">27f053b872cf46008ac1becd5210b510</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6937cf9d63c3440e9e1cc943da6c55d4</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6937cf9d63c3440e9e1cc943da6c55d4">311cc566838a8710ee019f60deaad3aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-16 01:18:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

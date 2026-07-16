@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="063423c37eb841fbb9d44649ea5d69ed" sys_domain="global" table="x_1295779_metpo_navigation_theme" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 01:48:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a51f21e283ce8710ee019f60deaad32f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Navigation Theme" display_value="Navigation Theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">211f21e283ce8710ee019f60deaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a3a7aacf8b647aa869430ef947e9461</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Layout" display_value="Layout" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">e4983f03d0ef41928fbf55696e94136d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cffaae944e43483fa5eb9331f28861d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Logo" display_value="Logo" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">d0ca6a43342a4c5c84458e7d016b602f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5b4b194249c4b0c88f5ada4b0921a15</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Accessibility" display_value="Accessibility" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">66debb8cc07a4209abfad59154709f64</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>425ccf5b196d4bd493e7b30611d2fa91</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Colors" display_value="Colors" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">753a64448fa04538b4dd5dbb0058d0c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04ebb8f8155349de9442d142ecd11b7e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Spacing" display_value="Spacing" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">5a6efb38111a43668100d9071ff04774</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-16 00:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db63222b6c3a43c8bec6b3366af3b247</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1295779_metpo_navigation_theme" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">063423c37eb841fbb9d44649ea5d69ed</sys_ui_form>
+            <sys_ui_section caption="Typography" display_value="Typography" name="x_1295779_metpo_navigation_theme" sys_domain="global" view="Default view">e69cf08f323f4629be79b86d1e74639e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-16 01:48:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1295779_metpo_navigation_theme</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-15 23:11:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>063423c37eb841fbb9d44649ea5d69ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1295779_metpo_navigation_theme</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_063423c37eb841fbb9d44649ea5d69ed</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-15 23:11:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="80fc41b493bdc39051d7b1dcebba105e" extends="x_1295779_metpo_visualization" label="Viz: Pie" max_length="40" name="x_1295779_metpo_viz_pie" type="collection">
-        <element attributes="edge_encryption_enabled=true" hint="Text shown in the center of a donut chart" label="Center label" max_length="100" name="center_label" type="string"/>
-        <element label="Sunburst depth" max_length="255" name="sunburst_depth" type="integer"/>
         <element choice="3" label="Chart type" max_length="255" name="chart_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Pie" sequence="0" value="pie"/>
@@ -9,19 +7,21 @@
                 <element inactive_on_update="false" label="Donut" sequence="1" value="donut"/>
             </choice>
         </element>
-        <element label="Inner radius" max_length="38" name="inner_radius" type="decimal"/>
+        <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad angle" max_length="10" name="pad_angle" type="decimal"/>
+        <element label="Small slice group min" max_length="38" name="small_slice_group_min" type="decimal"/>
         <element choice="3" label="Slice sort" max_length="255" name="slice_sort" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Value (low to high)" sequence="2" value="value_asc"/>
-                <element inactive_on_update="false" label="None (data order)" sequence="0" value="none"/>
                 <element inactive_on_update="false" label="Label" sequence="3" value="label"/>
                 <element inactive_on_update="false" label="Value (high to low)" sequence="1" value="value_desc"/>
+                <element inactive_on_update="false" label="None (data order)" sequence="0" value="none"/>
+                <element inactive_on_update="false" label="Value (low to high)" sequence="2" value="value_asc"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" hint="Text shown in the center of a donut chart" label="Center label" max_length="100" name="center_label" type="string"/>
         <element default="22" hint="Font size of the center label in pixels" label="Center label font size" max_length="40" name="center_label_font_size" type="integer"/>
-        <element label="Small slice group min" max_length="38" name="small_slice_group_min" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" default="#374151" hint="Color of the center label text" label="Center label color" max_length="40" name="center_label_color" type="color"/>
-        <element default="0.02" hint="Gap between slices in radians (e.g., 0.02 for a subtle gap)" label="Pad angle" max_length="10" name="pad_angle" type="decimal"/>
+        <element label="Inner radius" max_length="38" name="inner_radius" type="decimal"/>
+        <element label="Sunburst depth" max_length="255" name="sunburst_depth" type="integer"/>
         <element label="Outer padding" max_length="255" name="outer_padding" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="#374151" hint="Color of the center label text" label="Center label color" max_length="40" name="center_label_color" type="color"/>
     </element>
 </database>

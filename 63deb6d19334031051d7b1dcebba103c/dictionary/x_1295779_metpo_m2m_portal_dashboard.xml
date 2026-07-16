@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3db9e5a6838e8710ee019f60deaad383" label="Portal Dashboard M2M" max_length="40" name="x_1295779_metpo_m2m_portal_dashboard" type="collection">
+        <element attributes="encode_utf8=false" label="Portal" max_length="32" name="x_1295779_metpo_metrics_portal" reference="x_1295779_metpo_metrics_portal" type="reference"/>
+        <element attributes="encode_utf8=false" label="Dashboard" max_length="32" name="x_1295779_metpo_dashboard" reference="x_1295779_metpo_dashboard" type="reference"/>
+        <index name="index">
+            <element name="x_1295779_metpo_dashboard"/>
+        </index>
+        <index name="index2">
+            <element name="x_1295779_metpo_metrics_portal"/>
+        </index>
+    </element>
+</database>

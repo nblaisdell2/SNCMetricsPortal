@@ -78,7 +78,7 @@
         <update_guid_history>6a286acdea0a8f10de29d65ec2ea24d6:-1231408901</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Gauge test">fa062b819382cf1051d7b1dcebba1080</sys_audit_delete>
+        <sys_audit_delete display_value="">fa062b819382cf1051d7b1dcebba1080</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-11 18:36:53</sys_created_on>

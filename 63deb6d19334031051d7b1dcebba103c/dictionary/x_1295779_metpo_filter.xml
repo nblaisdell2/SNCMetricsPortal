@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6b01c35d93f0031051d7b1dcebba10fa" label="Metric Filter" max_length="40" name="x_1295779_metpo_filter" type="collection">
-        <element attributes="edge_encryption_enabled=true" display="true" label="Label" mandatory="true" max_length="100" name="label" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Table" mandatory="true" max_length="80" name="table" type="string"/>
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
-        <element attributes="encode_utf8=false" label="Dashboard" mandatory="true" max_length="32" name="dashboard" reference="x_1295779_metpo_dashboard" type="reference"/>
-        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
         <element choice="3" default="dropdown" label="Filter Type" mandatory="true" max_length="40" name="filter_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Boolean Toggle" sequence="4" value="boolean"/>
                 <element inactive_on_update="false" label="Choice List" sequence="0" value="choice"/>
                 <element inactive_on_update="false" label="Condition Builder" sequence="3" value="condition"/>
                 <element inactive_on_update="false" label="Date Range" sequence="2" value="date_range"/>
+                <element inactive_on_update="false" label="Boolean Toggle" sequence="4" value="boolean"/>
                 <element inactive_on_update="false" label="Reference Picker" sequence="1" value="reference"/>
             </choice>
         </element>
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Field" mandatory="true" max_length="80" name="field" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Default Value" max_length="500" name="default_value" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Label" mandatory="true" max_length="100" name="label" type="string"/>
+        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
+        <element attributes="encode_utf8=false" label="Dashboard" mandatory="true" max_length="32" name="dashboard" reference="x_1295779_metpo_dashboard" type="reference"/>
         <index name="index">
             <element name="dashboard"/>
         </index>
