@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Fix Performance Dashboard Records (One-Time)</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month>1</run_month>
+        <run_period/>
+        <run_start>2026-08-01 23:50:38</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>once</run_type>
+        <run_weekinmonth>1</run_weekinmonth>
+        <script><![CDATA[(function () {
+    var VIZ_FIXES = {
+        '3eb4e572c9ab4f668fd29fb5b9400b1b': { table: 'x_1295779_metpo_viz_column', viz_type: 'column_chart' },
+        'f479524e87774b5cabe74100b75e5e70': { table: 'x_1295779_metpo_viz_line', viz_type: 'line_chart' },
+        '5a643826417a422899c02309d635d971': { table: 'x_1295779_metpo_viz_pie', viz_type: 'pie_chart' },
+        '1831007364ca43008d69a1dccd206c6b': { table: 'x_1295779_metpo_viz_boxplot', viz_type: 'box_plot' },
+        '9c718bfa5aed49cfb6161c3c0930e48d': { table: 'x_1295779_metpo_viz_scatter', viz_type: 'scatter_chart' }
+    };
+
+    for (var vizId in VIZ_FIXES) {
+        var fix = VIZ_FIXES[vizId];
+        var vizGr = new GlideRecord(fix.table);
+        if (vizGr.get(vizId)) {
+            vizGr.setValue('viz_type', fix.viz_type);
+            vizGr.setValue('chart_title', '');
+            vizGr.update();
+            gs.info('PerformanceDashboardFix: Updated viz "' + vizGr.getValue('name') + '" -> ' + fix.viz_type);
+        } else {
+            gs.warn('PerformanceDashboardFix: Viz not found: ' + vizId);
+        }
+    }
+
+    var SOURCE_FIXES = [
+        {
+            sys_id: 'd6248c70890c4c8297e670f064245ee8',
+            name: 'Incident Trend (30 Days)',
+            updates: { source_type: 'table_aggregate', src_limit: '30' },
+            clear: ['src_x_field', 'src_y_field', 'src_lookback_days']
+        },
+        {
+            sys_id: '48e6ab3564134f349560d26942949ecf',
+            name: 'Resolution Time by Priority',
+            updates: { source_type: 'table_aggregate', src_limit: '500' },
+            clear: ['src_indicator', 'src_breakdown', 'src_elements']
+        },
+        {
+            sys_id: '313d3aaf60ae4959ba98849f9eedc2b7',
+            name: 'Response vs Resolution Correlation',
+            updates: { source_type: 'table_aggregate', src_limit: '100' },
+            clear: ['src_script_include', 'src_method', 'src_params', 'src_value_field']
+        }
+    ];
+
+    for (var i = 0; i < SOURCE_FIXES.length; i++) {
+        var srcFix = SOURCE_FIXES[i];
+        var srcGr = new GlideRecord('x_1295779_metpo_source_config');
+        if (srcGr.get(srcFix.sys_id)) {
+            for (var field in srcFix.updates) {
+                srcGr.setValue(field, srcFix.updates[field]);
+            }
+            for (var c = 0; c < srcFix.clear.length; c++) {
+                srcGr.setValue(srcFix.clear[c], '');
+            }
+            srcGr.update();
+            gs.info('PerformanceDashboardFix: Updated "' + srcFix.name + '" -> source_type=' + srcFix.updates.source_type);
+        } else {
+            gs.warn('PerformanceDashboardFix: Source config not found: ' + srcFix.sys_id);
+        }
+    }
+
+    gs.info('PerformanceDashboardFix: All fixes applied.');
+})();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-01 23:50:54</sys_created_on>
+        <sys_id>e955f99f6df341f3828dea6fdbe2ac3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fix Performance Dashboard Records (One-Time)</sys_name>
+        <sys_package display_value="MetPo" source="x_1295779_metpo">63deb6d19334031051d7b1dcebba103c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetPo">63deb6d19334031051d7b1dcebba103c</sys_scope>
+        <sys_update_name>sysauto_script_e955f99f6df341f3828dea6fdbe2ac3c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-01 23:50:54</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
